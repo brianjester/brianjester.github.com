@@ -8,11 +8,10 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Brian's Homepage
+title : Brian Jester's Homepage
 tagline: Using Jekyll and Github
 author :
-  name : Brian JEster
-  email : brianjester123@yahoo.com
+  name : Brian Jester
   github : brianjester
 
 # The production_url is only used when full-domain names are needed
