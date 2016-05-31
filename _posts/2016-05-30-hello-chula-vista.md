@@ -5,5 +5,8 @@ description: ""
 category: 
 tags: []
 ---
+
 Body of the post is here
-{% include JB/setup %}
+and here
+and here too
+
