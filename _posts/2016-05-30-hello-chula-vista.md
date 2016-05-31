@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Hello there..."
-description: ""
+title: "Why Come to San Diego?"
+description: "Food & fun"
 category: 
 tags: []
 ---
