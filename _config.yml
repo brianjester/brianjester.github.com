@@ -14,7 +14,6 @@ author :
   name : Brian JEster
   email : brianjester123@yahoo.com
   github : brianjester
-  twitter : brianjester123
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -133,3 +132,4 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   
+
