@@ -24,11 +24,11 @@
     
     FB.AppEvents.logPageView();
     
-    FB.ui(
-    {
-      method: 'share',
-      href: 'https://developers.facebook.com/docs/'
-    }, function(response){});
+//    FB.ui(
+//    {
+//      method: 'share',
+//      href: 'https://developers.facebook.com/docs/'
+//    }, function(response){});
     
     
   };
@@ -43,7 +43,9 @@
   
   // Only works after `FB.init` is called
   function myFacebookLogin() {
-  FB.login(function(){}, {scope: 'publish_actions'});
+  FB.login(function(){
+    FB.api('/me/feed', 'post', {message: 'Hello, world!'});
+  }, {scope: 'publish_actions'});
 }
 </script>
 
