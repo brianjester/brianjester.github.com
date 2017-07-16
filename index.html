@@ -3,6 +3,7 @@
 <TITLE>PhotoPoster</TITLE>
 </HEAD>
 <BODY>
+  
 <script>
   window.fbAsyncInit = function() {
     FB.init({
@@ -12,30 +13,13 @@
       version          : 'v2.9'
     });
     FB.AppEvents.logPageView();
-    FB.getLoginStatus(function(response) {
-  if (response.status === 'connected') {
-    console.log('Logged in.');
-  }
-  else {
-    FB.login();
-  }
-});
-    function myFacebookLogin() {
-  FB.login(function(){
-  // Note: The call will only work if you accept the permission request
-  FB.api('/me/feed', 'post', {message: 'Hello, world!'});
-  }, {scope: 'publish_actions'});
-}
-FB.ui({
-  method: 'share_open_graph',
-  action_type: 'og.likes',
-  action_properties: JSON.stringify({
-    object:'http://brianjester.github.io',
-  })
-}, function(response){
-  // Debug response (optional)
-  console.log(response);
-});
+    FB.ui(
+    {
+      method: 'share',
+      href: 'https://developers.facebook.com/docs/'
+    }, function(response){});
+    
+    
   };
 
   (function(d, s, id){
@@ -45,7 +29,6 @@ FB.ui({
      js.src = "//connect.facebook.net/en_US/sdk.js";
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
-
 </script>
 
   <H1>Photo Poster</H1>
