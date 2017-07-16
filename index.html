@@ -12,7 +12,18 @@
       xfbml            : true,
       version          : 'v2.9'
     });
+    
+    FB.getLoginStatus(function(response) {
+      if (response.status === 'connected') {
+        console.log('Logged in.');
+      }
+      else {
+        FB.login();
+      }
+    });
+    
     FB.AppEvents.logPageView();
+    
     FB.ui(
     {
       method: 'share',
@@ -29,6 +40,11 @@
      js.src = "//connect.facebook.net/en_US/sdk.js";
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
+  
+  // Only works after `FB.init` is called
+  function myFacebookLogin() {
+  FB.login(function(){}, {scope: 'publish_actions'});
+}
 </script>
 
   <H1>Photo Poster</H1>
