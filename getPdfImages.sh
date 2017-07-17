@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 # getImages.sh - script to get images from a PDF
 PDF_URL=https://www.e-churchbulletins.com/bulletins/
 PDF_NAME=977090
@@ -14,13 +14,13 @@ pdfimages -f 1 -l 2 -all ${MY_HOME}/${PDF_NAME}.pdf ${MY_HOME}/${IMAGE_DIR}/${PD
 rm ${MY_HOME}/${PDF_NAME}.pdf
 rm ${MY_HOME}/${IMAGE_DIR}/*.params 
 rm ${MY_HOME}/${IMAGE_DIR}/*.ccitt
-for file in `find ${MY_HOME}/${IMAGE_DIR} -size -100k | grep -v "^\.$"`
+for file in `find ${MY_HOME}/${IMAGE_DIR} -size -100k | grep -v "^${MY_HOME}/${IMAGE_DIR}\.$"`
 do
   rm $file
 done
 ls
 INDEX=1
-for file in `find ${MY_HOME}/${IMAGE_DIR} | grep -v "^\.$"`
+for file in `find ${MY_HOME}/${IMAGE_DIR} | grep -v "^${MY_HOME}/${IMAGE_DIR}\.$"`
 do
   mv $file ${MY_HOME}/${IMAGE_DIR}/image${INDEX}.jpg
   let INDEX+=1
