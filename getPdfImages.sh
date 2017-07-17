@@ -23,3 +23,8 @@ do
   let INDEX+=1
 done
 ls
+cd ..
+git add -A
+git commit -m "Updated images"
+git push
+
