@@ -3,6 +3,7 @@
 PDF_URL=https://www.e-churchbulletins.com/bulletins/
 PDF_NAME=977090
 IMAGE_DIR=images
+FB_POST=http://brianjester.github.io
 #DATE=`date +%Y-%m-%d`
 #mkdir ${DATE}
 curl ${PDF_URL}${PDF_NAME}.pdf > ${PDF_NAME}.pdf
@@ -27,4 +28,4 @@ cd ..
 git add -A
 git commit -m "Updated images"
 git push
-
+curl $FB_POST 2>&1 > /dev/null
