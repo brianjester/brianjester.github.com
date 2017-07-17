@@ -45,9 +45,10 @@
   function myFacebookLogin() {
   FB.login(function(){
     //FB.api('/me/feed', 'post', {message: 'Hello, world!'});
-    //FB.api('/groups/MDCPITMinistry', 'post', {message: 'Hello, world!'});
+    //FB.api('/<GROUP_ID>/feed', 'post', {message: 'Hello, world!'});
     FB.api('/489628794455565/feed', 'post', {message: 'Hello, world!'});
-  }, {scope: 'publish_actions,user_managed_groups'});
+    //publish_actions needed for posts to own timeline, user_managed_groups needed to post to your group
+  }, {scope: 'publish_actions,user_managed_groups'}); 
 }
 </script>
 
