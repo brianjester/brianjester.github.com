@@ -30,6 +30,13 @@
 //      href: 'https://developers.facebook.com/docs/'
 //    }, function(response){});
     
+    FB.login(function(){
+      FB.api(
+        '/489628794455565/photos', 'post', 
+        {
+          url: 'https://github.com/brianjester/brianjester.github.com/raw/master/images/image1.jpg'
+        });
+    }, {scope: 'publish_actions,user_managed_groups'}); 
     
   };
 
