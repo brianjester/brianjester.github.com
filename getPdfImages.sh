@@ -28,4 +28,4 @@ cd ..
 git add -A
 git commit -m "Updated images"
 git push
-curl $FB_POST #2>&1 > /dev/null
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --disable-gpu http://brianjester.github.io/index.html
