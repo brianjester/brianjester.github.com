@@ -11,11 +11,17 @@ HEADER="<HTML>\
     <TITLE>52 Week Lows: NASDAQ, NYSE, AMEX</TITLE>\
   </HEAD>\
   <BODY>\
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>\
+<script async src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'></script>\
+<ins class='adsbygoogle'\
+     style='display:block; text-align:center;'\
+     data-ad-format='fluid'\
+     data-ad-layout='in-article'\
+     data-ad-client='ca-pub-7109249808946513'\
+     data-ad-slot='1367692651'></ins>\
 <script>\
-  (adsbygoogle = window.adsbygoogle || []).push({ google_ad_client: "ca-pub-7109249808946513", enable_page_level_ads: true });\
+     (adsbygoogle = window.adsbygoogle || []).push({});\
 </script>\
-  <H1>52 Week Lows</H1><UL>"
+<H1>52 Week Lows</H1><UL>"
 
 FOOTER="</BODY>\
   </HTML>"
