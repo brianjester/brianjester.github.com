@@ -3,10 +3,6 @@
 FILE=52weeklows.html
 HEADER="<HTML>\
   <HEAD>\
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>\
-<script>\
-  (adsbygoogle = window.adsbygoogle || []).push({ google_ad_client: "ca-pub-7109249808946513", enable_page_level_ads: true });\
-</script>\
     <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>\
     <STYLE>\
       tbody {vertical-align: top;}\
@@ -15,6 +11,10 @@ HEADER="<HTML>\
     <TITLE>52 Week Lows: NASDAQ, NYSE, AMEX</TITLE>\
   </HEAD>\
   <BODY>\
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>\
+<script>\
+  (adsbygoogle = window.adsbygoogle || []).push({ google_ad_client: "ca-pub-7109249808946513", enable_page_level_ads: true });\
+</script>\
   <H1>52 Week Lows</H1><UL>"
 
 FOOTER="</BODY>\
