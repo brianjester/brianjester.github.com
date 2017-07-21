@@ -23,7 +23,7 @@ HEADER="<HTML>\
 </script>\
 <H1>52 Week Lows</H1><UL>"
 
-FOOTER="</BODY>\
+FOOTER="<HR><P><H3>Definitions: 52-week high/low</H3><p><A HREF="52-Week High/Low - Investopedia">Investopedia</A>: A 52-week high/low is the highest and lowest price that a stock has traded at during the previous year. Many traders and investors view the 52-week high or low as an important factor in determining a stock's current value and predicting future price movement.<P><A HREF="NASDAQ 52 Week High/Low">NASDAQ</A>:The New 52-Week High/Low indicates a stock is trading at its highest or lowest price in the past 52 weeks. This is an important indicator for many investors in determining the current value of a stock or predicting a trend in a stock’s performance. One popular strategy employed by stock traders is to purchase companies hitting new highs. Hover over symbols below for additional index information, including quotes, news, and charts. </BODY>\
   </HTML>"
 
 NASDAQ=`curl -s "http://www.nasdaq.com/aspx/52-week-high-low.aspx?exchange=NASDAQ&status=LOW" | grep "/symbol" | grep -v title | grep href | sed 's/\<h3/\<br/g'`
