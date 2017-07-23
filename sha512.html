@@ -8,11 +8,9 @@
 <script type="text/javascript" src="js/codecHex.js"></script>  
 <script type="text/javascript" src="js/codecString.js"></script>  
 <script type="text/javascript" src="js/sha256.js"></script>  
+
 <script type="text/javascript">    
-  
 /*** SHA256 */  
-var bitArray = sjcl.hash.sha256.hash("message");  
-var digest_sha256 = sjcl.codec.hex.fromBits(bitArray);   
 function _get(parameter) {
     var reg = new RegExp( '[?&]' + parameter + '=([^&#]*)', 'i' );
     var string = reg.exec(window.location.href);
@@ -29,7 +27,10 @@ function _get(parameter) {
 <p id="word_hash"> Test line2</p>
 
 <script>
-document.getElementById("word").innerHTML = _get("p");
+var message = _get("p");
+document.getElementById("word").innerHTML = message;
+var bitArray = sjcl.hash.sha256.hash(message);  
+var digest_sha256 = sjcl.codec.hex.fromBits(bitArray);   
 document.getElementById("word_hash").innerHTML = digest_sha256;
 </script>
 </BODY>
