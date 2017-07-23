@@ -52,6 +52,7 @@ NYSE=`curl -s "http://www.nasdaq.com/aspx/52-week-high-low.aspx?exchange=NYSE&st
 AMEX=`curl -s "http://www.nasdaq.com/aspx/52-week-high-low.aspx?exchange=AMEX&status=LOW" | grep symbol -A 2 | grep -v title | egrep -v -- -- | egrep -v "floatL|separated|stock-search"|sed 's/td/h4/g'|sed 's/\<br/\<h4/g'|sed 's/\/h5/h4/g'`
 
 DOC="${HEADER}\
+<H4>Numbers updated <mark>daily.</mark></H4>\
 <H2>NASDAQ 52-Week Lows</H3>\
 <H4>${NASDAQ}\
 <HR>\
