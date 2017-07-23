@@ -39,7 +39,7 @@ FOOTER="<script async src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle
 <H4><p><A HREF="http://www.investopedia.com/terms/1/52weekhighlow.asp">Investopedia</A>: A 52-week high-low is the highest and lowest price that a stock has traded at during the previous year. Many traders and investors view the 52-week high or low as an important factor in determining a stock's current value and predicting future price movement.\
 <P><A HREF="http://online.wsj.com/mdc/public/page/2_3021-newhinyse-newhighs.html">WSJ</A>\
 <P><A HREF="https://www.barchart.com/stocks/highs-lows/summary">barchart</A>\
-<P><A HREF="https://www.msn.com/en-us/money/stockscreener/52weekhighs">msn</A>\
+<P><A HREF="https://www.msn.com/en-us/money/stockscreener/52weeklows?market=USA">msn</A>\
 <P><A HREF="http://www.barrons.com/public/page/weeklyhighslows.html">BARRON'S</A> </BODY>\
   </HTML>"
 
