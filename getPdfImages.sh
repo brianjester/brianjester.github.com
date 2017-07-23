@@ -29,4 +29,4 @@ cd ${MY_HOME}
 git add ${MY_HOME}
 git commit -m "Updated images" -- ${MY_HOME}
 git push
-/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --disable-gpu http://brianjester.github.io/index.html
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --disable-gpu http://brianjester.github.io/index.html?p=REDACTED
