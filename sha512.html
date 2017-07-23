@@ -3,12 +3,8 @@
 <TITLE>My SHA256 Test Page 
 </TITLE>
 <script type="text/javascript" src="js/sjcl.js"></script>  
-<script type="text/javascript" src="js/sha1.js"></script>  
 <script type="text/javascript" src="js/sha256.js"></script>  
 <script type="text/javascript">    
-/*** SHA1 */  
-var bitArray = sjcl.hash.sha1.hash("message");  
-var digest_sha1 = sjcl.codec.hex.fromBits(bitArray);   // Convert from a bitArray to a hex string.   
   
 /*** SHA256 */  
 var bitArray = sjcl.hash.sha256.hash("message");  
@@ -20,10 +16,10 @@ var digest_sha256 = sjcl.codec.hex.fromBits(bitArray);
 <h1>My First Web Page</h1>
 <p>My First Paragraph</p>
 
-<p id="demo"></p>
+<p id="demo">Test</p>
 
 <script>
-document.getElementById("demo").innerHTML = sjcl.hash.sha256.hash("Hello World!");
+document.getElementById("demo").innerHTML = bitArray;
 </script>
 </BODY>
 </HTML>
