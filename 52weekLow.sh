@@ -24,8 +24,17 @@ HEADER="<HTML>\
 </script>\
 <H1>52 Week Lows: NASDAQ, NYSE, AMEX</H1><UL>"
 
-FOOTER="<HR>\
-<H3>References: 52-week high-low</H3>\
+FOOTER="<script async src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'></script>\
+<ins class='adsbygoogle'\
+     style='display:block; text-align:center;'\
+     data-ad-format='fluid'\
+     data-ad-layout='in-article'\
+     data-ad-client='ca-pub-7109249808946513'\
+     data-ad-slot='1367692651'></ins>\
+<script>\
+     (adsbygoogle = window.adsbygoogle || []).push({});\
+</script>\
+<H3>References:</H3>\
 <H4><p><A HREF="http://www.investopedia.com/terms/1/52weekhighlow.asp">Investopedia</A>: A 52-week high-low is the highest and lowest price that a stock has traded at during the previous year. Many traders and investors view the 52-week high or low as an important factor in determining a stock's current value and predicting future price movement.\
 <P><A HREF="http://online.wsj.com/mdc/public/page/2_3021-newhinyse-newhighs.html">WSJ</A>\
 <P><A HREF="https://www.barchart.com/stocks/highs-lows/summary">barchart</A>\
