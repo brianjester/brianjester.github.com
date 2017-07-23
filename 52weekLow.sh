@@ -35,6 +35,7 @@ FOOTER="<script async src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle
      (adsbygoogle = window.adsbygoogle || []).push({});\
 </script>\
 <H3>References:</H3>\
+<H4><p><A HREF="http://www.nasdaq.com/aspx/52-week-high-low.aspx">NASDAQ</A>\
 <H4><p><A HREF="http://www.investopedia.com/terms/1/52weekhighlow.asp">Investopedia</A>: A 52-week high-low is the highest and lowest price that a stock has traded at during the previous year. Many traders and investors view the 52-week high or low as an important factor in determining a stock's current value and predicting future price movement.\
 <P><A HREF="http://online.wsj.com/mdc/public/page/2_3021-newhinyse-newhighs.html">WSJ</A>\
 <P><A HREF="https://www.barchart.com/stocks/highs-lows/summary">barchart</A>\
