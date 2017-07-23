@@ -11,7 +11,7 @@
 function _get(parameter) {
     var reg = new RegExp( '[?&]' + parameter + '=([^&#]*)', 'i' );
     var string = reg.exec(window.location.href);
-    return string ? string[1] : No_password;
+    return string ? string[1] : undefined;
 };
 </script>  
 </HEAD>
@@ -20,9 +20,9 @@ function _get(parameter) {
   <H1>PhotoPoster</H1>
   <p>Uploading photos to Facebook since 2017...
   <HR>
-  <p id="word">No_password</p>
-  <p id="word_hash">Password Hash</p>
-  <p id="true_hash">True Hash</p>
+  <p id="word">undefined</p>
+  <p id="word_hash">password hash</p>
+  <p id="true_hash">true hash</p>
   <p id="status">FAIL</p>
 
 <script>
