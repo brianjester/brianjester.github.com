@@ -4,11 +4,10 @@
 </TITLE>
 </HEAD>
 <BODY>
-pt type="text/javascript" src="js/sjcl.js"></script>  
+<script type="text/javascript" src="js/sjcl.js"></script>  
 <script type="text/javascript" src="js/sha1.js"></script>  
 <script type="text/javascript" src="js/sha256.js"></script>  
-<script type="text/javascript">  
-  
+<script type="text/javascript">    
 /*** SHA1 */  
 var bitArray = sjcl.hash.sha1.hash("message");  
 var digest_sha1 = sjcl.codec.hex.fromBits(bitArray);   // Convert from a bitArray to a hex string.   
