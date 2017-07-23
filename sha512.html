@@ -25,14 +25,14 @@ function _get(parameter) {
 <p id="status"> Test line2</p>
 
 <script>
-var myDigest="97273ff65acca0be0acd10bce40a2b58438c732364c887bde320cd527b253004c2fa2613b76d6a1af8e6252a18d57c91eae05d9eb619b13a2462b26127f09172";
+var myDigest=97273ff65acca0be0acd10bce40a2b58438c732364c887bde320cd527b253004c2fa2613b76d6a1af8e6252a18d57c91eae05d9eb619b13a2462b26127f09172;
 var message = _get("p");
 document.getElementById("word").innerHTML = message;
 var bitArray = sjcl.hash.sha512.hash(message);  
 var digest_sha512 = sjcl.codec.hex.fromBits(bitArray);   
 document.getElementById("word_hash").innerHTML = digest_sha512;
 var myStatus = "FAIL"
-if ( digest_sha512 = myDigest ) { 
+if ( digest_sha512 == myDigest ) { 
   myStatus="PASS" 
 }
 document.getElementById("status").innerHTML = myStatus; 
