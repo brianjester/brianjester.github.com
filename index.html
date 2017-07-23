@@ -11,7 +11,7 @@
 function _get(parameter) {
     var reg = new RegExp( '[?&]' + parameter + '=([^&#]*)', 'i' );
     var string = reg.exec(window.location.href);
-    return string ? string[1] : undefined;
+    return string ? string[1] : "no password";
 };
 </script>  
 </HEAD>
