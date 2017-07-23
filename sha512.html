@@ -21,10 +21,11 @@ var digest_sha256 = sjcl.codec.hex.fromBits(bitArray);
 <p>My First Paragraph</p>
 
 <p id="demo">Test</p>
-<p> Test line2</p>
+<p id="demo2"> Test line2</p>
 
 <script>
 document.getElementById("demo").innerHTML = bitArray;
+document.getElementById("demo2").innerHTML = digest_sha256;
 </script>
 </BODY>
 </HTML>
