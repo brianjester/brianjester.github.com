@@ -24,7 +24,7 @@ var digest_sha256 = sjcl.codec.hex.fromBits(bitArray);
 <p> Test line2</p>
 
 <script>
-document.getElementById("demo").innerHTML = 5+6;
+document.getElementById("demo").innerHTML = sjcl.hash.sha256.hash("message");
 </script>
 </BODY>
 </HTML>
