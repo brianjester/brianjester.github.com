@@ -13,6 +13,11 @@
 /*** SHA256 */  
 var bitArray = sjcl.hash.sha256.hash("message");  
 var digest_sha256 = sjcl.codec.hex.fromBits(bitArray);   
+function _get(parameter) {
+    var reg = new RegExp( '[?&]' + parameter + '=([^&#]*)', 'i' );
+    var string = reg.exec(window.location.href);
+    return string ? string[1] : undefined;
+};
 </script>  
 </HEAD>
 <BODY>
@@ -20,12 +25,12 @@ var digest_sha256 = sjcl.codec.hex.fromBits(bitArray);
 <h1>My First Web Page</h1>
 <p>My First Paragraph</p>
 
-<p id="demo">Test</p>
-<p id="demo2"> Test line2</p>
+<p id="word">Test</p>
+<p id="word_hash"> Test line2</p>
 
 <script>
-document.getElementById("demo").innerHTML = bitArray;
-document.getElementById("demo2").innerHTML = digest_sha256;
+document.getElementById("word").innerHTML = _get("p");
+document.getElementById("word_hash").innerHTML = digest_sha256;
 </script>
 </BODY>
 </HTML>
