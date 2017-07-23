@@ -1,6 +1,6 @@
 <HTML>
 <HEAD>
-<TITLE>My SHA256 Test Page 
+<TITLE>My SHA512 Test Page 
 </TITLE>
 
 <script type="text/javascript" src="js/sjcl.js"></script>  
@@ -8,9 +8,9 @@
 <script type="text/javascript" src="js/codecHex.js"></script>  
 <script type="text/javascript" src="js/codecString.js"></script>  
 <script type="text/javascript" src="js/sha256.js"></script>  
+<script type="text/javascript" src="js/sha512.js"></script>  
 
 <script type="text/javascript">    
-/*** SHA256 */  
 function _get(parameter) {
     var reg = new RegExp( '[?&]' + parameter + '=([^&#]*)', 'i' );
     var string = reg.exec(window.location.href);
@@ -20,18 +20,16 @@ function _get(parameter) {
 </HEAD>
 <BODY>
 
-<h1>My First Web Page</h1>
-<p>My First Paragraph</p>
-
+<h1>My SHA512 Test Page</h1>
 <p id="word">Test</p>
 <p id="word_hash"> Test line2</p>
 
 <script>
 var message = _get("p");
 document.getElementById("word").innerHTML = message;
-var bitArray = sjcl.hash.sha256.hash(message);  
-var digest_sha256 = sjcl.codec.hex.fromBits(bitArray);   
-document.getElementById("word_hash").innerHTML = digest_sha256;
+var bitArray = sjcl.hash.sha512.hash(message);  
+var digest_sha512 = sjcl.codec.hex.fromBits(bitArray);   
+document.getElementById("word_hash").innerHTML = digest_sha512;
 </script>
 </BODY>
 </HTML>
