@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 # getImages.sh - script to get images from a PDF
 PDF_URL=https://www.e-churchbulletins.com/bulletins/
 PDF_NAME=977090
