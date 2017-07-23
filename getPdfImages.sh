@@ -8,12 +8,11 @@ FB_POST=http://brianjester.github.io/index.html
 #DATE=`date +%Y-%m-%d`
 #mkdir ${DATE}
 curl ${PDF_URL}${PDF_NAME}.pdf > ${MY_HOME}/${PDF_NAME}.pdf
-rm -rf ${MY_HOME}/${IMAGE_DIR}
-mkdir ${MY_HOME}/${IMAGE_DIR}
-pdfimages -f 1 -l 2 -all ${MY_HOME}/${PDF_NAME}.pdf ${MY_HOME}/${IMAGE_DIR}/${PDF_NAME}
+/usr/local/bin/pdfimages  -f 1 -l 2 -all ${MY_HOME}/${PDF_NAME}.pdf ${MY_HOME}/${IMAGE_DIR}/${PDF_NAME}
 rm ${MY_HOME}/${PDF_NAME}.pdf
 rm ${MY_HOME}/${IMAGE_DIR}/*.params 
 rm ${MY_HOME}/${IMAGE_DIR}/*.ccitt
+rm ${MY_HOME}/${IMAGE_DIR}/*.jpg
 for file in `find ${MY_HOME}/${IMAGE_DIR} -size -100k | grep -v "^${MY_HOME}/${IMAGE_DIR}$"`
 do
   rm $file
