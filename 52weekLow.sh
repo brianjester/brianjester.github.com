@@ -22,7 +22,7 @@ HEADER="<HTML>\
 <script>\
      (adsbygoogle = window.adsbygoogle || []).push({});\
 </script>\
-<H1>52 Week Lows</H1><UL>"
+<H1>52 Week Lows: NASDAQ, NYSE, AMEX</H1><UL>"
 
 FOOTER="<HR>\
 <H3>References: 52-week high-low</H3>\
@@ -43,13 +43,13 @@ NYSE=`curl -s "http://www.nasdaq.com/aspx/52-week-high-low.aspx?exchange=NYSE&st
 AMEX=`curl -s "http://www.nasdaq.com/aspx/52-week-high-low.aspx?exchange=AMEX&status=LOW" | grep symbol -A 2 | grep -v title | egrep -v -- -- | egrep -v "floatL|separated|stock-search"|sed 's/td/h4/g'|sed 's/\<br/\<h4/g'|sed 's/\/h5/h4/g'`
 
 DOC="${HEADER}\
-<H3>NASDAQ 52-Week Lows</H3>\
+<H2>NASDAQ 52-Week Lows</H3>\
 <H4>${NASDAQ}\
 <HR>\
-<H3>NYSE 52-Week Lows</H3>\
+<H2>NYSE 52-Week Lows</H3>\
 <H4>${NYSE}\
 <HR>\
-<H3>AMEX 52-Week Lows</H3>\
+<H2>AMEX 52-Week Lows</H3>\
 <H4>${AMEX}\
 <HR>\
 ${FOOTER}"
