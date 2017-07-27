@@ -10,6 +10,7 @@ HEADER="<HTML>\
       body {font-family: 'Advent Pro';font-size: 22px;}\
     </STYLE>\
     <TITLE>52 Week Lows: NASDAQ, NYSE, AMEX</TITLE>\
+<meta name="msvalidate.01" content="E1FF4444C95449F69EB93EEEC23EC966" />\
   </HEAD>\
   <BODY><H4>\
 <script async src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'></script>\
