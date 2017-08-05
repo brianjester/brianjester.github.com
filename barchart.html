@@ -13,12 +13,15 @@ onDemand.setJsonP(true);
 /* get a quote for AAPL and GOOG */
 onDemand.getQuote({symbols: 'AAPL,GOOG'}, function (err, data) {
         var quotes = data.results;
+        var message;
         for (x in quotes) {
             console.log("getQuote: " + quotes[x].symbol + " [" + quotes[x].name + "] = " + JSON.stringify(quotes[x]));
+            message = message + "getQuote: " + quotes[x].symbol + " [" + quotes[x].name + "] = " + JSON.stringify(quotes[x]);
         }
 });
+document.getElementById("word").innerHTML = message;
 </script>
 <H1>Barchart Test</H1>
-
+<p id="word">undefined</p>
 </BODY>
 </HTML>
