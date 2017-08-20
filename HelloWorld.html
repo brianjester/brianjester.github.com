@@ -24,16 +24,6 @@
   FB.api('/me/feed', 'post', {message: 'Hello, world!'});
   }, {scope: 'publish_actions'});
 }
-FB.ui({
-  method: 'share_open_graph',
-  action_type: 'og.likes',
-  action_properties: JSON.stringify({
-    object:'https://developers.facebook.com/docs/',
-  })
-}, function(response){
-  // Debug response (optional)
-  console.log(response);
-});
   };
   (function(d, s, id){
      var js, fjs = d.getElementsByTagName(s)[0];
@@ -45,7 +35,7 @@ FB.ui({
 </script>
 </HEAD>
 <BODY>
-Photo Poster main page
+Hello, world
 <button onclick="myFacebookLogin()">Login with Facebook</button>
 </BODY>
 </HTML>
