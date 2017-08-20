@@ -1,6 +1,6 @@
 <HTML>
 <HEAD>
-<TITLE>Hello, world!</TITLE>
+<TITLE>PhotoPoster</TITLE>
 <script>
   window.fbAsyncInit = function() {
     FB.init({
@@ -11,20 +11,17 @@
     });
     FB.AppEvents.logPageView();
     FB.getLoginStatus(function(response) {
-  if (response.status === 'connected') {
-    console.log('Logged in.');
-  }
-  else {
-    FB.login();
-  }
-});
-    function myFacebookLogin() {
-  FB.login(function(){
-  // Note: The call will only work if you accept the permission request
-  FB.api('/me/feed', 'post', {message: 'Hello, world!'});
-  }, {scope: 'publish_actions'});
-}
+      if (response.status === 'connected') {
+        console.log('Logged in.');
+      }
+      else {
+        FB.login();
+      }
+    });
+    FB.api('/me/feed', 'post', {message: 'Hello, world!'});
+    }, {scope: 'publish_actions'});
   };
+  
   (function(d, s, id){
      var js, fjs = d.getElementsByTagName(s)[0];
      if (d.getElementById(id)) {return;}
@@ -35,7 +32,6 @@
 </script>
 </HEAD>
 <BODY>
-Hello, world
-<button onclick="myFacebookLogin()">Login with Facebook</button>
+Hello, world test page.
 </BODY>
 </HTML>
