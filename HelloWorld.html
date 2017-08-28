@@ -1,0 +1,40 @@
+<HTML>
+<HEAD>
+<TITLE>Hello, world!</TITLE>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '1427554000696829',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v2.10'
+    });
+    FB.AppEvents.logPageView();
+    FB.getLoginStatus(function(response) {
+      if (response.status === 'connected') {
+        console.log('Logged in.');
+      }
+      else {
+        FB.login();
+      }
+    });
+    FB.AppEvents.logPageView();
+    FB.login(function(){
+      FB.api(
+        '/me/feed', 'post', 
+        {message: 'Hello, world!'});
+    }, {scope: 'publish_actions'}); 
+  };
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+</HEAD>
+<BODY>
+Hello, world! This page uses JavaScript to write a FB post.
+</BODY>
+</HTML>
