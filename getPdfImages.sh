@@ -2,7 +2,7 @@
 # getImages.sh - script to get images from a PDF
 PDF_URL=https://www.e-churchbulletins.com/bulletins/
 PDF_NAME=977090
-MY_HOME=/Users/bjester.ctr/brianjester
+MY_HOME=/Users/brian/brianjester.github.com
 IMAGE_DIR=images
 FB_POST=http://brianjester.github.io/index.html
 #DATE=`date +%Y-%m-%d`
