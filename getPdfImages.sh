@@ -2,13 +2,17 @@
 # getImages.sh - script to get images from a PDF
 PDF_URL=https://www.e-churchbulletins.com/bulletins/
 PDF_NAME=977090
-MY_HOME=/Users/brian/brianjester.github.com
+MY_HOME=/Users/brian/brianjester
 IMAGE_DIR=images
 FB_POST=http://brianjester.github.io/index.html
 #DATE=`date +%Y-%m-%d`
 #mkdir ${DATE}
 rm ${MY_HOME}/${IMAGE_DIR}/*.jpg
 curl ${PDF_URL}${PDF_NAME}.pdf > ${MY_HOME}/${PDF_NAME}.pdf
+if [ ! -f /usr/local/bin/pdfimages ]; then
+  echo "No poppler package (pdfimages) found."
+  exit 1
+fi
 /usr/local/bin/pdfimages  -f 1 -l 1 -all ${MY_HOME}/${PDF_NAME}.pdf ${MY_HOME}/${IMAGE_DIR}/${PDF_NAME}
 rm ${MY_HOME}/${PDF_NAME}.pdf
 rm ${MY_HOME}/${IMAGE_DIR}/*.params 
