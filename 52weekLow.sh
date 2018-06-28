@@ -44,7 +44,7 @@ FOOTER="<script async src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle
      (adsbygoogle = window.adsbygoogle || []).push({});\
 </script>\
 <H3>References:</H3>\
-<H4><p><A HREF="http://www.nasdaq.com/aspx/52-week-high-low.aspx">NASDAQ</A>\
+<H4><p><A HREF="https://www.nasdaq.com/aspx/52-week-high-low.aspx">NASDAQ</A>\
 <H4><p><A HREF="http://www.investopedia.com/terms/1/52weekhighlow.asp">Investopedia</A>: A 52-week high-low is the highest and lowest price that a stock has traded at during the previous year. Many traders and investors view the 52-week high or low as an important factor in determining a stock's current value and predicting future price movement.\
 <P><A HREF="http://online.wsj.com/mdc/public/page/2_3021-newhinyse-newhighs.html">WSJ</A>\
 <P><A HREF="https://www.barchart.com/stocks/highs-lows/summary">barchart</A>\
@@ -52,14 +52,14 @@ FOOTER="<script async src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle
 <P><A HREF="http://www.barrons.com/public/page/weeklyhighslows.html">BARRON'S</A> </BODY>\
   </HTML>"
 
-#NASDAQ=`curl -s "http://www.nasdaq.com/aspx/52-week-high-low.aspx?exchange=NASDAQ&status=LOW" | grep "/symbol" | grep -v title | grep href | sed 's/\<h3/\<br/g'`
-NASDAQ=`curl -s "http://www.nasdaq.com/aspx/52-week-high-low.aspx?exchange=NASDAQ&status=LOW" | grep symbol -A 2 | grep -v title | egrep -v -- -- | egrep -v "floatL|separated|stock-search"|sed 's/td/h4/g'|sed 's/\<br/\<h4/g'|sed 's/\/h5/h4/g'`
+#NASDAQ=`curl -s "https://www.nasdaq.com/aspx/52-week-high-low.aspx?exchange=NASDAQ&status=LOW" | grep "/symbol" | grep -v title | grep href | sed 's/\<h3/\<br/g'`
+NASDAQ=`curl -s "https://www.nasdaq.com/aspx/52-week-high-low.aspx?exchange=NASDAQ&status=LOW" | grep symbol -A 2 | grep -v title | egrep -v -- -- | egrep -v "floatL|separated|stock-search"|sed 's/td/h4/g'|sed 's/\<br/\<h4/g'|sed 's/\/h5/h4/g'`
 
-#NYSE=`curl -s "http://www.nasdaq.com/aspx/52-week-high-low.aspx?exchange=NYSE&status=LOW" | grep "/symbol" | grep -v title | grep href | sed 's/\<h3/\<br/g'`
-NYSE=`curl -s "http://www.nasdaq.com/aspx/52-week-high-low.aspx?exchange=NYSE&status=LOW" | grep symbol -A 2 | grep -v title | egrep -v -- -- | egrep -v "floatL|separated|stock-search"|sed 's/td/h4/g'|sed 's/\<br/\<h4/g'|sed 's/\/h5/h4/g'`
+#NYSE=`curl -s "https://www.nasdaq.com/aspx/52-week-high-low.aspx?exchange=NYSE&status=LOW" | grep "/symbol" | grep -v title | grep href | sed 's/\<h3/\<br/g'`
+NYSE=`curl -s "https://www.nasdaq.com/aspx/52-week-high-low.aspx?exchange=NYSE&status=LOW" | grep symbol -A 2 | grep -v title | egrep -v -- -- | egrep -v "floatL|separated|stock-search"|sed 's/td/h4/g'|sed 's/\<br/\<h4/g'|sed 's/\/h5/h4/g'`
 
-#AMEX=`curl -s "http://www.nasdaq.com/aspx/52-week-high-low.aspx?exchange=AMEX&status=LOW" | grep "/symbol" | grep -v title | grep href | sed 's/\<h3/\<br/g'`
-AMEX=`curl -s "http://www.nasdaq.com/aspx/52-week-high-low.aspx?exchange=AMEX&status=LOW" | grep symbol -A 2 | grep -v title | egrep -v -- -- | egrep -v "floatL|separated|stock-search"|sed 's/td/h4/g'|sed 's/\<br/\<h4/g'|sed 's/\/h5/h4/g'`
+#AMEX=`curl -s "https://www.nasdaq.com/aspx/52-week-high-low.aspx?exchange=AMEX&status=LOW" | grep "/symbol" | grep -v title | grep href | sed 's/\<h3/\<br/g'`
+AMEX=`curl -s "https://www.nasdaq.com/aspx/52-week-high-low.aspx?exchange=AMEX&status=LOW" | grep symbol -A 2 | grep -v title | egrep -v -- -- | egrep -v "floatL|separated|stock-search"|sed 's/td/h4/g'|sed 's/\<br/\<h4/g'|sed 's/\/h5/h4/g'`
 
 DOC="${HEADER}\
 <H4>Site updated <mark>daily.</mark></H4>\
