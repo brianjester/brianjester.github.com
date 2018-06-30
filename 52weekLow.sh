@@ -1,6 +1,7 @@
 #!/bin/bash
 # 52weekLow.sh - print out 52 week lows for NASDAQ, NYSE, AMEX
-MY_HOME=/Users/brian/brianjester
+#MY_HOME=/Users/brian/brianjester
+MY_HOME=/c/Users/brian_000/brianjester.github.com
 FILE=${MY_HOME}/52weeklows.html
 HEADER="<HTML>\
   <HEAD>\
