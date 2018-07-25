@@ -2,9 +2,9 @@
 # getImages.sh - script to get images from a PDF
 PDF_URL=https://www.e-churchbulletins.com/bulletins/
 PDF_NAME=977090
-MY_HOME=/Users/brian/brianjester
+MY_HOME=/Users/brian/brianjester.github.com
 IMAGE_DIR=images
-FB_POST=http://brianjester.github.io/index.html
+FB_POST=https://brianjester.github.io/index.html
 #DATE=`date +%Y-%m-%d`
 #mkdir ${DATE}
 rm ${MY_HOME}/${IMAGE_DIR}/*.jpg
@@ -33,4 +33,4 @@ cd ${MY_HOME}
 git add ${MY_HOME}
 git commit -m "Updated images" -- ${MY_HOME}
 git push
-/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --disable-gpu http://brianjester.github.io/index.html?p=REDACTED
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --disable-gpu https://brianjester.github.io/index.html?p=REDACTED
