@@ -8,7 +8,7 @@ FB_POST=https://brianjester.github.io/index.html
 POPPLER=/usr/bin/pdfimages
 #DATE=`date +%Y-%m-%d`
 #mkdir ${DATE}
-#rm ${MY_HOME}/${IMAGE_DIR}/*.jpg
+rm ${MY_HOME}/${IMAGE_DIR}/*.jpg
 curl ${PDF_URL}${PDF_NAME}.pdf > ${MY_HOME}/${PDF_NAME}.pdf
 if [ ! -f $POPPLER ]; then
   echo "No poppler package (pdfimages) found."
