@@ -35,4 +35,4 @@ cd ${MY_HOME}
 git add ${MY_HOME}
 git commit -m "Updated images" -- ${MY_HOME}
 git push
-/usr/lib/chromium-browser/chromium-browser https://brianjester.github.io/index.html?p=__REDACTED__
+/usr/lib/chromium-browser/chromium-browser --disable-gpu https://brianjester.github.io/index.html?p=__REDACTED__
