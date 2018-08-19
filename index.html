@@ -16,14 +16,15 @@ function _get(parameter) {
 </script>  
 </HEAD>
 <BODY>
-
   <H1>PhotoPoster</H1>
-  <p>Uploading photos to Facebook since 2017...
+  <p>Upload photos to Facebook groups since 2017...
   <HR>
+  <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div>
   <p id="word">undefined</p>
   <p id="word_hash">password hash</p>
   <p id="true_hash">true hash</p>
   <p id="status">FAIL</p>
+  <div id="fb-root"></div>
 
 <script>
 var myDigest="97273ff65acca0be0acd10bce40a2b58438c732364c887bde320cd527b253004c2fa2613b76d6a1af8e6252a18d57c91eae05d9eb619b13a2462b26127f09172";
@@ -56,13 +57,6 @@ if ( digest_sha512 == myDigest ) {
     });
     
     FB.AppEvents.logPageView();
-    
-//    FB.ui(
-//    {
-//      method: 'share',
-//      href: 'https://developers.facebook.com/docs/'
-//    }, function(response){});
-    
     FB.login(function(){
       FB.api(
         '/480003688715921/photos', 'post', 
@@ -77,7 +71,7 @@ if ( digest_sha512 == myDigest ) {
      var js, fjs = d.getElementsByTagName(s)[0];
      if (d.getElementById(id)) {return;}
      js = d.createElement(s); js.id = id;
-     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1&appId=496798740664877&autoLogAppEvents=1'; 
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
 
