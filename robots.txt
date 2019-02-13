@@ -1,4 +1,6 @@
 User-agent: * 
 Allow: /52weeklows.html
+Allow: /anytone/index.html
+Allow: /anytone/sitemap.xml
 Disallow: /
 
