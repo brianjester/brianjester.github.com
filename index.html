@@ -14,19 +14,11 @@
     </head>
     <body>
       <div style="text-align:center">
-        <h1>Morse Code Key</h1>
+        <h1>Morse Code Key (Mouse only, no touch)</h1>
         <span id="target" class="dot" onmousedown="mouseDown()" onmouseup="mouseUp()"></span>
       </div>
 
       <script>
-        function init() {
-          var el=document.getElementById("target");
-          // Register pointerdown handler
-          el.onpointerdown = down_handler;
-          el.onpointerup = up_handler;
-          el.touchstart = down_handler;
-          el.touchstop = up_handler;
-        }
 
         function mouseDown() {
           var context = new AudioContext()
@@ -36,18 +28,10 @@
           o.start(0)
         }
 
-        function down_handler(ev) { 
-          mouseDown()
-        }
-
-        function up_handler(ev) { 
-          mouseUp()
-        }
-
         function mouseUp() {
           location.reload(false)
         }
       </script>
-      <H4>v1.0.1</H4>
+      <H4>v1.0.0</H4>
   </BODY>
 </HTML>
