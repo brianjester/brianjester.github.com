@@ -3,21 +3,21 @@
     <TITLE>Online Morse Code Key</TITLE>
   </HEAD>
   <BODY>
-    <H1>Online Morse Code Key</H1>
+    <H1>Online Morse Code Key</H1>    
 
-    <canvas id="myCanvas" width="300" height="150" style="border:1px solid #d3d3d3;">
+    <canvas id="myCanvas" width=2000 height=2000 style="solid #ffffff;">
       Your browser does not support the HTML5 canvas tag.</canvas>
       
       <script>
       var c = document.getElementById("myCanvas");
       var ctx = c.getContext("2d");
       ctx.beginPath();
-      ctx.arc(100, 75, 50, 0, 2 * Math.PI);
+      ctx.arc((screen.width)/5, (screen.height)/5, (screen.width)/20, 0, 2 * Math.PI);
       ctx.stroke();
       ctx.fillStyle = "black";
       ctx.fill();
-      </script> 
 
+      </script> 
 
   </BODY>
 </HTML>
