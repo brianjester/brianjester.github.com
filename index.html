@@ -15,23 +15,36 @@
     <body>
       <div style="text-align:center">
         <h1>Morse Code Key</h1>
-        <span class="dot" onmousedown="mouseDown()" onmouseup="mouseUp()"></span>
+        <span id="target" class="dot" onmousedown="mouseDown()" onmouseup="mouseUp()"></span>
       </div>
 
       <script>
-      var canceled = false;
+        function init() {
+          var el=document.getElementById("target");
+          // Register pointerdown handler
+          el.onpointerdown = down_handler;
+          el.onpointerup = up_handler;
+        }
 
-      async function mouseDown() {
-        var context = new AudioContext()
-        var o = context.createOscillator()
-        o.type = "sine"
-        o.connect(context.destination)
-        o.start(0)
-      }
+        function mouseDown() {
+          var context = new AudioContext()
+          var o = context.createOscillator()
+          o.type = "sine"
+          o.connect(context.destination)
+          o.start(0)
+        }
 
-      async function mouseUp() {
-        location.reload(false)
-      }
+        function down_handler(ev) { 
+          mouseDown()
+        }
+
+        function up_handler(ev) { 
+          mouseUp()
+        }
+
+        function mouseUp() {
+          location.reload(false)
+        }
       </script>
   </BODY>
 </HTML>
