@@ -1,83 +1,8 @@
 <HTML>
-<HEAD>
-<TITLE>PhotoPoster</TITLE>
-<script type="text/javascript" src="js/sjcl.js"></script>  
-<script type="text/javascript" src="js/bitArray.js"></script>  
-<script type="text/javascript" src="js/codecHex.js"></script>  
-<script type="text/javascript" src="js/codecString.js"></script>  
-<script type="text/javascript" src="js/sha512.js"></script>  
-
-<script type="text/javascript">    
-function _get(parameter) {
-    var reg = new RegExp( '[?&]' + parameter + '=([^&#]*)', 'i' );
-    var string = reg.exec(window.location.href);
-    return string ? string[1] : "no password";
-};
-</script>  
-</HEAD>
-<BODY>
-  <H1>PhotoPoster</H1>
-  <p>Upload photos to Facebook groups since 2017...
-  <HR>
-  <p id="word">undefined</p>
-  <p id="word_hash">password hash</p>
-  <p id="true_hash">true hash</p>
-  <p id="status">FAIL</p>
-  <div id="fb-root"></div>
-
-<script>
-var myDigest="97273ff65acca0be0acd10bce40a2b58438c732364c887bde320cd527b253004c2fa2613b76d6a1af8e6252a18d57c91eae05d9eb619b13a2462b26127f09172";
-var message = _get("p");
-document.getElementById("word").innerHTML = message;
-var bitArray = sjcl.hash.sha512.hash(message);  
-var digest_sha512 = sjcl.codec.hex.fromBits(bitArray);   
-document.getElementById("word_hash").innerHTML = digest_sha512;
-document.getElementById("true_hash").innerHTML = myDigest;
-var myStatus = "FAIL"
-if ( digest_sha512 == myDigest ) { 
-
-  myStatus="PASS" 
-
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId            : '496798740664877',
-      autoLogAppEvents : true,
-      xfbml            : true,
-      version          : 'v3.0'
-    });
-    
-    FB.getLoginStatus(function(response) {
-      if (response.status === 'connected') {
-        console.log('Logged in.');
-      }
-      else {
-        FB.login();
-      }
-    });
-    
-    FB.AppEvents.logPageView();
-    FB.login(function(){
-      FB.api(
-        '/480003688715921/photos', 'post', 
-        {
-          url: 'https://github.com/brianjester/brianjester.github.com/raw/master/images/image1.jpg'
-        });
-    }, {scope: 'business_management,publish_to_groups'}); 
-    
-  };
-
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = 'https://connect.facebook.net/en_US/sdk.js'; 
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-
-}
-document.getElementById("status").innerHTML = myStatus; 
-</script>
-  <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div>
-
-</BODY>
+  <HEAD>
+    <TITLE>Online Morse Code Key</TITLE>
+  </HEAD>
+  <BODY>
+    <H1>Online Morse Code Key</H1>
+  </BODY>
 </HTML>

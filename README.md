@@ -1,3 +1,3 @@
-# getPdfImages.sh
+# Online Morse Code Key
 
-required popplar package for pdfimages command line tool for image extraction from PDF's
+A simple web page to practice Morse Code / CW (Continuous Wave)
