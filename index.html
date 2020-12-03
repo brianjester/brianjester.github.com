@@ -1,23 +1,46 @@
 <HTML>
   <HEAD>
     <TITLE>Online Morse Code Key</TITLE>
-  </HEAD>
-  <BODY>
-    <H1>Online Morse Code Key</H1>    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    .dot {
+      height: 200px;
+      width: 200px;
+      background-color: #000;
+      border-radius: 50%;
+      display: inline-block;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div style="text-align:center">
+      <h1>Morse Code Key</h1>
+      <span id="myD" class="dot" onmousedown="mouseDown()" ></span>
+    </div>
 
-    <canvas id="myCanvas" width=2000 height=2000 style="solid #ffffff;">
-      Your browser does not support the HTML5 canvas tag.</canvas>
-      
-      <script>
-      var c = document.getElementById("myCanvas");
-      var ctx = c.getContext("2d");
-      ctx.beginPath();
-      ctx.arc((screen.width)/5, (screen.height)/5, (screen.width)/20, 0, 2 * Math.PI);
-      ctx.stroke();
-      ctx.fillStyle = "black";
-      ctx.fill();
 
-      </script> 
 
+    <p id="myP" onmousedown="mouseDown()" >test</p>
+
+<script>
+function mouseDown() {
+  document.getElementById("myP").style.color = "red";
+
+  var context = new AudioContext()
+  var o = context.createOscillator()
+  var  g = context.createGain()
+  var frequency = 700.0
+  o.frequency.value = frequency
+  o.type = "sine"
+  o.connect(g)
+g.connect(context.destination)
+o.start(0)
+g.gain.exponentialRampToValueAtTime(
+  0.00001, context.currentTime + 2
+)
+}
+
+</script>
   </BODY>
 </HTML>
