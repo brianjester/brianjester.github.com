@@ -13,30 +13,25 @@
     </style>
     </head>
     <body>
-    
-    <div style="text-align:center">
-      <h1>Morse Code Key</h1>
-      <span id="myD" class="dot" onmousedown="mouseDown()" onmouseup="mouseUp()"></span>
-    </div>
+      <div style="text-align:center">
+        <h1>Morse Code Key</h1>
+        <span class="dot" onmousedown="mouseDown()" onmouseup="mouseUp()"></span>
+      </div>
 
-<script>
+      <script>
+      var canceled = false;
 
-async function mouseDown() {
-  var context = new AudioContext()
-  var o = context.createOscillator()
-  o.type = "sine"
-  o.connect(context.destination)
-  o.start(0)
-}
+      async function mouseDown() {
+        var context = new AudioContext()
+        var o = context.createOscillator()
+        o.type = "sine"
+        o.connect(context.destination)
+        o.start(0)
+      }
 
-async function mouseUp() {
-  location.reload(false)
-}
-
-function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}
-
-</script>
+      async function mouseUp() {
+        location.reload(false)
+      }
+      </script>
   </BODY>
 </HTML>
