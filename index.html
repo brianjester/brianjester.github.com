@@ -24,6 +24,8 @@
           // Register pointerdown handler
           el.onpointerdown = down_handler;
           el.onpointerup = up_handler;
+          el.touchstart = down_handler;
+          el.touchstop = up_handler;
         }
 
         function mouseDown() {
@@ -46,6 +48,6 @@
           location.reload(false)
         }
       </script>
-      <H4>v1.0.0</H4>
+      <H4>v1.0.1</H4>
   </BODY>
 </HTML>
