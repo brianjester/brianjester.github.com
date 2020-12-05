@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" type="text/css" />    
+    <title>Touch events - Example - code sample</title>
+  </head>
+  <body>
+    <canvas id="canvas" width="600" height="600" style="border:solid black 1px;">
+    Your browser does not support canvas element.
+    </canvas>
+    <br>
+    Log: <pre id="log" style="border: 1px solid #ccc;"></pre>
+    <script>
+      function startup() {
+        var el = document.getElementById("canvas");
+        el.addEventListener("click", handleStart, false);
+        el.addEventListener("focus", handleStart, false);
+        el.addEventListener("touchstart", handleStart, false);
+        el.addEventListener("gesturestart", handleStart, false);
+        el.addEventListener("gesturechange", handleStart, false);
+        el.addEventListener("gestureend", handleStart, false);
+        el.addEventListener("touchmove", handleStart, false);
+        el.addEventListener("touchforcechange", handleStart, false);
+        el.addEventListener("selection", handleStart, false);
+        el.addEventListener("touchcancel", handleStart, false);
+        el.addEventListener("mouseover", handleStart, false);
+        el.addEventListener("mousemove", handleStart, false);
+        el.addEventListener("mouseup", handleStart, false);
+        el.addEventListener("mousedown", handleStart, false);
+        el.addEventListener("pointerdown", handleStart, false);
+        el.addEventListener("gotpointercapture", handleStart, false);
+        el.addEventListener("touchend", handleEnd, false);
+        
+      }
+
+      document.addEventListener("DOMContentLoaded", startup); 
+
+      function handleStart(evt) {
+        //evt.preventDefault();
+        console.log("touchstart START");
+        var el = document.getElementById("canvas");
+        var ctx = el.getContext("2d");
+        //var touches = evt.changedTouches;
+      }
+
+      function handleEnd(evt) {
+        //evt.preventDefault();
+        log("touchend END END END");
+        var el = document.getElementById("canvas");
+        var ctx = el.getContext("2d");
+        //var touches = evt.changedTouches;
+      }
+
+      function log(msg) {
+        var p = document.getElementById('log');
+        p.innerHTML = msg + "\n" + p.innerHTML;
+      }
+    </script>
+  </body>
+</html>
