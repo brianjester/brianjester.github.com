@@ -1,0 +1,38 @@
+<HTML>
+  <HEAD>
+    <TITLE>Online Morse Code Key</TITLE>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    .dot {
+      height: 200px;
+      width: 200px;
+      background-color: #000;
+      border-radius: 50%;
+      display: inline-block;
+    }
+    </style>
+    </head>
+    <body>
+      <div style="text-align:center">
+        <h1>Morse Code Key</h1>
+        <h4>(Mouse only, no touchpad/phone)</h4>
+        <span ontouchstart="mouseDown()" id="target" class="dot" onmousedown="mouseDown()" onmouseup="mouseUp()"></span>
+      </div>
+
+      <script>
+
+        function mouseDown() {
+          var context = new AudioContext()
+          var o = context.createOscillator()
+          o.type = "sine"
+          o.connect(context.destination)
+          o.start(0)
+        }
+
+        function mouseUp() {
+          location.reload(false)
+        }
+      </script>
+      <H4>v1.0.0</H4>
+  </BODY>
+</HTML>
