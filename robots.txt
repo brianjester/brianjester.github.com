@@ -1,7 +1,6 @@
 User-agent: * 
 Allow: /index.html
 Allow: /anytone/index.html
-Allow: /anytone/sitemap.xml
 Allow: /okinawa-castles/index.html
 Allow: /passive-income/index.html
 Allow: /morse/index.html
