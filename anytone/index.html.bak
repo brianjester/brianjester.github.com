@@ -1,0 +1,92 @@
+﻿<html>
+  <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-25680902-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25680902-3');
+</script>
+
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+<style>
+body {
+    font-family: 'Oswald';font-size: 22px;
+}
+</style>
+
+    <title>Anytone AT-D868UV and AT-D878UV Info Page</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Anytone AT-D868UV and AT-D878UV Info Page">
+    <meta name="keywords" content="radioid,dmr,ham,ham radio,amateur radio,n0gsg,contact manager,brandmeister,aprs,papa,papasys,wouxun,kb8uip,AnyTone,868,d868,d868uv,at-d868uv,fw,f/w,firmware,gps,fix">
+    <meta name="author" content="KB8UIP">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+
+    <H1>Steps to Setup Your DMR Radio (Anytone 868/878 Specific)</H1>
+    <IMG SRC="https://brianjester.github.io/anytone/DMR Radio Programming,r4.png" height="975" width="775" alt="Diagram of DMR Steps with Anytone">
+    <H4>
+      <UL>
+        <LI>PDF file: <A HREF="https://brianjester.github.io/anytone/DMR Radio Programming,r4.pdf">https://brianjester.github.io/anytone/DMR Radio Programming,r4.pdf</A>
+        <LI>Draw.io file: <A HREF="https://brianjester.github.io/anytone/DMR Radio Programming,r4.xml">https://brianjester.github.io/anytone/DMR Radio Programming,r4.xml</A>
+
+    <H1>DMR Links</H1>
+    <H4>
+      <UL>
+        <LI>DMR Radio ID: <A HREF="https://www.radioid.net">https://www.radioid.net</A>
+        <LI>N0GSG Contact Manager: <A HREF="http://n0gsg.com/contact-manager">http://n0gsg.com/contact-manager</A>
+        <LI>Brandmeister APRS Config: <A HREF="https://brandmeister.network">https://brandmeister.network</A>
+        <LI>APRS Map: <A HREF="https://aprs.fi">https://aprs.fi</A>
+    </H4>
+
+    <H1>Anytone Links</H1>
+    <H4>
+      <UL>
+	      <LI>CodePlug Software: <A HREF="https://www.bridgecomsystems.com">https://www.bridgecomsystems.com</A> > Support > (Your radio) Support Page
+        <LI>Papa System CodePlug (Southern California): <A HREF="http://papasys.com/dmr/codeplugs/anytone/">http://papasys.com/dmr/codeplugs/anytone/</A>
+        <LI>AnyTone F/W from WouXun.us (contains Chinese satellites): <A HREF="http://www.wouxun.us/category.php?category_id=90">http://www.wouxun.us/category.php?category_id=90</A>
+    </H4>
+
+    <H1>YouTube Videos</H1>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/u_cTSjnJd-E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/fl-r94IcRE4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/jnpX8FRE5I8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/B-bB3Jnh0qQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <H1>How to Program Your AnyTone AT-D868UV GPS/ARPS DMR Radio - 3 Part Series</H1>
+    <H4>
+      <UL>
+        <LI>Video 1 of 3: <A HREF="https://youtu.be/u_cTSjnJd-E">https://youtu.be/u_cTSjnJd-E</A>
+        <LI>Video 2 of 3: <A HREF="https://youtu.be/fl-r94IcRE4">https://youtu.be/fl-r94IcRE4</A>
+        <LI>Video 3 of 3: <A HREF="https://youtu.be/jnpX8FRE5I8">https://youtu.be/jnpX8FRE5I8</A>
+    </H4>
+
+    <H1>Successful Test and Config of Analog APRS on the AnyTone AT-D878UV</H1>
+    <H4>
+      <UL>
+        <LI>Config of Analog APRS on 878: <A HREF="https://www.youtube.com/watch?v=B-bB3Jnh0qQ">https://www.youtube.com/watch?v=B-bB3Jnh0qQ</A>
+    </H4>
+
+    <H1>Anytone AT-D868UV Firmware Fix for GPS (removes Chinese satellites)</H1>
+    <H4>
+      <UL>
+        <LI>Firmware v2.34 with GPS Fix ⃰: <A HREF="https://brianjester.github.io/anytone/D868UV_V2.34_FW_GPS_Fix.zip">https://brianjester.github.io/anytone/D868UV_V2.34_FW_GPS_Fix.zip</A>
+        <BR><BR>This fix brought my GPS sync time down from 17 minutes to 1.5 minutes, by removing the Chinese BDS (BeiDou) satellites and leaving only the GPS satellites.
+        <BR> ⃰ VK7ZJA provided the F/W update instructions: <A HREF="http://members.optuszoo.com.au/jason.reilly1/868mods.htm?fbclid=IwAR3We8hIt20lFBOhBdOoGneDnTRfB2PTQAMff1Tsupw06QlFLPlOnOnBRLE">Link</A>
+    </H4>
+    <HR>
+    <H1>Contact(s)</H1>
+    <H4>
+      <UL>
+        <LI>YouTube: <A HREF="https://www.youtube.com/user/brianjester123">https://www.youtube.com/user/brianjester123</A>
+        <LI>LinkedIn: <A HREF="https://www.linkedin.com/in/brian-jester-38943961/">https://www.linkedin.com/in/brian-jester-38943961/</A>
+        <LI>Facebook Group: <A HREF="https://www.facebook.com/groups/335468753629329/">Anytone AT-D868UV / AT-D878UV DMR Users Group</A>
+    </H4>
+
+  </body>
+
+</html>
