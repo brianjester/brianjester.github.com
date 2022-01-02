@@ -31,16 +31,17 @@
   <body>
     <div class="col-lg-8 mx-auto p-3 py-md-5">
 
-      <header class="d-flex align-items-center pb-3 mb-5">
-        <span class="fs-4">📡 QRZ - who is calling me?</span>
+        <header class="align-items-center pb-3 mb-5">
+        <h1 class="text-center">📡 QRZ - who is calling me?</h1>
+
       </header>
 
       <main>
-         <div class="mb-3">
+         <div class="text-center">
             <input type="input" class="input-lg" id="inputText" aria-describedby="searchHelp" required>
             <div id="inputHelp" class="form-text">Search DMR user DB with DMR ID or FCC call sign.</div>
+            <button type="button" class="btn btn-primary" onclick="search()">Search</button>
          </div>
-          <button type="button" class="btn btn-primary" onclick="search()">Search</button>
           <BR><BR>
           <p id="results1"></p>
       </main>
