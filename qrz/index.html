@@ -83,9 +83,9 @@
             }
           }
           if (isSafe==true) {
-            var proxyUrl     = 'https://%71%72%7a-cors-anywhere.herokuapp.com/';
+            var proxyUrl     = 'https://qrz-cors-anywhere.herokuapp.com/';
             const fccUrl = proxyUrl+'http://data.fcc.gov/api/license-view/basicSearch/getLicenses?searchValue=';
-            const leftDs1Url  = proxyUrl+'https://www.%72%61%64%69%6f%69%64.net/api/dmr/user/?';
+            const leftDs1Url  = proxyUrl+'https://www.radioid.net/api/dmr/user/?';
             var rightDs1Url;
             if (isNaN(searchText)) { //true if call sign (not a pure number)
               rightDs1Url = 'callsign=';
@@ -123,7 +123,7 @@
             } else {
               picCallsign = ds1Obj.results[0].callsign;  // DMR ID provided, must look up callsign
             }
-            const picUrl = proxyUrl+'https://www.%71%72%7a.com/lookup?tquery='+picCallsign+'&mode=callsign';
+            const picUrl = proxyUrl+'https://www.qrz.com/lookup?tquery='+picCallsign+'&mode=callsign';
             const picPage = httpRequest(picUrl, false);
             var parser      = new DOMParser ();
             var responseDocPicPage = parser.parseFromString(picPage, "text/html");
