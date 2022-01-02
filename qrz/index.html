@@ -79,37 +79,31 @@
             }
           }
           if (isSafe==true) {
-            var fullUrl;
-            const leftUrl = 'https://qrz-cors-anywhere.herokuapp.com/https://www.radioid.net/api/dmr/user/?';
-            var rightUrl;
+            // var fullUrl;
+            var proxyUrl = 'https://qrz-cors-anywhere.herokuapp.com/';
+            const leftDsUrl = proxyUrl+'https://www.radioid.net/api/dmr/user/?';
+            var rightDsUrl;
             if (isNaN(searchText)) { //true if call sign (not a pure number)
-              rightUrl = 'callsign=';
+              rightDsUrl = 'callsign=';
             } else {
-              rightUrl = 'id=';
+              rightDsUrl = 'id=';
             }
-            fullUrl = leftUrl+rightUrl+searchText+''; 
-            var request = new XMLHttpRequest();
-            request.open( "GET", fullUrl, false ); 
-            request.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
-            // request.onreadystatechange = handler;
-            request.send();
-            const txt = request.responseText;
-            // console.log(txt);
-            const obj = JSON.parse(txt);
+
+            // Datasource search
+            const obj = JSON.parse(httpRequest(leftDsUrl+rightDsUrl+searchText+''));
+
+            // Create table from response
             const tableHeaderHtml="<TABLE class=\"table table-striped table-condensed\"><thead class=\"thead-dark\"><TR><TH>Callsign</TH><TH>Name</TH><TH>DMR ID</TH><TH>QTH</TH></TR></thead>"
-            var tableBodyHtml;
+            var tableBodyHtml = "<tbody>";
             if (obj.count=="0") {
               document.getElementById("results1").innerHTML = "Your search, <B>"+searchText+"</B>, did not have any matches.";
             } else {
               for (var i = 0; i < obj.count; i++) { 
-                console.log("Your info: "+obj.results[i].id); 
                 tableBodyHtml+="<TR><TD>" + obj.results[i].callsign + "</TD><TD>" + obj.results[i].fname +" " + obj.results[i].surname + "</TD><TD>" + obj.results[i].id + "</TD><TD>" + obj.results[i].city + ", " + obj.results[i].state + ", " + obj.results[i].country + "</TD></TR>";
               }
-              document.getElementById("results1").innerHTML = tableHeaderHtml + "<tbody>" + tableBodyHtml + "</tbody></TABLE>";
+              var fullTable = tableHeaderHtml + tableBodyHtml + "</tbody></TABLE>"
+              document.getElementById("results1").innerHTML = fullTable;
             }
-            // console.log(obj);
-            console.log(obj.results);
-            // console.log(obj.results[0]);
             document.getElementById("inputText").value = "";
           } // end of verify input is sanitized
           else {
@@ -117,7 +111,14 @@
           }
       }  // end of verify search term was given
     }  // end function
-    </script>
 
+    function httpRequest(reqUrl) {
+            const request = new XMLHttpRequest();
+            request.open( "GET", reqUrl, false ); 
+            request.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+            request.send();
+            return request.responseText;
+    }
+    </script>
   </body>
 </html>
