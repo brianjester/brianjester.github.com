@@ -99,7 +99,7 @@
             console.log(obj);
             console.log(obj.results[0]);
 
-            document.getElementById("results1").innerHTML = "<TABLE class=\"table\"><thead class=\"thead-dark\"><TR><TH>Callsign</TH><TH>First Name</TH><TH>Last Name</TH><TH>DMR ID</TH><TH>City</TH><TH>State</TH><TH>Country</TH></TR></thead><tbody><TR><TD>" + obj.results[0].callsign + "</TD><TD>" + obj.results[0].fname +"</TD><TD>" + obj.results[0].surname + "</TD><TD>" + obj.results[0].id + "</TD><TD>" + obj.results[0].city + "</TD><TD>" + obj.results[0].state + "</TD><TD>" + obj.results[0].country + "</TD></TR></tbody></TABLE>";
+            document.getElementById("results1").innerHTML = "<TABLE class=\"table\"><thead class=\"thead-dark\"><TR><TH>Callsign</TH><TH>Name</TH><TH>DMR ID</TH><TH>QTH</TH></TR></thead><tbody><TR><TD>" + obj.results[0].callsign + "</TD><TD>" + obj.results[0].fname +" " + obj.results[0].surname + "</TD><TD>" + obj.results[0].id + "</TD><TD>" + obj.results[0].city + ", " + obj.results[0].state + ", " + obj.results[0].country + "</TD></TR></tbody></TABLE>";
             document.getElementById("inputText").value = "";
           } // end of verify only nubers and/or letters
           else {
