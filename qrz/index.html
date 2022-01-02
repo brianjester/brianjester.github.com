@@ -125,7 +125,8 @@
                 document.getElementById("fccResults1").innerHTML = fccTable;
 
               // FCC search 2
-              var fccShort1 = fccLicenseID.outerHTML.startsWith("<licenseID>").endsWith("</licenseID>").replace("<licenseID>", "").replace("</licenseID>","");
+              // TODO indexOf then substring
+              var fccShort1 = fccLicenseID.outerHTML.indexOf("<licenseID>").endsWith("</licenseID>").replace("<licenseID>", "").replace("</licenseID>","");
               console.log(fcc2Url+''+fccShort1);
               const fccObj2 = httpRequest(fcc2Url+''+fccShort1+'', false);              
               console.log(fccObj2);
