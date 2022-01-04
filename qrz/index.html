@@ -134,7 +134,9 @@
             // clear search box
             // document.getElementById("inputText").value = "";
 
-            // Pic search
+            // Pic/flag search
+            document.getElementById("flagPic1").innerHTML = "";
+            document.getElementById("profilePic1").innerHTML = "";
             var picCallsign;
             if(rightDs1Url.includes("callsign")) {
               picCallsign = leftSearchText;  // callsign provided no need to do a DMR DB search for callsign
