@@ -133,7 +133,7 @@
             } else {
               // populate with DS1 info
               for (var i = 0; i < ds1Obj.count; i++) { 
-                tableBodyHtml+="<TR><TD><a href=\"https://www.qrz.com/db/" + ds1Obj.results[i].callsign + "\" target=\"_blank\">" + ds1Obj.results[i].callsign + "</a></TD><TD>" + ds1Obj.results[i].fname +" " + ds1Obj.results[i].surname + "</TD><TD>" + ds1Obj.results[i].id + "</TD><TD>" + ds1Obj.results[i].city + ", " + ds1Obj.results[i].state + ", " + ds1Obj.results[i].country + "</TD></TR>";
+                tableBodyHtml+="<TR><TD><a href=\"https://www.qrz.com/db/" + ds1Obj.results[i].callsign + "\" target=\"_blank\">" + ds1Obj.results[i].callsign + "</a></TD><TD>" + ds1Obj.results[i].fname +" " + ds1Obj.results[i].surname + "</TD><TD>" + "<a href=\"https://radioid.net/database/view?id=" + ds1Obj.results[i].id + "\" target=\"_blank\">" + ds1Obj.results[i].id + "</a></TD><TD>" + ds1Obj.results[i].city + ", " + ds1Obj.results[i].state + ", " + ds1Obj.results[i].country + "</TD></TR>";
               }
               var fullTable = tableHeaderHtml + tableBodyHtml + "</tbody></TABLE>"
               document.getElementById("results1").innerHTML = fullTable;
