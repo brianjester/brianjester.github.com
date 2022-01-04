@@ -1,172 +1,171 @@
 <!doctype html>
 <html lang="en">
 
-  <head>
+    <head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="QRZ - who is calling me?  Search for DMR ID or FCC call sign.">
-    <meta name="author" content="Brian Jester">
-    <title>📡 QRZ - who is calling me?</title>
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/starter-template/">
-    <!-- Bootstrap core CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-    <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-29WC53K3ZV"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-29WC53K3ZV');
-    </script>
-
-  </head>
-  <body>
-    <div class="col-lg-8 mx-auto p-3 py-md-5">
-
-        <header class="align-items-center pb-3 mb-5">
-        <h1 class="text-center">📡 QRZ - who is calling me?</h1>
-
-      </header>
-
-      <main>
-         <div class="text-center">
-            <H3><input type="input" class="input-lg col-xs-2" id="inputText" aria-describedby="searchHelp" required></H3>
-            <div id="inputHelp" class="form-text">Search DMR user DB with DMR ID or FCC call sign.</div>
-            <button type="button" class="btn btn-primary" onclick="search()">Search</button>
-          <BR><BR>
-            <p id="results1"></p>
-            <p class="text-center" id="flagPic1"></p>
-            <p class="text-center" id="profilePic1"></p>
-          </div>
-
-          </main>
-
-     <footer class="pt-5 my-5 text-muted border-top">
-      <p>Data sources online:<BR>
-        &nbsp;🟢 DMR User DB
-      </p>
-      <p>Created by Brian Jester &middot; &copy; 2021</p>
-     </footer>
-
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-    <script type="text/javascript">
-      document.addEventListener("keyup", function(event) {
-        if (event.keyCode === 13) {
-          search();
-        }
-      });
-      function search() {
-        document.getElementById("inputText").style.borderColor = "initial";
-        const searchText = document.getElementById("inputText").value;
-
-        // verify search term was given
-        if (searchText == "") {
-          document.getElementById("inputText").style.borderColor = "red";
-        } else {
-          // verify input is sanitized
-          const safeChars = "0123456789abcdefghijklmnopqrstuvwxyz";
-          var isSafe=true;
-          for (var i = 0; i < searchText.length; i++) {
-            if (safeChars.indexOf(searchText.toLowerCase().charAt(i)) == -1) {
-              isSafe=false;
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="QRZ - who is calling me?  Search for DMR ID or FCC call sign.">
+        <meta name="author" content="Brian Jester">
+        <title>📡 QRZ - who is calling me?</title>
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/starter-template/">
+        <!-- Bootstrap core CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <style>
+            .bd-placeholder-img {
+                font-size: 1.125rem;
+                text-anchor: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                user-select: none;
             }
-          }
-          if (isSafe==true) {
-            var proxyUrl     = 'https://qrz-cors-anywhere.herokuapp.com/';
-            const fccUrl = proxyUrl+'http://data.fcc.gov/api/license-view/basicSearch/getLicenses?searchValue=';
-            const leftDs1Url  = proxyUrl+'https://www.radioid.net/api/dmr/user/?';
-            var rightDs1Url;
-            if (isNaN(searchText)) { //true if call sign (not a pure number)
-              rightDs1Url = 'callsign=';
-            } else {
-              rightDs1Url = 'id=';
+            @media (min-width: 768px) {
+                .bd-placeholder-img-lg {
+                    font-size: 3.5rem;
+                }
             }
+        </style>
+        <!-- Custom styles for this template -->
+        <link href="starter-template.css" rel="stylesheet">
 
-            // DS1 search
-            const ds1Obj = JSON.parse(httpRequest(leftDs1Url+rightDs1Url+searchText+'', false));
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-29WC53K3ZV"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-            // Create table from DS1 response
-            const tableHeaderHtml="<TABLE class=\"table table-striped table-condensed\"><thead class=\"thead-dark\"><TR><TH>Callsign</TH><TH>Name</TH><TH>DMR ID</TH><TH>QTH</TH></TR></thead>"
-            var tableBodyHtml = "<tbody>";
+            gtag('config', 'G-29WC53K3ZV');
+        </script>
 
-            // if nothing found, clear inner HTML for DS1  
-            if (ds1Obj.count=="0") {
-              document.getElementById("results1").innerHTML = "Your search, <B>"+searchText+"</B>, did not have any DMR DB matches.";
-              document.getElementById("flagPic1").innerHTML = "";
-              document.getElementById("profilePic1").innerHTML = "";
-            } else {
-              // populate with DS1 info
-              for (var i = 0; i < ds1Obj.count; i++) {
-                tableBodyHtml+="<TR><TD><a href=\"https://www.qrz.com/db/" + ds1Obj.results[i].callsign + "\">" + ds1Obj.results[i].callsign + "</a></TD><TD>" + ds1Obj.results[i].fname +" " + ds1Obj.results[i].surname + "</TD><TD>" + ds1Obj.results[i].id + "</TD><TD>" + ds1Obj.results[i].city + ", " + ds1Obj.results[i].state + ", " + ds1Obj.results[i].country + "</TD></TR>";
-              }
-              var fullTable = tableHeaderHtml + tableBodyHtml + "</tbody></TABLE>"
-              document.getElementById("results1").innerHTML = fullTable;
-            }
-            // clear search box
-            // document.getElementById("inputText").value = "";
+    </head>
+    <body>
+        <div class="col-lg-8 mx-auto p-3 py-md-5">
 
-            // Pic search
-            var picCallsign;
-            if(rightDs1Url.includes("callsign")) {
-              picCallsign = searchText;  // callsign provided no need to do a DMR DB search for callsign
-            } else {
-              picCallsign = ds1Obj.results[0].callsign;  // DMR ID provided, must look up callsign
-            }
-            const picUrl = proxyUrl+'https://www.qrz.com/lookup?tquery='+picCallsign+'&mode=callsign';
-            const picPage = httpRequest(picUrl, false);
-            var parser      = new DOMParser ();
-            var responseDocPicPage = parser.parseFromString(picPage, "text/html");
-            const profilePicHtmlObj = responseDocPicPage.getElementById("mypic");
-            const flagPicHtmlObj = responseDocPicPage.getElementById("flg");
-            var picHtml = profilePicHtmlObj.outerHTML;
-            var flagHtml = flagPicHtmlObj.outerHTML;
-            var thumbnailPicHtml = picHtml.replace("ptr", "img-fluid img-thumbnail");
-            //if no pic found then don't display placeholder
-            if(thumbnailPicHtml.includes("com200x150.jpg")) {
-              thumbnailPicHtml=thumbnailPicHtml.replace("src","foo");
-            }
-            document.getElementById("flagPic1").innerHTML = `${flagHtml}`;
-            document.getElementById("profilePic1").innerHTML = `${thumbnailPicHtml}`;
-          } // end of verify input is sanitized
-          else {
-            document.getElementById("inputText").style.borderColor = "red";
-          }
-      }  // end of verify search term was given
-    }  // end function
+            <header class="align-items-center pb-3 mb-5">
+                <h1 class="text-center">📡 QRZ - who is calling me?</h1>
 
-    function httpRequest(reqUrl, useXml) {
-            const request = new XMLHttpRequest();
-            request.open( "GET", reqUrl, false ); 
-            request.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
-            request.send();
-            if (useXml==true) {
-              return request.responseXML;
-            } else {
-              return request.responseText;
-            }
-    }
-    </script>
-  </body>
+            </header>
+
+            <main>
+                <div class="text-center">
+                    <H3><input type="input" class="input-lg col-xs-2" id="inputText" aria-describedby="searchHelp" required></H3>
+                    <div id="inputHelp" class="form-text">Search DMR user DB with DMR ID or FCC call sign.</div>
+                    <button type="button" class="btn btn-primary" onclick="search()">Search</button>
+                    <BR /><BR />
+                    <p id="results1"></p>
+                    <p class="text-center" id="flagPic1"></p>
+                    <p class="text-center" id="profilePic1"></p>
+
+                    <footer class="pt-5 my-5 text-muted border-top">
+                    <p>Data sources online:<BR />
+                        &nbsp;🟢 DMR User DB
+                    </p>
+                    <p>Created by Brian Jester &middot; &copy; 2021</p>
+                    </footer>
+                    
+                </div>
+            </main>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+            <script type="text/javascript">
+                document.addEventListener("keyup", function(event) {
+                    if (event.keyCode === 13) {
+                        search();
+                    }
+                });
+                function search() {
+                    document.getElementById("inputText").style.borderColor = "initial";
+                    const searchText = document.getElementById("inputText").value;
+
+                    // verify search term was given
+                    if (searchText == "") {
+                        document.getElementById("inputText").style.borderColor = "red";
+                    } else {
+                        // verify input is sanitized
+                        const safeChars = "0123456789abcdefghijklmnopqrstuvwxyz";
+                        var isSafe=true;
+                        for (var i = 0; i < searchText.length; i++) {
+                            if (safeChars.indexOf(searchText.toLowerCase().charAt(i)) == -1) {
+                                isSafe=false;
+                            }
+                        }
+                        if (isSafe==true) {
+                            var proxyUrl     = 'https://qrz-cors-anywhere.herokuapp.com/';
+                            const fccUrl = proxyUrl+'http://data.fcc.gov/api/license-view/basicSearch/getLicenses?searchValue=';
+                            const leftDs1Url  = proxyUrl+'https://www.radioid.net/api/dmr/user/?';
+                            var rightDs1Url;
+                            if (isNaN(searchText)) { //true if call sign (not a pure number)
+                                rightDs1Url = 'callsign=';
+                            } else {
+                                rightDs1Url = 'id=';
+                            }
+
+                            // DS1 search
+                            const ds1Obj = JSON.parse(httpRequest(leftDs1Url+rightDs1Url+searchText+'', false));
+
+                            // Create table from DS1 response
+                            const tableHeaderHtml="<TABLE class=\"table table-striped table-condensed\"><thead class=\"thead-dark\"><TR><TH>Callsign</TH><TH>Name</TH><TH>DMR ID</TH><TH>QTH</TH></TR></thead>"
+                            var tableBodyHtml = "<tbody>";
+
+                            // if nothing found, clear inner HTML for DS1  
+                            if (ds1Obj.count=="0") {
+                                document.getElementById("results1").innerHTML = "Your search, <B>"+searchText+"</B>, did not have any DMR DB matches.";
+                                document.getElementById("flagPic1").innerHTML = "";
+                                document.getElementById("profilePic1").innerHTML = "";
+                            } else {
+                                // populate with DS1 info
+                                for (var i = 0; i < ds1Obj.count; i++) { 
+                                    tableBodyHtml+="<TR><TD><a href=\"https://www.qrz.com/db/" + ds1Obj.results[i].callsign + "\">" + ds1Obj.results[i].callsign + "</a></TD><TD>" + ds1Obj.results[i].fname +" " + ds1Obj.results[i].surname + "</TD><TD>" + ds1Obj.results[i].id + "</TD><TD>" + ds1Obj.results[i].city + ", " + ds1Obj.results[i].state + ", " + ds1Obj.results[i].country + "</TD></TR>";
+                                }
+                                var fullTable = tableHeaderHtml + tableBodyHtml + "</tbody></TABLE>"
+                                document.getElementById("results1").innerHTML = fullTable;
+                            }
+                            // clear search box
+                            // document.getElementById("inputText").value = "";
+
+                            // Pic search
+                            var picCallsign;
+                            if(rightDs1Url.includes("callsign")) {
+                                picCallsign = searchText;  // callsign provided no need to do a DMR DB search for callsign
+                            } else {
+                                picCallsign = ds1Obj.results[0].callsign;  // DMR ID provided, must look up callsign
+                            }
+                            const picUrl = proxyUrl+'https://www.qrz.com/lookup?tquery='+picCallsign+'&mode=callsign';
+                            const picPage = httpRequest(picUrl, false);
+                            var parser      = new DOMParser ();
+                            var responseDocPicPage = parser.parseFromString(picPage, "text/html");
+                            const profilePicHtmlObj = responseDocPicPage.getElementById("mypic");
+                            const flagPicHtmlObj = responseDocPicPage.getElementById("flg");
+                            var picHtml = profilePicHtmlObj.outerHTML;
+                            var flagHtml = flagPicHtmlObj.outerHTML;
+                            var thumbnailPicHtml = picHtml.replace("ptr", "img-fluid img-thumbnail");
+                            //if no pic found then don't display placeholder
+                            if(thumbnailPicHtml.includes("com200x150.jpg")) {
+                                thumbnailPicHtml=thumbnailPicHtml.replace("src","foo");
+                            }
+                            document.getElementById("flagPic1").innerHTML = `${flagHtml}`;
+                            document.getElementById("profilePic1").innerHTML = `${thumbnailPicHtml}`;
+                        } // end of verify input is sanitized
+                        else {
+                            document.getElementById("inputText").style.borderColor = "red";
+                        }
+                    }  // end of verify search term was given
+                }  // end function
+
+                function httpRequest(reqUrl, useXml) {
+                    const request = new XMLHttpRequest();
+                    request.open( "GET", reqUrl, false ); 
+                    request.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+                    request.send();
+                    if (useXml==true) {
+                        return request.responseXML;
+                    } else {
+                        return request.responseText;
+                    }
+                }
+            </script>
+        </div>
+    </body>
 </html>
