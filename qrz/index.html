@@ -39,10 +39,47 @@
       gtag('config', 'G-29WC53K3ZV');
     </script>
 
+  </head>
+  <body>
+    <div class="col-lg-8 mx-auto p-3 py-md-5">
+
+        <header class="align-items-center pb-3 mb-5">
+          <div class="text-center">
+            <IMG SRC="./logo.png" class="img-fluid" width="33%" alt="QRZ - who is calling me?">
+          </div>
+        <!-- <h1 class="text-center">📡 QRZ - who is calling me?</h1> -->
+
+      </header>
+
+      <main>
+         <div class="text-center">
+            <H3><input type="text" class="input-lg col-xs-2" id="inputText" aria-describedby="searchHelp" required></H3>
+            <div id="inputHelp" class="form-text">Search DMR user DB with DMR ID or call sign.</div>
+            <button type="button" class="btn btn-primary" onclick="search(false)">Search</button>&nbsp;&nbsp;<button type="button" class="btn btn-secondary" onclick="search(true)">Feeling lucky</button>
+          <BR><BR>
+            <p id="results1"></p>
+            <p class="text-center" id="flagPic1"></p>
+            <p class="text-center" id="profilePic1"></p>
+          </div>
+
+          </main>
+
+     <footer class="pt-5 my-5 text-muted border-top">
+      <p>Data sources online:<BR>
+        &nbsp;🟢 DMR User DB
+      </p>
+      <p>Created by Brian Jester &middot; &copy; 2021</p>
+     </footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
     <script>
       document.addEventListener("keyup", function(event) {
         if (event.keyCode === 13) {
-          search();
+          search(false);
         }
       });
       function search(isLucky) {
@@ -137,6 +174,7 @@
             document.getElementById("inputText").style.borderColor = "red";
           }
       }  // end of verify search term was given
+      return 0;
     }  // end function
 
     function httpRequest(reqUrl, useXml) {
@@ -157,42 +195,6 @@
       return mccs[Math.floor(Math.random()*mccs.length)];
     }
     </script>
-
-  </head>
-  <body>
-    <div class="col-lg-8 mx-auto p-3 py-md-5">
-
-        <header class="align-items-center pb-3 mb-5">
-          <div class="text-center">
-            <IMG SRC="./logo.png" class="img-fluid" width="33%" alt="QRZ - who is calling me?">
-          </div>
-        <!-- <h1 class="text-center">📡 QRZ - who is calling me?</h1> -->
-
-      </header>
-
-      <main>
-         <div class="text-center">
-            <H3><input type="text" class="input-lg col-xs-2" id="inputText" aria-describedby="searchHelp" required></H3>
-            <div id="inputHelp" class="form-text">Search DMR user DB with DMR ID or call sign.</div>
-            <button type="button" class="btn btn-primary" onclick="search(false)">Search</button>&nbsp;&nbsp;<button type="button" class="btn btn-secondary" onclick="search(true)">Feeling lucky</button>
-          <BR><BR>
-            <p id="results1"></p>
-            <p class="text-center" id="flagPic1"></p>
-            <p class="text-center" id="profilePic1"></p>
-          </div>
-
-          </main>
-
-     <footer class="pt-5 my-5 text-muted border-top">
-      <p>Data sources online:<BR>
-        &nbsp;🟢 DMR User DB
-      </p>
-      <p>Created by Brian Jester &middot; &copy; 2021</p>
-     </footer>
-
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
   </body>
 </html>
