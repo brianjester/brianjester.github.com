@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="QRZ - who is calling me?  Search for DMR ID or FCC call sign.">
+    <meta name="description" content="QRZ - who is calling me?  Search for DMR ID or call sign.">
     <meta name="author" content="Brian Jester">
     <title>📡 QRZ - who is calling me?</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/starter-template/">
@@ -53,7 +53,7 @@
       <main>
          <div class="text-center">
             <H3><input type="text" class="input-lg col-xs-2" id="inputText" aria-describedby="searchHelp" required></H3>
-            <div id="inputHelp" class="form-text">Search DMR user DB with DMR ID or FCC call sign.</div>
+            <div id="inputHelp" class="form-text">Search DMR user DB with DMR ID or call sign.</div>
             <button type="button" class="btn btn-primary" onclick="search(false)">Search</button>&nbsp;&nbsp;<button type="button" class="btn btn-secondary" onclick="search(true)">Feeling lucky</button>
           <BR><BR>
             <p id="results1"></p>
@@ -112,7 +112,6 @@
 
           if (isSafe==true) {
             var proxyUrl     = 'https://qrz-cors-anywhere.herokuapp.com/';
-            const fccUrl = proxyUrl+'http://data.fcc.gov/api/license-view/basicSearch/getLicenses?searchValue=';
             const leftDs1Url  = proxyUrl+'https://www.radioid.net/api/dmr/user/?';
             var rightDs1Url;
             if (isNaN(leftSearchText)) { //true if call sign (not a pure number)
