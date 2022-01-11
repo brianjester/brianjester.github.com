@@ -94,7 +94,7 @@
           document.getElementById("inputText").style.borderColor = "red";
         } else {
           // verify input is sanitized
-          const safeChars = "0123456789abcdefghijklmnopqrstuvwxyz/";
+          const safeChars = "0123456789abcdefghijklmnopqrstuvwxyz/ ";
           var isSafe=true;
           for (var i = 0; i < searchText.length; i++) {
             if (safeChars.indexOf(searchText.toLowerCase().charAt(i)) == -1) {
@@ -104,7 +104,8 @@
           
           // Remove anything after a slash as it won't search in DMR DB with a slash suffix
           const searchTextArray = searchText.split("/");
-          const leftSearchText = searchTextArray[0];
+          // remove spaces
+          const leftSearchText = searchTextArray[0].trim();
           document.getElementById("inputText").value = leftSearchText;
 
 
