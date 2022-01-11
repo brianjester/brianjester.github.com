@@ -142,30 +142,34 @@
             // clear search box
             // document.getElementById("inputText").value = "";
 
-            // Pic/flag search
-            document.getElementById("flagPic1").innerHTML = "";
-            document.getElementById("profilePic1").innerHTML = "";
-            var picCallsign;
-            if(rightDs1Url.includes("callsign")) {
-              picCallsign = leftSearchText;  // callsign provided no need to do a DMR DB search for callsign
-            } else {
-              picCallsign = ds1Obj.results[0].callsign;  // DMR ID provided, must look up callsign
+            // If there are results, then look for flag/pic
+            if (ds1Obj.results.length>0) {
+              // Pic/flag search
+              document.getElementById("flagPic1").innerHTML = "";
+              document.getElementById("profilePic1").innerHTML = "";
+              var picCallsign;
+              if(rightDs1Url.includes("callsign")) {
+                picCallsign = leftSearchText;  // callsign provided no need to do a DMR DB search for callsign
+              } else {
+                picCallsign = ds1Obj.results[0].callsign;  // DMR ID provided, must look up callsign
+              }
+              const picUrl = proxyUrl+'https://www.qrz.com/lookup?tquery='+picCallsign+'&mode=callsign';
+              const picPage = httpRequest(picUrl, false);
+              var parser      = new DOMParser ();
+              var responseDocPicPage = parser.parseFromString(picPage, "text/html");
+              const profilePicHtmlObj = responseDocPicPage.getElementById("mypic");
+              const flagPicHtmlObj = responseDocPicPage.getElementById("flg");
+              var picHtml = profilePicHtmlObj.outerHTML;
+              var flagHtml = flagPicHtmlObj.outerHTML;
+              var thumbnailPicHtml = picHtml.replace("ptr", "img-fluid img-thumbnail");
+              //if no pic found then don't display placeholder
+              if(thumbnailPicHtml.includes("com200x150.jpg")) {
+                thumbnailPicHtml=thumbnailPicHtml.replace("src","foo");
+              }
+              document.getElementById("flagPic1").innerHTML = `${flagHtml}`;
+              document.getElementById("profilePic1").innerHTML = `${thumbnailPicHtml}`;
             }
-            const picUrl = proxyUrl+'https://www.qrz.com/lookup?tquery='+picCallsign+'&mode=callsign';
-            const picPage = httpRequest(picUrl, false);
-            var parser      = new DOMParser ();
-            var responseDocPicPage = parser.parseFromString(picPage, "text/html");
-            const profilePicHtmlObj = responseDocPicPage.getElementById("mypic");
-            const flagPicHtmlObj = responseDocPicPage.getElementById("flg");
-            var picHtml = profilePicHtmlObj.outerHTML;
-            var flagHtml = flagPicHtmlObj.outerHTML;
-            var thumbnailPicHtml = picHtml.replace("ptr", "img-fluid img-thumbnail");
-            //if no pic found then don't display placeholder
-            if(thumbnailPicHtml.includes("com200x150.jpg")) {
-              thumbnailPicHtml=thumbnailPicHtml.replace("src","foo");
-            }
-            document.getElementById("flagPic1").innerHTML = `${flagHtml}`;
-            document.getElementById("profilePic1").innerHTML = `${thumbnailPicHtml}`;
+
           } // end of verify input is sanitized
           else {
             document.getElementById("inputText").style.borderColor = "red";
