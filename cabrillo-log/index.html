@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Cabrillo Log">
     <meta name="author" content="Brian Jester KB8UIP/VE3SPG">
-    <meta name="generator" content="Notepad">
+    <meta name="generator" content="VS Code">
     <title>Cabrillo Log · KB8UIP/VE3SPG</title>
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/checkout/">
+    <link rel="canonical" href="https://brianjester.github.io/cabrillo-log/">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
   </head>
@@ -18,66 +18,109 @@
     <div class="py-5 text-center">
       <img class="d-block mx-auto mb-4" src="logo.png" alt="" width="72" height="57">
       <h2>Cabrillo Log</h2>
-      <p class="lead">Use this form to create your contest Cabrillo log.</p>
+      <p class="lead">Use this form to create your contest <A HREF="https://wwrof.org/cabrillo/">Cabrillo</A> log.</p>
     </div>
       <!-- <div class="col-md-7 col-lg-8"> -->
 
       <!-- HEADER -->
       <form>
-        <h3 class="mb-3">Cabrillo Header</h3>
+        <h3 class="mb-3">Cabrillo <A HREF="https://wwrof.org/cabrillo/cabrillo-v3-header/">Header</A></h3>
         <HR>
           <input type="hidden" id="version" name="version" value="3.0">
 
-          <div class="col-sm-20">
+          <div class="col-sm-4">
             <BR>
             <label for="contest" class="form-label"><h4>Contest</h4></label>
-            <input type="text" maxlength="32" pattern="[-A-Za-z0-9]*" class="form-control" id="contest" placeholder="ARRL-FD" value="" required>
-            <div class="invalid-feedback">
-              Valid contest is required.
-            </div>
+            <input type="text" maxlength="32" pattern="[-A-Za-z0-9]*" class="form-control" id="contest" placeholder="ARRL-FD" value="">
+          </div>
+
+          <div class="col-sm-2">
+            <BR>
+            <label for="callsign" class="form-label"><h4>Callsign</h4></label>
+            <input type="text" class="form-control" id="callsign" placeholder="W1AW" value="" >
+          </div>
+
+          <div class="col-sm-12">
+            <BR>
+            <label for="operators" class="form-label"><h4>Operators</h4></label>
+            <input type="text" class="form-control" id="operators" placeholder="" value="">
+          </div>
+
+          <div class="col-sm-4">
+            <BR>
+            <label for="club" class="form-label"><h4>Club</h4></label>
+            <input type="text" class="form-control" id="club" placeholder="" value="" >
           </div>
 
           <!-- <div class="row g-3"> -->
             <div class="col-sm-2">
               <BR>
               <label for="category" class="form-label"><h4>Category</h4></label>
-              <input type="text" class="form-control" id="category" placeholder="1D" value="" required >
-              <div class="invalid-feedback">
-                Valid category is required.
-              </div>
+              <input type="text" class="form-control" id="category" placeholder="1D" value="" >
             </div>
             <BR>
-            <h4 class="mb-3"> Location (Section)</h4>&nbsp;<A HREF="https://contests.arrl.org/contestmultipliers.php?a=wve">ARRL/RAC Section</A>
+            <h4 class="mb-3"> Location (<A HREF="https://contests.arrl.org/contestmultipliers.php?a=wve">Section</A>)</h4>
             <div class="col-sm-2">
-              <input type="text" maxlength="3" class="form-control" id="location" placeholder="SDG" value="" required>
-              <div class="invalid-feedback">
-                Valid location required.
-              </div>
-            </div>
-
-            <div class="col-sm-6">
-              <BR>
-              <label for="callsign" class="form-label"><h4>Callsign</h4></label>
-              <input type="text" class="form-control" id="callsign" placeholder="W1AW" value="" required >
-              <div class="invalid-feedback">
-                Valid callsign is required.
-              </div>
+              <input type="text" maxlength="3" class="form-control" id="location" placeholder="SDG" value="">
             </div>
 
             <BR>
+              <h4 class="mb-3">Category > Band</h4>
+              <select name="category-band" id="category-band">
+                <option value="ALL" selected>ALL</option>
+                <option value="160M">160M</option>
+                <option value="80M">80M</option>
+                <option value="40M">40M</option>
+                <option value="20M">20M</option>
+                <option value="15M">15M</option>
+                <option value="10M">10M</option>
+                <option value="6M">6M</option>
+                <option value="4M">4M</option>
+                <option value="2M">2M</option>
+                <option value="222">222</option>
+                <option value="432">432</option>
+                <option value="902">902</option>
+                <option value="1.2G">1.2G</option>
+                <option value="2.3G">2.3G</option>
+                <option value="3.4G">3.4G</option>
+                <option value="5.7G">5.7G</option>
+                <option value="10G">10G</option>
+                <option value="24G">24G</option>
+                <option value="47G">47G</option>
+                <option value="75G">75G</option>
+                <option value="122G">122G</option>
+                <option value="134G">134G</option>
+                <option value="241G">241G</option>
+                <option value="Light">Light</option>
+                <option value="VHF-3-BAND">VHF-3-BAND</option>
+                <option value="VHF-FM-ONLY">VHF-FM-ONLY</option>
+              </select>
+  
+              <BR><BR>
+              <h4 class="mb-3">Category > Mode</h4>
+              <select name="category-mode" id="category-mode">
+                <option value="CW">CW</option>
+                <option value="DIGI">DIGI</option>
+                <option value="FM">FM</option>
+                <option value="RTTY">RTTY</option>
+                <option value="SSB">SSB</option>
+                <option value="MIXED" selected>MIXED</option>
+              </select>
+
+              <BR><BR>
+                <h4 class="mb-3">Category > Operator</h4>
+                <select name="category-operator" id="category-operator">
+                  <option value="SINGLE-OP" selected>SINGLE-OP</option>
+                  <option value="MULTI-OP">MULTI-OP</option>
+                  <option value="CHECKLOG">CHECKLOG</option>
+                </select>
+
+            <BR><BR>
             <h4 class="mb-3">Category > Power</h4>
             <select name="category-power" id="category-power">
               <option value="HIGH">HIGH</option>
               <option value="LOW" selected>LOW</option>
               <option value="QRP">QRP</option>
-            </select>
-
-            <BR><BR>
-            <h4 class="mb-3">Category > Operator</h4>
-            <select name="category-operator" id="category-operator">
-              <option value="SINGLE-OP" selected>SINGLE-OP</option>
-              <option value="MULTI-OP">MULTI-OP</option>
-              <option value="CHECKLOG">CHECKLOG</option>
             </select>
 
             <BR> <BR>
@@ -96,123 +139,75 @@
               <option value="EXPLORER">EXPLORER</option>
             </select>
 
-            <BR> <BR>
-            <h4 class="mb-3">Category > Band</h4>
-            <select name="category-band" id="category-band">
-              <option value="ALL" selected>ALL</option>
-              <option value="160M">160M</option>
-              <option value="80M">80M</option>
-              <option value="40M">40M</option>
-              <option value="20M">20M</option>
-              <option value="15M">15M</option>
-              <option value="10M">10M</option>
-              <option value="6M">6M</option>
-              <option value="4M">4M</option>
-              <option value="2M">2M</option>
-              <option value="222">222</option>
-              <option value="432">432</option>
-              <option value="902">902</option>
-              <option value="1.2G">1.2G</option>
-              <option value="2.3G">2.3G</option>
-              <option value="3.4G">3.4G</option>
-              <option value="5.7G">5.7G</option>
-              <option value="10G">10G</option>
-              <option value="24G">24G</option>
-              <option value="47G">47G</option>
-              <option value="75G">75G</option>
-              <option value="122G">122G</option>
-              <option value="134G">134G</option>
-              <option value="241G">241G</option>
-              <option value="Light">Light</option>
-              <option value="VHF-3-BAND">VHF-3-BAND</option>
-              <option value="VHF-FM-ONLY">VHF-FM-ONLY</option>
-            </select>
-
-            <BR><BR>
-            <h4 class="mb-3">Category > Mode</h4>
-            <select name="category-mode" id="category-mode">
-              <option value="CW">CW</option>
-              <option value="DIGI">DIGI</option>
-              <option value="FM">FM</option>
-              <option value="RTTY">RTTY</option>
-              <option value="SSB">SSB</option>
-              <option value="MIXED" selected>MIXED</option>
-            </select>
-
-            <div class="col-sm-6">
+            <div class="col-sm-2">
               <BR>
               <label for="claimed-score" class="form-label"><h4>Claimed Score</h4></label>
               <input type="text" class="form-control" id="claimed-score" placeholder="" value="">
             </div>
 
-            <div class="col-sm-12">
+            <div class="col-sm-4">
               <BR>
-              <label for="operators" class="form-label"><h4>Operators</h4></label>
-              <input type="text" class="form-control" id="operators" placeholder="" value="">
-            </div>
-
-            <div class="col-sm-6">
-              <BR>
-              <label for="club" class="form-label"><h4>Club</h4></label>
-              <input type="text" class="form-control" id="club" placeholder="" value="" >
-            </div>
-
-            <div class="col-sm-12">
-              <BR>
-              <label for="name" class="form-label"><H4>Name</H4></label>
-              <input type="text" maxlength="75" class="form-control" id="name" placeholder="Jane Doe" value="" required>
-              <div class="invalid-feedback">
-                Valid name is required.
-              </div>
+              <label for="my-name" class="form-label"><H4>Name</H4></label>
+              <input type="text" maxlength="75" class="form-control" id="my-name" placeholder="Jane Doe" value="">
             </div> 
 
-            <div class="col-sm-12">
+            <div class="col-sm-4">
+              <BR>
+              <label for="email" class="form-label"><H4>Email</H4></label>
+              <input type="text" maxlength="75" class="form-control" id="email" placeholder="jane.doe@example.com" value="">
+            </div> 
+
+            <div class="col-sm-4">
               <BR>
               <label for="ADDRESS" class="form-label"><H4>Address</H4></label>
-              <input type="text" maxlength="45" class="form-control" id="ADDRESS" placeholder="123 Main St" value="" required>
-              <div class="invalid-feedback">
-                Valid address is required.
-              </div>
+              <input type="text" maxlength="45" class="form-control" id="ADDRESS" placeholder="123 Main St" value="">
             </div>
-            <div class="col-sm-6">
-              <BR><label for="ADDRESS" class="form-label"><H4>City</H4></label>
+            <div class="col-sm-3">
+              <BR><label for="ADDRESS-CITY" class="form-label"><H4>City</H4></label>
               <input type="text" maxlength="45" class="form-control" id="ADDRESS-CITY" placeholder="" value="">
-              <BR><label for="ADDRESS" class="form-label"><H4>State/Province</H4></label>
+            </div>
+            <div class="col-sm-3">
+              <BR><label for="ADDRESS-STATE-PROVINCE" class="form-label"><H4>State/Province</H4></label>
               <input type="text" maxlength="45" class="form-control" id="ADDRESS-STATE-PROVINCE" placeholder="CA" value="">
-              <BR><label for="ADDRESS" class="form-label"><H4>Zip/Postal Code</H4></label>
+            </div>
+            <div class="col-sm-3">  
+              <BR><label for="ADDRESS-POSTALCODE" class="form-label"><H4>Zip/Postal Code</H4></label>
               <input type="text" maxlength="45" class="form-control" id="ADDRESS-POSTALCODE" placeholder="12345" value="">
-              <BR><label for="ADDRESS" class="form-label"><H4>Country</H4></label>
+            </div>
+            <div class="col-sm-3">  
+              <BR><label for="ADDRESS-COUNTRY" class="form-label"><H4>Country</H4></label>
               <input type="text" maxlength="45" class="form-control" id="ADDRESS-COUNTRY" placeholder="USA" value="">
             </div>
 
-            <div class="col-sm-12">
+            <div class="col-sm-4">
               <BR>
               <label for="soapbox" class="form-label"><H4>Soapbox</H4></label>
               <input type="text" maxlength="75" class="form-control" id="soapbox" placeholder="Had a great time" value="">
             </div>
            <!-- QSO Data -->
-          <h3 class="mb-3"><BR>Cabrillo QSO Data</h3>
+          <h3 class="mb-3"><BR>Cabrillo <A HREF="https://wwrof.org/cabrillo/cabrillo-qso-data/">QSO Data</A></h3>
             <HR>
           <!-- </div> -->
 
-          <label for="qsos" class="form-label"><H4>QSOs</H4></label>&nbsp;<A HREF="https://wwrof.org/cabrillo/cabrillo-qso-data/">Definitions for each field/column</A>
-          <pre><textarea class="w-100" name="qsos-instructions" rows="5" cols="85" disabled>
+          <label for="qsos-instructions" class="form-label"><H4>QSO Data Example</H4></label>
+          <pre><textarea class="w-75" name="qsos-instructions" rows="6" cols="85" disabled>
                               --------info sent------- -------info rcvd--------
 QSO:  freq mo date       time call          rst exch   call          rst exch   t
 QSO: ***** ** yyyy-mm-dd nnnn ************* nnn ****** ************* nnn ****** n
 QSO: 14217 PH 2022-06-26 0429 KB8UIP         59 1D SDG VE7NSR         59 2A BC  
 QSO: 14323 PH 2022-06-26 0447 KB8UIP         38 1D SDG K8UU              3A OH  
           </textarea></pre>
-          <pre><textarea class="w-100" name="qsos" rows="10" cols="85">
+          <label for="qsos" class="form-label"><H4>QSO Data</H4></label>
+          <pre><textarea class="w-75" name="qsos" rows="10" cols="85">
 QSO: 
           </textarea></pre>
           <hr class="my-4">
-          <button onclick="createCabrilloLog(); return false;" class="w-100 btn btn-primary btn-lg" >Create Cabrillo Log</button>
+          <button onclick="return createCabrilloLog(); return false;" class="w-100 btn btn-primary btn-lg" >Create Cabrillo Log</button>
         </form>
         <!-- Cabrillo Log -->
         <p id="cabrilloLog"></p>
 
-      </div>
+      <!-- </div> -->
     </div>
   </main>
 
@@ -220,28 +215,29 @@ QSO:
     function createCabrilloLog() {
       document.getElementById("cabrilloLog").innerHTML = '<h3 class="mb-3"><BR>Cabrillo Log</h3>'
       + '<HR>'
-      + '<pre><textarea class="w-100" name="qsos" rows="10" cols="85">'
+      + '<pre><textarea class="w-100 border-primary" name="qsos" rows="10" cols="85">'
       + 'START-OF-LOG: '      + document.getElementById("version").value + '\n'
       + 'CONTEST: '           + document.getElementById("contest").value.toUpperCase() + '\n'
-      + 'LOCATION: '          + document.getElementById("location").value.toUpperCase() + '\n'
       + 'CALLSIGN: '          + document.getElementById("callsign").value.toUpperCase() + '\n'
+      + 'OPERATORS:'          + document.getElementById("operators").value.toUpperCase() + '\n'
+      + 'CLUB:'               + document.getElementById("club").value.toUpperCase() + '\n'
       + 'CATEGORY: '          + document.getElementById("category").value.toUpperCase() + '\n'
+      + 'LOCATION: '          + document.getElementById("location").value.toUpperCase() + '\n'
       + 'CATEGORY-BAND: '     + document.getElementById("category-band").value + '\n'
       + 'CATEGORY-MODE: '     + document.getElementById("category-mode").value + '\n'
       + 'CATEGORY-OPERATOR: ' + document.getElementById("category-operator").value + '\n'
       + 'CATEGORY-POWER: '    + document.getElementById("category-power").value + '\n'
       + 'CATEGORY-STATION: '  + document.getElementById("category-station").value.toUpperCase() + '\n'
       + 'CLAIMED-SCORE: '     + document.getElementById("claimed-score").value.toUpperCase() + '\n'
-      + 'CREATED-BY: KB8UIP-VE3SPG Cabrillo Log' + '\n'
-      + 'NAME: ' + '\n'
-      + 'ADDRESS: ' + '\n'
-      + 'ADDRESS-CITY: ' + '\n'
-      + 'ADDRESS-STATE-PROVINCE: ' + '\n'
-      + 'ADDRESS-POSTALCODE: ' + '\n'
-      + 'ADDRESS-COUNTRY: ' + '\n'
-      + 'EMAIL: ' + '\n'
-      + 'OPERATORS:' + '\n'
-      + 'SOAPBOX: ' + '\n'
+      + 'NAME: '              + document.getElementById("my-name").value.toUpperCase() + '\n'
+      + 'EMAIL: '             + document.getElementById("email").value.toUpperCase() + '\n'
+      + 'ADDRESS: '           + document.getElementById("ADDRESS").value.toUpperCase() + '\n'
+      + 'ADDRESS-CITY: '      + document.getElementById("ADDRESS-CITY").value.toUpperCase() + '\n'
+      + 'ADDRESS-STATE-PROVINCE: ' + document.getElementById("ADDRESS-STATE-PROVINCE").value.toUpperCase() + '\n'
+      + 'ADDRESS-POSTALCODE: '+ document.getElementById("ADDRESS-POSTALCODE").value.toUpperCase() + '\n'
+      + 'ADDRESS-COUNTRY: '   + document.getElementById("ADDRESS-COUNTRY").value.toUpperCase() + '\n'
+      + 'SOAPBOX: '           + document.getElementById("soapbox").value.toUpperCase() + '\n'
+      + 'CREATED-BY: CABRILLO LOG BY KB8UIP-VE3SPG' + '\n'
       + 'QSO: '  + '\n'
       + 'END-OF-LOG:'
       + '</textarea></pre>';
