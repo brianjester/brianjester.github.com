@@ -10,8 +10,6 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/checkout/">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
-    <!-- Custom styles for this template -->
-    <link href="form-validation.css" rel="stylesheet">
   </head>
   <body class="bg-secondary p-2" style="--bs-bg-opacity: .2;">
     
@@ -22,34 +20,36 @@
       <h2>Cabrillo Log</h2>
       <p class="lead">Use this form to create your contest Cabrillo log.</p>
     </div>
-      <div class="col-md-7 col-lg-8">
+      <!-- <div class="col-md-7 col-lg-8"> -->
 
       <!-- HEADER -->
-      <form class="needs-validation" novalidate>
+      <form>
         <h3 class="mb-3">Cabrillo Header</h3>
         <HR>
+          <input type="hidden" id="version" name="version" value="3.0">
 
           <div class="col-sm-20">
             <BR>
             <label for="contest" class="form-label"><h4>Contest</h4></label>
-            <input type="text" maxlength="32" pattern="[-A-Za-z0-9]*" class="form-control" id="contest" placeholder="" value="" required>
+            <input type="text" maxlength="32" pattern="[-A-Za-z0-9]*" class="form-control" id="contest" placeholder="ARRL-FD" value="" required>
             <div class="invalid-feedback">
               Valid contest is required.
             </div>
           </div>
 
           <!-- <div class="row g-3"> -->
-            <div class="col-sm-6">
-              <label for="category" class="form-label"><h4>Category</h4></label> (Example: 1D)
-              <input type="text" class="form-control" id="category" placeholder="" value="" required >
+            <div class="col-sm-2">
+              <BR>
+              <label for="category" class="form-label"><h4>Category</h4></label>
+              <input type="text" class="form-control" id="category" placeholder="1D" value="" required >
               <div class="invalid-feedback">
                 Valid category is required.
               </div>
             </div>
-
+            <BR>
             <h4 class="mb-3"> Location (Section)</h4>&nbsp;<A HREF="https://contests.arrl.org/contestmultipliers.php?a=wve">ARRL/RAC Section</A>
             <div class="col-sm-2">
-              <input type="text" maxlength="3" class="form-control" id="location" placeholder="" value="" required>
+              <input type="text" maxlength="3" class="form-control" id="location" placeholder="SDG" value="" required>
               <div class="invalid-feedback">
                 Valid location required.
               </div>
@@ -58,50 +58,35 @@
             <div class="col-sm-6">
               <BR>
               <label for="callsign" class="form-label"><h4>Callsign</h4></label>
-              <input type="text" class="form-control" id="callsign" placeholder="" value="" required >
+              <input type="text" class="form-control" id="callsign" placeholder="W1AW" value="" required >
               <div class="invalid-feedback">
                 Valid callsign is required.
               </div>
             </div>
 
-            <div class="my-3">
-              <h4 class="mb-3">Category > Power</h4>
-              <div class="form-check">
-                <input id="cp-high" name="category-power" type="radio" class="form-check-input"  required>
-                <label class="form-check-label" for="cp-high">HIGH</label>
-              </div>
-              <div class="form-check">
-                <input id="cp-low" name="category-power" type="radio" class="form-check-input" checked required>
-                <label class="form-check-label" for="cp-low">LOW</label>
-              </div>              
-              <div class="form-check">
-                <input id="cp-qrp" name="category-power" type="radio" class="form-check-input" required>
-                <label class="form-check-label" for="cp-qrp">QRP</label>
-              </div>              
-            </div>
+            <BR>
+            <h4 class="mb-3">Category > Power</h4>
+            <select name="category-power" id="category-power">
+              <option value="HIGH">HIGH</option>
+              <option value="LOW" selected>LOW</option>
+              <option value="QRP">QRP</option>
+            </select>
 
-            <div class="my-3">
-              <h4 class="mb-3">Category > Operator</h4>
-              <div class="form-check">
-                <input id="co-single-op" name="category-operator" type="radio" class="form-check-input" checked required>
-                <label class="form-check-label" for="co-single-op">SINGLE-OP</label>
-              </div>
-              <div class="form-check">
-                <input id="co-multi-op" name="category-operator" type="radio" class="form-check-input" required>
-                <label class="form-check-label" for="co-multi-op">MULTI-OP</label>
-              </div>
-              <div class="form-check">
-                <input id="co-checklog" name="category-operator" type="radio" class="form-check-input" required>
-                <label class="form-check-label" for="co-checklog">CHECKLOG</label>
-              </div>
-            </div>
-            
+            <BR><BR>
+            <h4 class="mb-3">Category > Operator</h4>
+            <select name="category-operator" id="category-operator">
+              <option value="SINGLE-OP" selected>SINGLE-OP</option>
+              <option value="MULTI-OP">MULTI-OP</option>
+              <option value="CHECKLOG">CHECKLOG</option>
+            </select>
+
+            <BR> <BR>
             <h4 class="mb-3">Category > Station</h4>
-            <select name="category-station" id="category-operator">
+            <select name="category-station" id="category-station">
               <option value="DISTRIBUTED">DISTRIBUTED</option>
               <option value="FIXED">FIXED</option>
               <option value="MOBILE">MOBILE</option>
-              <option value="PORTABLE">PORTABLE</option>
+              <option value="PORTABLE" selected>PORTABLE</option>
               <option value="ROVER">ROVER</option>
               <option value="ROVER-LIMITED">ROVER-LIMITED</option>
               <option value="ROVER-UNLIMITED">ROVER-UNLIMITED</option>
@@ -111,9 +96,10 @@
               <option value="EXPLORER">EXPLORER</option>
             </select>
 
+            <BR> <BR>
             <h4 class="mb-3">Category > Band</h4>
-            <select name="category-band" id="category-operator">
-              <option value="ALL">ALL</option>
+            <select name="category-band" id="category-band">
+              <option value="ALL" selected>ALL</option>
               <option value="160M">160M</option>
               <option value="80M">80M</option>
               <option value="40M">40M</option>
@@ -142,33 +128,16 @@
               <option value="VHF-FM-ONLY">VHF-FM-ONLY</option>
             </select>
 
-            <div class="my-3">
-              <h4 class="mb-3">Category > Mode</h4>
-              <div class="form-check">
-                <input id="cm-cw" name="category-mode" type="radio" class="form-check-input" required>
-                <label class="form-check-label" for="cm-cw">CW</label>
-              </div>
-              <div class="form-check">
-                <input id="cm-digi" name="category-mode" type="radio" class="form-check-input" required>
-                <label class="form-check-label" for="cm-digi">DIGI</label>
-              </div>              
-              <div class="form-check">
-                <input id="cm-fm" name="category-mode" type="radio" class="form-check-input" required>
-                <label class="form-check-label" for="cm-fm">FM</label>
-              </div>              
-              <div class="form-check">
-                <input id="cm-rtty" name="category-mode" type="radio" class="form-check-input" required>
-                <label class="form-check-label" for="cm-rtty">RTTY</label>
-              </div>              
-              <div class="form-check">
-                <input id="cm-ssb" name="category-mode" type="radio" class="form-check-input" required>
-                <label class="form-check-label" for="cm-ssb">SSB</label>
-              </div>              
-              <div class="form-check">
-                <input id="cm-mixed" name="category-mode" type="radio" class="form-check-input" required checked>
-                <label class="form-check-label" for="cm-mixed">MIXED</label>
-              </div>
-            </div>
+            <BR><BR>
+            <h4 class="mb-3">Category > Mode</h4>
+            <select name="category-mode" id="category-mode">
+              <option value="CW">CW</option>
+              <option value="DIGI">DIGI</option>
+              <option value="FM">FM</option>
+              <option value="RTTY">RTTY</option>
+              <option value="SSB">SSB</option>
+              <option value="MIXED" selected>MIXED</option>
+            </select>
 
             <div class="col-sm-6">
               <BR>
@@ -191,33 +160,40 @@
             <div class="col-sm-12">
               <BR>
               <label for="name" class="form-label"><H4>Name</H4></label>
-              <input type="text" maxlength="75" class="form-control" id="name" placeholder="" value="" required>
+              <input type="text" maxlength="75" class="form-control" id="name" placeholder="Jane Doe" value="" required>
               <div class="invalid-feedback">
                 Valid name is required.
               </div>
-            </div>
+            </div> 
 
             <div class="col-sm-12">
               <BR>
-              <label for="address1" class="form-label"><H4>Address</H4></label>
-              <input type="text" maxlength="45" class="form-control" id="address1" placeholder="" value="" required>
-              <input type="text" maxlength="45" class="form-control" id="address2" placeholder="" value="">
-              <input type="text" maxlength="45" class="form-control" id="address3" placeholder="" value="">
+              <label for="ADDRESS" class="form-label"><H4>Address</H4></label>
+              <input type="text" maxlength="45" class="form-control" id="ADDRESS" placeholder="123 Main St" value="" required>
               <div class="invalid-feedback">
                 Valid address is required.
               </div>
             </div>
+            <div class="col-sm-6">
+              <BR><label for="ADDRESS" class="form-label"><H4>City</H4></label>
+              <input type="text" maxlength="45" class="form-control" id="ADDRESS-CITY" placeholder="" value="">
+              <BR><label for="ADDRESS" class="form-label"><H4>State/Province</H4></label>
+              <input type="text" maxlength="45" class="form-control" id="ADDRESS-STATE-PROVINCE" placeholder="CA" value="">
+              <BR><label for="ADDRESS" class="form-label"><H4>Zip/Postal Code</H4></label>
+              <input type="text" maxlength="45" class="form-control" id="ADDRESS-POSTALCODE" placeholder="12345" value="">
+              <BR><label for="ADDRESS" class="form-label"><H4>Country</H4></label>
+              <input type="text" maxlength="45" class="form-control" id="ADDRESS-COUNTRY" placeholder="USA" value="">
+            </div>
 
-            
             <div class="col-sm-12">
               <BR>
               <label for="soapbox" class="form-label"><H4>Soapbox</H4></label>
-              <input type="text" maxlength="75" class="form-control" id="soapbox" placeholder="" value="">
+              <input type="text" maxlength="75" class="form-control" id="soapbox" placeholder="Had a great time" value="">
             </div>
-                      <!-- QSO -->
+           <!-- QSO Data -->
           <h3 class="mb-3"><BR>Cabrillo QSO Data</h3>
             <HR>
-          </div>
+          <!-- </div> -->
 
           <label for="qsos" class="form-label"><H4>QSOs</H4></label>&nbsp;<A HREF="https://wwrof.org/cabrillo/cabrillo-qso-data/">Definitions for each field/column</A>
           <pre><textarea class="w-100" name="qsos-instructions" rows="5" cols="85" disabled>
@@ -231,47 +207,49 @@ QSO: 14323 PH 2022-06-26 0447 KB8UIP         38 1D SDG K8UU              3A OH
 QSO: 
           </textarea></pre>
           <hr class="my-4">
-          <button onclick="createCabrilloLog()" class="w-100 btn btn-primary btn-lg" >Create Cabrillo Log</button>
+          <button onclick="createCabrilloLog(); return false;" class="w-100 btn btn-primary btn-lg" >Create Cabrillo Log</button>
         </form>
         <!-- Cabrillo Log -->
-        <p id="cabrilloLog" onclick="createCabrilloLog()"></p>
-        <script>
-          function createCabrilloLog() {
-            document.getElementById("cabrilloLog").innerHTML = '<h3 class="mb-3"><BR>Cabrillo Log</h3>'
-            + '<HR>'
-            + '<pre><textarea class="w-100" name="qsos" rows="10" cols="85">'
-            + 'START-OF-LOG: 3.0' + '\n'
-            + 'CONTEST: ' + document.getElementById("contest").value + '\n'
-            + 'LOCATION: SDG' + '\n'
-            + 'CALLSIGN: KB8UIP' + '\n'
-            + 'CATEGORY: 1D' + '\n'
-            + 'CATEGORY-BAND: ALL' + '\n'
-            + 'CATEGORY-MODE: MIXED' + '\n'
-            + 'CATEGORY-OPERATOR: SINGLE-OP' + '\n'
-            + 'CATEGORY-POWER: LOW' + '\n'
-            + 'CATEGORY-STATION: FIXED' + '\n'
-            + 'CLAIMED-SCORE: ' + '\n'
-            + 'CREATED-BY: KB8UIP-VE3SPG Cabrillo Log' + '\n'
-            + 'NAME: brain' + '\n'
-            + 'ADDRESS: 123 main' + '\n'
-            + 'ADDRESS-CITY: ' + '\n'
-            + 'ADDRESS-STATE-PROVINCE: ' + '\n'
-            + 'ADDRESS-POSTALCODE: ' + '\n'
-            + 'ADDRESS-COUNTRY: ' + '\n'
-            + 'EMAIL: a@a.com' + '\n'
-            + 'OPERATORS:' + '\n'
-            + 'SOAPBOX: soapy' + '\n'
-            + 'QSO: '  + '\n'
-            + 'END-OF-LOG:'
-            + '</textarea></pre>';
-            var scrollingElement = (document.scrollingElement || document.body);
-    scrollingElement.scrollTop = scrollingElement.scrollHeight;
-          }
-          </script>
+        <p id="cabrilloLog"></p>
+
       </div>
     </div>
   </main>
 
+  <script>
+    function createCabrilloLog() {
+      document.getElementById("cabrilloLog").innerHTML = '<h3 class="mb-3"><BR>Cabrillo Log</h3>'
+      + '<HR>'
+      + '<pre><textarea class="w-100" name="qsos" rows="10" cols="85">'
+      + 'START-OF-LOG: '      + document.getElementById("version").value + '\n'
+      + 'CONTEST: '           + document.getElementById("contest").value.toUpperCase() + '\n'
+      + 'LOCATION: '          + document.getElementById("location").value.toUpperCase() + '\n'
+      + 'CALLSIGN: '          + document.getElementById("callsign").value.toUpperCase() + '\n'
+      + 'CATEGORY: '          + document.getElementById("category").value.toUpperCase() + '\n'
+      + 'CATEGORY-BAND: '     + document.getElementById("category-band").value + '\n'
+      + 'CATEGORY-MODE: '     + document.getElementById("category-mode").value + '\n'
+      + 'CATEGORY-OPERATOR: ' + document.getElementById("category-operator").value + '\n'
+      + 'CATEGORY-POWER: '    + document.getElementById("category-power").value + '\n'
+      + 'CATEGORY-STATION: '  + document.getElementById("category-station").value.toUpperCase() + '\n'
+      + 'CLAIMED-SCORE: '     + document.getElementById("claimed-score").value.toUpperCase() + '\n'
+      + 'CREATED-BY: KB8UIP-VE3SPG Cabrillo Log' + '\n'
+      + 'NAME: ' + '\n'
+      + 'ADDRESS: ' + '\n'
+      + 'ADDRESS-CITY: ' + '\n'
+      + 'ADDRESS-STATE-PROVINCE: ' + '\n'
+      + 'ADDRESS-POSTALCODE: ' + '\n'
+      + 'ADDRESS-COUNTRY: ' + '\n'
+      + 'EMAIL: ' + '\n'
+      + 'OPERATORS:' + '\n'
+      + 'SOAPBOX: ' + '\n'
+      + 'QSO: '  + '\n'
+      + 'END-OF-LOG:'
+      + '</textarea></pre>';
+      var scrollingElement = (document.scrollingElement || document.body);
+      scrollingElement.scrollTop = scrollingElement.scrollHeight;
+      return false;
+    }
+    </script>
 
   <footer class="my-5 pt-5 text-muted text-center text-small">
     <p class="mb-1">&copy; 2022 Brian Jester KB8UIP/VE3SPG</p>
@@ -281,6 +259,5 @@ QSO:
   </footer>
 </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <script src="form-validation.js"></script>
   </body>
 </html>
