@@ -26,18 +26,17 @@
 
       <!-- HEADER -->
       <form class="needs-validation" novalidate>
-        <h3 class="mb-3">- - - Header - - -</h3>
-        <div class="my-3">
-          <h4 class="mb-3">Version</h4>
-          <div class="form-check">
-            <input id="two" name="version" type="radio" class="form-check-input" disabled required>
-            <label class="form-check-label" for="two">2.0</label>
+        <h3 class="mb-3">Cabrillo Header</h3>
+        <HR>
+
+          <div class="col-sm-20">
+            <BR>
+            <label for="contest" class="form-label"><h4>Contest</h4></label>
+            <input type="text" maxlength="32" pattern="[-A-Za-z0-9]*" class="form-control" id="contest" placeholder="" value="" required>
+            <div class="invalid-feedback">
+              Valid contest is required.
+            </div>
           </div>
-          <div class="form-check">
-            <input id="three" name="version" type="radio" class="form-check-input" checked required>
-            <label class="form-check-label" for="three">3.0</label>
-          </div>
-        </div>
 
           <!-- <div class="row g-3"> -->
             <div class="col-sm-6">
@@ -55,14 +54,7 @@
                 Valid location required.
               </div>
             </div>
-            <div class="col-sm-20">
-              <BR>
-              <label for="contest" class="form-label"><h4>Contest</h4></label>
-              <input type="text" maxlength="32" pattern="[-A-Za-z0-9]*" class="form-control" id="contest" placeholder="" value="" required>
-              <div class="invalid-feedback">
-                Valid contest is required.
-              </div>
-            </div>
+
             <div class="col-sm-6">
               <BR>
               <label for="callsign" class="form-label"><h4>Callsign</h4></label>
@@ -222,9 +214,11 @@
               <label for="soapbox" class="form-label"><H4>Soapbox</H4></label>
               <input type="text" maxlength="75" class="form-control" id="soapbox" placeholder="" value="">
             </div>
+                      <!-- QSO -->
+          <h3 class="mb-3"><BR>Cabrillo QSO Data</h3>
+            <HR>
           </div>
-          <!-- QSO -->
-          <h3 class="mb-3"><BR>- - - QSO Data - - -</h3>
+
           <label for="qsos" class="form-label"><H4>QSOs</H4></label>&nbsp;<A HREF="https://wwrof.org/cabrillo/cabrillo-qso-data/">Definitions for each field/column</A>
           <pre><textarea class="w-100" name="qsos-instructions" rows="5" cols="85" disabled>
                               --------info sent------- -------info rcvd--------
@@ -237,9 +231,44 @@ QSO: 14323 PH 2022-06-26 0447 KB8UIP         38 1D SDG K8UU              3A OH
 QSO: 
           </textarea></pre>
           <hr class="my-4">
-          <button class="w-100 btn btn-primary btn-lg" type="submit">Create Cabrillo Log</button>
+          <button onclick="createCabrilloLog()" class="w-100 btn btn-primary btn-lg" >Create Cabrillo Log</button>
         </form>
-    </div>
+        <!-- Cabrillo Log -->
+        <p id="cabrilloLog" onclick="createCabrilloLog()"></p>
+        <script>
+          function createCabrilloLog() {
+            document.getElementById("cabrilloLog").innerHTML = '<h3 class="mb-3"><BR>Cabrillo Log</h3>'
+            + '<HR>'
+            + '<pre><textarea class="w-100" name="qsos" rows="10" cols="85">'
+            + 'START-OF-LOG: 3.0' + '\n'
+            + 'CONTEST: ' + document.getElementById("contest").value + '\n'
+            + 'LOCATION: SDG' + '\n'
+            + 'CALLSIGN: KB8UIP' + '\n'
+            + 'CATEGORY: 1D' + '\n'
+            + 'CATEGORY-BAND: ALL' + '\n'
+            + 'CATEGORY-MODE: MIXED' + '\n'
+            + 'CATEGORY-OPERATOR: SINGLE-OP' + '\n'
+            + 'CATEGORY-POWER: LOW' + '\n'
+            + 'CATEGORY-STATION: FIXED' + '\n'
+            + 'CLAIMED-SCORE: ' + '\n'
+            + 'CREATED-BY: KB8UIP-VE3SPG Cabrillo Log' + '\n'
+            + 'NAME: brain' + '\n'
+            + 'ADDRESS: 123 main' + '\n'
+            + 'ADDRESS-CITY: ' + '\n'
+            + 'ADDRESS-STATE-PROVINCE: ' + '\n'
+            + 'ADDRESS-POSTALCODE: ' + '\n'
+            + 'ADDRESS-COUNTRY: ' + '\n'
+            + 'EMAIL: a@a.com' + '\n'
+            + 'OPERATORS:' + '\n'
+            + 'SOAPBOX: soapy' + '\n'
+            + 'QSO: '  + '\n'
+            + 'END-OF-LOG:'
+            + '</textarea></pre>';
+            var scrollingElement = (document.scrollingElement || document.body);
+    scrollingElement.scrollTop = scrollingElement.scrollHeight;
+          }
+          </script>
+      </div>
     </div>
   </main>
 
