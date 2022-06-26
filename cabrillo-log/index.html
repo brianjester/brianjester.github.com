@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Cabrillo Log">
+    <meta name="author" content="Brian Jester KB8UIP/VE3SPG">
+    <meta name="generator" content="Notepad">
+    <title>Cabrillo Log · KB8UIP/VE3SPG</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/checkout/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="form-validation.css" rel="stylesheet">
+  </head>
+  <body class="bg-secondary p-2" style="--bs-bg-opacity: .2;">
+    
+<div class="container">
+  <main>
+    <div class="py-5 text-center">
+      <img class="d-block mx-auto mb-4" src="logo.png" alt="" width="72" height="57">
+      <h2>Cabrillo Log</h2>
+      <p class="lead">Use this form to create your contest Cabrillo log.</p>
+    </div>
+      <div class="col-md-7 col-lg-8">
+
+      <!-- HEADER -->
+      <form class="needs-validation" novalidate>
+        <h3 class="mb-3">- - - Header - - -</h3>
+        <div class="my-3">
+          <h4 class="mb-3">Version</h4>
+          <div class="form-check">
+            <input id="two" name="version" type="radio" class="form-check-input" disabled required>
+            <label class="form-check-label" for="two">2.0</label>
+          </div>
+          <div class="form-check">
+            <input id="three" name="version" type="radio" class="form-check-input" checked required>
+            <label class="form-check-label" for="three">3.0</label>
+          </div>
+        </div>
+
+          <!-- <div class="row g-3"> -->
+            <div class="col-sm-6">
+              <label for="category" class="form-label"><h4>Category</h4></label> (Example: 1D)
+              <input type="text" class="form-control" id="category" placeholder="" value="" required >
+              <div class="invalid-feedback">
+                Valid category is required.
+              </div>
+            </div>
+
+            <h4 class="mb-3"> Location (Section)</h4>&nbsp;<A HREF="https://contests.arrl.org/contestmultipliers.php?a=wve">ARRL/RAC Section</A>
+            <div class="col-sm-2">
+              <input type="text" maxlength="3" class="form-control" id="location" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Valid location required.
+              </div>
+            </div>
+            <div class="col-sm-20">
+              <BR>
+              <label for="contest" class="form-label"><h4>Contest</h4></label>
+              <input type="text" maxlength="32" pattern="[-A-Za-z0-9]*" class="form-control" id="contest" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Valid contest is required.
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <BR>
+              <label for="callsign" class="form-label"><h4>Callsign</h4></label>
+              <input type="text" class="form-control" id="callsign" placeholder="" value="" required >
+              <div class="invalid-feedback">
+                Valid callsign is required.
+              </div>
+            </div>
+
+            <div class="my-3">
+              <h4 class="mb-3">Category > Power</h4>
+              <div class="form-check">
+                <input id="cp-high" name="category-power" type="radio" class="form-check-input"  required>
+                <label class="form-check-label" for="cp-high">HIGH</label>
+              </div>
+              <div class="form-check">
+                <input id="cp-low" name="category-power" type="radio" class="form-check-input" checked required>
+                <label class="form-check-label" for="cp-low">LOW</label>
+              </div>              
+              <div class="form-check">
+                <input id="cp-qrp" name="category-power" type="radio" class="form-check-input" required>
+                <label class="form-check-label" for="cp-qrp">QRP</label>
+              </div>              
+            </div>
+
+            <div class="my-3">
+              <h4 class="mb-3">Category > Operator</h4>
+              <div class="form-check">
+                <input id="co-single-op" name="category-operator" type="radio" class="form-check-input" checked required>
+                <label class="form-check-label" for="co-single-op">SINGLE-OP</label>
+              </div>
+              <div class="form-check">
+                <input id="co-multi-op" name="category-operator" type="radio" class="form-check-input" required>
+                <label class="form-check-label" for="co-multi-op">MULTI-OP</label>
+              </div>
+              <div class="form-check">
+                <input id="co-checklog" name="category-operator" type="radio" class="form-check-input" required>
+                <label class="form-check-label" for="co-checklog">CHECKLOG</label>
+              </div>
+            </div>
+            
+            <h4 class="mb-3">Category > Station</h4>
+            <select name="category-station" id="category-operator">
+              <option value="DISTRIBUTED">DISTRIBUTED</option>
+              <option value="FIXED">FIXED</option>
+              <option value="MOBILE">MOBILE</option>
+              <option value="PORTABLE">PORTABLE</option>
+              <option value="ROVER">ROVER</option>
+              <option value="ROVER-LIMITED">ROVER-LIMITED</option>
+              <option value="ROVER-UNLIMITED">ROVER-UNLIMITED</option>
+              <option value="EXPEDITION">EXPEDITION</option>
+              <option value="HQ">HQ</option>
+              <option value="SCHOOL">SCHOOL</option>
+              <option value="EXPLORER">EXPLORER</option>
+            </select>
+
+            <h4 class="mb-3">Category > Band</h4>
+            <select name="category-band" id="category-operator">
+              <option value="ALL">ALL</option>
+              <option value="160M">160M</option>
+              <option value="80M">80M</option>
+              <option value="40M">40M</option>
+              <option value="20M">20M</option>
+              <option value="15M">15M</option>
+              <option value="10M">10M</option>
+              <option value="6M">6M</option>
+              <option value="4M">4M</option>
+              <option value="2M">2M</option>
+              <option value="222">222</option>
+              <option value="432">432</option>
+              <option value="902">902</option>
+              <option value="1.2G">1.2G</option>
+              <option value="2.3G">2.3G</option>
+              <option value="3.4G">3.4G</option>
+              <option value="5.7G">5.7G</option>
+              <option value="10G">10G</option>
+              <option value="24G">24G</option>
+              <option value="47G">47G</option>
+              <option value="75G">75G</option>
+              <option value="122G">122G</option>
+              <option value="134G">134G</option>
+              <option value="241G">241G</option>
+              <option value="Light">Light</option>
+              <option value="VHF-3-BAND">VHF-3-BAND</option>
+              <option value="VHF-FM-ONLY">VHF-FM-ONLY</option>
+            </select>
+
+            <div class="my-3">
+              <h4 class="mb-3">Category > Mode</h4>
+              <div class="form-check">
+                <input id="cm-cw" name="category-mode" type="radio" class="form-check-input" required>
+                <label class="form-check-label" for="cm-cw">CW</label>
+              </div>
+              <div class="form-check">
+                <input id="cm-digi" name="category-mode" type="radio" class="form-check-input" required>
+                <label class="form-check-label" for="cm-digi">DIGI</label>
+              </div>              
+              <div class="form-check">
+                <input id="cm-fm" name="category-mode" type="radio" class="form-check-input" required>
+                <label class="form-check-label" for="cm-fm">FM</label>
+              </div>              
+              <div class="form-check">
+                <input id="cm-rtty" name="category-mode" type="radio" class="form-check-input" required>
+                <label class="form-check-label" for="cm-rtty">RTTY</label>
+              </div>              
+              <div class="form-check">
+                <input id="cm-ssb" name="category-mode" type="radio" class="form-check-input" required>
+                <label class="form-check-label" for="cm-ssb">SSB</label>
+              </div>              
+              <div class="form-check">
+                <input id="cm-mixed" name="category-mode" type="radio" class="form-check-input" required checked>
+                <label class="form-check-label" for="cm-mixed">MIXED</label>
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <BR>
+              <label for="claimed-score" class="form-label"><h4>Claimed Score</h4></label>
+              <input type="text" class="form-control" id="claimed-score" placeholder="" value="">
+            </div>
+
+            <div class="col-sm-12">
+              <BR>
+              <label for="operators" class="form-label"><h4>Operators</h4></label>
+              <input type="text" class="form-control" id="operators" placeholder="" value="">
+            </div>
+
+            <div class="col-sm-6">
+              <BR>
+              <label for="club" class="form-label"><h4>Club</h4></label>
+              <input type="text" class="form-control" id="club" placeholder="" value="" >
+            </div>
+
+            <div class="col-sm-12">
+              <BR>
+              <label for="name" class="form-label"><H4>Name</H4></label>
+              <input type="text" maxlength="75" class="form-control" id="name" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Valid name is required.
+              </div>
+            </div>
+
+            <div class="col-sm-12">
+              <BR>
+              <label for="address1" class="form-label"><H4>Address</H4></label>
+              <input type="text" maxlength="45" class="form-control" id="address1" placeholder="" value="" required>
+              <input type="text" maxlength="45" class="form-control" id="address2" placeholder="" value="">
+              <input type="text" maxlength="45" class="form-control" id="address3" placeholder="" value="">
+              <div class="invalid-feedback">
+                Valid address is required.
+              </div>
+            </div>
+
+            
+            <div class="col-sm-12">
+              <BR>
+              <label for="soapbox" class="form-label"><H4>Soapbox</H4></label>
+              <input type="text" maxlength="75" class="form-control" id="soapbox" placeholder="" value="">
+            </div>
+          </div>
+          <!-- QSO -->
+          <h3 class="mb-3"><BR>- - - QSO Data - - -</h3>
+          <label for="qsos" class="form-label"><H4>QSOs</H4></label>&nbsp;<A HREF="https://wwrof.org/cabrillo/cabrillo-qso-data/">Definitions for each field/column</A>
+          <pre><textarea class="w-100" name="qsos-instructions" rows="5" cols="85" disabled>
+                              --------info sent------- -------info rcvd--------
+QSO:  freq mo date       time call          rst exch   call          rst exch   t
+QSO: ***** ** yyyy-mm-dd nnnn ************* nnn ****** ************* nnn ****** n
+QSO: 14217 PH 2022-06-26 0429 KB8UIP         59 1D SDG VE7NSR         59 2A BC  
+QSO: 14323 PH 2022-06-26 0447 KB8UIP         38 1D SDG K8UU              3A OH  
+          </textarea></pre>
+          <pre><textarea class="w-100" name="qsos" rows="10" cols="85">
+QSO: 
+          </textarea></pre>
+          <hr class="my-4">
+          <button class="w-100 btn btn-primary btn-lg" type="submit">Create Cabrillo Log</button>
+        </form>
+    </div>
+    </div>
+  </main>
+
+
+  <footer class="my-5 pt-5 text-muted text-center text-small">
+    <p class="mb-1">&copy; 2022 Brian Jester KB8UIP/VE3SPG</p>
+  </footer>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="form-validation.js"></script>
+  </body>
+</html>
