@@ -142,16 +142,46 @@
             </select>
 
             <HR>
-              <h4 class="mb-3"><I>Additional Optional Fields</I></h4>
+              <h4 class="mb-3 text-secondary"><I>Additional Optional Fields</I></h4>
               <h4 class="mb-3">Category > Assisted</h4>
               <select name="category-assisted" id="category-assisted">
+                <option value="" selected></option>
                 <option value="ASSISTED">ASSISTED</option>
-                <option value="NON-ASSISTED" selected>NON-ASSISTED</option>
+                <option value="NON-ASSISTED">NON-ASSISTED</option>
               </select>
+
+              <BR><BR>
+              <h4 class="mb-3">Category > Transmitter</h4>
+              <select name="category-transmitter" id="category-transmitter">
+                <option value="" selected></option>
+                <option value="ONE">ONE</option>
+                <option value="TWO">TWO</option>
+                <option value="LIMITED">LIMITED</option>
+                <option value="UNLIMITED">UNLIMITED</option>
+                <option value="SWL">SWL</option>
+              </select>              
+              
+              <BR><BR>
+                <h4 class="mb-3">Category > Overlay</h4>
+              <select name="category-overlay" id="category-overlay">
+                <option value="" selected></option>
+                <option value="CLASSIC">CLASSIC</option>
+                <option value="ROOKIE">ROOKIE</option>
+                <option value="TB-WIRES">TB-WIRES</option>
+                <option value="YOUTH">YOUTH</option>
+                <option value="NOVICE-TECH">NOVICE-TECH</option>
+                <option value="OVER-50">OVER-50</option>
+              </select>
+                            
+              <div class="col-sm-4">
+                <BR>
+                <label for="grid" class="form-label"><h4><A HREF="https://www.levinecentral.com/ham/grid_square.php">Grid</A> Locator</h4></label>
+                <input type="text" class="form-control" id="grid" placeholder="" value="" >
+              </div>
+              
             <HR>
 
             <div class="col-sm-2">
-              <BR>
               <label for="claimed-score" class="form-label"><h4>Claimed Score</h4></label>
               <input type="text" class="form-control" id="claimed-score" placeholder="" value="">
             </div>
@@ -200,22 +230,37 @@
             <HR>
           <!-- </div> -->
 
-          <label for="qsos-instructions" class="form-label"><H4>QSO Data Example</H4></label>
-          <pre><textarea class="w-75" name="qsos-instructions" rows="6" cols="85" disabled>
+          <label for="qsos-instructions" class="form-label"><H4>QSO Data Examples</H4></label>
+<BR>Example 1:
+<pre><textarea class="w-75" name="qsos-instructions" rows="5" cols="85" disabled>
                               --------info sent------- -------info rcvd--------
 QSO:  freq mo date       time call          rst exch   call          rst exch   t
 QSO: ***** ** yyyy-mm-dd nnnn ************* nnn ****** ************* nnn ****** n
+</textarea>
+<textarea class="w-75" name="qsos-instructions" rows="2" cols="85" disabled>
 QSO: 14217 PH 2022-06-26 0429 KB8UIP         59 1D SDG VE7NSR         59 2A BC  
-QSO: 14323 PH 2022-06-26 0447 KB8UIP         38 1D SDG K8UU              3A OH  
+</textarea>
+Example 2:
+<textarea class="w-75" name="qsos-instructions" rows="4" cols="85" disabled>
+                              --------info sent------ -------info rcvd-------
+QSO:  freq mo date       time call          cat  sec  call          cat  sec 
+</textarea>
+<textarea class="w-75" name="qsos-instructions" rows="2" cols="85" disabled>
+QSO: 14652 FM 2022-06-26 1351 KB8UIP        1D   SDG  W6A           2F   SDG  
           </textarea></pre>
           <label for="qsos" class="form-label"><H4>QSO Data</H4></label>
           <pre><textarea class="w-75" name="qsos" rows="10" cols="85" id="qsos">
 QSO: </textarea></pre>
           <hr class="my-4">
-          <button onclick="return createCabrilloLog(); return false;" class="w-100 btn btn-primary btn-lg" >Create Cabrillo Log</button>
+          <button onclick="return createCabrilloLog(); return false;" class="btn btn-primary btn-lg">Create Cabrillo Log</button>
         </form>
         <!-- Cabrillo Log -->
-        <p id="cabrilloLog"></p>
+        <h3 class="mb-3"><BR>Cabrillo Log (Header + QSO Data)</h3>
+         <HR>
+          <pre><textarea id="cabrilloLog" class="w-75 border-primary" name="cabrilloLog" rows="10" cols="85">
+          
+          </textarea></pre>
+          <button class="btn btn-primary btn-lg" onclick="copyQso()">Copy Log to Clipboard</button>
 
       <!-- </div> -->
     </div>
@@ -223,10 +268,8 @@ QSO: </textarea></pre>
 
   <script>
     function createCabrilloLog() {
-      document.getElementById("cabrilloLog").innerHTML = '<h3 class="mb-3"><BR>Cabrillo Log</h3>'
-      + '<HR>'
-      + '<pre><textarea class="w-100 border-primary" name="qsos" rows="10" cols="85">'
-      + 'START-OF-LOG: '      + document.getElementById("version").value + '\n'
+      document.getElementById("cabrilloLog").innerHTML = 
+        'START-OF-LOG: '      + document.getElementById("version").value + '\n'
       + 'CONTEST: '           + document.getElementById("contest").value.toUpperCase() + '\n'
       + 'CALLSIGN: '          + document.getElementById("callsign").value.toUpperCase() + '\n'
       + 'OPERATORS:'          + document.getElementById("operators").value.toUpperCase() + '\n'
@@ -238,6 +281,10 @@ QSO: </textarea></pre>
       + 'CATEGORY-OPERATOR: ' + document.getElementById("category-operator").value + '\n'
       + 'CATEGORY-POWER: '    + document.getElementById("category-power").value + '\n'
       + 'CATEGORY-STATION: '  + document.getElementById("category-station").value.toUpperCase() + '\n'
+      + 'CATEGORY-ASSISTED: ' + document.getElementById("category-assisted").value.toUpperCase() + '\n'
+      + 'CATEGORY-TRANSMITTER: '+ document.getElementById("category-transmitter").value.toUpperCase() + '\n'
+      + 'CATEGORY-OVERLAY: '  + document.getElementById("category-overlay").value.toUpperCase() + '\n'
+      + 'GRID: '              + document.getElementById("grid").value.toUpperCase() + '\n'
       + 'CLAIMED-SCORE: '     + document.getElementById("claimed-score").value.toUpperCase() + '\n'
       + 'NAME: '              + document.getElementById("my-name").value.toUpperCase() + '\n'
       + 'EMAIL: '             + document.getElementById("email").value.toUpperCase() + '\n'
@@ -248,12 +295,22 @@ QSO: </textarea></pre>
       + 'ADDRESS-COUNTRY: '   + document.getElementById("ADDRESS-COUNTRY").value.toUpperCase() + '\n'
       + 'SOAPBOX: '           + document.getElementById("soapbox").value.toUpperCase() + '\n'
       + 'CREATED-BY: CABRILLO LOG BY KB8UIP-VE3SPG' + '\n'
-      + document.getElementById("qsos").value.toUpperCase() + '\n'
-      + 'END-OF-LOG:'
-      + '</textarea></pre>';
+      + document.getElementById('qsos').value.toUpperCase() + '\n'
+      + 'END-OF-LOG:';
       var scrollingElement = (document.scrollingElement || document.body);
       scrollingElement.scrollTop = scrollingElement.scrollHeight;
       return false;
+    }
+
+    function copyQso() {
+      /* Get the text field */
+      var copyText = document.getElementById("cabrilloLog");
+
+      /* Copy the text inside the text field */
+      navigator.clipboard.writeText(copyText.textContent);
+      
+      /* Alert the copied text */
+      alert("Copied the text: " + copyText.textContent);
     }
     </script>
 
