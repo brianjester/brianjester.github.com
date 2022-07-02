@@ -36,7 +36,13 @@
       <form>
         <h3 class="mb-3">Cabrillo <A HREF="https://wwrof.org/cabrillo/cabrillo-v3-header/">Header</A></h3>
         <HR>
-          <input type="hidden" id="version" name="version" value="3.0">
+          <!-- <input type="hidden" id="version" name="version" value="3.0"> -->
+          <h4 class="mb-3">Version</h4>
+          <select name="version" id="version">
+            <option value="2.0">2.0</option>
+            <option value="3.0" selected>3.0 (ARRL/RAC)</option>
+            <option value="3.3">3.3</option>
+          </select>
 
           <div class="col-sm-4">
             <BR>
@@ -63,18 +69,6 @@
           </div>
 
           <!-- <div class="row g-3"> -->
-            <div class="col-sm-2">
-              <BR>
-              <label for="category" class="form-label"><h4>Category</h4></label>
-              <input type="text" class="form-control" id="category" placeholder="1D" value="" >
-            </div>
-            <BR>
-            <h4 class="mb-3"> Location (<A HREF="http://www.arrl.org/section-abbreviations">ARRL/RAC Section</A> / 
-              <A HREF="http://www.rsgbiota.org/">IOTA Island Name</A> / 
-              <A HREF="http://rdaward.org/rda_eng.txt">RDA Number</A>)</h4>
-            <div class="col-sm-2">
-              <input type="text" maxlength="3" class="form-control" id="location" placeholder="SDG" value="">
-            </div>
 
             <BR>
               <h4 class="mb-3">Category > Band</h4>
@@ -135,25 +129,38 @@
               <option value="QRP">QRP</option>
             </select>
 
-            <BR> <BR>
-            <h4 class="mb-3">Category > Station</h4>
-            <select name="category-station" id="category-station">
-              <option value="DISTRIBUTED">DISTRIBUTED</option>
-              <option value="FIXED">FIXED</option>
-              <option value="MOBILE">MOBILE</option>
-              <option value="PORTABLE" selected>PORTABLE</option>
-              <option value="ROVER">ROVER</option>
-              <option value="ROVER-LIMITED">ROVER-LIMITED</option>
-              <option value="ROVER-UNLIMITED">ROVER-UNLIMITED</option>
-              <option value="EXPEDITION">EXPEDITION</option>
-              <option value="HQ">HQ</option>
-              <option value="SCHOOL">SCHOOL</option>
-              <option value="EXPLORER">EXPLORER</option>
-            </select>
+            <BR><BR>
+            <h4 class="mb-3"> Location (<A HREF="http://www.arrl.org/section-abbreviations">ARRL/RAC Section</A> / 
+              <A HREF="http://www.rsgbiota.org/">IOTA Island Name</A> / 
+              <A HREF="http://rdaward.org/rda_eng.txt">RDA Number</A>)</h4>
+            <div class="col-sm-2">
+              <input type="text" maxlength="3" class="form-control" id="location" placeholder="DX" value="">
+            </div>
 
             <HR>
               <h4 class="mb-3 text-secondary"><I>Additional Optional Fields</I></h4>
-              <h4 class="mb-3">Category > Assisted</h4>
+              <div class="col-sm-2">
+                <label for="category" class="form-label"><h4>Category</h4></label>
+                <input type="text" class="form-control" id="category" placeholder="1D" value="" >
+              </div>
+
+              <BR><h4 class="mb-3">Category > Station</h4>
+                <select name="category-station" id="category-station">
+                  <option value=""></option>
+                  <option value="DISTRIBUTED">DISTRIBUTED</option>
+                  <option value="FIXED">FIXED</option>
+                  <option value="MOBILE">MOBILE</option>
+                  <option value="PORTABLE" selected>PORTABLE</option>
+                  <option value="ROVER">ROVER</option>
+                  <option value="ROVER-LIMITED">ROVER-LIMITED</option>
+                  <option value="ROVER-UNLIMITED">ROVER-UNLIMITED</option>
+                  <option value="EXPEDITION">EXPEDITION</option>
+                  <option value="HQ">HQ</option>
+                  <option value="SCHOOL">SCHOOL</option>
+                  <option value="EXPLORER">EXPLORER</option>
+                </select>
+
+              <BR><BR><h4 class="mb-3">Category > Assisted</h4>
               <select name="category-assisted" id="category-assisted">
                 <option value="" selected></option>
                 <option value="ASSISTED">ASSISTED</option>
@@ -240,17 +247,21 @@
             <HR>
           <!-- </div> -->
 
-          <label for="qsos-instructions" class="form-label"><H4>QSO Data Examples</H4></label>
-<BR><B>Example 1:</B>
+          <label for="qsos-instructions" class="form-label"><H4>QSO Data Examples (<A HREF="http://www.arrl.org/cabrillo-format-tutorial">ARRL</A> / <A HREF="https://www.rac.ca/wp-content/uploads/2021/12/RAC-Cabrillo-V3.3.pdf">RAC</A>)</H4></label>
+
+<BR><B>CANADA-DAY Example:</B>
 <pre><textarea class="w-75 bg-info" style="--bs-bg-opacity: .1;" name="qsos-instructions" rows="4" cols="85" readonly>
-                              --------info sent------- -------info rcvd--------
-QSO:  freq mo date       time call          rst exch   call          rst exch   t
-QSO: ***** ** yyyy-mm-dd nnnn ************* nnn ****** ************* nnn ****** n
+                              --------info sent------- -------info rcvd------
+      freq mo   date     time call          rst exch   call          rst exch
+00000000011111111112222222222333333333344444444445555555555666666666677777777778
+12345678901234567890123456789012345678901234567890123456789012345678901234567890 
 </textarea>
-<textarea class="w-75 bg-info" style="--bs-bg-opacity: .1;" name="qsos-instructions" rows="1" cols="85" readonly>
-QSO: 14217 PH 2022-06-26 0429 KB8UIP         59 1D SDG VE7NSR         59 2A BC  
+<textarea class="w-75 bg-info" style="--bs-bg-opacity: .1;" name="qsos-instructions" rows="2" cols="85" readonly>
+QSO:  7177 PH 2003-07-01 0525 KB8UIP        59 6 1     VE4SG          59 MB
+QSO: 14202 PH 2003-07-01 2159 KB8UIP        59 6 2     VE7RAC         59 BC
 </textarea></pre>
-<B>Example 2:</B>
+
+<B>ARRL-FD Example:</B>
 <pre><textarea class="w-75 bg-info" style="--bs-bg-opacity: .1;" name="qsos-instructions" rows="3" cols="85" readonly>
                               --------info sent------ -------info rcvd-------
 QSO:  freq mo date       time call          cat  sec  call          cat  sec 
@@ -291,9 +302,9 @@ QSO: </textarea></pre>
       + 'CATEGORY-OPERATOR: ' + document.getElementById("category-operator").value + '\n'
       + 'CATEGORY-POWER: '    + document.getElementById("category-power").value + '\n'
       + 'CATEGORY-STATION: '  + document.getElementById("category-station").value.toUpperCase() + '\n'
-      + 'CATEGORY-ASSISTED: ' + document.getElementById("category-assisted").value.toUpperCase() + '\n'
-      + 'CATEGORY-TRANSMITTER: '+ document.getElementById("category-transmitter").value.toUpperCase() + '\n'
-      + 'CATEGORY-OVERLAY: '  + document.getElementById("category-overlay").value.toUpperCase() + '\n'
+      + 'CATEGORY-ASSISTED: ' + document.getElementById("category-assisted").value + '\n'
+      + 'CATEGORY-TRANSMITTER: '+ document.getElementById("category-transmitter").value + '\n'
+      + 'CATEGORY-OVERLAY: '  + document.getElementById("category-overlay").value + '\n'
       + 'GRID: '              + document.getElementById("grid").value.toUpperCase() + '\n'
       + 'CLAIMED-SCORE: '     + document.getElementById("claimed-score").value.toUpperCase() + '\n'
       + 'NAME: '              + document.getElementById("my-name").value.toUpperCase() + '\n'
