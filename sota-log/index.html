@@ -74,19 +74,6 @@
                 <label for="time" class="form-label"><h4>Time</h4></label>
                 <input type="text" class="form-control" id="time" placeholder="HHMM" value="" >
               </div>
-      
-              <div class="col-sm-3">
-                <label for="mode" class="form-label"><h4>Mode</h4></label>
-                <select name="mode" id="mode">
-                  <option value="CW">CW</option>
-                  <option value="SSB">SSB</option>
-                  <option value="FM" selected>FM</option>
-                  <option value="DATA">DATA</option>
-                  <option value="DV">DV</option>
-                  <option value="AM">AM</option>
-                  <option value="Other work">Other</option>
-                </select>
-              </div>
 
               <BR><BR>
                 <div class="col-sm-3">
@@ -115,6 +102,19 @@
                     <option value="10GHz">10GHz</option>
                     <option value="24GHz">24GHz</option>
                     <option value="Microwave">Microwave</option>
+                  </select>
+                </div>
+
+                <div class="col-sm-3">
+                  <label for="mode" class="form-label"><h4>Mode</h4></label>
+                  <select name="mode" id="mode">
+                    <option value="CW">CW</option>
+                    <option value="SSB">SSB</option>
+                    <option value="FM" selected>FM</option>
+                    <option value="DATA">DATA</option>
+                    <option value="DV">DV</option>
+                    <option value="AM">AM</option>
+                    <option value="Other work">Other</option>
                   </select>
                 </div>
 
@@ -163,8 +163,8 @@
       + document.getElementById("mySummit").value.toUpperCase() + ','
       + document.getElementById("date").value + ','
       + document.getElementById("time").value + ','
-      + document.getElementById("mode").value + ','
       + document.getElementById("band").value + ','
+      + document.getElementById("mode").value + ','
       + document.getElementById("theirCallsign").value.toUpperCase() + ','
       + document.getElementById("theirSummit").value.toUpperCase() + ','
       + document.getElementById("notes").value.toUpperCase() + '\n';
