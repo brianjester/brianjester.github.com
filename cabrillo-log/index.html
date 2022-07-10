@@ -250,28 +250,36 @@
           <label for="qsos-instructions" class="form-label"><H4>QSO Data Examples (<A HREF="http://www.arrl.org/cabrillo-format-tutorial">ARRL</A> / <A HREF="https://www.rac.ca/wp-content/uploads/2021/12/RAC-Cabrillo-V3.3.pdf">RAC</A>)</H4></label>
 
 <BR><B>CANADA-DAY Example:</B>
-<pre><textarea class="w-75 bg-info" style="--bs-bg-opacity: .1;" name="qsos-instructions" rows="4" cols="85" readonly>
+<pre><textarea class="w-75 bg-info" style="--bs-bg-opacity: .1;" name="qsos-instructions" rows="2" cols="85" readonly>
                               --------info sent------- -------info rcvd------
-      freq mo   date     time call          rst exch   call          rst exch
-00000000011111111112222222222333333333344444444445555555555666666666677777777778
-12345678901234567890123456789012345678901234567890123456789012345678901234567890 
+QSO:  freq mo   date     time call          rst exch   call          rst exch
 </textarea>
-<textarea class="w-75 bg-info" style="--bs-bg-opacity: .1;" name="qsos-instructions" rows="2" cols="85" readonly>
+<textarea class="w-75 bg-info" style="--bs-bg-opacity: .1;" name="qsos-instructions" rows="1" cols="85" readonly>
 QSO:  7177 PH 2003-07-01 0525 KB8UIP        59 6 1     VE4SG          59 MB
-QSO: 14202 PH 2003-07-01 2159 KB8UIP        59 6 2     VE7RAC         59 BC
 </textarea></pre>
 
 <B>ARRL-FD Example:</B>
-<pre><textarea class="w-75 bg-info" style="--bs-bg-opacity: .1;" name="qsos-instructions" rows="3" cols="85" readonly>
+<pre><textarea class="w-75 bg-info" style="--bs-bg-opacity: .1;" name="qsos-instructions" rows="2" cols="85" readonly>
                               --------info sent------ -------info rcvd-------
-QSO:  freq mo date       time call          cat  sec  call          cat  sec 
+QSO:  freq mo date       time call          cat  sec  call          cat  sec
 </textarea>
 <textarea class="w-75 bg-info" style="--bs-bg-opacity: .1;" name="qsos-instructions" rows="1" cols="85" readonly>
-QSO: 14652 FM 2022-06-26 1351 KB8UIP        1D   SDG  W6A           2F   SDG  
-          </textarea></pre>
-          <label for="qsos" class="form-label"><H4>QSO Data</H4></label>
-          <pre><textarea class="w-75" name="qsos" rows="10" cols="85" id="qsos">
+QSO: 14652 FM 2022-06-26 1351 KB8UIP        1D   SDG  W6A           2F   SDG
+</textarea></pre>
+
+<B>IARU-HF Example:</B>
+<pre><textarea class="w-75 bg-info" style="--bs-bg-opacity: .1;" name="qsos-instructions" rows="2" cols="85" readonly>
+                              --------info sent------ -------info rcvd-------
+QSO:  freq mo date       time call          rst zone  call           rst zone
+</textarea>
+<textarea class="w-75 bg-info" style="--bs-bg-opacity: .1;" name="qsos-instructions" rows="1" cols="85" readonly>
+QSO: 14000 PH 2022-07-09 1200 KB8UIP        59  06     N7WA          59  06
+</textarea></pre>
+
+<label for="qsos" class="form-label"><H4>QSO Data</H4></label>
+<pre><textarea class="w-75" name="qsos" rows="10" cols="85" id="qsos">
 QSO: </textarea></pre>
+
           <hr class="my-4">
           <button onclick="return createCabrilloLog(); return false;" class="btn btn-primary btn-lg">Create Cabrillo Log</button>
         </form>
