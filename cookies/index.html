@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+
+function displayCookies() {
+var fname=getCookie("firstname");
+if (fname==null) {fname="";}
+if (fname!="") {fname="firstname="+fname;}
+var lname=getCookie("lastname");
+if (lname==null) {lname="";}
+if (lname!="") {lname="lastname="+lname;}
+alert (fname + " " + lname);
+}
+function getCookie(name) {
+var nameEQ = name + "=";
+//alert(document.cookie);
+var ca = document.cookie.split(';');
+for(var i=0;i < ca.length;i++) {
+var c = ca[i];
+while (c.charAt(0)==' ') c = c.substring(1);
+if (c.indexOf(nameEQ) != -1) return c.substring(nameEQ.length,c.length);
+}
+return null;
+} 
+
+</script>
+</head>
+
+<body onload="checkCookie()">
+  
+<button type="button" onclick="displayCookies()">Display All Cookies</button>
+
+<button type="button" onclick="document.cookie=&quot;firstname=John;expires=Wed, 18 Dec 2026 12:00:00 GMT&quot;">Create Cookie 1</button>
+
+<button type="button" onclick="document.cookie=&quot;lastname=Smith;expires=Wed, 18 Dec 2026 12:00:00 GMT&quot;">Create Cookie 2</button>
+
+<button type="button" onclick="document.cookie=&quot;firstname=;expires=Thu, 01 Jan 1970&quot;">Delete Cookie 1</button>
+
+<button type="button" onclick="document.cookie=&quot;lastname=;expires=Thu, 01 Jan 1970&quot;">Delete Cookie 1</button>
+
+
+
+</body>
+
+</html>
