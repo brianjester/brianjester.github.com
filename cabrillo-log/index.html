@@ -36,42 +36,51 @@
       <form>
         <h3 class="mb-3">Cabrillo <A HREF="https://wwrof.org/cabrillo/cabrillo-v3-header/">Header</A></h3>
         <HR>
-          <!-- <input type="hidden" id="version" name="version" value="3.0"> -->
-          <h4 class="mb-3">Version</h4>
-          <select name="version" id="version">
-            <option value="2.0">2.0</option>
-            <option value="3.0" selected>3.0 (ARRL/RAC)</option>
-            <option value="3.3">3.3</option>
-          </select>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-2">
 
-          <div class="col-sm-4">
-            <BR>
-            <label for="contest" class="form-label"><h4><A HREF="https://www.contestcalendar.com/cabnames.php">Contest</A></h4></label>
-            <input type="text" maxlength="32" pattern="[-A-Za-z0-9]*" class="form-control" id="contest" placeholder="ARRL-FD" value="">
+                <h4>Version</h4>
+                <select name="version" id="version">
+                  <option value="2.0">2.0</option>
+                  <option value="3.0" selected>3.0 (ARRL/RAC)</option>
+                  <option value="3.3">3.3</option>
+                </select>
+              </div>
+
+              <div class="col-sm-4">
+                <label for="contest" class="form-label"><h4><A HREF="https://www.contestcalendar.com/cabnames.php">Contest</A></h4></label>
+                <input type="text" maxlength="32" pattern="[-A-Za-z0-9]*" class="form-control" id="contest" placeholder="ARRL-FD" value="">
+              </div>
+            </div>
           </div>
 
-          <div class="col-sm-2">
-            <BR>
-            <label for="callsign" class="form-label"><h4>Callsign</h4></label>
-            <input type="text" class="form-control" id="callsign" placeholder="W1AW" value="" >
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-2">
+                <BR>
+                <label for="callsign" class="form-label"><h4>Callsign</h4></label>
+                <input type="text" class="form-control" id="callsign" placeholder="W1AW" value="" >
+              </div>
+
+              <div class="col-sm-4">
+                <BR>
+                <label for="operators" class="form-label"><h4>Operators</h4></label>
+                <input type="text" class="form-control" id="operators" placeholder="" value="">
+              </div>
+
+              <div class="col-sm-4">
+                <BR>
+                <label for="club" class="form-label"><h4>Club</h4></label>
+                <input type="text" class="form-control" id="club" placeholder="" value="" >
+              </div>
+            </div>
           </div>
-
-          <div class="col-sm-12">
-            <BR>
-            <label for="operators" class="form-label"><h4>Operators</h4></label>
-            <input type="text" class="form-control" id="operators" placeholder="" value="">
-          </div>
-
-          <div class="col-sm-4">
-            <BR>
-            <label for="club" class="form-label"><h4>Club</h4></label>
-            <input type="text" class="form-control" id="club" placeholder="" value="" >
-          </div>
-
-          <!-- <div class="row g-3"> -->
-
-            <BR>
-              <h4 class="mb-3">Category > Band</h4>
+          <BR>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-3">
+              <h4>Category > Band</h4>
               <select name="category-band" id="category-band">
                 <option value="ALL" selected>ALL</option>
                 <option value="160M">160M</option>
@@ -101,9 +110,10 @@
                 <option value="VHF-3-BAND">VHF-3-BAND</option>
                 <option value="VHF-FM-ONLY">VHF-FM-ONLY</option>
               </select>
-  
-              <BR><BR>
-              <h4 class="mb-3">Category > Mode</h4>
+              </div>
+
+              <div class="col-sm-3">
+              <h4>Category > Mode</h4>
               <select name="category-mode" id="category-mode">
                 <option value="CW">CW</option>
                 <option value="DIGI">DIGI</option>
@@ -112,135 +122,181 @@
                 <option value="SSB">SSB</option>
                 <option value="MIXED" selected>MIXED</option>
               </select>
+            </div>
 
-              <BR><BR>
-                <h4 class="mb-3">Category > Operator</h4>
+            <div class="col-sm-3">
+                <h4>Category > Operator</h4>
                 <select name="category-operator" id="category-operator">
                   <option value="SINGLE-OP" selected>SINGLE-OP</option>
                   <option value="MULTI-OP">MULTI-OP</option>
                   <option value="CHECKLOG">CHECKLOG</option>
                 </select>
+            </div>
 
-            <BR><BR>
-            <h4 class="mb-3">Category > Power</h4>
+            <div class="col-sm-3">
+            <h4>Category > Power</h4>
             <select name="category-power" id="category-power">
               <option value="HIGH">HIGH</option>
               <option value="LOW" selected>LOW</option>
               <option value="QRP">QRP</option>
             </select>
+            </div>
+          </div>
+        </div>
 
             <BR><BR>
-            <h4 class="mb-3"> Location (<A HREF="http://www.arrl.org/section-abbreviations">ARRL/RAC Section</A> / 
-              <A HREF="http://www.rsgbiota.org/">IOTA Island Name</A> / 
-              <A HREF="http://rdaward.org/rda_eng.txt">RDA Number</A>)</h4>
-            <div class="col-sm-2">
-              <input type="text" maxlength="3" class="form-control" id="location" placeholder="DX" value="">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-6">
+                  <h4> Location (<A HREF="http://www.arrl.org/section-abbreviations">ARRL/RAC Section</A> / 
+                    <A HREF="http://www.rsgbiota.org/">IOTA Island Name</A> / 
+                    <A HREF="http://rdaward.org/rda_eng.txt">RDA Number</A>)</h4>
+                  <div class="col-sm-6">
+                    <input type="text" maxlength="3" class="form-control" id="location" placeholder="DX" value="">
+                  </div>
+                </div>
+              </div>
             </div>
 
             <HR>
               <h4 class="mb-3 text-secondary"><I>Additional Optional Fields</I></h4>
+
+              <div class="container">
+                <div class="row">
               <div class="col-sm-2">
                 <label for="category" class="form-label"><h4>Category</h4></label>
                 <input type="text" class="form-control" id="category" placeholder="1D" value="" >
               </div>
-
-              <BR><h4 class="mb-3">Category > Station</h4>
-                <select name="category-station" id="category-station">
-                  <option value=""></option>
-                  <option value="DISTRIBUTED">DISTRIBUTED</option>
-                  <option value="FIXED">FIXED</option>
-                  <option value="MOBILE">MOBILE</option>
-                  <option value="PORTABLE" selected>PORTABLE</option>
-                  <option value="ROVER">ROVER</option>
-                  <option value="ROVER-LIMITED">ROVER-LIMITED</option>
-                  <option value="ROVER-UNLIMITED">ROVER-UNLIMITED</option>
-                  <option value="EXPEDITION">EXPEDITION</option>
-                  <option value="HQ">HQ</option>
-                  <option value="SCHOOL">SCHOOL</option>
-                  <option value="EXPLORER">EXPLORER</option>
-                </select>
-
-              <BR><BR><h4 class="mb-3">Category > Assisted</h4>
-              <select name="category-assisted" id="category-assisted">
-                <option value="" selected></option>
-                <option value="ASSISTED">ASSISTED</option>
-                <option value="NON-ASSISTED">NON-ASSISTED</option>
-              </select>
-
-              <BR><BR>
-              <h4 class="mb-3">Category > Transmitter</h4>
-              <select name="category-transmitter" id="category-transmitter">
-                <option value="" selected></option>
-                <option value="ONE">ONE</option>
-                <option value="TWO">TWO</option>
-                <option value="LIMITED">LIMITED</option>
-                <option value="UNLIMITED">UNLIMITED</option>
-                <option value="SWL">SWL</option>
-              </select>              
-              
-              <BR><BR>
-                <h4 class="mb-3">Category > Overlay</h4>
-              <select name="category-overlay" id="category-overlay">
-                <option value="" selected></option>
-                <option value="CLASSIC">CLASSIC</option>
-                <option value="ROOKIE">ROOKIE</option>
-                <option value="TB-WIRES">TB-WIRES</option>
-                <option value="YOUTH">YOUTH</option>
-                <option value="NOVICE-TECH">NOVICE-TECH</option>
-                <option value="OVER-50">OVER-50</option>
-              </select>
-                            
               <div class="col-sm-4">
-                <BR>
                 <label for="grid" class="form-label"><h4><A HREF="https://www.levinecentral.com/ham/grid_square.php">Grid</A> Locator</h4></label>
                 <input type="text" class="form-control" id="grid" placeholder="" value="" >
               </div>
+            </div>              
+          </div>
+
+              <BR>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h4>Category > Station</h4>
+                      <select name="category-station" id="category-station">
+                        <option value=""></option>
+                        <option value="DISTRIBUTED">DISTRIBUTED</option>
+                        <option value="FIXED">FIXED</option>
+                        <option value="MOBILE">MOBILE</option>
+                        <option value="PORTABLE" selected>PORTABLE</option>
+                        <option value="ROVER">ROVER</option>
+                        <option value="ROVER-LIMITED">ROVER-LIMITED</option>
+                        <option value="ROVER-UNLIMITED">ROVER-UNLIMITED</option>
+                        <option value="EXPEDITION">EXPEDITION</option>
+                        <option value="HQ">HQ</option>
+                        <option value="SCHOOL">SCHOOL</option>
+                        <option value="EXPLORER">EXPLORER</option>
+                      </select>
+                    </div>
+
+                    <div class="col-sm-3">
+                      <h4>Category > Assisted</h4>
+                      <select name="category-assisted" id="category-assisted">
+                        <option value="" selected></option>
+                        <option value="ASSISTED">ASSISTED</option>
+                        <option value="NON-ASSISTED">NON-ASSISTED</option>
+                      </select>
+                    </div>
+
+                    <div class="col-sm-3">
+                      <h4>Category > Transmitter</h4>
+                      <select name="category-transmitter" id="category-transmitter">
+                        <option value="" selected></option>
+                        <option value="ONE">ONE</option>
+                        <option value="TWO">TWO</option>
+                        <option value="LIMITED">LIMITED</option>
+                        <option value="UNLIMITED">UNLIMITED</option>
+                        <option value="SWL">SWL</option>
+                      </select>
+                    </div>        
+              
+                    <div class="col-sm-3">
+                      <h4>Category > Overlay</h4>
+                      <select name="category-overlay" id="category-overlay">
+                        <option value="" selected></option>
+                        <option value="CLASSIC">CLASSIC</option>
+                        <option value="ROOKIE">ROOKIE</option>
+                        <option value="TB-WIRES">TB-WIRES</option>
+                        <option value="YOUTH">YOUTH</option>
+                        <option value="NOVICE-TECH">NOVICE-TECH</option>
+                        <option value="OVER-50">OVER-50</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
               
             <HR>
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-2">
+                    <label for="claimed-score" class="form-label"><h4>Claimed Score</h4></label>
+                    <input type="text" class="form-control" id="claimed-score" placeholder="" value="">
+                  </div>
+                </div>
+              </div>
+            <BR>  
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-4">
+                  <label for="my-name" class="form-label"><H4>Name</H4></label>
+                  <input type="text" maxlength="75" class="form-control" id="my-name" placeholder="Jane Doe" value="">
+                </div> 
 
-            <div class="col-sm-2">
-              <label for="claimed-score" class="form-label"><h4>Claimed Score</h4></label>
-              <input type="text" class="form-control" id="claimed-score" placeholder="" value="">
+                <div class="col-sm-4">
+                  <label for="email" class="form-label"><H4>Email</H4></label>
+                  <input type="text" maxlength="75" class="form-control" id="email" placeholder="jane.doe@example.com" value="">
+                </div> 
+              </div>
             </div>
-
-            <div class="col-sm-4">
-              <BR>
-              <label for="my-name" class="form-label"><H4>Name</H4></label>
-              <input type="text" maxlength="75" class="form-control" id="my-name" placeholder="Jane Doe" value="">
-            </div> 
-
-            <div class="col-sm-4">
-              <BR>
-              <label for="email" class="form-label"><H4>Email</H4></label>
-              <input type="text" maxlength="75" class="form-control" id="email" placeholder="jane.doe@example.com" value="">
-            </div> 
-
-            <div class="col-sm-4">
-              <BR>
-              <label for="ADDRESS" class="form-label"><H4>Address</H4></label>
-              <input type="text" maxlength="45" class="form-control" id="ADDRESS" placeholder="123 Main St" value="">
+            <BR>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-4">
+                  <label for="ADDRESS" class="form-label"><H4>Address</H4></label>
+                  <input type="text" maxlength="45" class="form-control" id="ADDRESS" placeholder="123 Main St" value="">
+                </div>
+              </div>
             </div>
-            <div class="col-sm-3">
-              <BR><label for="ADDRESS-CITY" class="form-label"><H4>City</H4></label>
-              <input type="text" maxlength="45" class="form-control" id="ADDRESS-CITY" placeholder="Anytown" value="">
+            <BR>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-3">
+                  <label for="ADDRESS-CITY" class="form-label"><H4>City</H4></label>
+                  <input type="text" maxlength="45" class="form-control" id="ADDRESS-CITY" placeholder="Anytown" value="">
+                </div>
+                <div class="col-sm-3">
+                  <label for="ADDRESS-STATE-PROVINCE" class="form-label"><H4>State/Province</H4></label>
+                  <input type="text" maxlength="45" class="form-control" id="ADDRESS-STATE-PROVINCE" placeholder="CA" value="">
+                </div>
+              </div>
             </div>
-            <div class="col-sm-3">
-              <BR><label for="ADDRESS-STATE-PROVINCE" class="form-label"><H4>State/Province</H4></label>
-              <input type="text" maxlength="45" class="form-control" id="ADDRESS-STATE-PROVINCE" placeholder="CA" value="">
+            <BR>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-3">  
+                  <label for="ADDRESS-POSTALCODE" class="form-label"><H4>Zip/Postal Code</H4></label>
+                  <input type="text" maxlength="45" class="form-control" id="ADDRESS-POSTALCODE" placeholder="12345" value="">
+                </div>
+                <div class="col-sm-3">  
+                  <label for="ADDRESS-COUNTRY" class="form-label"><H4>Country</H4></label>
+                  <input type="text" maxlength="45" class="form-control" id="ADDRESS-COUNTRY" placeholder="USA" value="">
+                </div>
+              </div>
             </div>
-            <div class="col-sm-3">  
-              <BR><label for="ADDRESS-POSTALCODE" class="form-label"><H4>Zip/Postal Code</H4></label>
-              <input type="text" maxlength="45" class="form-control" id="ADDRESS-POSTALCODE" placeholder="12345" value="">
-            </div>
-            <div class="col-sm-3">  
-              <BR><label for="ADDRESS-COUNTRY" class="form-label"><H4>Country</H4></label>
-              <input type="text" maxlength="45" class="form-control" id="ADDRESS-COUNTRY" placeholder="USA" value="">
-            </div>
-
-            <div class="col-sm-4">
-              <BR>
-              <label for="soapbox" class="form-label"><H4>Soapbox</H4></label>
-              <input type="text" maxlength="75" class="form-control" id="soapbox" placeholder="Had a great time" value="">
+            <BR>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-4">
+                  <label for="soapbox" class="form-label"><H4>Soapbox</H4></label>
+                  <input type="text" maxlength="75" class="form-control" id="soapbox" placeholder="Had a great time" value="">
+                </div>
+              </div>
             </div>
            <!-- QSO Data -->
           <h3 class="mb-3"><BR>Cabrillo <A HREF="https://wwrof.org/cabrillo/cabrillo-qso-data/">QSO Data</A></h3>
