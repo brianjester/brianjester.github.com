@@ -38,8 +38,8 @@
         <HR>
           <div class="container">
             <div class="row">
-              <div class="col-sm-2">
 
+              <div class="col-sm-2">
                 <h4>Version</h4>
                 <select name="version" id="version">
                   <option value="2.0">2.0</option>
@@ -47,12 +47,27 @@
                   <option value="3.3">3.3</option>
                 </select>
               </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <!-- <div class="row"> -->
+              <BR>
+              <label for="contest" class="form-label"><h4><A HREF="https://www.contestcalendar.com/cabnames.php">Contest</A></h4></label>
+              <BR>
+              <input type="radio" id="contest-template" name="contest-choice" value="template" onClick="requestContest('template')">
+              <label for="css">Choose</label>
+              &nbsp;
+              <input type="radio" id="contest-no-template" name="contest-choice" checked="checked" value="free-text" onClick="requestContest('free-text')">
+              <label for="html">Free text or no contest</label>
 
               <div class="col-sm-4">
-                <label for="contest" class="form-label"><h4><A HREF="https://www.contestcalendar.com/cabnames.php">Contest</A></h4></label>
-                <input type="text" maxlength="32" pattern="[-A-Za-z0-9]*" class="form-control" id="contest" placeholder="ARRL-FD" value="">
+                <div id="contest-block">
+                  <!-- choice above triggers rewrite of this block -->
+                  <input type="text" maxlength="32" class="form-control" id="contest" placeholder="ARRL-FD" value="">
+                </div>
               </div>
-            </div>
+
           </div>
 
           <div class="container">
@@ -113,25 +128,25 @@
               </div>
 
               <div class="col-sm-3">
-              <h4>Category > Mode</h4>
-              <select name="category-mode" id="category-mode">
-                <option value="CW">CW</option>
-                <option value="DIGI">DIGI</option>
-                <option value="FM">FM</option>
-                <option value="RTTY">RTTY</option>
-                <option value="SSB">SSB</option>
-                <option value="MIXED" selected>MIXED</option>
-              </select>
-            </div>
+                <h4>Category > Mode</h4>
+                <select name="category-mode" id="category-mode">
+                  <option value="CW">CW</option>
+                  <option value="DIGI">DIGI</option>
+                  <option value="FM">FM</option>
+                  <option value="RTTY">RTTY</option>
+                  <option value="SSB">SSB</option>
+                  <option value="MIXED" selected>MIXED</option>
+                </select>
+              </div>
 
-            <div class="col-sm-3">
+              <div class="col-sm-3">
                 <h4>Category > Operator</h4>
                 <select name="category-operator" id="category-operator">
                   <option value="SINGLE-OP" selected>SINGLE-OP</option>
                   <option value="MULTI-OP">MULTI-OP</option>
                   <option value="CHECKLOG">CHECKLOG</option>
                 </select>
-            </div>
+              </div>
 
             <div class="col-sm-3">
             <h4>Category > Power</h4>
@@ -396,6 +411,20 @@ QSO: </textarea></pre>
       
       /* Alert the copied text */
       alert("Copied the text: " + copyText.textContent);
+    }
+
+    function requestContest(contestType) {
+      if (contestType == 'template') {
+        document.getElementById("contest-block").innerHTML = 
+'<select name="contest" id="contest">' +
+'<option value="ARRL-FD" selected>ARRL-FD</option>' +
+'<option value="CANADA-DAY">CANADA-DAY</option>' +
+'<option value="IARU-HF">IARU-HF</option>' +
+'</select>';
+      } else {
+        document.getElementById("contest-block").innerHTML = 
+'<input type="text" maxlength="32" class="form-control" id="contest" placeholder="ARRL-FD" value="">';
+      }
     }
     </script>
 
