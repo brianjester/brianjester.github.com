@@ -159,8 +159,8 @@
           </div>
         </div>
 
-            <BR><BR>
-            <div class="container">
+            <BR>
+            <div id="location_div" class="container">
               <div class="row">
                 <div class="col-sm-6">
                   <h4> Location (<A HREF="http://www.arrl.org/section-abbreviations">ARRL/RAC Section</A> / 
@@ -173,16 +173,14 @@
               </div>
             </div>
 
-            <HR>
-              <h4 class="mb-3 text-secondary"><I>Additional Optional Fields</I></h4>
-
+            <BR>
               <div class="container">
                 <div class="row">
-              <div class="col-sm-2">
+              <div id="category_div" class="col-sm-2">
                 <label for="category" class="form-label"><h4>Category</h4></label>
                 <input type="text" class="form-control" id="category" placeholder="1D" value="" >
               </div>
-              <div class="col-sm-4">
+              <div id="grid_div" class="col-sm-4">
                 <label for="grid" class="form-label"><h4><A HREF="https://www.levinecentral.com/ham/grid_square.php">Grid</A> Locator</h4></label>
                 <input type="text" class="form-control" id="grid" placeholder="" value="" >
               </div>
@@ -192,7 +190,7 @@
               <BR>
                 <div class="container">
                   <div class="row">
-                    <div class="col-sm-3">
+                    <div id="category_station_div" class="col-sm-3">
                       <h4>Category > Station</h4>
                       <select name="category-station" id="category-station">
                         <option value=""></option>
@@ -210,7 +208,7 @@
                       </select>
                     </div>
 
-                    <div class="col-sm-3">
+                    <div id="assisted_div" class="col-sm-3">
                       <h4>Category > Assisted</h4>
                       <select name="category-assisted" id="category-assisted">
                         <option value="" selected></option>
@@ -219,7 +217,7 @@
                       </select>
                     </div>
 
-                    <div class="col-sm-3">
+                    <div id="transmitter_div" class="col-sm-3">
                       <h4>Category > Transmitter</h4>
                       <select name="category-transmitter" id="category-transmitter">
                         <option value="" selected></option>
@@ -231,7 +229,7 @@
                       </select>
                     </div>        
               
-                    <div class="col-sm-3">
+                    <div id="overlay_div" class="col-sm-3">
                       <h4>Category > Overlay</h4>
                       <select name="category-overlay" id="category-overlay">
                         <option value="" selected></option>
@@ -319,34 +317,30 @@
           <!-- </div> -->
 
           <label for="qsos-instructions" class="form-label"><H4>QSO Data Examples (<A HREF="http://www.arrl.org/cabrillo-format-tutorial">ARRL</A> / <A HREF="https://www.rac.ca/wp-content/uploads/2021/12/RAC-Cabrillo-V3.3.pdf">RAC</A>)</H4></label>
-
 <BR><B>CANADA-DAY Example:</B>
-<pre><textarea class="w-75 bg-info" style="--bs-bg-opacity: .1;" name="qsos-instructions" rows="2" cols="85" readonly>
+<pre><textarea id="canada_day_txt1" class="w-75 bg-dark" style="--bs-bg-opacity: .1;" name="qsos-instructions" rows="2" cols="85" readonly>
                               --------info sent------- -------info rcvd------
 QSO:  freq mo   date     time call          rst exch   call          rst exch
 </textarea>
-<textarea class="w-75 bg-info" style="--bs-bg-opacity: .1;" name="qsos-instructions" rows="1" cols="85" readonly>
+<textarea id="canada_day_txt2" class="w-75 bg-dark" style="--bs-bg-opacity: .1;" name="qsos-instructions" rows="1" cols="85" readonly>
 QSO:  7177 PH 2003-07-01 0525 KB8UIP        59 6 1     VE4SG          59 MB
 </textarea></pre>
-
 <B>ARRL-FD Example:</B>
-<pre><textarea class="w-75 bg-info" style="--bs-bg-opacity: .1;" name="qsos-instructions" rows="2" cols="85" readonly>
+<pre><textarea id="arrl_fd_txt1" class="w-75 bg-dark" style="--bs-bg-opacity: .1;" name="qsos-instructions" rows="2" cols="85" readonly>
                               --------info sent------ -------info rcvd-------
 QSO:  freq mo date       time call          cat  sec  call          cat  sec
 </textarea>
-<textarea class="w-75 bg-info" style="--bs-bg-opacity: .1;" name="qsos-instructions" rows="1" cols="85" readonly>
+<textarea id="arrl_fd_txt2" class="w-75 bg-dark" style="--bs-bg-opacity: .1;" name="qsos-instructions" rows="1" cols="85" readonly>
 QSO: 14652 FM 2022-06-26 1351 KB8UIP        1D   SDG  W6A           2F   SDG
 </textarea></pre>
-
 <B>IARU-HF Example:</B>
-<pre><textarea class="w-75 bg-info" style="--bs-bg-opacity: .1;" name="qsos-instructions" rows="2" cols="85" readonly>
+<pre><textarea id="iaru_hf_txt1" class="w-75 bg-dark" style="--bs-bg-opacity: .1;" name="qsos-instructions" rows="2" cols="85" readonly>
                               --------info sent------ -------info rcvd-------
 QSO:  freq mo date       time call          rst zone  call           rst zone
 </textarea>
-<textarea class="w-75 bg-info" style="--bs-bg-opacity: .1;" name="qsos-instructions" rows="1" cols="85" readonly>
+<textarea id="iaru_hf_txt2" class="w-75 bg-dark" style="--bs-bg-opacity: .1;" name="qsos-instructions" rows="1" cols="85" readonly>
 QSO: 14000 PH 2022-07-09 1200 KB8UIP        59  06     N7WA          59  06
 </textarea></pre>
-
 <label for="qsos" class="form-label"><H4>QSO Data</H4></label>
 <pre><textarea class="w-75" name="qsos" rows="10" cols="85" id="qsos">
 QSO: </textarea></pre>
@@ -413,17 +407,79 @@ QSO: </textarea></pre>
       alert("Copied the text: " + copyText.textContent);
     }
 
+    // Switches between contest drop-down and text field
     function requestContest(contestType) {
       if (contestType == 'template') {
         document.getElementById("contest-block").innerHTML = 
-'<select name="contest" id="contest">' +
-'<option value="ARRL-FD" selected>ARRL-FD</option>' +
+'<select name="contest" id="contest" onchange="showHideFields(contest)">' +
+'<option value="" selected></option>' +
+'<option value="ARRL-FD">ARRL-FD</option>' +
 '<option value="CANADA-DAY">CANADA-DAY</option>' +
 '<option value="IARU-HF">IARU-HF</option>' +
 '</select>';
       } else {
         document.getElementById("contest-block").innerHTML = 
 '<input type="text" maxlength="32" class="form-control" id="contest" placeholder="ARRL-FD" value="">';
+      }
+    }
+
+    function showHideFields(contestChoiceObj) {
+      var contestChoice=contestChoiceObj.value;
+      if (contestChoice == "ARRL-FD") {
+        document.getElementById("grid_div").style.visibility = "hidden";
+        document.getElementById("assisted_div").style.visibility = "hidden";
+        document.getElementById("transmitter_div").style.visibility = "hidden";
+        document.getElementById("overlay_div").style.visibility = "hidden";
+        document.getElementById("category_div").style.visibility = "visible";
+        document.getElementById("category_station_div").style.visibility = "visible";
+        document.getElementById("canada_day_txt1").style = "--bs-bg-opacity: .9";
+        document.getElementById("canada_day_txt2").style = "--bs-bg-opacity: .9";
+        document.getElementById("iaru_hf_txt1").style = "--bs-bg-opacity: .9";
+        document.getElementById("iaru_hf_txt2").style = "--bs-bg-opacity: .9";
+        document.getElementById("arrl_fd_txt1").style = "--bs-bg-opacity: .1";
+        document.getElementById("arrl_fd_txt2").style = "--bs-bg-opacity: .1";
+      }
+      if (contestChoice == "CANADA-DAY") {
+        document.getElementById("grid_div").style.visibility = "hidden";
+        document.getElementById("assisted_div").style.visibility = "hidden";
+        document.getElementById("transmitter_div").style.visibility = "hidden";
+        document.getElementById("overlay_div").style.visibility = "hidden";
+        document.getElementById("category_div").style.visibility = "hidden";
+        document.getElementById("category_station_div").style.visibility = "hidden";
+        document.getElementById("arrl_fd_txt1").style = "--bs-bg-opacity: .9";
+        document.getElementById("arrl_fd_txt2").style = "--bs-bg-opacity: .9";
+        document.getElementById("iaru_hf_txt1").style = "--bs-bg-opacity: .9";
+        document.getElementById("iaru_hf_txt2").style = "--bs-bg-opacity: .9";
+        document.getElementById("canada_day_txt1").style = "--bs-bg-opacity: .1";
+        document.getElementById("canada_day_txt2").style = "--bs-bg-opacity: .1";
+      }
+      if (contestChoice == "IARU-HF") {
+        document.getElementById("grid_div").style.visibility = "hidden";
+        document.getElementById("assisted_div").style.visibility = "visible";
+        document.getElementById("transmitter_div").style.visibility = "visible";
+        document.getElementById("overlay_div").style.visibility = "hidden";
+        document.getElementById("category_div").style.visibility = "hidden";
+        document.getElementById("category_station_div").style.visibility = "visible";
+        document.getElementById("arrl_fd_txt1").style = "--bs-bg-opacity: .9";
+        document.getElementById("arrl_fd_txt2").style = "--bs-bg-opacity: .9";
+        document.getElementById("canada_day_txt1").style = "--bs-bg-opacity: .9";
+        document.getElementById("canada_day_txt2").style = "--bs-bg-opacity: .9";
+        document.getElementById("iaru_hf_txt1").style = "--bs-bg-opacity: .1";
+        document.getElementById("iaru_hf_txt2").style = "--bs-bg-opacity: .1";
+      }
+      if (contestChoice == "") {
+        document.getElementById("grid_div").style.visibility = "visible";
+        document.getElementById("assisted_div").style.visibility = "visible";
+        document.getElementById("transmitter_div").style.visibility = "visible";
+        document.getElementById("overlay_div").style.visibility = "visible";
+        document.getElementById("category_div").style.visibility = "visible";
+        document.getElementById("category_station_div").style.visibility = "visible";
+        document.getElementById("arrl_fd_txt1").style = "--bs-bg-opacity: .1";
+        document.getElementById("arrl_fd_txt2").style = "--bs-bg-opacity: .1";
+        document.getElementById("iaru_hf_txt1").style = "--bs-bg-opacity: .1";
+        document.getElementById("iaru_hf_txt2").style = "--bs-bg-opacity: .1";
+        document.getElementById("canada_day_txt1").style = "--bs-bg-opacity: .1";
+        document.getElementById("canada_day_txt2").style = "--bs-bg-opacity: .1";
       }
     }
     </script>
