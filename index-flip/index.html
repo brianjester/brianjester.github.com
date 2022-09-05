@@ -70,10 +70,8 @@
 
       /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
       .flip-card {
-        background-color: transparent;
         width: 100%;
         height: 100%;
-        border: 1px solid #f1f1f1;
         perspective: 2000px; /* Remove this if you don't want the 3D effect */
       }
 
@@ -103,13 +101,11 @@
 
       /* Style the front side (fallback if image is missing) */
       .flip-card-front {
-        /* background-color: #bbb; */
         color: black;
       }
 
       /* Style the back side */
       .flip-card-back {
-        /* background-color: #bbb; */
         color: black;
         transform: rotateY(180deg);
       }
@@ -133,10 +129,11 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-lg-12">
+      <div class="col-lg-6">
 
         <div class="flip-card">
           <div class="flip-card-inner">
+
             <div class="flip-card-front">
               <p class="text-primary"><B>FCC Technician Class Question Pool '2022-2026</B></p>
               <p class="text-success"><u>Question: T1A01</u></p>
@@ -156,6 +153,7 @@
                 </div>
                 <div hidden>T1A01 (C) [97.1]</div>
             </div>
+
           </div>
         </div>
 
