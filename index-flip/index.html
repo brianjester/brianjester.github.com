@@ -135,17 +135,17 @@
           <div class="flip-card-inner">
 
             <div class="flip-card-front">
-              <p id = "title" class="text-primary"><B>FCC Technician Class Question Pool '2022-2026</B></p>
-              <p id = "question_id" class="text-success"><u>Question: QID</u></p>
-              <p id = "question">QQQ</p>
+              <p id = "title" class="text-primary"><B> </B></p>
+              <p id = "question_id" class="text-success"><u> </u></p>
+              <p id = "question"> </p>
             </div>
 
             <div class="flip-card-back">
-              <p id = "answer_id" class="text-success"><u>Answer: QID</u></p>
-              <p id="A">A. AAA</p>
-              <p id="B">B. BBB</p>
-              <div id="answer"><p id="C">C. CCC</p></div>
-              <p id="D">D. DDD</p>
+              <p id = "answer_id" class="text-success"><u> </u></p>
+              <p id="A"> </p>
+              <p id="B"> </p>
+              <div id="answer"><p id="C"> </p></div>
+              <p id="D"> </p>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                   <button id="reveal-btn" class="btn btn-success btn-sm me-md-2" type="button" onclick="reveal()">Reveal</button>
                   <button class="btn btn-primary btn-sm" type="button">Continue</button>
@@ -178,11 +178,15 @@ window.onload = function(){
       const numQuestions = test.length;
       var questionRowNum = Math.floor(Math.random() * numQuestions);
       var questionRow = test[questionRowNum];
+      const title = json.title;
+      // checkpoint
+      console.log(json.title);  
+      console.log(test[questionRowNum]);  // individual question rows are under test
 
       // set up question
+      document.getElementById("title").innerHTML = title;
       document.getElementById("question_id").innerHTML = "Question: " + questionRow.id;
       document.getElementById("answer_id").innerHTML = "Answer: " + questionRow.id;
-      console.log(test[questionRowNum]);  // individual question rows are under test
     });
 }  
 
