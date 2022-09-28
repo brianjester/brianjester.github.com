@@ -129,15 +129,24 @@
 
   <div class="container">
     <div class="row">
+      <p id = "title" class="text-primary"><B> </B></p>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <button id="next-btn-1" class="btn btn-primary btn-sm" type="button" onclick="next()"> </button>
+        <BR>
+      </div>
+    </div>
+
+    <div class="row">
       <div class="col-lg-6">
 
         <div class="flip-card">
           <div class="flip-card-inner">
 
             <div class="flip-card-front">
-              <p id = "title" class="text-primary"><B> </B></p>
               <p id = "question_id" class="text-success"><u> </u></p>
               <p id = "question"> </p>
+              <HR>
+              <p class="text-muted text-center">(hover / touch question to flip index card...)</p>
             </div>
 
             <div class="flip-card-back">
@@ -148,7 +157,6 @@
               <p id="D"> </p>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                   <button id="reveal-btn" class="btn btn-success btn-sm me-md-2" type="button" onclick="reveal()"> </button>
-                  <button class="btn btn-primary btn-sm" type="button">Continue</button>
                 </div>
             </div>
 
@@ -158,7 +166,6 @@
       </div>
     </div>
   </div>
-
 </main>
 
 <!-- <footer class="blog-footer">
@@ -169,9 +176,9 @@
 </footer> -->
 
 <script>
-
-window.onload = function(){  
+function init() {
   const SHOW = "Show answer";
+  const NEXT = "Next question";
   fetch('https://brianjester.github.io/index-flip/questions.json5')
     .then((response) => response.json())
     .then((json) => {
@@ -192,6 +199,7 @@ window.onload = function(){
       document.getElementById("B").innerHTML = questionRow.B;
       document.getElementById("C").innerHTML = questionRow.C;
       document.getElementById("D").innerHTML = questionRow.D;
+      document.getElementById("next-btn-1").innerHTML = NEXT;
       // Back of card
       document.getElementById("answer_id").innerHTML = "Answers: (" + questionRow.id + ")";
       document.getElementById("reveal-btn").innerHTML = SHOW;
@@ -217,20 +225,26 @@ window.onload = function(){
           // something here
       }
     });
-}  
+}
 
-  function reveal() {
-    const HIDE = "Hide answer";
-    const SHOW = "Show answer";
-    if (document.getElementById("reveal-btn").innerHTML == HIDE) {
-      document.getElementById("answer").className = "";
-      document.getElementById("reveal-btn").innerHTML = SHOW;
-    } else {
-      document.getElementById("answer").className = "bg-success text-white";
-      document.getElementById("reveal-btn").innerHTML = HIDE;
-    }
+window.onload = init();
 
+function next() {
+  init();
+}
+
+function reveal() {
+  const HIDE = "Hide answer";
+  const SHOW = "Show answer";
+  if (document.getElementById("reveal-btn").innerHTML == HIDE) {
+    document.getElementById("answer").className = "";
+    document.getElementById("reveal-btn").innerHTML = SHOW;
+  } else {
+    document.getElementById("answer").className = "bg-success text-white";
+    document.getElementById("reveal-btn").innerHTML = HIDE;
   }
+
+}
 </script>
     
   </body>
