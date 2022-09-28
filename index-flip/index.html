@@ -185,8 +185,13 @@ window.onload = function(){
 
       // set up question
       document.getElementById("title").innerHTML = title;
-      document.getElementById("question_id").innerHTML = "Question: " + questionRow.id;
-      document.getElementById("answer_id").innerHTML = "Answer: " + questionRow.id;
+      document.getElementById("question_id").innerHTML = "Question: (" + questionRow.id + ")";
+      document.getElementById("question").innerHTML = questionRow.question;
+      document.getElementById("A").innerHTML = questionRow.A;
+      document.getElementById("B").innerHTML = questionRow.B;
+      document.getElementById("C").innerHTML = questionRow.C;
+      document.getElementById("D").innerHTML = questionRow.D;
+      document.getElementById("answer_id").innerHTML = "Answers: (" + questionRow.id + ")";
     });
 }  
 
