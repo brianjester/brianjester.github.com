@@ -144,10 +144,10 @@
               <p id = "answer_id" class="text-success"><u> </u></p>
               <p id="A"> </p>
               <p id="B"> </p>
-              <div id="answer"><p id="C"> </p></div>
+              <p id="C"> </p>
               <p id="D"> </p>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                  <button id="reveal-btn" class="btn btn-success btn-sm me-md-2" type="button" onclick="reveal()">Reveal</button>
+                  <button id="reveal-btn" class="btn btn-success btn-sm me-md-2" type="button" onclick="reveal()"> </button>
                   <button class="btn btn-primary btn-sm" type="button">Continue</button>
                 </div>
             </div>
@@ -171,19 +171,20 @@
 <script>
 
 window.onload = function(){  
+  const SHOW = "Show answer";
   fetch('https://brianjester.github.io/index-flip/questions.json5')
     .then((response) => response.json())
     .then((json) => {
       const test = json.test;  // top level node is test
       const numQuestions = test.length;
-      var questionRowNum = Math.floor(Math.random() * numQuestions);
-      var questionRow = test[questionRowNum];
+      const questionRowNum = Math.floor(Math.random() * numQuestions);
+      const questionRow = test[questionRowNum];
       const title = json.title;
       // checkpoint
       console.log(json.title);  
       console.log(test[questionRowNum]);  // individual question rows are under test
 
-      // set up question
+      // Front of card - set up question
       document.getElementById("title").innerHTML = title;
       document.getElementById("question_id").innerHTML = "Question: (" + questionRow.id + ")";
       document.getElementById("question").innerHTML = questionRow.question;
@@ -191,17 +192,42 @@ window.onload = function(){
       document.getElementById("B").innerHTML = questionRow.B;
       document.getElementById("C").innerHTML = questionRow.C;
       document.getElementById("D").innerHTML = questionRow.D;
+      // Back of card
       document.getElementById("answer_id").innerHTML = "Answers: (" + questionRow.id + ")";
+      document.getElementById("reveal-btn").innerHTML = SHOW;
+      // set up answer row
+      const answerLetter = questionRow.answer;
+      const answerDivLeft='<div id="answer">';
+      const answerDivRight='</div>';
+      switch (answerLetter)
+      {
+        case "A": 
+        document.getElementById(answerLetter).innerHTML = answerDivLeft + questionRow.A + answerDivRight;
+        break;
+        case "B": 
+        document.getElementById(answerLetter).innerHTML = answerDivLeft + questionRow.B + answerDivRight;
+        break;
+        case "C": 
+        document.getElementById(answerLetter).innerHTML = answerDivLeft + questionRow.C + answerDivRight;
+        break;
+        case "D": 
+        document.getElementById(answerLetter).innerHTML = answerDivLeft + questionRow.D + answerDivRight;
+        break;
+        default:
+          // something here
+      }
     });
 }  
 
   function reveal() {
-    if (document.getElementById("reveal-btn").innerHTML == "Hide") {
-      document.getElementById("answer").className = ""
-      document.getElementById("reveal-btn").innerHTML = "Reveal"
+    const HIDE = "Hide answer";
+    const SHOW = "Show answer";
+    if (document.getElementById("reveal-btn").innerHTML == HIDE) {
+      document.getElementById("answer").className = "";
+      document.getElementById("reveal-btn").innerHTML = SHOW;
     } else {
-      document.getElementById("answer").className = "bg-success text-white"
-      document.getElementById("reveal-btn").innerHTML = "Hide"
+      document.getElementById("answer").className = "bg-success text-white";
+      document.getElementById("reveal-btn").innerHTML = HIDE;
     }
 
   }
