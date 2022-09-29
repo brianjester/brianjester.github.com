@@ -68,7 +68,8 @@
         -webkit-overflow-scrolling: touch;
       }
 
-      /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself 
+      /* The flip card container - set the width and height to whatever you want. 
+      We have added the border property to demonstrate that the flip itself 
       goes out of the box on hover (remove perspective if you don't want the 3D effect */
       .flip-card {
         width: 100%;
@@ -87,9 +88,9 @@
       }
 
       /* Do an horizontal flip when you move the mouse over the flip box container */
-      .flip-card:hover .flip-card-inner {
+      /* .flip-card:hover .flip-card-inner {
         transform: rotateY(180deg);
-      }
+      } */
 
       /* Position the front and back side */
       .flip-card-front, .flip-card-back {
@@ -103,6 +104,7 @@
       /* Style the front side (fallback if image is missing) */
       .flip-card-front {
         color: black;
+        font-weight: bold;
       }
 
       /* Style the back side */
@@ -130,35 +132,39 @@
 
   <div class="container">
     <div class="row">
-      <p id = "title" class="text-primary"><B> </B></p>
-      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-        <button id="next-btn-1" class="btn btn-primary btn-sm" type="button" onclick="next()"> </button>
-        <BR>
-      </div>
+      <H3><p id = "title" class="text-success"><B> </B></p></H3>
     </div>
-
     <div class="row">
       <div class="col-lg-6">
 
-        <div class="flip-card" onclick="">
-          <div class="flip-card-inner">
+        <div class="flip-card">
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button id="next-btn-1" class="btn btn-primary btn-med" type="button" onclick="next()"> </button>
+          </div>
+          <div class="flip-card-inner" id="flip-card-inner">
 
-            <div class="flip-card-front">
-              <p id = "question_id" class="text-success"><u> </u></p>
-              <p id = "question"> </p>
+            <div class="flip-card-front"  onclick="flipMe(180)">
               <HR>
-              <p class="text-muted text-center">(hover / touch question to flip index card...)</p>
+              <p id = "question_id" class="text-primary"><u> </u></p>
+              <H5><p id = "question"> </p></H5>
+              <HR>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                  <button id="flip-btn" class="btn btn-secondary btn-med me-md-4" type="button" onclick="flipMe(0)"> </button>
+                </div>            
             </div>
 
             <div class="flip-card-back">
-              <p id = "answer_id" class="text-success"><u> </u></p>
+              <HR>
+              <p id = "answer_id" class="text-primary"><u> </u></p>
               <p id="A"> </p>
               <p id="B"> </p>
               <p id="C"> </p>
               <p id="D"> </p>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                  <button id="reveal-btn" class="btn btn-success btn-sm me-md-2" type="button" onclick="reveal()"> </button>
-                </div>
+              <HR>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button id="reveal-btn" class="btn btn-success btn-med me-md-2" type="button" onclick="reveal()"> </button>
+                <button id="flip-btn" class="btn btn-secondary btn-med me-md-2" type="button" onclick="flipMe(0)">Flip ^</button>
+              </div>
             </div>
 
           </div>
@@ -179,7 +185,9 @@
 <script>
 function init() {
   const SHOW = "Show answer";
-  const NEXT = "Next question";
+  const NEXT = "Next question >";
+  const FLIP = "Flip ^";
+  flipMe(0);
   fetch('https://brianjester.github.io/index-flip/questions.json5')
     .then((response) => response.json())
     .then((json) => {
@@ -188,8 +196,7 @@ function init() {
       const questionRowNum = Math.floor(Math.random() * numQuestions);
       const questionRow = test[questionRowNum];
       const title = json.title;
-      // checkpoint
-      console.log(json.title);  
+      // TODO remove
       console.log(test[questionRowNum]);  // individual question rows are under test
 
       // Front of card - set up question
@@ -204,6 +211,7 @@ function init() {
       // Back of card
       document.getElementById("answer_id").innerHTML = "Answers: (" + questionRow.id + ")";
       document.getElementById("reveal-btn").innerHTML = SHOW;
+      document.getElementById("flip-btn").innerHTML = FLIP;
       // set up answer row
       const answerLetter = questionRow.answer;
       const answerDivLeft='<div id="answer">';
@@ -246,6 +254,14 @@ function reveal() {
   }
 
 }
+
+function flipMe(degrees) {
+  console.log("called flipMe");  
+  const div = document.getElementById("flip-card-inner");
+  div.style.transform = 'rotateY('+degrees+'deg)';
+}
+
+
 </script>
     
   </body>
