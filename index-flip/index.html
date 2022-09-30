@@ -256,14 +256,15 @@ function setupCard() {
     document.getElementById("figure-back").innerHTML = "<img src=\"T-1.jpg\" alt=\"T-1.jpg\" class=\"img-fluid\">";
   } else if (questionRow.question.includes("T-2")) {
     // add figure T-2
-    document.getElementById("figure-front").innerHTML = "<img src=\"T-2.jpg\" alt=\"T-1.jpg\" class=\"img-fluid\">";
-    document.getElementById("figure-back").innerHTML = "<img src=\"T-2.jpg\" alt=\"T-1.jpg\" class=\"img-fluid\">";
+    document.getElementById("figure-front").innerHTML = "<img src=\"T-2.jpg\" alt=\"T-2.jpg\" class=\"img-fluid\">";
+    document.getElementById("figure-back").innerHTML = "<img src=\"T-2.jpg\" alt=\"T-2.jpg\" class=\"img-fluid\">";
   } else if (questionRow.question.includes("T-3")) {
     // add figure T-3
-    document.getElementById("figure-front").innerHTML = "<img src=\"T-3.jpg\" alt=\"T-1.jpg\" class=\"img-fluid\">";
-    document.getElementById("figure-back").innerHTML = "<img src=\"T-3.jpg\" alt=\"T-1.jpg\" class=\"img-fluid\">";
+    document.getElementById("figure-front").innerHTML = "<img src=\"T-3.jpg\" alt=\"T-3.jpg\" class=\"img-fluid\">";
+    document.getElementById("figure-back").innerHTML = "<img src=\"T-3.jpg\" alt=\"T-3.jpg\" class=\"img-fluid\">";
   } else {
     // no figure
+    document.getElementById("figure-front").innerHTML = " ";
     document.getElementById("figure-back").innerHTML = " ";
   }
 
