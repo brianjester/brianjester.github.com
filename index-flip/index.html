@@ -149,6 +149,7 @@
               <HR>
               <p id = "question_id" class="text-primary"><u> </u></p>
               <H5><p id = "question"> </p></H5>
+              <p id="figure-front"> </p>
               <HR>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                   <button id="flip-btn" class="btn btn-secondary btn-med me-md-4" type="button" onclick="flipMe(0)"> </button>
@@ -162,6 +163,7 @@
               <p id="B"> </p>
               <p id="C"> </p>
               <p id="D"> </p>
+              <p id="figure-back"> </p>
               <HR>
               <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                 <button id="reveal-btn" class="btn btn-success btn-med me-md-2" type="button" onclick="reveal()"> </button>
@@ -195,7 +197,6 @@ async function init() {
 }
 
 function setupPage() {
-  flipMe(0);
   // Above card - title and options
   document.getElementById("title").innerHTML = window.json.title;
 }
@@ -204,6 +205,7 @@ function setupPage() {
 function setupOrder() {
   window.order = "inOrder";
   window.questionRowNum = -1;
+  window.questionRowNum = 238;
   setupCard();
 }
 
@@ -213,6 +215,7 @@ function randomize() {
 }
 
 function setupCard() {
+  flipMe(0);
   const SHOW = "Show answer";
   const NEXT = "Next question >";
   const FLIP = "Flip ^";
@@ -245,6 +248,25 @@ function setupCard() {
 
   // Back of card
   document.getElementById("answer_id").innerHTML = "Answers: (" + questionRow.id + ")";
+
+  // check for figures
+  if (questionRow.question.includes("T-1")) {
+    // add figure T-1
+    document.getElementById("figure-front").innerHTML = "<img src=\"T-1.jpg\" alt=\"T-1.jpg\" class=\"img-fluid\">";
+    document.getElementById("figure-back").innerHTML = "<img src=\"T-1.jpg\" alt=\"T-1.jpg\" class=\"img-fluid\">";
+  } else if (questionRow.question.includes("T-2")) {
+    // add figure T-2
+    document.getElementById("figure-front").innerHTML = "<img src=\"T-2.jpg\" alt=\"T-1.jpg\" class=\"img-fluid\">";
+    document.getElementById("figure-back").innerHTML = "<img src=\"T-2.jpg\" alt=\"T-1.jpg\" class=\"img-fluid\">";
+  } else if (questionRow.question.includes("T-3")) {
+    // add figure T-3
+    document.getElementById("figure-front").innerHTML = "<img src=\"T-3.jpg\" alt=\"T-1.jpg\" class=\"img-fluid\">";
+    document.getElementById("figure-back").innerHTML = "<img src=\"T-3.jpg\" alt=\"T-1.jpg\" class=\"img-fluid\">";
+  } else {
+    // no figure
+    document.getElementById("figure-back").innerHTML = " ";
+  }
+
   document.getElementById("reveal-btn").innerHTML = SHOW;
   document.getElementById("flip-btn").innerHTML = FLIP;
 
