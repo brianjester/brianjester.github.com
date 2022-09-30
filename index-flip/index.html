@@ -139,7 +139,7 @@
 
         <div class="flip-card">
           <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-            <button id="next-btn-1" class="btn btn-primary btn-med" type="button" onclick="next()"> </button>
+            <button id="next-btn-1" class="btn btn-primary btn-med" type="button" onclick="setupPage()"> </button>
           </div>
           <div class="flip-card-inner" id="flip-card-inner">
 
@@ -183,64 +183,62 @@
 </footer> -->
 
 <script>
-function init() {
+window.onload = init();
+
+async function init() {
+  window.json = await fetch('https://brianjester.github.io/index-flip/questions.json5').then(response => { return response.json() });
+  setupPage();
+}
+
+function setupPage() {
   const SHOW = "Show answer";
   const NEXT = "Next question >";
   const FLIP = "Flip ^";
   flipMe(0);
-  fetch('https://brianjester.github.io/index-flip/questions.json5')
-    .then((response) => response.json())
-    .then((json) => {
-      const test = json.test;  // top level node is test
-      const numQuestions = test.length;
-      const questionRowNum = Math.floor(Math.random() * numQuestions);
-      const questionRow = test[questionRowNum];
-      const title = json.title;
-      // TODO remove
-      console.log(test[questionRowNum]);  // individual question rows are under test
+  const test = window.json.test;  // top level node is test
+  const numQuestions = test.length;
+  const title = window.json.title;
+  const questionRowNum = Math.floor(Math.random() * numQuestions);
+  const questionRow = test[questionRowNum];
+  // TODO remove
+  console.log(test[questionRowNum]);  // individual question rows are under test
 
-      // Front of card - set up question
-      document.getElementById("title").innerHTML = title;
-      document.getElementById("question_id").innerHTML = "Question: (" + questionRow.id + ")";
-      document.getElementById("question").innerHTML = questionRow.question;
-      document.getElementById("A").innerHTML = questionRow.A;
-      document.getElementById("B").innerHTML = questionRow.B;
-      document.getElementById("C").innerHTML = questionRow.C;
-      document.getElementById("D").innerHTML = questionRow.D;
-      document.getElementById("next-btn-1").innerHTML = NEXT;
-      // Back of card
-      document.getElementById("answer_id").innerHTML = "Answers: (" + questionRow.id + ")";
-      document.getElementById("reveal-btn").innerHTML = SHOW;
-      document.getElementById("flip-btn").innerHTML = FLIP;
-      // set up answer row
-      const answerLetter = questionRow.answer;
-      const answerDivLeft='<div id="answer">';
-      const answerDivRight='</div>';
-      switch (answerLetter)
-      {
-        case "A": 
-        document.getElementById(answerLetter).innerHTML = answerDivLeft + questionRow.A + answerDivRight;
-        break;
-        case "B": 
-        document.getElementById(answerLetter).innerHTML = answerDivLeft + questionRow.B + answerDivRight;
-        break;
-        case "C": 
-        document.getElementById(answerLetter).innerHTML = answerDivLeft + questionRow.C + answerDivRight;
-        break;
-        case "D": 
-        document.getElementById(answerLetter).innerHTML = answerDivLeft + questionRow.D + answerDivRight;
-        break;
-        default:
-          // something here
-      }
-    });
+  // Front of card - set up question
+  document.getElementById("title").innerHTML = title;
+  document.getElementById("question_id").innerHTML = "Question: (" + questionRow.id + ")";
+  document.getElementById("question").innerHTML = questionRow.question;
+  document.getElementById("A").innerHTML = questionRow.A;
+  document.getElementById("B").innerHTML = questionRow.B;
+  document.getElementById("C").innerHTML = questionRow.C;
+  document.getElementById("D").innerHTML = questionRow.D;
+  document.getElementById("next-btn-1").innerHTML = NEXT;
+  // Back of card
+  document.getElementById("answer_id").innerHTML = "Answers: (" + questionRow.id + ")";
+  document.getElementById("reveal-btn").innerHTML = SHOW;
+  document.getElementById("flip-btn").innerHTML = FLIP;
+  // set up answer row
+  const answerLetter = questionRow.answer;
+  const answerDivLeft='<div id="answer">';
+  const answerDivRight='</div>';
+  switch (answerLetter)
+  {
+    case "A": 
+    document.getElementById(answerLetter).innerHTML = answerDivLeft + questionRow.A + answerDivRight;
+    break;
+    case "B": 
+    document.getElementById(answerLetter).innerHTML = answerDivLeft + questionRow.B + answerDivRight;
+    break;
+    case "C": 
+    document.getElementById(answerLetter).innerHTML = answerDivLeft + questionRow.C + answerDivRight;
+    break;
+    case "D": 
+    document.getElementById(answerLetter).innerHTML = answerDivLeft + questionRow.D + answerDivRight;
+    break;
+    default:
+      // something here
+  }
 }
 
-window.onload = init();
-
-function next() {
-  init();
-}
 
 function reveal() {
   const HIDE = "Hide answer";
@@ -256,11 +254,9 @@ function reveal() {
 }
 
 function flipMe(degrees) {
-  console.log("called flipMe");  
   const div = document.getElementById("flip-card-inner");
   div.style.transform = 'rotateY('+degrees+'deg)';
 }
-
 
 </script>
     
