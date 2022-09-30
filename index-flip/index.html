@@ -133,6 +133,21 @@
   <div class="container">
     <div class="row">
       <H3><p id = "title" class="text-success"><B> </B></p></H3>
+
+
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+        <label class="form-check-label" for="flexRadioDefault1">
+          Randomize
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+        <label class="form-check-label" for="flexRadioDefault2">
+          In order
+        </label>
+      </div>
+
     </div>
     <div class="row">
       <div class="col-lg-6">
@@ -203,8 +218,10 @@ function setupPage() {
   // TODO remove
   console.log(test[questionRowNum]);  // individual question rows are under test
 
-  // Front of card - set up question
+  // Above card - title and options
   document.getElementById("title").innerHTML = title;
+
+  // Front of card - set up question
   document.getElementById("question_id").innerHTML = "Question: (" + questionRow.id + ")";
   document.getElementById("question").innerHTML = questionRow.question;
   document.getElementById("A").innerHTML = questionRow.A;
@@ -212,10 +229,12 @@ function setupPage() {
   document.getElementById("C").innerHTML = questionRow.C;
   document.getElementById("D").innerHTML = questionRow.D;
   document.getElementById("next-btn-1").innerHTML = NEXT;
+
   // Back of card
   document.getElementById("answer_id").innerHTML = "Answers: (" + questionRow.id + ")";
   document.getElementById("reveal-btn").innerHTML = SHOW;
   document.getElementById("flip-btn").innerHTML = FLIP;
+
   // set up answer row
   const answerLetter = questionRow.answer;
   const answerDivLeft='<div id="answer">';
