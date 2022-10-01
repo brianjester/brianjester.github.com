@@ -140,7 +140,7 @@
         <div class="flip-card">
           <div class="d-grid gap-2 d-md-flex justify-content-around">
             <row>
-              <button id="order-btn" class="btn btn-info btn-med me-md-2" type="button" onclick="setupOrder()">Restart</button>
+              <button id="order-btn" class="btn btn-info btn-med me-md-2" type="button" onclick="setupOrder()">Beginning</button>
               <button id="random-btn" class="btn btn-info btn-med me-md-2" type="button" onclick="randomize()">Random</button>
               <button id="next-btn-1" class="btn btn-primary btn-med" type="button" onclick="setupCard()"> </button>
             </row>
@@ -210,7 +210,6 @@ function setupPage() {
 function setupOrder() {
   window.order = "inOrder";
   window.questionRowNum = -1;
-  window.questionRowNum = 238;
   setupCard();
 }
 
