@@ -161,10 +161,10 @@
             <div class="flip-card-back">
               <HR>
               <p id = "answer_id" class="text-primary"><u> </u></p>
-              <p id="A"> </p>
-              <p id="B"> </p>
-              <p id="C"> </p>
-              <p id="D"> </p>
+              <p id="A" onclick='selectAnswer("A")'> </p>
+              <p id="B" onclick='selectAnswer("B")'> </p>
+              <p id="C" onclick='selectAnswer("C")'> </p>
+              <p id="D" onclick='selectAnswer("D")'> </p>
               <p id="figure-back"> </p>
               <HR>
               <div class="d-grid gap-2 d-md-flex justify-content-around">
@@ -219,6 +219,7 @@ function randomize() {
 }
 
 function setupCard() {
+  window.candAnswer="";
   flipMe(0);
   const SHOW = "Reveal";
   const NEXT = "Next question >";
@@ -314,6 +315,18 @@ function reveal() {
 function flipMe(degrees) {
   const div = document.getElementById("flip-card-inner");
   div.style.transform = 'rotateY('+degrees+'deg)';
+}
+
+function selectAnswer(candidateAnswer) {
+  window.candAnswer=candidateAnswer;
+}
+
+function check() {
+  if (window.candAnswer == questionRow.answer) {
+    console.info("Good job!");
+  } else {
+    console.info("Sorry guys...");
+  }
 }
 
 </script>
