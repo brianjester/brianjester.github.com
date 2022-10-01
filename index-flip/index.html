@@ -123,7 +123,7 @@
   <body>
 
 <main class="container">
-  <div class="p-4 p-md-4 mb-4 rounded text-bg-success">
+  <div class="p-2 p-md-4 mb-4 rounded text-bg-success">
     <div class="col-md-6 px-0">
       <h1 class="display-4 fst-italic">Index<span class="text-dark">Flip</span> <span class="glyphicon glyphicon-retweet" aria-hidden="false"></span></h1>
       <p class="lead my-3">Study and pass any test.</p>
@@ -139,9 +139,11 @@
 
         <div class="flip-card">
           <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-            <button id="order-btn" class="btn btn-info btn-med me-md-2" type="button" onclick="setupOrder()">In Order (restart)</button>
-            <button id="random-btn" class="btn btn-info btn-med me-md-2" type="button" onclick="randomize()">Random</button>
-            <button id="next-btn-1" class="btn btn-primary btn-med" type="button" onclick="setupCard()"> </button>
+            <row>
+              <button id="order-btn" class="btn btn-info btn-med me-md-2" type="button" onclick="setupOrder()">Restart</button>
+              <button id="random-btn" class="btn btn-info btn-med me-md-2" type="button" onclick="randomize()">Random</button>
+              <button id="next-btn-1" class="btn btn-primary btn-med" type="button" onclick="setupCard()"> </button>
+            </row>
           </div>
           <div class="flip-card-inner" id="flip-card-inner">
 
@@ -152,7 +154,7 @@
               <p id="figure-front"> </p>
               <HR>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                  <button id="flip-btn" class="btn btn-secondary btn-med me-md-4" type="button" onclick="flipMe(0)"> </button>
+                  <button id="flip-btn-front" class="btn btn-secondary btn-med me-md-4" type="button" onclick="flipMe(0)"> </button>
                 </div>            
             </div>
 
@@ -166,8 +168,10 @@
               <p id="figure-back"> </p>
               <HR>
               <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <button id="reveal-btn" class="btn btn-success btn-med me-md-2" type="button" onclick="reveal()"> </button>
-                <button id="flip-btn" class="btn btn-secondary btn-med me-md-2" type="button" onclick="flipMe(0)">Flip ^</button>
+                <row>
+                  <button id="reveal-btn" class="btn btn-success btn-med me-md-4" type="button" onclick="reveal()"> </button>
+                  <button id="flip-btn-back" class="btn btn-secondary btn-med" type="button" onclick="flipMe(0)"> </button>
+                </row>
               </div>
             </div>
 
@@ -218,7 +222,7 @@ function setupCard() {
   flipMe(0);
   const SHOW = "Show answer";
   const NEXT = "Next question >";
-  const FLIP = "Flip ^";
+  const FLIP = "Flip Card ^";
   const test = window.json.test;  // top level node is test
   const numQuestions = test.length;
   var questionRowNum;
@@ -245,6 +249,7 @@ function setupCard() {
   document.getElementById("C").innerHTML = questionRow.C;
   document.getElementById("D").innerHTML = questionRow.D;
   document.getElementById("next-btn-1").innerHTML = NEXT;
+  document.getElementById("flip-btn-front").innerHTML = FLIP;
 
   // Back of card
   document.getElementById("answer_id").innerHTML = "Answers: (" + questionRow.id + ")";
@@ -269,7 +274,7 @@ function setupCard() {
   }
 
   document.getElementById("reveal-btn").innerHTML = SHOW;
-  document.getElementById("flip-btn").innerHTML = FLIP;
+  document.getElementById("flip-btn-back").innerHTML = FLIP;
 
   // set up answer row
   const answerLetter = questionRow.answer;
