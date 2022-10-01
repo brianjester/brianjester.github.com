@@ -239,9 +239,6 @@ function setupCard() {
   }
   questionRow = test[window.questionRowNum];
 
-  // TODO remove
-  console.log(test[questionRowNum]);  // individual question rows are under test
-
   // Front of card - set up question
   document.getElementById("question_id").innerHTML = "Question: (" + questionRow.id + ")";
   document.getElementById("question").innerHTML = questionRow.question;
