@@ -297,6 +297,7 @@ function setupCard() {
     default:
       // something here
   }
+  clearGuessAndAnswer();
 }
 
 function reveal() {
@@ -317,15 +318,32 @@ function flipMe(degrees) {
   div.style.transform = 'rotateY('+degrees+'deg)';
 }
 
+function clearGuessAndAnswer() {
+  const letters = ["A", "B", "C", "D"];
+  for (let i=0;i<letters.length;i++){
+    document.getElementById(letters[i]).className = "";
+  }
+  document.getElementById("answer").className = "";  
+}
+
 function selectAnswer(candidateAnswer) {
+  document.getElementById("answer").className = "";
   window.candAnswer=candidateAnswer;
+  clearGuessAndAnswer();
+  document.getElementById(candidateAnswer).className = "bg-warning";
 }
 
 function check() {
+  const test = window.json.test;  // top level node is test
+  questionRow = test[window.questionRowNum];
+  const candidateAnswer = window.candAnswer;
+
   if (window.candAnswer == questionRow.answer) {
     console.info("Good job!");
+    document.getElementById("answer").className = "bg-success text-white";
   } else {
     console.info("Sorry guys...");
+    document.getElementById(candidateAnswer).className = "bg-danger text-white";
   }
 }
 
