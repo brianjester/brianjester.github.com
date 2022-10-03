@@ -199,6 +199,7 @@ async function init() {
   setupPage();
   setupOrder();
   setupCard();
+  document.getElementById("order-btn").className = "btn btn-secondary btn-med me-md-2";
 }
 
 function setupPage() {
@@ -217,10 +218,10 @@ function setupOrder() {
 function randomize() {
   window.order = "randomize";
   setupCard();
-  document.getElementById("order-btn").className = "btn btn-info btn-med me-md-2";
 }
 
 function setupCard() {
+  document.getElementById("order-btn").className = "btn btn-info btn-med me-md-2";
   window.candAnswer="";
   flipMe(0);
   const SHOW = "Reveal";
