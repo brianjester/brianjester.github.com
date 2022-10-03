@@ -154,7 +154,7 @@
               <p id="figure-front"> </p>
               <HR>
                 <div class="d-grid gap-2 d-md-flex justify-content-around">
-                  <button id="flip-btn-front" class="btn btn-secondary btn-med me-md-4" type="button" onclick="flipMe(0)"> </button>
+                  <button id="flip-btn-front" class="btn btn-success btn-med me-md-4" type="button" onclick="flipMe(0)"> </button>
                 </div>            
             </div>
 
@@ -217,6 +217,7 @@ function setupOrder() {
 function randomize() {
   window.order = "randomize";
   setupCard();
+  document.getElementById("order-btn").className = "btn btn-info btn-med me-md-2";
 }
 
 function setupCard() {
