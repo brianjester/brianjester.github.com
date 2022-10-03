@@ -169,9 +169,9 @@
               <HR>
               <div class="d-grid gap-2 d-md-flex justify-content-around">
                 <row>
-                  <button id="check-btn" class="btn btn-info btn-med me-md-4" type="button" onclick="check()"> </button>
-                  <button id="reveal-btn" class="btn btn-success btn-med me-md-4" type="button" onclick="reveal()"> </button>
-                  <button id="flip-btn-back" class="btn btn-secondary btn-med" type="button" onclick="flipMe(0)"> </button>
+                  <button id="check-btn" class="btn btn-secondary btn-med me-md-4" type="button" onclick="check()"> </button>
+                  <button id="reveal-btn" class="btn btn-info btn-med me-md-4" type="button" onclick="reveal()"> </button>
+                  <button id="flip-btn-back" class="btn btn-success btn-med" type="button" onclick="flipMe(0)"> </button>
                 </row>
               </div>
             </div>
@@ -211,6 +211,7 @@ function setupOrder() {
   window.order = "inOrder";
   window.questionRowNum = -1;
   setupCard();
+  document.getElementById("order-btn").className = "btn btn-secondary btn-med me-md-2";
 }
 
 function randomize() {
@@ -323,27 +324,35 @@ function clearGuessAndAnswer() {
   for (let i=0;i<letters.length;i++){
     document.getElementById(letters[i]).className = "";
   }
-  document.getElementById("answer").className = "";  
+  document.getElementById("answer").className = "";
+  document.getElementById("check-btn").className = "btn btn-secondary btn-med me-md-4";
+  window.candAnswer="E";
 }
 
 function selectAnswer(candidateAnswer) {
+  clearGuessAndAnswer();
   document.getElementById("answer").className = "";
   window.candAnswer=candidateAnswer;
-  clearGuessAndAnswer();
   document.getElementById(candidateAnswer).className = "bg-warning";
+  //btn btn-secondary btn-med me-md-4
+  document.getElementById("check-btn").className = "btn btn-info btn-med me-md-4";
 }
 
 function check() {
   const test = window.json.test;  // top level node is test
   questionRow = test[window.questionRowNum];
   const candidateAnswer = window.candAnswer;
-
+  const letters = ["A", "B", "C", "D"];
   if (window.candAnswer == questionRow.answer) {
     console.info("Good job!");
     document.getElementById("answer").className = "bg-success text-white";
   } else {
     console.info("Sorry guys...");
-    document.getElementById(candidateAnswer).className = "bg-danger text-white";
+    // ensure we're only checking if a choice was made
+    console.info(candidateAnswer);
+    if (letters.includes(candidateAnswer)) {
+      document.getElementById(candidateAnswer).className = "bg-danger text-white";
+    }
   }
 }
 
