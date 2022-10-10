@@ -122,11 +122,46 @@
   </head>
   <body>
 
+    <header>
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <b><a class="navbar-brand" href="#"><span class="fst-italic">Index</span><span class="text-success">Flip</span></a></b>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Technician</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link disabled">General</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Advanced</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Extra</a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+    </header>
+
 <main class="container">
   <div class="p-2 p-md-4 mb-4 rounded text-bg-success">
     <div class="col-md-6 px-0">
-      <h1 class="display-4 fst-italic">Index<span class="text-dark">Flip</span> <span class="glyphicon glyphicon-retweet" aria-hidden="false"></span></h1>
-      <p class="lead my-3">Study and pass any test.</p>
+      <!-- <h1 class="display-4 fst-italic">Index<span class="text-dark">Flip</span></h1>
+      <p class="lead my-3">Study and pass any test.</p> -->
     </div>
   </div>
 
@@ -140,7 +175,7 @@
         <div class="flip-card">
           <div class="d-grid gap-2 d-md-flex justify-content-around">
             <row>
-              <button id="order-btn" class="btn btn-info btn-med me-md-2" type="button" onclick="setupOrder()">Beginning</button>
+              <button id="order-btn" class="btn btn-info btn-med me-md-2" type="button" onclick="setupOrder()">&lt; Beginning</button>
               <button id="random-btn" class="btn btn-info btn-med me-md-2" type="button" onclick="randomize()">Random</button>
               <button id="next-btn-1" class="btn btn-primary btn-med" type="button" onclick="setupCard()"> </button>
             </row>
