@@ -215,25 +215,29 @@
           <div class="flip-card-inner" id="flip-card-inner">
 
             <div class="flip-card-front"  onclick="flipMe(180)">
-              <HR>
-              <p id = "question_id" class="text-primary"><u> </u></p>
-              <H5><p id = "question"> </p></H5>
-              <p id="figure-front"> </p>
-              <HR>
-                <div class="d-grid gap-2 d-md-flex justify-content-around">
-                  <button id="flip-btn-front" class="btn btn-success btn-med me-md-4" type="button" onclick="flipMe(0)"> </button>
-                </div>            
+              <BR>
+              <div  style="border: 1px solid grey;padding: 25px;background-color: ivory;">
+                <p id = "question_id" class="text-primary"><u> </u></p>
+                <H5><p id = "question"> </p></H5>
+                <p id="figure-front"> </p>
+              </div>
+              <BR>
+              <div class="d-grid gap-2 d-md-flex justify-content-around">
+                <button id="flip-btn-front" class="btn btn-success btn-med me-md-4" type="button" onclick="flipMe(0)"> </button>
+              </div>            
             </div>
 
             <div class="flip-card-back">
-              <HR>
-              <p id = "answer_id" class="text-primary"><u> </u></p>
-              <p id="A" onclick='selectAnswer("A")'> </p>
-              <p id="B" onclick='selectAnswer("B")'> </p>
-              <p id="C" onclick='selectAnswer("C")'> </p>
-              <p id="D" onclick='selectAnswer("D")'> </p>
-              <p id="figure-back"> </p>
-              <HR>
+              <BR>
+              <div  style="border: 1px solid grey;padding: 25px;background-color: ivory;">
+                <p id = "answer_id" class="text-primary"><u> </u></p>
+                <p id="A" onclick='selectAnswer("A")'> </p>
+                <p id="B" onclick='selectAnswer("B")'> </p>
+                <p id="C" onclick='selectAnswer("C")'> </p>
+                <p id="D" onclick='selectAnswer("D")'> </p>
+                <p id="figure-back"> </p>
+              </div>
+              <BR>
               <div class="d-grid gap-2 d-md-flex justify-content-around">
                 <row>
                   <button id="check-btn" class="btn btn-secondary btn-med me-md-4" type="button" onclick="check()"> </button>
