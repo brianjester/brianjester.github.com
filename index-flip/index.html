@@ -419,6 +419,8 @@ function check() {
   const letters = ["A", "B", "C", "D"];
   if (window.candAnswer == questionRow.answer) {
     document.getElementById("answer").className = "bg-success text-white";
+    var snd = new Audio("success.mp3"); // buffers automatically when created
+    snd.play();
   } else {
     // ensure we're only checking if a choice was made
     if (letters.includes(candidateAnswer)) {
