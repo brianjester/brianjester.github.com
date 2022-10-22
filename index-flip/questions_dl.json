@@ -1,0 +1,86 @@
+{
+  "title": "California DMV Regular Driver (Class C) Written Test 1-5", 
+  "ref": "https://www.dmv.ca.gov/portal/driver-education-and-safety/educational-materials/sample-driver-license-dl-knowledge-tests/",
+  "test": [
+    {
+      "id": "T1Q1",
+      "answer": "C",
+      "question": "You may drive off of the paved roadway to pass another vehicle:",
+      "A": "A. If the shoulder is wide enough to accommodate your vehicle.",
+      "B": "B. If the vehicle ahead of you is turning left.",
+      "C": "C. Under no circumstances."
+    },
+    {
+      "id": "T1Q2",
+      "answer": "A",
+      "question": "You are approaching a railroad crossing with no warning devices and are unable to see 400 feet down the tracks in one direction. The speed limit is:",
+      "A": "A. 15 mph.",
+      "B": "B. 20 mph.",
+      "C": "C. 25 mph."
+    },
+	{
+      "id": "T1Q3",
+      "answer": "B",
+      "question": "When parking your vehicle parallel to the curb on a level street:",
+      "A": "A. Your front wheels must be turned toward the street.",
+      "B": "B. Your wheels must be within 18 inches of the curb.",
+      "C": "C. One of your rear wheels must touch the curb."
+    },
+	{
+      "id": "T1Q4",
+      "answer": "A",
+      "question": "When you are merging onto the freeway, you should be driving:",
+      "A": "A. At or near the same speed as the traffic on the freeway.",
+      "B": "B. 5 to 10 MPH slower than the traffic on the freeway.",
+      "C": "C. The posted speed limit for traffic on the freeway."
+    },
+	{
+      "id": "T1Q5",
+      "answer": "C",
+      "question": "When driving in fog, you should use your:",
+      "A": "A. Fog lights only.",
+      "B": "B. High beams.",
+      "C": "C. Low beams."
+    },
+	{
+      "id": "T1Q6",
+      "answer": "B",
+      "question": "A white painted curb means:",
+      "A": "A. Loading zone for freight or passengers.",
+      "B": "B. Loading zone for passengers or mail only.",
+      "C": "C. Loading zone for freight only."
+    },
+	{
+      "id": "T1Q7",
+      "answer": "C",
+      "question": "A school bus ahead of you in your lane is stopped with red lights flashing. You should:",
+      "A": "A. Stop, then proceed when you think all of the children have exited the bus.",
+      "B": "B. Slow to 25 MPH and pass cautiously.",
+      "C": "C. Stop as long as the red lights are flashing."
+    },
+	{
+      "id": "T1Q8",
+      "answer": "B",
+      "question": "California's "Basic Speed Law" says:",
+      "A": "A. You should never drive faster than posted speed limits.",
+      "B": "B. You should never drive faster than is safe for current conditions.",
+      "C": "C. The maximum speed limit in California is 70 mph on certain freeways."
+    },
+	{
+      "id": "T1Q9",
+      "answer": "B",
+      "question": "You just sold your vehicle. You must notify the DMV within ___ days.",
+      "A": "A. 5",
+      "B": "B. 10",
+      "C": "C. 15"
+    },
+	{
+      "id": "T1Q10",
+      "answer": "B",
+      "question": "To avoid last minute moves, you should be looking down the road to where your vehicle will be in about ______________.",
+      "A": "A. 5 to 10 seconds",
+      "B": "B. 10 to 15 seconds",
+      "C": "C. 15 to 20 seconds"
+    },
+  ]
+}
