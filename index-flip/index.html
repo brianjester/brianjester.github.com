@@ -182,13 +182,10 @@
           <div class="navbar-expand" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Technician</a>
+                <a class="nav-link active" aria-current="page" href="#" onclick="loadFccTechQuestions()">FCC Tech</a>
               </li>
                <li class="nav-item">
-                <a class="nav-link disabled">General</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Extra</a>
+                <a class="nav-link active" aria-current="page" href="#" onclick="init()">Calif DMV C</a>
               </li>
             </ul>
           </div>
@@ -266,7 +263,16 @@
 window.onload = init();
 
 async function init() {
+  window.json = await fetch('https://brianjester.github.io/index-flip/questions_dl.json').then(response => { return response.json() });
+  postInit();
+}
+
+async function loadFccTechQuestions() {
   window.json = await fetch('https://brianjester.github.io/index-flip/questions.json5').then(response => { return response.json() });
+  postInit();
+}
+
+function postInit() {
   setupPage();
   setupOrder();
   document.getElementById("order-btn").className = "btn btn-secondary btn-med me-md-2";
@@ -318,10 +324,18 @@ function setupCard() {
   // Front of card - set up question
   document.getElementById("question_id").innerHTML = "Question: (" + questionRow.id + ")";
   document.getElementById("question").innerHTML = questionRow.question;
-  document.getElementById("A").innerHTML = questionRow.A;
-  document.getElementById("B").innerHTML = questionRow.B;
-  document.getElementById("C").innerHTML = questionRow.C;
-  document.getElementById("D").innerHTML = questionRow.D;
+  if (questionRow.hasOwnProperty("A")) {
+    document.getElementById("A").innerHTML = questionRow.A;
+  }
+  if (questionRow.hasOwnProperty("B")) {
+    document.getElementById("B").innerHTML = questionRow.B;
+  }
+  if (questionRow.hasOwnProperty("C")) {
+    document.getElementById("C").innerHTML = questionRow.C;
+  }
+  if (questionRow.hasOwnProperty("D")) {
+    document.getElementById("D").innerHTML = questionRow.D;
+  }
   document.getElementById("next-btn-1").innerHTML = NEXT;
   document.getElementById("flip-btn-front").innerHTML = FLIP;
 
