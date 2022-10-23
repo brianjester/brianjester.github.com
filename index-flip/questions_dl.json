@@ -1,5 +1,5 @@
 {
-  "title": "California DMV Regular Driver (Class C) Written Test 1", 
+  "title": "California DMV Regular Driver (Class C) Written Test 1",
   "ref": "https://www.dmv.ca.gov/portal/driver-education-and-safety/educational-materials/sample-driver-license-dl-knowledge-tests/",
   "test": [
     {
@@ -18,7 +18,7 @@
       "B": "B. 20 mph.",
       "C": "C. 25 mph."
     },
-	{
+    {
       "id": "T1Q3",
       "answer": "B",
       "question": "When parking your vehicle parallel to the curb on a level street:",
@@ -26,7 +26,7 @@
       "B": "B. Your wheels must be within 18 inches of the curb.",
       "C": "C. One of your rear wheels must touch the curb."
     },
-	{
+    {
       "id": "T1Q4",
       "answer": "A",
       "question": "When you are merging onto the freeway, you should be driving:",
@@ -34,7 +34,7 @@
       "B": "B. 5 to 10 MPH slower than the traffic on the freeway.",
       "C": "C. The posted speed limit for traffic on the freeway."
     },
-	{
+    {
       "id": "T1Q5",
       "answer": "C",
       "question": "When driving in fog, you should use your:",
@@ -42,7 +42,7 @@
       "B": "B. High beams.",
       "C": "C. Low beams."
     },
-	{
+    {
       "id": "T1Q6",
       "answer": "B",
       "question": "A white painted curb means:",
@@ -50,7 +50,7 @@
       "B": "B. Loading zone for passengers or mail only.",
       "C": "C. Loading zone for freight only."
     },
-	{
+    {
       "id": "T1Q7",
       "answer": "C",
       "question": "A school bus ahead of you in your lane is stopped with red lights flashing. You should:",
@@ -58,7 +58,7 @@
       "B": "B. Slow to 25 MPH and pass cautiously.",
       "C": "C. Stop as long as the red lights are flashing."
     },
-	{
+    {
       "id": "T1Q8",
       "answer": "B",
       "question": "California's \"Basic Speed Law\" says:",
@@ -66,7 +66,7 @@
       "B": "B. You should never drive faster than is safe for current conditions.",
       "C": "C. The maximum speed limit in California is 70 mph on certain freeways."
     },
-	{
+    {
       "id": "T1Q9",
       "answer": "B",
       "question": "You just sold your vehicle. You must notify the DMV within ___ days.",
@@ -74,13 +74,93 @@
       "B": "B. 10",
       "C": "C. 15"
     },
-	{
+    {
       "id": "T1Q10",
       "answer": "B",
       "question": "To avoid last minute moves, you should be looking down the road to where your vehicle will be in about ______________.",
       "A": "A. 5 to 10 seconds",
       "B": "B. 10 to 15 seconds",
       "C": "C. 15 to 20 seconds"
+    },
+    {
+      "id": "T2Q1",
+      "answer": "C",
+      "question": "You are about to make a left turn. You must signal continuously during the last ____ feet before the turn.",
+      "A": "A. 50",
+      "B": "B. 75",
+      "C": "C. 100"
+    },
+    {
+      "id": "T2Q2",
+      "answer": "B",
+      "question": "Which of the following statements about blind spots is true?",
+      "A": "A. They are eliminated if you have one outside mirror on each side of the vehicle.",
+      "B": "B. Large trucks have bigger blind spots than most passenger vehicles.",
+      "C": "C. Blind spots can be checked by looking in your rear view mirrors."
+    },
+    {
+      "id": "T2Q3",
+      "answer": "A",
+      "question": "You have been involved in a minor traffic collision with a parked vehicle and you can't find the owner. You must:",
+      "A": "A. Leave a note on the vehicle.",
+      "B": "B. Report the accident without delay to the city police or, in unincorporated areas, to the CHP.",
+      "C": "C. Both of the above."
+    },
+    {
+      "id": "T2Q4",
+      "answer": "A",
+      "question": "Unless otherwise posted the speed limit in a residential area is ____.",
+      "A": "A. 20 mph",
+      "B": "B. 25 mph",
+      "C": "C. 30 mph"
+    },
+    {
+      "id": "T2Q5",
+      "answer": "C",
+      "question": "You may legally block an intersection:",
+      "A": "A. When you entered the intersection on the green light.",
+      "B": "B. During rush hour traffic.",
+      "C": "C. Under no circumstances."
+    },
+    {
+      "id": "T2Q6",
+      "answer": "A",
+      "question": "When parking uphill on a two-way street with no curb, your front wheels should be:",
+      "A": "A. Turned to the left (toward the street).",
+      "B": "B. Turned to the right (away from the street).",
+      "C": "C. Parallel with the pavement."
+    },
+    {
+      "id": "T2Q7",
+      "answer": "A",
+      "question": "With a Class C drivers license a person may drive:",
+      "A": "A. A 3-axle vehicle if the Gross Vehicle Weight is less than 6,000 pounds.",
+      "B": "B. Any 3-axle vehicle regardless of the weight.",
+      "C": "C. A vehicle pulling two trailers."
+    },
+    {
+      "id": "T2Q8",
+      "answer": "B",
+      "question": "To turn left from a multilane one-way street onto a one-way street, you should start your turn from:",
+      "A": "A. Any lane (as long as it is safe).",
+      "B": "B. The lane closest to the left curb.",
+      "C": "C. The lane in the center of the road."
+    },
+    {
+      "id": "T2Q9",
+      "answer": "A",
+      "question": "If you are involved in a traffic collision, you are required to complete and submit a written report (SR1) to the DMV:",
+      "A": "A. Only if you or the other driver is injured.",
+      "B": "B. If there is property damage in excess of $1,000 or if there are any injuries.",
+      "C": "C. Only if you are at fault."
+    },
+    {
+      "id": "T2Q10",
+      "answer": "C",
+      "question": "Roadways are the most slippery:",
+      "A": "A. During a heavy downpour.",
+      "B": "B. After it has been raining for awhile.",
+      "C": "C. The first rain after a dry spell."
     }
   ]
 }
