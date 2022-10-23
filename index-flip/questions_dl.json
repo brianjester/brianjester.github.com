@@ -161,6 +161,86 @@
       "A": "A. During a heavy downpour.",
       "B": "B. After it has been raining for awhile.",
       "C": "C. The first rain after a dry spell."
+    },
+    {
+      "id": "T3Q1",
+      "answer": "B",
+      "question": "You may not park your vehicle:",
+      "A": "A. On the side of the freeway in an emergency.",
+      "B": "B. Next to a red painted curb.",
+      "C": "C. Within 100 feet of an elementary school."
+    },
+    {
+      "id": "T3Q2",
+      "answer": "A",
+      "question": "You must notify the DMV within 5 days if you:",
+      "A": "A. Sell or transfer your vehicle.",
+      "B": "B. Fail a smog test for your vehicle.",
+      "C": "C. Get a new prescription for lenses or contacts."
+    },
+    {
+      "id": "T3Q3",
+      "answer": "A",
+      "question": "Two sets of solid, double, yellow lines that are two or more feet apart:",
+      "A": "A. May be crossed to enter or exit a private driveway.",
+      "B": "B. May not be crossed for any reason.",
+      "C": "C. Should be treated as a separate traffic lane."
+    },
+    {
+      "id": "T3Q4",
+      "answer": "D",
+      "question": "You want to make a right turn at an upcoming intersection. You should slow down and:",
+      "A": "A. Move toward the left side of your lane.",
+      "B": "B. Avoid driving in the bicycle lane.",
+      "C": "C. Signal for 100 feet before turning."
+    },
+    {
+      "id": "T3Q5",
+      "answer": "B",
+      "question": "You are driving on a freeway posted for 65 MPH. The traffic is traveling at 70 MPH. You may legally drive:",
+      "A": "A. 70 mph or faster to keep up with the speed of traffic.",
+      "B": "B. Between 65 mph and 70 mph.",
+      "C": "C. No faster than 65 mph."
+    },
+    {
+      "id": "T3Q6",
+      "answer": "A",
+      "question": "It is illegal to park your vehicle:",
+      "A": "A. In an unmarked crosswalk.",
+      "B": "B. Within three feet of a private driveway.",
+      "C": "C. In a bicycle lane."
+    },
+    {
+      "id": "T3Q7",
+      "answer": "A",
+      "question": "The safest precaution that you can take regarding the use of cellular phones and driving is:",
+      "A": "A. Use hands-free devices so you can keep both hands on the steering wheel.",
+      "B": "B. Keep your phone within easy reach so you won't need to take your eyes off the road.",
+      "C": "C. Review the number before answering a call."
+    },
+    {
+      "id": "T3Q8",
+      "answer": "A",
+      "question": "If you have a green light, but traffic is blocking the intersection, you should:",
+      "A": "A. Stay out of the intersection until traffic clears.",
+      "B": "B. Enter the intersection and wait until traffic clears.",
+      "C": "C. Merge into another lane and try to go around the traffic."
+    },
+    {
+      "id": "T3Q9",
+      "answer": "C",
+      "question": "You are getting ready to make a right turn. You should:",
+      "A": "A. Signal and turn immediately.",
+      "B": "B. Stop before entering the right lane and let all other traffic go first.",
+      "C": "C. Slow down or stop, if necessary, and then make the turn."
+    },
+    {
+      "id": "T3Q10",
+      "answer": "A",
+      "question": "You must obey instructions from school crossing guards:",
+      "A": "A. At all times.",
+      "B": "B. Only during school hours.",
+      "C": "C. Unless you do not see any children present."
     }
   ]
 }
