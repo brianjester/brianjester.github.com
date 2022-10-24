@@ -303,14 +303,14 @@
       "answer": "B",
       "question": "You may cross a double yellow line to pass another vehicle, if the yellow line next to:",
       "A": "A. The other side of the road is a solid line.",
-      "B": "B. Your side of the road is a broken line. ",
+      "B": "B. Your side of the road is a broken line.",
       "C": "C. The other side of the road is a broken line."
     },
     {
       "id": "T4Q9",
       "answer": "B",
       "question": "At intersections, crosswalks, and railroad crossings, you should always:",
-      "A": "A. Stop, listen, and proceed cautiously. ",
+      "A": "A. Stop, listen, and proceed cautiously.",
       "B": "B. Look to the sides of your vehicle to see what is coming.",
       "C": "C. Slowly pass vehicles that seem to be stopped for no reason."
     },
@@ -321,6 +321,86 @@
       "A": "A. Always put one car length between you and the car ahead.",
       "B": "B. Look only at the car in front of you while driving.",
       "C": "C. Keep your eyes moving to look for possible hazards."
+    },
+    {
+      "id": "T5Q1",
+      "answer": "B",
+      "question": "You are driving on the freeway. The vehicle in front of you is a large truck. You should drive:",
+      "A": "A. Closely behind the truck in bad weather because the driver can see farther ahead.",
+      "B": "B. Farther behind the truck than you would for a passenger vehicle.",
+      "C": "C. No more than one car length behind the truck so the driver can see you."
+    },
+    {
+      "id": "T5Q2",
+      "answer": "A",
+      "question": "All of the following practices are dangerous to do while driving. Which of these is also illegal?",
+      "A": "A. Listening to music through headphones that cover both ears. ",
+      "B": "B. Adjusting your outside mirrors.",
+      "C": "C. Transporting an unrestrained animal inside the vehicle."
+    },
+    {
+      "id": "T5Q3",
+      "answer": "A",
+      "question": "Always stop before you cross railroad tracks when:",
+      "A": "A. You don't have room on the other side to completely cross the tracks.",
+      "B": "B. The railroad crossing is located in a city or town that has frequent train traffic.",
+      "C": "C. You transport two or more young children in a passenger vehicle."
+    },
+    {
+      "id": "T5Q4",
+      "answer": "A",
+      "question": "When you tailgate other drivers (drive close to their rear bumper):",
+      "A": "A. You can frustrate the other drivers and make them angry.",
+      "B": "B. Your actions cannot result in a traffic citation.",
+      "C": "C. You help reduce traffic congestion."
+    },
+    {
+      "id": "T5Q5",
+      "answer": "A",
+      "question": "Should you always drive slower than other traffic?",
+      "A": "A. No, you can block traffic when you drive too slowly.",
+      "B": "B. Yes, it is a good defensive driving technique.",
+      "C": "C. Yes, it is always safer than driving faster than other traffic."
+    },
+    {
+      "id": "T5Q6",
+      "answer": "C",
+      "question": "You see a signal person at a road construction site ahead. You should obey his or her instructions:",
+      "A": "A. Only if you see orange cones on the road ahead.",
+      "B": "B. Unless they conflict with existing signs, signals, or laws.",
+      "C": "C. At all times."
+    },
+    {
+      "id": "T5Q7",
+      "answer": "B",
+      "question": "When can you drive in a bike lane?",
+      "A": "A. During rush hour traffic if there are no bicyclists in the bike lane.",
+      "B": "B. When you are within 200 feet of a cross street where you plan to turn right.",
+      "C": "C. When you want to pass a driver ahead of you who is turning right."
+    },
+    {
+      "id": "T5Q8",
+      "answer": "C",
+      "question": "You see a flashing yellow traffic signal at an upcoming intersection. The flashing yellow light means:",
+      "A": "A. Stop before entering the intersection as long as you can do so safely.",
+      "B": "B. Stop. Yield to all cross traffic before crossing the intersection.",
+      "C": "C. Slow down and cross the intersection carefully."
+    },
+    {
+      "id": "T5Q9",
+      "answer": "C",
+      "question": "There is no crosswalk and you see a pedestrian crossing your lane ahead. You should:",
+      "A": "A. Make eye contact and then pass him/her.",
+      "B": "B. Slow down as you pass him/her.",
+      "C": "C. Stop and let him/her finish crossing the street."
+    },
+    {
+      "id": "T5Q10",
+      "answer": "B",
+      "question": "A solid yellow line next to a broken yellow line means that vehicles:",
+      "A": "A. In both directions may pass.",
+      "B": "B. Next to the broken line may pass.",
+      "C": "C. Next to the solid line may pass."
     }
   ]
 }
