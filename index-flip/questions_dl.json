@@ -241,6 +241,86 @@
       "A": "A. At all times.",
       "B": "B. Only during school hours.",
       "C": "C. Unless you do not see any children present."
+    },
+    {
+      "id": "T4Q1",
+      "answer": "C",
+      "question": "It is a very windy day. You are driving and a dust storm blows across the freeway reducing your visibility. You should drive slower and turn on your:",
+      "A": "A. Interior lights.",
+      "B": "B. Parking lights.",
+      "C": "C. Headlights."
+    },
+    {
+      "id": "T4Q2",
+      "answer": "A",
+      "question": "If you plan to pass another vehicle, you should:",
+      "A": "A. Not assume the other driver will make space for you to return to your lane.",
+      "B": "B. Assume the other driver will let you pass if you use your turn signal.",
+      "C": "C. Assume the other driver will maintain a constant speed."
+    },
+    {
+      "id": "T4Q3",
+      "answer": "C",
+      "question": "You are driving on a freeway posted for 65 mph. Most of the other vehicles are driving 70 mph or faster. You may legally drive:",
+      "A": "A. 70 mph or faster to keep up with the speed of traffic.",
+      "B": "B. Between 65 mph and 70 mph.",
+      "C": "C. No faster than 65 mph. "
+    },
+    {
+      "id": "T4Q4",
+      "answer": "B",
+      "question": "If you drive faster than other vehicles on a road with one lane in each direction and continually pass the other cars, you will:",
+      "A": "A. Get you to your destination much faster and safer.",
+      "B": "B. Increase your chances of an accident.",
+      "C": "C. Help prevent traffic congestion."
+    },
+    {
+      "id": "T4Q5",
+      "answer": "A",
+      "question": "Which of these vehicles must always stop before crossing railroad tracks?",
+      "A": "A. Tank trucks marked with hazardous materials placards.",
+      "B": "B. Motor homes or pickup trucks towing a boat trailer.",
+      "C": "C. Any vehicle with 3 or more axles or weighing more than 4,000 pounds."
+    },
+    {
+      "id": "T4Q6",
+      "answer": "C",
+      "question": "You are driving on a one-way street. You may turn left onto another one-way street only if:",
+      "A": "A. A sign permits the turn.",
+      "B": "B. Traffic on the street moves to the right.",
+      "C": "C. Traffic on the street moves to the left."
+    },
+    {
+      "id": "T4Q7",
+      "answer": "B",
+      "question": "A large truck is ahead of you and is turning right onto a street with two lanes in each direction. The truck:",
+      "A": "A. May complete its turn in either of the two lanes.",
+      "B": "B. May have to swing wide to complete the right turn.",
+      "C": "C. Must stay in the right lane at all times while turning."
+    },
+    {
+      "id": "T4Q8",
+      "answer": "B",
+      "question": "You may cross a double yellow line to pass another vehicle, if the yellow line next to:",
+      "A": "A. The other side of the road is a solid line.",
+      "B": "B. Your side of the road is a broken line. ",
+      "C": "C. The other side of the road is a broken line."
+    },
+    {
+      "id": "T4Q9",
+      "answer": "B",
+      "question": "At intersections, crosswalks, and railroad crossings, you should always:",
+      "A": "A. Stop, listen, and proceed cautiously. ",
+      "B": "B. Look to the sides of your vehicle to see what is coming.",
+      "C": "C. Slowly pass vehicles that seem to be stopped for no reason."
+    },
+    {
+      "id": "T4Q10",
+      "answer": "C",
+      "question": "You drive defensively when you:",
+      "A": "A. Always put one car length between you and the car ahead.",
+      "B": "B. Look only at the car in front of you while driving.",
+      "C": "C. Keep your eyes moving to look for possible hazards."
     }
   ]
 }
