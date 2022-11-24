@@ -132,6 +132,9 @@
           <a class="nav-link active" id="calif_dmv_c_link" aria-current="page" href="#" onclick="init()">Calif DMV C</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link active" id="calif_dre_link" aria-current="page" href="#" onclick="loadCaDreQuestions()">Calif DRE</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link active" id="fcc_tech_link" aria-current="page" href="#" onclick="loadFccTechQuestions()">FCC Tech</a>
         </li>
       </ul>
@@ -206,6 +209,7 @@ window.onload = init();
 async function init() {
   document.getElementById("calif_dmv_c_link").className = "nav-link active";
   document.getElementById("fcc_tech_link").className = "nav-link";
+  document.getElementById("calif_dre_link").className = "nav-link";
   window.json = await fetch('https://brianjester.github.io/index-flip/questions_dl.json').then(response => { return response.json() });
   postInit();
 }
@@ -213,7 +217,16 @@ async function init() {
 async function loadFccTechQuestions() {
   document.getElementById("calif_dmv_c_link").className = "nav-link";
   document.getElementById("fcc_tech_link").className = "nav-link active";
+  document.getElementById("calif_dre_link").className = "nav-link";
   window.json = await fetch('https://brianjester.github.io/index-flip/questions.json5').then(response => { return response.json() });
+  postInit();
+}
+
+async function loadCaDreQuestions() {
+  document.getElementById("calif_dmv_c_link").className = "nav-link";
+  document.getElementById("fcc_tech_link").className = "nav-link";
+  document.getElementById("calif_dre_link").className = "nav-link active";
+  window.json = await fetch('https://brianjester.github.io/index-flip/questions_ca_re.json').then(response => { return response.json() });
   postInit();
 }
 
