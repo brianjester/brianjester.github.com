@@ -153,8 +153,8 @@
         <div class="flip-card">
           <div class="d-grid gap-2 d-md-flex justify-content-around">
             <row>
-              <button id="order-btn" class="btn btn-info btn-med me-md-2" type="button" onclick="setupOrder()">&lt; Beginning</button>
-              <button id="random-btn" class="btn btn-info btn-med me-md-2" type="button" onclick="randomize()">Random</button>
+              <button id="order-btn" class="btn btn-primary btn-med me-md-2" type="button" onclick="setupOrder()">◀️</button>
+              <button id="random-btn" class="btn btn-primary btn-med me-md-2" type="button" onclick="randomize()">🎲</button>
               <button id="next-btn-1" class="btn btn-primary btn-med" type="button" onclick="setupCard()"> </button>
             </row>
           </div>
@@ -169,7 +169,7 @@
               </div>
               <BR>
               <div class="d-grid gap-2 d-md-flex justify-content-around">
-                <button id="flip-btn-front" class="btn btn-success btn-med me-md-4" type="button" onclick="flipMe(0)"> </button>
+                <button id="flip-btn-front" class="btn btn-primary btn-med me-md-4" type="button" onclick="flipMe(0)"> </button>
               </div>            
             </div>
 
@@ -186,9 +186,9 @@
               <BR>
               <div class="d-grid gap-2 d-md-flex justify-content-around">
                 <row>
-                  <button id="check-btn" class="btn btn-secondary btn-med me-md-4" type="button" onclick="check()"> </button>
-                  <button id="reveal-btn" class="btn btn-info btn-med me-md-4" type="button" onclick="reveal()"> </button>
-                  <button id="flip-btn-back" class="btn btn-success btn-med" type="button" onclick="flipMe(0)"> </button>
+                  <button id="check-btn" class="btn btn-primary btn-med me-md-4" type="button" onclick="check()"> </button>
+                  <button id="reveal-btn" class="btn btn-primary btn-med me-md-4" type="button" onclick="reveal()"> </button>
+                  <button id="flip-btn-back" class="btn btn-primary btn-med" type="button" onclick="flipMe(0)"> </button>
                 </row>
               </div>
             </div>
@@ -259,8 +259,8 @@ function setupCard() {
   window.candAnswer="";
   flipMe(0);
   const SHOW = "Reveal";
-  const NEXT = "Next question >";
-  const FLIP = "Flip Card ^";
+  const NEXT = "▶️";
+  const FLIP = "↔️ Flip";
   const CHECK = "Check";
   const test = window.json.test;  // top level node is test
   const numQuestions = test.length;
