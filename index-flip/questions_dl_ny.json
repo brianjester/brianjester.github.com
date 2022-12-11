@@ -460,6 +460,123 @@
       "B": "B. At the entrance of a building",
       "C": "C. In a crosswalk",
       "D": "D. Within 50 feet of a fire hydrant"
+    },
+    {
+      "id": "C8Q1",
+      "answer": "B",
+      "question": "One of the rules of defensive driving is:",
+      "A": "A. Look straight ahead as you drive",
+      "B": "B. Stay alert and keep your eyes moving",
+      "C": "C. Expect that other drivers will make up for your errors",
+      "D": "D. Be confident that you can avoid danger at the last minute"
+    },
+    {
+      "id": "C8Q2",
+      "answer": "A",
+      "question": "Signs that warn "lane closed ahead" may indicate a work zone ahead. You should:",
+      "A": "A. Merge your vehicle into the correct lane when it is safe",
+      "B": "B. Drive to the end of the closed lane before attempting to merge",
+      "C": "C. Understand that this sign is merely a suggestion and continue in the lane",
+      "D": "D. Speed up to merge as quickly as possible"
+    },
+    {
+      "id": "C8Q3",
+      "answer": "D",
+      "question": "Seat belts can be most effective as injury preventive devices when they are worn by:",
+      "A": "A. The person driving the car",
+      "B": "B. Passengers when they are on a long drive",
+      "C": "C. All occupants of a car being driven on an expressway",
+      "D": "D. Passengers and the driver whenever they are in the car"
+    },
+    {
+      "id": "C8Q4",
+      "answer": "A",
+      "question": "Minimum speed signs are designed to:",
+      "A": "A. Keep traffic flowing smoothly",
+      "B": "B. Show current local road conditions",
+      "C": "C. Test future traffic signal needs",
+      "D": "D. Assure pedestrian safety"
+    },
+    {
+      "id": "C8Q5",
+      "answer": "B",
+      "question": "Which of the following may describe a work zone sign?",
+      "A": "A. A white rectangle with black letters",
+      "B": "B. An orange diamond with black letters",
+      "C": "C. A green rectangle with white letters",
+      "D": "D. A yellow circle with black letters"
+    },
+    {
+      "id": "C8Q6",
+      "answer": "D",
+      "question": "Driving in a state of rage can:",
+      "A": "A. Affect your ability to reason and make decisions",
+      "B": "B. Increase the chance of being involved in a traffic accident",
+      "C": "C. Lead to a revoked or suspended license",
+      "D": "D. All of these choices"
+    },
+    {
+      "id": "C8Q7",
+      "answer": "D",
+      "question": "What is true of work zones?",
+      "A": "A. They are always stationary and therefore easily avoided",
+      "B": "B. They are only dangerous at night",
+      "C": "C. Speeding fines are tripled when workers are present",
+      "D": "D. Rear-end collisions are the most common type of crash in work zones"
+    },
+    {
+      "id": "C8Q8",
+      "answer": "C",
+      "question": "A safe speed to drive your car:",
+      "A": "A. Is the posted speed limit",
+      "B": "B. Is less than the posted speed limit",
+      "C": "C. Depends on the weather and road conditions",
+      "D": "D. Depends on the mechanical skill of the driver"
+    },
+    {
+      "id": "C8Q9",
+      "answer": "C",
+      "question": "On long trips you can prevent drowsiness by:",
+      "A": "A. Turning on your car radio",
+      "B": "B. Slowing down so you can react better",
+      "C": "C. Stopping at regular intervals for a rest",
+      "D": "D. Moving your eyes from side to side as you drive"
+    },
+    {
+      "id": "C8Q10",
+      "answer": "D",
+      "question": "Which of the following is always true about road rage?",
+      "A": "A. There is nothing a driver can do to prevent road rage",
+      "B": "B. You must hold your position in your travel lane",
+      "C": "C. Only violent people experience road rage",
+      "D": "D. You should remain polite to aggressive drivers"
+    },
+    {
+      "id": "C8Q11",
+      "answer": "D",
+      "question": "Which of the following is always true about road rage?",
+      "A": "A. There is nothing a driver can do to prevent road rage",
+      "B": "B. You must hold your position in your travel lane",
+      "C": "C. Only violent people experience road rage",
+      "D": "D. You should remain polite to aggressive drivers"
+    },
+    {
+      "id": "C8Q12",
+      "answer": "D",
+      "question": "Aggressive driving can become road rage. What should you do when confronted by an aggressive driver?",
+      "A": "A. Speed up to pass the driver as quickly as possible",
+      "B": "B. Be prepared to yield the right of way",
+      "C": "C. Drink alcohol to calm yourself down",
+      "D": "D. Make eye contact with the driver"
+    },
+    {
+      "id": "C8Q13",
+      "answer": "B",
+      "question": "On a New York State highway where there is no posted speed limit, the fastest you may legally drive is:",
+      "A": "A. 50 mph",
+      "B": "B. 55 mph",
+      "C": "C. 60 mph",
+      "D": "D. 65 mph"
     }
   ]
 }
