@@ -379,6 +379,87 @@
       "B": "B. Turn left",
       "C": "C. Park at the curb",
       "D": "D. Turn into a driveway on the right"
+    },
+    {
+      "id": "C7Q1",
+      "answer": "C",
+      "question": "A \"no standing\" sign at a certain location means:",
+      "A": "A. You may never stop your vehicle there",
+      "B": "B. You may park there if the driver remains in the vehicle",
+      "C": "C. You may stop temporarily to pick up or discharge passengers",
+      "D": "D. You may stop to load or unload merchandise"
+    },
+    {
+      "id": "C7Q2",
+      "answer": "C",
+      "question": "A driver may park in a space reserved for people with disabilities if the vehicle displays license plates for the disabled:",
+      "A": "A. Regardless of who is in the vehicle",
+      "B": "B. Only if the driver is disabled",
+      "C": "C. And is carrying a disabled person named on the registration",
+      "D": "D. If someone in the driver's immediate family is disabled"
+    },
+    {
+      "id": "C7Q3",
+      "answer": "B",
+      "question": "A \"no stopping\" sign means that, unless directed to do so by a policeman, you may stop only:",
+      "A": "A. Long enough to unload packages",
+      "B": "B. To avoid conflict with other traffic",
+      "C": "C. To discharge passengers",
+      "D": "D. For less than 5 minutes"
+    },
+    {
+      "id": "C7Q4",
+      "answer": "D",
+      "question": "In a parking space reserved for people with disabilities, a non-disabled driver:",
+      "A": "A. May park in an emergency",
+      "B": "B. May not park, but stop in an emergency",
+      "C": "C. May not park or stop, but may stand in an emergency",
+      "D": "D. May neither park, stop, nor stand"
+    },
+    {
+      "id": "C7Q5",
+      "answer": "C",
+      "question": "Before you leave a parking space which is parallel to the curb, you should:",
+      "A": "A. Sound your horn",
+      "B": "B. Turn on your four-way flasher",
+      "C": "C. Look for traffic by turning your head",
+      "D": "D. Look for traffic by using your inside rear-view mirror"
+    },
+    {
+      "id": "C7Q6",
+      "answer": "C",
+      "question": "If you are parked parallel to the curb, you may get out of the car on the traffic side:",
+      "A": "A. During the daytime when other drivers can see you",
+      "B": "B. When the traffic light at the closest intersection turns red",
+      "C": "C. When you won't interfere with oncoming vehicles",
+      "D": "D. If you use your four-way flasher first"
+    },
+    {
+      "id": "C7Q7",
+      "answer": "D",
+      "question": "Assuming that the street is level, what should you do after you have finished parallel parking in a space between two other cars?",
+      "A": "A. Leave your front wheels turned toward the curb",
+      "B": "B. Make sure your car almost touches the car behind you",
+      "C": "C. Move as far forward in the space as possible",
+      "D": "D. Straighten your front wheels and leave room between cars"
+    },
+    {
+      "id": "C7Q8",
+      "answer": "B",
+      "question": "A \"no parking\" sign at a certain location means:",
+      "A": "A. You may never stop your vehicle there",
+      "B": "B. You may stop temporarily to load or unload passengers",
+      "C": "C. You may park there if the driver remains in the vehicle",
+      "D": "D. You may leave your vehicle unattended for less than 5 minutes"
+    },
+    {
+      "id": "C7Q9",
+      "answer": "C",
+      "question": "You may never park:",
+      "A": "A. On a one-way street",
+      "B": "B. At the entrance of a building",
+      "C": "C. In a crosswalk",
+      "D": "D. Within 50 feet of a fire hydrant"
     }
   ]
 }
