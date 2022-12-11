@@ -473,7 +473,7 @@
     {
       "id": "C8Q2",
       "answer": "A",
-      "question": "Signs that warn "lane closed ahead" may indicate a work zone ahead. You should:",
+      "question": "Signs that warn \"lane closed ahead\" may indicate a work zone ahead. You should:",
       "A": "A. Merge your vehicle into the correct lane when it is safe",
       "B": "B. Drive to the end of the closed lane before attempting to merge",
       "C": "C. Understand that this sign is merely a suggestion and continue in the lane",
@@ -554,15 +554,6 @@
     {
       "id": "C8Q11",
       "answer": "D",
-      "question": "Which of the following is always true about road rage?",
-      "A": "A. There is nothing a driver can do to prevent road rage",
-      "B": "B. You must hold your position in your travel lane",
-      "C": "C. Only violent people experience road rage",
-      "D": "D. You should remain polite to aggressive drivers"
-    },
-    {
-      "id": "C8Q12",
-      "answer": "D",
       "question": "Aggressive driving can become road rage. What should you do when confronted by an aggressive driver?",
       "A": "A. Speed up to pass the driver as quickly as possible",
       "B": "B. Be prepared to yield the right of way",
@@ -570,7 +561,7 @@
       "D": "D. Make eye contact with the driver"
     },
     {
-      "id": "C8Q13",
+      "id": "C8Q12",
       "answer": "B",
       "question": "On a New York State highway where there is no posted speed limit, the fastest you may legally drive is:",
       "A": "A. 50 mph",
