@@ -1,0 +1,168 @@
+{
+  "title": "New York DMV Driver (D) Practice Test",
+  "ref": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+  "test": [
+    {
+      "id": "C4Q1",
+      "answer": "B",
+      "question": "You may cross a single solid white line in the highway:",
+      "A": "A. Whenever you want to",
+      "B": "B. If traffic conditions require",
+      "C": "C. Only to turn into a driveway",
+      "D": "D. Only to make a u-turn"
+    },
+    {
+      "id": "C4Q2",
+      "answer": "D",
+      "question": "As you near an intersection, the traffic light changes from green to yellow.  Your best action would be to:",
+      "A": "A. Speed up to beat the red light",
+      "B": "B. Apply the brakes sharply to stop",
+      "C": "C. Be prepared to stop in the center of the intersection",
+      "D": "D. Be prepared to stop before the intersection"
+    },
+    {
+      "id": "C4Q3",
+      "answer": "B",
+      "question": "Which of the following must you obey over the other three?",
+      "A": "A. A steady red light",
+      "B": "B. A policeman",
+      "C": "C. A stop sign",
+      "D": "D. A flashing red light"
+    },
+    {
+      "id": "C4Q4",
+      "answer": "B",
+      "question": "You may cross a double solid yellow line:",
+      "A": "A. To pass a slow moving truck",
+      "B": "B. To turn into a driveway",
+      "C": "C. To pass a car if traffic permits",
+      "D": "D. Under no conditions"
+    },
+    {
+      "id": "C4Q5",
+      "answer": "A",
+      "question": "You may not cross a single broken white (or yellow) line:",
+      "A": "A. When to do so would interfere with traffic",
+      "B": "B. When turning left into a driveway",
+      "C": "C. When the car in front is disabled",
+      "D": "D. When passing to the right on a one-way street"
+    },
+    {
+      "id": "C4Q6",
+      "answer": "D",
+      "question": "What are the colors of a sign which tells you the distance to the next exit of a highway?",
+      "A": "A. Yellow with black letters",
+      "B": "B. Black with white letters",
+      "C": "C. Red with white letters",
+      "D": "D. Green with white letters"
+    },
+    {
+      "id": "C4Q7",
+      "answer": "B",
+      "question": "A traffic light which has a green arrow and a red light means that:",
+      "A": "A. You may only drive straight ahead",
+      "B": "B. You may drive only in the direction of the green arrow",
+      "C": "C. You must wait for a green light",
+      "D": "D. Vehicles moving in any direction must stop"
+    },
+    {
+      "id": "C4Q8",
+      "answer": "B",
+      "question": "What are the colors of the warning signs that indicate hazards ahead, such as curves in the road or narrow bridges?",
+      "A": "A. Black letters or symbols on a white background",
+      "B": "B. Black letters or symbols on a yellow background",
+      "C": "C. White letters or symbols on a blue background",
+      "D": "D. White letters or symbols on a green background"
+    },
+    {
+      "id": "C4Q9",
+      "answer": "A",
+      "question": "You come to an intersection which has a flashing red light.  You should:",
+      "A": "A. Come to a full stop, then go when safe to do so",
+      "B": "B. Stop only if cars are approaching the intersection",
+      "C": "C. Stop only if cars are already in the intersection",
+      "D": "D. Slow down and be prepared to stop if necessary"
+    },
+    {
+      "id": "C4Q10",
+      "answer": "A",
+      "question": "An intersection has a stop sign and a crosswalk, but no stop line.  You must stop:",
+      "A": "A. Before the crosswalk",
+      "B": "B. 50 feet before the intersection",
+      "C": "C. Where you think the stop line would be",
+      "D": "D. With your front wheels in the crosswalk"
+    },
+    {
+      "id": "C4Q11",
+      "answer": "C",
+      "question": "When the road is marked with a solid yellow line and a broken yellow line on your side you may pass:",
+      "A": "A. Only in an emergency",
+      "B": "B. If you are on an expressway",
+      "C": "C. If traffic is clear",
+      "D": "D. Only at an intersection"
+    },
+    {
+      "id": "C4Q12",
+      "answer": "C",
+      "question": "A rectangular-shaped sign is a:",
+      "A": "A. Railroad crossing sign",
+      "B": "B. School crossing sign",
+      "C": "C. Speed limit sign",
+      "D": "D. Stop sign"
+    },
+    {
+      "id": "C4Q13",
+      "answer": "B",
+      "question": "What does a flashing yellow light mean?",
+      "A": "A. Merging traffic",
+      "B": "B. Proceed with caution",
+      "C": "C. Pedestrian crossing",
+      "D": "D. Come to a full stop"
+    },
+    {
+      "id": "C4Q14",
+      "answer": "B",
+      "question": "What does this road sign mean?",
+      "A": "A. Slow down and prepare to stop only if cars are approaching you",
+      "B": "B. Come to a full stop, then go when it is safe to do so",
+      "C": "C. Proceed carefully through the intersection, not always stopping",
+      "D": "D. Stop only for traffic on an intersecting road"
+    },
+    {
+      "id": "C4Q15",
+      "answer": "A",
+      "question": "A diamond-shaped sign is a:",
+      "A": "A. Road hazard sign",
+      "B": "B. Interstate route site",
+      "C": "C. School crossing sign",
+      "D": "D. Speed limit sign"
+    },
+    {
+      "id": "C4Q16",
+      "answer": "D",
+      "question": "A solid white line on the right edge of the highway slants in toward your left.  This shows that:",
+      "A": "A. There is an intersection just ahead",
+      "B": "B. You are approaching a construction area",
+      "C": "C. You will be required to turn left just ahead",
+      "D": "D. The road will get narrower"
+    },
+    {
+      "id": "C4Q17",
+      "answer": "B",
+      "question": "A red and white triangular sign at an intersection means:",
+      "A": "A. Always come to a full stop at the intersection",
+      "B": "B. Slow down and be prepared to stop if necessary",
+      "C": "C. Slow down if an emergency vehicle is approaching",
+      "D": "D. Look both ways as you cross the intersection"
+    },
+    {
+      "id": "C4Q18",
+      "answer": "D",
+      "question": "Which of the following is used on some highways to direct drivers into the proper lanes for turning?",
+      "A": "A. Flashing red lights",
+      "B": "B. Flashing yellow lights",
+      "C": "C. White lines on the side of the road",
+      "D": "D. White arrows in the middle of the lanes"
+    }
+  ]
+}

@@ -132,6 +132,9 @@
           <a class="nav-link active" id="calif_dmv_c_link" aria-current="page" href="#" onclick="loadCaDmvQuestions()">Calif DMV C</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link active" id="ny_dmv_link" aria-current="page" href="#" onclick="loadNyDmvQuestions()">NY DMV D</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link active" id="calif_dre_link" aria-current="page" href="#" onclick="loadCaDreQuestions()">Calif DRE</a>
         </li>
         <li class="nav-item">
@@ -208,14 +211,24 @@ window.onload = loadCaDreQuestions();
 
 async function loadCaDmvQuestions() {
   document.getElementById("calif_dmv_c_link").className = "nav-link active";
+  document.getElementById("ny_dmv_link").className = "nav-link";
   document.getElementById("fcc_tech_link").className = "nav-link";
   document.getElementById("calif_dre_link").className = "nav-link";
   window.json = await fetch('https://brianjester.github.io/index-flip/questions_dl.json').then(response => { return response.json() });
   postInit();
 }
+async function loadNyDmvQuestions() {
+  document.getElementById("calif_dmv_c_link").className = "nav-link";
+  document.getElementById("ny_dmv_link").className = "nav-link active";
+  document.getElementById("fcc_tech_link").className = "nav-link";
+  document.getElementById("calif_dre_link").className = "nav-link";
+  window.json = await fetch('https://brianjester.github.io/index-flip/questions_dl_ny.json').then(response => { return response.json() });
+  postInit();
+}
 
 async function loadFccTechQuestions() {
   document.getElementById("calif_dmv_c_link").className = "nav-link";
+  document.getElementById("ny_dmv_link").className = "nav-link";
   document.getElementById("fcc_tech_link").className = "nav-link active";
   document.getElementById("calif_dre_link").className = "nav-link";
   window.json = await fetch('https://brianjester.github.io/index-flip/questions.json5').then(response => { return response.json() });
@@ -224,6 +237,7 @@ async function loadFccTechQuestions() {
 
 async function loadCaDreQuestions() {
   document.getElementById("calif_dmv_c_link").className = "nav-link";
+  document.getElementById("ny_dmv_link").className = "nav-link";
   document.getElementById("fcc_tech_link").className = "nav-link";
   document.getElementById("calif_dre_link").className = "nav-link active";
   window.json = await fetch('https://brianjester.github.io/index-flip/questions_ca_re.json').then(response => { return response.json() });
@@ -312,7 +326,12 @@ function setupCard() {
     // add figure T-3
     document.getElementById("figure-front").innerHTML = "<img src=\"T-3.jpg\" alt=\"T-3.jpg\" class=\"img-fluid\">";
     document.getElementById("figure-back").innerHTML = "<img src=\"T-3.jpg\" alt=\"T-3.jpg\" class=\"img-fluid\">";
-  } else {
+  } else if (questionRow.question.includes("What does this road sign mean")) {
+    // add figure Stop Sign
+    document.getElementById("figure-front").innerHTML = "<img src=\"stopsign.png\" alt=\"Stop Sign\" class=\"img-fluid\">";
+    document.getElementById("figure-back").innerHTML = "<img src=\"stopsign.png\" alt=\"Stop Sign\" class=\"img-fluid\">";
+  }
+  else {
     // no figure
     document.getElementById("figure-front").innerHTML = " ";
     document.getElementById("figure-back").innerHTML = " ";
