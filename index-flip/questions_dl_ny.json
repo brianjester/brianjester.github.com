@@ -307,6 +307,78 @@
       "B": "B. Backing out of a driveway",
       "C": "C. Leaving a parking space",
       "D": "D. Already in a traffic circle"
+    },
+    {
+      "id": "C6Q1",
+      "answer": "B",
+      "question": "What does it mean when a school bus is stopped and its red lights are flashing?",
+      "A": "A. You may pass if no children are on the road",
+      "B": "B. You may not pass while the red lights are flashing",
+      "C": "C. You may pass if you are facing the front of the bus",
+      "D": "D. You may pass if it is on the other side of a divided highway"
+    },
+    {
+      "id": "C6Q2",
+      "answer": "A",
+      "question": "After you have passed a car you should return to the right lane when you:",
+      "A": "A. See the front bumper of the other car in your mirror",
+      "B": "B. Have put your turn signal on",
+      "C": "C. Have turned your headlights on",
+      "D": "D. See the other car's headlights come on"
+    },
+    {
+      "id": "C6Q3",
+      "answer": "C",
+      "question": "When you want to overtake and pass another vehicle you should:",
+      "A": "A. Wait for a signal from the other driver",
+      "B": "B. Change lanes quickly so the other driver will see you",
+      "C": "C. Signal and pass when safe to do so",
+      "D": "D. Stay close behind so you need less time to pass"
+    },
+    {
+      "id": "C6Q4",
+      "answer": "D",
+      "question": "You are driving in the middle lane on a three lane expressway.  A car begins to pass you on the right.  The actions of that driver are:",
+      "A": "A. Wrong because \"pass on the left\" is a firm rule",
+      "B": "B. Wrong because he's passing you in your \"blind spot\"",
+      "C": "C. OK as long as he does it on a limited access highway",
+      "D": "D. OK if no signs forbid passing on the right"
+    },
+    {
+      "id": "C6Q5",
+      "answer": "C",
+      "question": "The car behind you begins to pass you.  You should:",
+      "A": "A. Maintain your speed so traffic will flow smoothly",
+      "B": "B. Pull to the right and stop so he can pass",
+      "C": "C. Slow down slightly and stay in your lane",
+      "D": "D. Blow your horn to allow him to pass"
+    },
+    {
+      "id": "C6Q6",
+      "answer": "B",
+      "question": "In general, you should pass vehicles going in the same direction you are going:",
+      "A": "A. On the right",
+      "B": "B. On the left",
+      "C": "C. Only if the other driver signals it is safe",
+      "D": "D. Whenever you have the opportunity to do so"
+    },
+    {
+      "id": "C6Q7",
+      "answer": "C",
+      "question": "In which of the following situations is passing always forbidden?",
+      "A": "A. The vehicle ahead is making a left turn",
+      "B": "B. You are on a one-way street which has two lanes",
+      "C": "C. The vehicle ahead is stopped for a pedestrian in a crosswalk",
+      "D": "D. The vehicle ahead is going to park parallel to the curb"
+    },
+    {
+      "id": "C6Q8",
+      "answer": "C",
+      "question": "You may pass another vehicle on the right if it is waiting to:",
+      "A": "A. Turn right",
+      "B": "B. Turn left",
+      "C": "C. Park at the curb",
+      "D": "D. Turn into a driveway on the right"
     }
   ]
 }
