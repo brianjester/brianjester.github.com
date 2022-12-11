@@ -330,6 +330,14 @@ function setupCard() {
     // add figure Stop Sign
     document.getElementById("figure-front").innerHTML = "<img src=\"stopsign.png\" alt=\"Stop Sign\" class=\"img-fluid\">";
     document.getElementById("figure-back").innerHTML = "<img src=\"stopsign.png\" alt=\"Stop Sign\" class=\"img-fluid\">";
+  } else if (questionRow.question.includes("left arm and hand")) {
+    // add figure Left hand down
+    document.getElementById("figure-front").innerHTML = "<img src=\"lefthanddown.png\" alt=\"Left hand down\" class=\"img-fluid\">";
+    document.getElementById("figure-back").innerHTML = "<img src=\"lefthanddown.png\" alt=\"Left hand down\" class=\"img-fluid\">";
+  } else if (questionRow.question.includes("are extended upward")) {
+    // add figure Left hand up
+    document.getElementById("figure-front").innerHTML = "<img src=\"lefthandup.png\" alt=\"Left hand up\" class=\"img-fluid\">";
+    document.getElementById("figure-back").innerHTML = "<img src=\"lefthandup.png\" alt=\"Left hand up\" class=\"img-fluid\">";
   }
   else {
     // no figure

@@ -163,6 +163,150 @@
       "B": "B. Flashing yellow lights",
       "C": "C. White lines on the side of the road",
       "D": "D. White arrows in the middle of the lanes"
+    },
+    {
+      "id": "C5Q1",
+      "answer": "C",
+      "question": "The driver's left arm and hand are extended downward.  This hand signal means that the driver plans to:",
+      "A": "A. Turn left",
+      "B": "B. Turn right",
+      "C": "C. Stop",
+      "D": "D. Start up"
+    },
+    {
+      "id": "C5Q2",
+      "answer": "B",
+      "question": "You must pull over and stop for:",
+      "A": "A. Vehicles that display blue, green or amber lights",
+      "B": "B. Authorized emergency vehicles responding to emergencies",
+      "C": "C. A hazard vehicle that is parked, stopped or standing on any part of the highway",
+      "D": "D. Stopped or standing school buses"
+    },
+    {
+      "id": "C5Q3",
+      "answer": "D",
+      "question": "What should you do when you are going to enter a roadway from a private road?",
+      "A": "A. Blow your horn to warn cars you are entering the roadway",
+      "B": "B. Stop with part of the car on the roadway to warn other drivers",
+      "C": "C. Drive out fast to merge smoothly with the traffic",
+      "D": "D. Yield the right-of-way to pedestrians and roadway traffic"
+    },
+    {
+      "id": "C5Q4",
+      "answer": "C",
+      "question": "You come to an intersection which is blocked by other traffic.  You should:",
+      "A": "A. Go slowly until the traffic ahead moves",
+      "B": "B. Get as close as possible to the other car",
+      "C": "C. Stay out of the intersection until you can pass through",
+      "D": "D. Sound your horn to make the cars move up"
+    },
+    {
+      "id": "C5Q5",
+      "answer": "C",
+      "question": "You want to turn right at the next intersection.  You should begin to use your turn signal:",
+      "A": "A. At least 50 feet before the turn",
+      "B": "B. When you reach the intersection",
+      "C": "C. At least 100 feet before you turn",
+      "D": "D. As soon as you see cars behind you"
+    },
+    {
+      "id": "C5Q6",
+      "answer": "C",
+      "question": "When you want to make a right turn, your car must be:",
+      "A": "A. Near the center of the street",
+      "B": "B. Close to the left side of the street",
+      "C": "C. Close to the right side of the street",
+      "D": "D. Past the center of the intersection when you begin to turn"
+    },
+    {
+      "id": "C5Q7",
+      "answer": "C",
+      "question": "You are making a left turn away from a two-way street into a one-way street.  When you have completed the turn your car should be:",
+      "A": "A. In the right lane of the street",
+      "B": "B. In the center of the street",
+      "C": "C. In the left lane of the street",
+      "D": "D. In the lane with the least traffic"
+    },
+    {
+      "id": "C5Q8",
+      "answer": "A",
+      "question": "You are waiting in the intersection to complete a left turn.  You should:",
+      "A": "A. Signal and keep your wheels turned to the left",
+      "B": "B. Signal and keep your wheels straight",
+      "C": "C. Flash your headlights so the driver will let you through",
+      "D": "D. Drive around the rear of a car if it blocks you"
+    },
+    {
+      "id": "C5Q9",
+      "answer": "B",
+      "question": "The driver's left hand and arm are extended upward.  This hand signal means that the driver plans to:",
+      "A": "A. Turn left",
+      "B": "B. Turn right",
+      "C": "C. Come to a stop",
+      "D": "D. Go straight ahead"
+    },
+    {
+      "id": "C5Q10",
+      "answer": "A",
+      "question": "You drive along a street and hear a siren.  You cannot immediately see the emergency vehicle.  You should:",
+      "A": "A. Keep driving until you see the vehicle",
+      "B": "B. Pull to the curb and look to see if it is on your street",
+      "C": "C. Slow down but don't stop until you see it",
+      "D": "D. Speed up and turn at the next intersection"
+    },
+    {
+      "id": "C5Q11",
+      "answer": "C",
+      "question": "When two vehicles enter an intersection from different highways at the same time, which vehicle must yield the right-of-way?",
+      "A": "A. Either one",
+      "B": "B. Vehicle on the left",
+      "C": "C. Vehicle on the right",
+      "D": "D. Neither one"
+    },
+    {
+      "id": "C5Q12",
+      "answer": "A",
+      "question": "When you see an emergency vehicle parked, stopped, or standing with its emergency or hazard lights activated on a highway or parkway, you should:",
+      "A": "A. Move out of the lane closest to the emergency vehicle, if possible to do so safely",
+      "B": "B. Make a U-turn to avoid the vehicle",
+      "C": "C. Maintain your speed and lane position if possible",
+      "D": "D. Stop behind the vehicle and activate your hazard lights"
+    },
+    {
+      "id": "C5Q13",
+      "answer": "C",
+      "question": "The law that requires every driver to exercise care to avoid colliding with an authorized emergency or hazard vehicle is called:",
+      "A": "A. Brianna’s Law",
+      "B": "B. The Green Light Law",
+      "C": "C. Move Over Law",
+      "D": "D. Right of Way"
+    },
+    {
+      "id": "C5Q14",
+      "answer": "D",
+      "question": "You must yield the right-of-way to an approaching vehicle when you are:",
+      "A": "A. Already in a traffic circle",
+      "B": "B. Already in an intersection",
+      "C": "C. Going straight ahead",
+      "D": "D. Turning left"
+    },
+    {
+      "id": "C5Q15",
+      "answer": "C",
+      "question": "You want to turn left at an intersection.  The light is green but oncoming traffic is heavy.  You should:",
+      "A": "A. Use the next intersection",
+      "B": "B. Wait at the crosswalk for traffic to clear",
+      "C": "C. Wait in the center of the intersection for traffic to clear",
+      "D": "D. Take the right-of-way since you have the light"
+    },
+    {
+      "id": "C5Q16",
+      "answer": "D",
+      "question": "You have the right of way when you are:",
+      "A": "A. Entering a traffic circle",
+      "B": "B. Backing out of a driveway",
+      "C": "C. Leaving a parking space",
+      "D": "D. Already in a traffic circle"
     }
   ]
 }
