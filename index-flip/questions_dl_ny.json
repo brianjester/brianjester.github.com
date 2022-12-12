@@ -568,6 +568,186 @@
       "B": "B. 55 mph",
       "C": "C. 60 mph",
       "D": "D. 65 mph"
+    },
+    {
+      "id": "C9Q1",
+      "answer": "B",
+      "question": "What effect does drinking alcohol and taking a prescription drug or over the counter medicine have?",
+      "A": "A. The medicine reduces the effect of the alcohol",
+      "B": "B. The alcohol will help the medicine cure the cold",
+      "C": "C. The combination could multiply the effects of the alcohol",
+      "D": "D. No effect, they are difference substances"
+    },
+    {
+      "id": "C9Q2",
+      "answer": "A",
+      "question": "On average, the human body can dispose of the alcohol in 12 ounces of beer in about:",
+      "A": "A. One hour",
+      "B": "B. One day",
+      "C": "C. Five minutes",
+      "D": "D. Five hours"
+    },
+    {
+      "id": "C9Q3",
+      "answer": "B",
+      "question": "Which of the following is true?  People driving under the influence of alcohol are:",
+      "A": "A. Not a problem in New York State",
+      "B": "B. Every driver's problem whether they drink or not",
+      "C": "C. A police enforcement problem only",
+      "D": "D. Only a problem to those who drink"
+    },
+    {
+      "id": "C9Q4",
+      "answer": "C",
+      "question": "Drinking coffee after drinking alcohol:",
+      "A": "A. Decreases blood alcohol content",
+      "B": "B. Cancels the effect of the alcohol",
+      "C": "C. Has no effect on blood alcohol content",
+      "D": "D. Increases blood alcohol content"
+    },
+    {
+      "id": "C9Q5",
+      "answer": "A",
+      "question": "Which of the following statements is true about BAC (blood alcohol content)?",
+      "A": "A. The \"breathalyzer\" is a test of a person's BAC",
+      "B": "B. A chemical test for BAC is needed for an alcohol conviction",
+      "C": "C. BAC levels are reduced by a person's physical fitness",
+      "D": "D. After drinking, coffee or a cold shower will lower your BAC"
+    },
+    {
+      "id": "C9Q6",
+      "answer": "B",
+      "question": "Drinking alcohol and driving is:",
+      "A": "A. A minor traffic safety problem",
+      "B": "B. A serious traffic safety problem",
+      "C": "C. Safe if you only have a few drinks",
+      "D": "D. Only dangerous to the driver who drinks"
+    },
+    {
+      "id": "C9Q7",
+      "answer": "D",
+      "question": "Which of the following does not happen after drinking?",
+      "A": "A. Your reflexes and reaction time slow down",
+      "B": "B. Your judgment of speed and distance is distorted",
+      "C": "C. You are less alert",
+      "D": "D. You calm down so you can concentrate"
+    },
+    {
+      "id": "C9Q8",
+      "answer": "B",
+      "question": "If you drink alcohol socially, what helps ensure safe driving?",
+      "A": "A. Drink coffee before driving",
+      "B": "B. Ride home with a friend who has not been drinking",
+      "C": "C. Take a cold shower before driving",
+      "D": "D. Stop drinking one half hour before driving"
+    },
+    {
+      "id": "C9Q9",
+      "answer": "D",
+      "question": "What kinds of drugs, other than alcohol, can affect your driving ability?",
+      "A": "A. An allergy medicine",
+      "B": "B. Marijuana",
+      "C": "C. A cold remedy",
+      "D": "D. All of these choices"
+    },
+    {
+      "id": "C9Q10",
+      "answer": "C",
+      "question": "What happens to your driver's license if you refuse to take a chemical test (breath or blood)?",
+      "A": "A. There is no evidence to find you guilty of drunk driving",
+      "B": "B. You cannot be arrested for drunk driving",
+      "C": "C. Your driver's license will be taken away",
+      "D": "D. None of these choices"
+    },
+    {
+      "id": "C9Q11",
+      "answer": "B",
+      "question": "A chemical test is used to measure:",
+      "A": "A. Reaction time",
+      "B": "B. Blood alcohol content",
+      "C": "C. Vision",
+      "D": "D. Driving ability"
+    },
+    {
+      "id": "C9Q12",
+      "answer": "D",
+      "question": "Which of the following does alcohol affect?",
+      "A": "A. Recovery from hadlight glare",
+      "B": "B. Reaction time",
+      "C": "C. Judgment of distances",
+      "D": "D. All of these choices"
+    },
+    {
+      "id": "C9Q13",
+      "answer": "C",
+      "question": "What is the only effective way to reduce your blood alcohol content (BAC)?",
+      "A": "A. Drinking coffee",
+      "B": "B. Exercising",
+      "C": "C. Allow your body time to get rid of alcohol",
+      "D": "D. Taking a cold shower"
+    },
+    {
+      "id": "C9Q14",
+      "answer": "B",
+      "question": "What does alcohol do to your driving skills and judgment?",
+      "A": "A. It helps driving skills but harms your judgment",
+      "B": "B. It harms both driving skills and judgment",
+      "C": "C. It has no effect on either driving skills or judgment",
+      "D": "D. It has no effect on judgment but it harms driving skills"
+    },
+    {
+      "id": "C9Q15",
+      "answer": "D",
+      "question": "What are the consequences that can result from driving under the influence of alcohol or other drugs?",
+      "A": "A. Possible imprisonment",
+      "B": "B. A mandatory fine",
+      "C": "C. Driver license revocation",
+      "D": "D. All of these choices"
+    },
+    {
+      "id": "C9Q16",
+      "answer": "D",
+      "question": "In this state, what BAC (blood alcohol content) is evidence of intoxication?",
+      "A": "A. 0.05%",
+      "B": "B. 0.03%",
+      "C": "C. 0.10%",
+      "D": "D. 0.08%"
+    },
+    {
+      "id": "C9Q17",
+      "answer": "D",
+      "question": "Blood alcohol content (BAC) depends on each of the following except:",
+      "A": "A. Your body weight",
+      "B": "B. How much you drink",
+      "C": "C. How much time passes between drinks",
+      "D": "D. How physically fit you are"
+    },
+    {
+      "id": "C9Q18",
+      "answer": "A",
+      "question": "A driver who is taking a non-prescription drug should:",
+      "A": "A. Read the labels on the drug before driving",
+      "B": "B. Drink alcohol instead",
+      "C": "C. Continue to drive",
+      "D": "D. Drive only during daylight hours"
+    },
+    {
+      "id": "C9Q19",
+      "answer": "A",
+      "question": "What effect might alcohol and another drug have when combined in your blood?",
+      "A": "A. Increase the effects of both",
+      "B": "B. Have no effect on driving ability",
+      "C": "C. Reduce the effects of the drug or medicine",
+      "D": "D. Reduce the effects of the alcohol"
+    },
+    {
+      "id": "C9Q20",
+      "answer": "D",
+      "question": "Which of the following influence the effects of alcohol?",
+      "A": "A. The amount of food in the stomach",
+      "B": "B. The body weight of an individual",
+      "C": "C. How much time passes between drinks",
+      "D": "D. All three choices"
     }
   ]
 }
