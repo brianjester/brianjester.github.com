@@ -338,6 +338,10 @@ function setupCard() {
     // add figure Left hand up
     document.getElementById("figure-front").innerHTML = "<img src=\"lefthandup.png\" alt=\"Left hand up\" class=\"img-fluid\">";
     document.getElementById("figure-back").innerHTML = "<img src=\"lefthandup.png\" alt=\"Left hand up\" class=\"img-fluid\">";
+  } else if (questionRow.question.includes("warning that you are approaching")) {
+    // add figure rxr sign
+    document.getElementById("figure-front").innerHTML = "<img src=\"rxrsign.png\" alt=\"RXR Sign\" class=\"img-fluid\">";
+    document.getElementById("figure-back").innerHTML = "<img src=\"rxrsign.png\" alt=\"RXR Sign\" class=\"img-fluid\">";
   }
   else {
     // no figure

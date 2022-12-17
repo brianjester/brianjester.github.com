@@ -748,6 +748,213 @@
       "B": "B. The body weight of an individual",
       "C": "C. How much time passes between drinks",
       "D": "D. All three choices"
+    },
+    {
+      "id": "C10Q1",
+      "answer": "B",
+      "question": "What is the appropriate action to take when approaching a railroad crossing that does not have signals (such as lights or crossing gates)?",
+      "A": "A. Always bring the car to a complete stop",
+      "B": "B. Slow down and be prepared to stop",
+      "C": "C. Do nothing; all railroad crosings have signals",
+      "D": "D. Increase speed to get across the tracks quickly"
+    },
+    {
+      "id": "C10Q2",
+      "answer": "B",
+      "question": "You have just left an expressway and are starting to drive on an ordinary highway.  You should:",
+      "A": "A. Check your tires for correct pressure",
+      "B": "B. Check your speedometer to keep at the lower speed limit",
+      "C": "C. Stay twice as far behind other cars",
+      "D": "D. Change gradually to the lower speed limit"
+    },
+    {
+      "id": "C10Q3",
+      "answer": "C",
+      "question": "This sign is a warning that you are approaching:",
+      "A": "A. An intersection",
+      "B": "B. A crosswalk",
+      "C": "C. A railroad crossing",
+      "D": "D. A blasting zone"
+    },
+    {
+      "id": "C10Q4",
+      "answer": "C",
+      "question": "Expressways have \"expressway entrance lanes\" (acceleration lanes) so that drivers can:",
+      "A": "A. Test their brakes before driving at expressway speeds",
+      "B": "B. Stop at the end to wait for a traffic opening",
+      "C": "C. Reach the proper speed before blending with traffic",
+      "D": "D. Test the pickup of their cars"
+    },
+    {
+      "id": "C10Q5",
+      "answer": "C",
+      "question": "Expressways have \"expressway entrance lanes\" (acceleration lanes) so that drivers can:",
+      "A": "A. Test their brakes before driving at expressway speeds",
+      "B": "B. Stop at the end to wait for a traffic opening",
+      "C": "C. Reach the proper speed before blending with traffic",
+      "D": "D. Test the pickup of their cars"
+    },
+    {
+      "id": "C10Q6",
+      "answer": "B",
+      "question": "If an approaching train is near enough or going fast enough to be a danger, you must:",
+      "A": "A. Slow down and proceed with caution",
+      "B": "B. Not cross the tracks until the train has completely passed",
+      "C": "C. Cross the tracks at your own risk",
+      "D": "D. Find an alternative route across tracks"
+    },
+    {
+      "id": "C10Q7",
+      "answer": "C",
+      "question": "Your car starts to skid on a slippery road.  You should:",
+      "A": "A. Brake quickly and keep the wheel straight",
+      "B": "B. Lock your brakes until you have come to a complete stop",
+      "C": "C. Steer in the direction you want the front wheels to go",
+      "D": "D. Steer toward the side of the road to get off the wet pavement"
+    },
+    {
+      "id": "C10Q8",
+      "answer": "B",
+      "question": "When driving at night, it is most important for you to:",
+      "A": "A. Use your high beams at all times",
+      "B": "B. Drive within range of your headlights",
+      "C": "C. Be ready to brake more quickly",
+      "D": "D. Watch for cars at intersections"
+    },
+    {
+      "id": "C10Q9",
+      "answer": "C",
+      "question": "Which of the following statements applies to all driving emergency situations?",
+      "A": "A. Always slow down gradually",
+      "B": "B. Your first reaction is the best reaction",
+      "C": "C. Think before you act",
+      "D": "D. Apply your brakes immediately"
+    },
+    {
+      "id": "C10Q10",
+      "answer": "C",
+      "question": "When you get ready to leave an expressway, you should begin to use your turn signal:",
+      "A": "A. Just as you get to the exit ramp",
+      "B": "B. 50 feet before the exit ramp",
+      "C": "C. 100 feet before the exit ramp",
+      "D": "D. When you see cars behind you in the exit lane"
+    },
+    {
+      "id": "C10Q11",
+      "answer": "B",
+      "question": "If traffic prevents you from crossing all the way across a set of railroad tracks, you may proceed only when:",
+      "A": "A. An approaching train is not moving fast enough to be a danger",
+      "B": "B. There is room for your vehicle on the other side",
+      "C": "C. At least one half of your vehicle can cross the tracks",
+      "D": "D. No trains are in sight"
+    },
+    {
+      "id": "C10Q12",
+      "answer": "D",
+      "question": "You may drive around or under a gate that is being lowered or raised at a railroad crossing:",
+      "A": "A. As long as an approaching train is not too close",
+      "B": "B. If your vehicle can do so without damaging the gate",
+      "C": "C. If you first look carefully in both directions",
+      "D": "D. Under no circumstances"
+    },
+    {
+      "id": "C10Q13",
+      "answer": "B",
+      "question": "When your right wheels run onto a soft shoulder, what is the best way to get back on the highway?",
+      "A": "A. Apply the brakes firmly and steer gently to the left",
+      "B": "B. Ease your foot off the gas and brake gently",
+      "C": "C. Steer hard to the left and then gently to the right",
+      "D": "D. Apply the brakes firmly and stop completely"
+    },
+    {
+      "id": "C10Q14",
+      "answer": "B",
+      "question": "What vehicles must stop at all railroad crossings?",
+      "A": "A. Pickup trucks",
+      "B": "B. School buses and passenger buses carrying passengers",
+      "C": "C. Motorcycles",
+      "D": "D. Vehicles towing a trailer"
+    },
+    {
+      "id": "C10Q15",
+      "answer": "B",
+      "question": "When attempting to stop on a slippery road, the best action to take is:",
+      "A": "A. Apply the brakes quickly and firmly",
+      "B": "B. Apply the brakes in slow, steady strokes",
+      "C": "C. Shift to a lower gear, do not use the brakes",
+      "D": "D. Shift into neutral, do not use the brakes"
+    },
+    {
+      "id": "C10Q16",
+      "answer": "A",
+      "question": "When you drive at night you an reduce the problem of glare from the headlights of an approaching car by:",
+      "A": "A. Looking to the lower right side of your lane",
+      "B": "B. Having the inside lights on to make the amount of light equal",
+      "C": "C. Looking at the spot on the lower edge of the steering wheel",
+      "D": "D. Wearing glasses with lightly tinted lenses"
+    },
+    {
+      "id": "C10Q17",
+      "answer": "B",
+      "question": "If you drive past your exit on an expressway, you should:",
+      "A": "A. Pull onto the shoulder, then back up to the exit",
+      "B": "B. Drive to the next exit and leave the expressway",
+      "C": "C. Make a U-turn at the nearest emergency turn area",
+      "D": "D. Make a U-turn at the next service area"
+    },
+    {
+      "id": "C10Q18",
+      "answer": "C",
+      "question": "When you drive in heavy fog during daylight hours you should drive with your:",
+      "A": "A. Headlights off",
+      "B": "B. Parking lights on",
+      "C": "C. Headlights on low beam",
+      "D": "D. Headlights on high beam"
+    },
+    {
+      "id": "C10Q19",
+      "answer": "C",
+      "question": "You are getting on a highway which has a very short entrance lane.  The safest way for you to enter the flow of traffic would be to:",
+      "A": "A. Use as much ramp as possible to get up to cruising speed",
+      "B": "B. Use the left lane of the highway to get up to ruising speed",
+      "C": "C. Wait for a large gap in traffic then speed up quickly",
+      "D": "D. Get up to cruising speed gradually so other cars will see you"
+    },
+    {
+      "id": "C10Q20",
+      "answer": "C",
+      "question": "Night driving is dangerous because:",
+      "A": "A. Some traffic signs are less visible at night",
+      "B": "B. More vehicles are on the road at night",
+      "C": "C. The distance we can see ahead is reduced",
+      "D": "D. Street lights tend to blur our vision"
+    },
+    {
+      "id": "C10Q21",
+      "answer": "A",
+      "question": "Why is driving on an expressway different from driving on an ordinary street?",
+      "A": "A. You must think faster and handle your vehicle more effectively",
+      "B": "B. Trucks have to go slower on the expressways",
+      "C": "C. There is more of a tendency to exceed the speed limit",
+      "D": "D. There is more of a tendency to \"tailgate\""
+    },
+    {
+      "id": "C10Q22",
+      "answer": "A",
+      "question": "If your brake pedal suddenly sinks to the floor, you should first:",
+      "A": "A. Try to pump it to build up the pressure",
+      "B": "B. Shift into neutral and shut the engine off",
+      "C": "C. Try to raise it by hooking your toe under it",
+      "D": "D. Apply the parking brake hard to stop the car"
+    },
+    {
+      "id": "C10Q23",
+      "answer": "B",
+      "question": "If a tire blows out, the proper thing to do is:",
+      "A": "A. Speed up to gain traction and then pull to the right",
+      "B": "B. Hold the steering wheel firmly, and ease up on the gas",
+      "C": "C. Apply the brakes, then shift into neutral",
+      "D": "D. Shift into neutral, then apply the brakes"
     }
   ]
 }
