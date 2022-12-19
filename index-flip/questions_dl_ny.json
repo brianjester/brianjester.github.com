@@ -955,6 +955,132 @@
       "B": "B. Hold the steering wheel firmly, and ease up on the gas",
       "C": "C. Apply the brakes, then shift into neutral",
       "D": "D. Shift into neutral, then apply the brakes"
+    },
+    {
+      "id": "C11Q1",
+      "answer": "B",
+      "question": "Motorists should be aware that all bicycles used after dark must have:",
+      "A": "A. Reflective handlebar grips",
+      "B": "B. A front headlight and red tailight",
+      "C": "C. White reflectors on the front and rear fenders",
+      "D": "D. Brake lights"
+    },
+    {
+      "id": "C11Q2",
+      "answer": "C",
+      "question": "On a road which has no sidewalks a pedestrian should walk on the:",
+      "A": "A. Side of the road which has the lightest traffic",
+      "B": "B. Same side of the road in which traffic is moving",
+      "C": "C. Side of the road facing oncoming traffic",
+      "D": "D. Side of the road which has the heaviest traffic"
+    },
+    {
+      "id": "C11Q3",
+      "answer": "A",
+      "question": "Where should you stop at a crosswalk to ensure other vehicles are able to see the crossing?",
+      "A": "A. Before or at the stop line before you enter the crosswalk",
+      "B": "B. 5 feet before the crosswalk",
+      "C": "C. Drive directly into the crosswalk so that all vehicles can see it",
+      "D": "D. 10 feet before the crosswalk"
+    },
+    {
+      "id": "C11Q4",
+      "answer": "A",
+      "question": "A motorist should know that a bicyclist operating on a roadway must:",
+      "A": "A. Ride on the right side of the road",
+      "B": "B. Ride on the side of the road facing traffic",
+      "C": "C. Ride on either side of the road",
+      "D": "D. Ride on the side of the road with the least traffic"
+    },
+    {
+      "id": "C11Q5",
+      "answer": "B",
+      "question": "Do you need to yield to pedestrians in unmarked crosswalks?",
+      "A": "A. No, the vehicle has the right of way",
+      "B": "B. Yes",
+      "C": "C. Only after sunset",
+      "D": "D. Only if the pedestrian uses hand signals to indicate that they are crossing"
+    },
+    {
+      "id": "C11Q6",
+      "answer": "D",
+      "question": "A motorist approaching a bicyclist should:",
+      "A": "A. Speed up to pass him",
+      "B": "B. Proceed as usual",
+      "C": "C. Swerve into the opposite lane",
+      "D": "D. Exercise extreme caution"
+    },
+    {
+      "id": "C11Q7",
+      "answer": "A",
+      "question": "When passing a bicyclist, what action should you take?",
+      "A": "A. Slow down",
+      "B": "B. Alert the bicyclist of your presence with your horn",
+      "C": "C. Stop, then pass when it is safe to do so",
+      "D": "D. Do nothing"
+    },
+    {
+      "id": "C11Q8",
+      "answer": "C",
+      "question": "What rights or responsibilities do bicyclists have for sharing the roadway?",
+      "A": "A. Bicyclists should not be on the roadway",
+      "B": "B. Bicyclists have the same rights and responsibilities as pedestrians",
+      "C": "C. Bicyclists have the same rights and responsibilities as motorists",
+      "D": "D. Bicyclists do not have to yield the right of way for pedestrians"
+    },
+    {
+      "id": "C11Q9",
+      "answer": "D",
+      "question": "When operating a vehicle, when might you see a pedestrian?",
+      "A": "A. At rush hour",
+      "B": "B. Only at marked crosswalks",
+      "C": "C. When driving through a busy intersection",
+      "D": "D. At any moment"
+    },
+    {
+      "id": "C11Q10",
+      "answer": "D",
+      "question": "What does a "slow moving vehicle" emblem look like?",
+      "A": "A. A square red sign",
+      "B": "B. A round green sign",
+      "C": "C. A diamond-shaped yellow sign",
+      "D": "D. A triangular orange sign"
+    },
+    {
+      "id": "C11Q11",
+      "answer": "C",
+      "question": "You want to back out of your driveway.  You see children playing nearby.  Before you start to move your car you should:",
+      "A": "A. Race your motor to warn the children that you are moving",
+      "B": "B. Sound your horn so the children will hear you",
+      "C": "C. Walk to the back of the car to be sure the way is clear",
+      "D": "D. Tell the children to stay away from the driveway"
+    },
+    {
+      "id": "C11Q12",
+      "answer": "D",
+      "question": "A bicyclist differs from a motorist in that he isn't required to:",
+      "A": "A. Obey the same traffic laws",
+      "B": "B. Signal all turns",
+      "C": "C. Report accidents resulting in serious injury",
+      "D": "D. Insure the bicycle"
+    },
+    {
+      "id": "C11Q13",
+      "answer": "B",
+      "question": "A blind person legally has the right-of-way when crossing the street when he is:",
+      "A": "A. Wearing light-colored clothing",
+      "B": "B. Led by a guide dog, or using a white or metallic cane",
+      "C": "C. Helped by another person",
+      "D": "D. Wearing dark-colored glasses"
+    },
+    {
+      "id": "C11Q14",
+      "answer": "B",
+      "question": "When should a driver yield to a pedestrian or bicyclist?",
+      "A": "A. When the pedestrian has a service animal",
+      "B": "B. Always yield to pedestrians and slow down for bicyclists",
+      "C": "C. When the pedestrian or bicyclist is a minor",
+      "D": "D. There is no need to yield, the road is shared"
     }
   ]
 }
