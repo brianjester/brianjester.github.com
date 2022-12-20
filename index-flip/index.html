@@ -313,42 +313,7 @@ function setupCard() {
   // Back of card
   document.getElementById("answer_id").innerHTML = "Answers: (" + questionRow.id + ")";
   
-  if (questionRow.question.includes("T-1")) {
-    // add figure T-1
-    document.getElementById("figure-front").innerHTML = "<img src=\"T-1.jpg\" alt=\"T-1.jpg\" class=\"img-fluid\">";
-    document.getElementById("figure-back").innerHTML = "<img src=\"T-1.jpg\" alt=\"T-1.jpg\" class=\"img-fluid\">";
-  } else if (questionRow.question.includes("T-2")) {
-    // add figure T-2
-    document.getElementById("figure-front").innerHTML = "<img src=\"T-2.jpg\" alt=\"T-2.jpg\" class=\"img-fluid\">";
-    document.getElementById("figure-back").innerHTML = "<img src=\"T-2.jpg\" alt=\"T-2.jpg\" class=\"img-fluid\">";
-  } else if (questionRow.question.includes("T-3")) {
-    // add figure T-3
-    document.getElementById("figure-front").innerHTML = "<img src=\"T-3.jpg\" alt=\"T-3.jpg\" class=\"img-fluid\">";
-    document.getElementById("figure-back").innerHTML = "<img src=\"T-3.jpg\" alt=\"T-3.jpg\" class=\"img-fluid\">";
-  } else if (questionRow.question.includes("What does this road sign mean")) {
-    // add figure Stop Sign
-    document.getElementById("figure-front").innerHTML = "<img src=\"stopsign.png\" alt=\"Stop Sign\" class=\"img-fluid\">";
-    document.getElementById("figure-back").innerHTML = "<img src=\"stopsign.png\" alt=\"Stop Sign\" class=\"img-fluid\">";
-  } else if (questionRow.question.includes("left arm and hand")) {
-    // add figure Left hand down
-    document.getElementById("figure-front").innerHTML = "<img src=\"lefthanddown.png\" alt=\"Left hand down\" class=\"img-fluid\">";
-    document.getElementById("figure-back").innerHTML = "<img src=\"lefthanddown.png\" alt=\"Left hand down\" class=\"img-fluid\">";
-  } else if (questionRow.question.includes("are extended upward")) {
-    // add figure Left hand up
-    document.getElementById("figure-front").innerHTML = "<img src=\"lefthandup.png\" alt=\"Left hand up\" class=\"img-fluid\">";
-    document.getElementById("figure-back").innerHTML = "<img src=\"lefthandup.png\" alt=\"Left hand up\" class=\"img-fluid\">";
-  } else if (questionRow.question.includes("warning that you are approaching")) {
-    // add figure rxr sign
-    document.getElementById("figure-front").innerHTML = "<img src=\"rxrsign.png\" alt=\"RXR Sign\" class=\"img-fluid\">";
-    document.getElementById("figure-back").innerHTML = "<img src=\"rxrsign.png\" alt=\"RXR Sign\" class=\"img-fluid\">";
-  }
-  else {
-    // no figure
-    document.getElementById("figure-front").innerHTML = " ";
-    document.getElementById("figure-back").innerHTML = " ";
-  }
-  
-  // New logic to check for figures
+  // check for figures/images
   if (questionRow.hasOwnProperty("image")) {
 	console.info(questionRow.image);
 	const cardImage = questionRow.image;
