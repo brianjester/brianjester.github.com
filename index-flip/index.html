@@ -313,6 +313,8 @@ function setupCard() {
   // Back of card
   document.getElementById("answer_id").innerHTML = "Answers: (" + questionRow.id + ")";
 
+  console.info(questionRow);
+
   // check for figures
   if (questionRow.hasOwnProperty("image")) {
 	console.info(questionRow.image);
