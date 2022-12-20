@@ -312,16 +312,6 @@ function setupCard() {
 
   // Back of card
   document.getElementById("answer_id").innerHTML = "Answers: (" + questionRow.id + ")";
-
-  // check for figures
-  if (questionRow.hasOwnProperty("image")) {
-	console.info(questionRow.image);
-	const cardImage = questionRow.image;
-	// add image
-    document.getElementById("figure-front").innerHTML = "<img src=\""+cardImage+"\" alt=\""+cardImage+"\" class=\"img-fluid\">";
-    document.getElementById("figure-back").innerHTML = "<img src=\""+cardImage+"\" alt=\""+cardImage+"\" class=\"img-fluid\">";
-	console.info("<img src=\""+cardImage+"\" alt=\""+cardImage+"\" class=\"img-fluid\">");
-  }
   
   if (questionRow.question.includes("T-1")) {
     // add figure T-1
@@ -356,6 +346,16 @@ function setupCard() {
     // no figure
     document.getElementById("figure-front").innerHTML = " ";
     document.getElementById("figure-back").innerHTML = " ";
+  }
+  
+  // New logic to check for figures
+  if (questionRow.hasOwnProperty("image")) {
+	console.info(questionRow.image);
+	const cardImage = questionRow.image;
+	// add image
+    document.getElementById("figure-front").innerHTML = "<img src=\""+cardImage+"\" alt=\""+cardImage+"\" class=\"img-fluid\">";
+    document.getElementById("figure-back").innerHTML = "<img src=\""+cardImage+"\" alt=\""+cardImage+"\" class=\"img-fluid\">";
+	console.info("<img src=\""+cardImage+"\" alt=\""+cardImage+"\" class=\"img-fluid\">");
   }
 
   document.getElementById("check-btn").innerHTML = CHECK;
