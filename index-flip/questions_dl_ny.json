@@ -6,6 +6,7 @@
       "id": "C4Q1",
       "answer": "B",
       "question": "You may cross a single solid white line in the highway:",
+	  "image": "hospitaltoright.png",
       "A": "A. Whenever you want to",
       "B": "B. If traffic conditions require",
       "C": "C. Only to turn into a driveway",
@@ -1081,6 +1082,16 @@
       "B": "B. Always yield to pedestrians and slow down for bicyclists",
       "C": "C. When the pedestrian or bicyclist is a minor",
       "D": "D. There is no need to yield, the road is shared"
+    },
+    {
+      "id": "C13Q1",
+      "answer": "B",
+      "question": "This sign means:",
+	  "image": "hospitaltoright.png",
+      "A": "A. Highway changes ahead to the right",
+      "B": "B. Hiking trails ahead to the right",
+      "C": "C. Hotel ahead to the right",
+      "D": "D. Hospital ahead to the right"
     }
   ]
 }
