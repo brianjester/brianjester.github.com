@@ -314,7 +314,7 @@ function setupCard() {
   document.getElementById("answer_id").innerHTML = "Answers: (" + questionRow.id + ")";
 
   // check for figures
-  if (questionRow.hasOwnProperty("image") {
+  if (questionRow.hasOwnProperty("image")) {
 	// add image
     document.getElementById("figure-front").innerHTML = "<img src=\""+questionRow.image+"\" alt=\""+questionRow.image+"\" class=\"img-fluid\">";
     document.getElementById("figure-back").innerHTML = "<img src=\""+questionRow.image+"\" alt=\""+questionRow.image+"\" class=\"img-fluid\">";
