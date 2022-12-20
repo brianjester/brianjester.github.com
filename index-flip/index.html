@@ -288,7 +288,6 @@ function setupCard() {
   } else {
     window.questionRowNum = Math.floor(Math.random() * numQuestions);
   }
-  console.info(window.questionRowNum);
 
   questionRow = test[window.questionRowNum];
 
@@ -315,12 +314,10 @@ function setupCard() {
   
   // check for figures/images
   if (questionRow.hasOwnProperty("image")) {
-	console.info(questionRow.image);
 	const cardImage = questionRow.image;
 	// add image
     document.getElementById("figure-front").innerHTML = "<img src=\""+cardImage+"\" alt=\""+cardImage+"\" class=\"img-fluid\">";
     document.getElementById("figure-back").innerHTML = "<img src=\""+cardImage+"\" alt=\""+cardImage+"\" class=\"img-fluid\">";
-	console.info("<img src=\""+cardImage+"\" alt=\""+cardImage+"\" class=\"img-fluid\">");
   }
 
   document.getElementById("check-btn").innerHTML = CHECK;
