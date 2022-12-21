@@ -312,6 +312,10 @@ function setupCard() {
   // Back of card
   document.getElementById("answer_id").innerHTML = "Answers: (" + questionRow.id + ")";
   
+  // Remove any possible images from last card
+  document.getElementById("figure-front").innerHTML = "";
+  document.getElementById("figure-back").innerHTML = "";
+  
   // check for figures/images
   if (questionRow.hasOwnProperty("image")) {
 	const cardImage = questionRow.image;
