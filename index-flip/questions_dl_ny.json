@@ -1095,6 +1095,156 @@
       "B": "B. Hiking trails ahead to the right",
       "C": "C. Hotel ahead to the right",
       "D": "D. Hospital ahead to the right"
+    },
+    {
+      "id": "C13Q2",
+      "answer": "D",
+      "question": "This sign means:",
+	  "image": "keepright.png",
+      "A": "A. Divided highway ends",
+      "B": "B. One-way traffic ahead",
+      "C": "C. Two-way traffic ahead",
+      "D": "D. Hospital ahead to the right"
+    },
+    {
+      "id": "C13Q3",
+      "answer": "C",
+      "question": "This sign means:",
+	  "image": "twowaytraffic.png",
+      "A": "A. Four-lane traffic ahead",
+      "B": "B. Divided highway ahead",
+      "C": "C. Two-way traffic ahead",
+      "D": "D. Intersection ahead"
+    },
+    {
+      "id": "C13Q4",
+      "answer": "B",
+      "question": "This sign means:",
+	  "image": "noleftturn.png",
+      "A": "A. All traffic turn left",
+      "B": "B. No left turn",
+      "C": "C. No U-turn",
+      "D": "D. Truck route to the left"
+    },
+    {
+      "id": "C13Q5",
+      "answer": "D",
+      "question": "This sign means:",
+	  "image": "yieldsign.png",
+      "A": "A. Slow down if an emergency vehicle is approaching",
+      "B": "B. Look both ways as you cross the intersection",
+      "C": "C. Always come to a full stop at the intersection",
+      "D": "D. Slow down and be prepared to stop if necessary"
+    },
+    {
+      "id": "C13Q6",
+      "answer": "D",
+      "question": "This sign means:",
+	  "image": "trafficlightahead.png",
+      "A": "A. Continue at your current speed",
+      "B": "B. You must stop ahead",
+      "C": "C. Speeding is not allowed",
+      "D": "D. There is a traffic signal ahead"
+    },
+    {
+      "id": "C13Q7",
+      "answer": "D",
+      "question": "This sign is used to prevent:",
+	  "image": "donotenter.png",
+      "A": "A. Entrance to full parking lots",
+      "B": "B. Entrance to road construction areas",
+      "C": "C. Entrance to dead-end streets",
+      "D": "D. Wrong-way entrance on one-way streets and expressway ramps"
+    },
+    {
+      "id": "C13Q8",
+      "answer": "C",
+      "question": "This sign means:",
+	  "image": "nouturn.png",
+      "A": "A. No left turn",
+      "B": "B. No stopping",
+      "C": "C. No U-turn",
+      "D": "D. Detour ahead"
+    },
+    {
+      "id": "C13Q9",
+      "answer": "C",
+      "question": "This sign means:",
+	  "image": "mergingtrafficfromright.png",
+      "A": "A. One-way traffic",
+      "B": "B. Intersection ahead",
+      "C": "C. Merging traffic from the right",
+      "D": "D. Highway curves ahead"
+    },
+    {
+      "id": "C13Q10",
+      "answer": "C",
+      "question": "This sign means:",
+	  "image": "rightlaneendskeepleft.png",
+      "A": "A. Merging traffic is approaching from the right",
+      "B": "B. Winding road ahead",
+      "C": "C. Right lane ends, stay to the left",
+      "D": "D. Divided highway ahead"
+    },
+    {
+      "id": "C13Q11",
+      "answer": "D",
+      "question": "This sign means:",
+	  "image": "schoolcrossing.png",
+      "A": "A. Pedestrians only",
+      "B": "B. Intersection ahead",
+      "C": "C. Hiking trails ahead",
+      "D": "D. School crossing ahead"
+    },
+    {
+      "id": "C13Q12",
+      "answer": "D",
+      "question": "This sign means:",
+	  "image": "dividedhighwayends.png",
+      "A": "A. Divided highway ahead",
+      "B": "B. One-way taffic ahead",
+      "C": "C. Four-lane highway ahead",
+      "D": "D. Divided highway ends"
+    },
+    {
+      "id": "C13Q13",
+      "answer": "C",
+      "question": "This sign is a warning that you are approaching:",
+	  "image": "rxrsign.png",
+      "A": "A. An intersection",
+      "B": "B. A crosswalk",
+      "C": "C. A railroad crossing",
+      "D": "D. A blasting zone"
+    },
+    {
+      "id": "C13Q14",
+      "answer": "B",
+      "question": "This sign means:",
+	  "image": "hillahead.png",
+      "A": "A. Trucks under 18,000 lbs. allowed",
+      "B": "B. Hill ahead",
+      "C": "C. Truck stop ahead",
+      "D": "D. No trucks allowed"
+    },
+    {
+      "id": "C13Q15",
+      "answer": "B",
+      "question": "This sign means:",
+	  "image": "slipperywhenwet.png",
+      "A": "A. Don't drink if you are going to drive",
+      "B": "B. Slippery when wet",
+      "C": "C. Road curves ahead",
+      "D": "D. You are approaching a hill"
+    },
+    {
+      "id": "C13Q16",
+      "answer": "B",
+      "question": "This sign means:",
+	  "image": "stopsign.png",
+      "A": "A. Slow down and prepare to stop only if cars are approaching you",
+      "B": "B. Come to a full stop, then go when it is safe to do so",
+      "C": "C. Proceed carefully through the intersection, not always stopping",
+      "D": "D. Stop only for traffic on an intersecting road"
     }
   ]
 }
