@@ -356,8 +356,11 @@ function setupCard() {
     case "D": 
     document.getElementById(answerLetter).innerHTML = answerDivLeft + questionRow.D + answerDivRight;
     break;
+    case "E": 
+    document.getElementById(answerLetter).innerHTML = answerDivLeft + questionRow.E + answerDivRight;
+    break;
     default:
-      // something here
+      // placeholder for case not covered
   }
   clearGuessAndAnswer();
 }
