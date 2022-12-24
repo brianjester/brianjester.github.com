@@ -140,6 +140,9 @@
         <li class="nav-item">
           <a class="nav-link active" id="ny_dmv_link" aria-current="page" href="#" onclick="loadNyDmvQuestions()">NY DMV D</a>
         </li>
+		<li class="nav-item">
+          <a class="nav-link active" id="jp_2_link" aria-current="page" href="#" onclick="loadJp2Questions()">第二級アマチュア無線技士</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -210,38 +213,45 @@
 window.onload = loadCaDreQuestions();
 
 async function loadCaDmvQuestions() {
+  resetNavLinks();
   document.getElementById("calif_dmv_c_link").className = "nav-link active";
-  document.getElementById("ny_dmv_link").className = "nav-link";
-  document.getElementById("fcc_tech_link").className = "nav-link";
-  document.getElementById("calif_dre_link").className = "nav-link";
   window.json = await fetch('https://brianjester.github.io/index-flip/questions_dl.json').then(response => { return response.json() });
   postInit();
 }
 async function loadNyDmvQuestions() {
-  document.getElementById("calif_dmv_c_link").className = "nav-link";
+  resetNavLinks();
   document.getElementById("ny_dmv_link").className = "nav-link active";
-  document.getElementById("fcc_tech_link").className = "nav-link";
-  document.getElementById("calif_dre_link").className = "nav-link";
   window.json = await fetch('https://brianjester.github.io/index-flip/questions_dl_ny.json').then(response => { return response.json() });
   postInit();
 }
 
 async function loadFccTechQuestions() {
-  document.getElementById("calif_dmv_c_link").className = "nav-link";
-  document.getElementById("ny_dmv_link").className = "nav-link";
+  resetNavLinks();
   document.getElementById("fcc_tech_link").className = "nav-link active";
-  document.getElementById("calif_dre_link").className = "nav-link";
   window.json = await fetch('https://brianjester.github.io/index-flip/questions.json5').then(response => { return response.json() });
   postInit();
 }
 
 async function loadCaDreQuestions() {
-  document.getElementById("calif_dmv_c_link").className = "nav-link";
-  document.getElementById("ny_dmv_link").className = "nav-link";
-  document.getElementById("fcc_tech_link").className = "nav-link";
+  resetNavLinks();
   document.getElementById("calif_dre_link").className = "nav-link active";
   window.json = await fetch('https://brianjester.github.io/index-flip/questions_ca_re.json').then(response => { return response.json() });
   postInit();
+}
+
+async function loadJp2Questions() {
+  resetNavLinks();
+  document.getElementById("jp_2_link").className = "nav-link active";
+  window.json = await fetch('https://brianjester.github.io/index-flip/questions_jp_2.json').then(response => { return response.json() });
+  postInit();
+}
+
+function resetNavLinks() {
+  document.getElementById("calif_dmv_c_link").className = "nav-link";
+  document.getElementById("ny_dmv_link").className = "nav-link";
+  document.getElementById("fcc_tech_link").className = "nav-link";
+  document.getElementById("calif_dre_link").className = "nav-link";
+  document.getElementById("jp_2_link").className = "nav-link";
 }
 
 function postInit() {
