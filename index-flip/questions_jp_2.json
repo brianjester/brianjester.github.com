@@ -15,13 +15,14 @@
       "D": "4."
     },
     {
-      "id": "C4Q15",
-      "answer": "A",
-      "question": "A diamond-shaped sign is a:",
-      "A": "A. Road hazard sign",
-      "B": "B. Interstate route site",
-      "C": "C. School crossing sign",
-      "D": "D. Speed limit sign"
+      "id": "A2",
+      "answer": "B",
+      "question": "図に示すように耐圧 50〔V〕で静電容量 200〔μF〕のコンデンサ C1 と、耐圧 60〔V〕で静電容量 100〔μF〕のコンデンサ C2 を直列に接続したとき、その両端に加えることができる最大電圧 V の値として、正しいものを下の番号から選べ。ただし、各コ
+ンデンサは、接続前に電荷は蓄えられていないものとする。",
+      "A": "1. 70〔V〕",
+      "B": "2. 90〔V〕",
+      "C": "3. 110〔V〕",
+      "D": "4. 180〔V〕"
     }
   ]
 }
