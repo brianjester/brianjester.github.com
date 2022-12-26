@@ -343,11 +343,11 @@ function setupCard() {
   document.getElementById("flip-btn-back").innerHTML = FLIP;
 
   // clear answer rows
-  document.getElementById("A").innerHTML = "";
-  document.getElementById("B").innerHTML = "";
-  document.getElementById("C").innerHTML = "";
-  document.getElementById("D").innerHTML = "";
-  document.getElementById("E").innerHTML = "";
+  document.getElementById("A").innerHTML = answerDivLeft+answerDivRight;
+  document.getElementById("B").innerHTML = answerDivLeft+answerDivRight;
+  document.getElementById("C").innerHTML = answerDivLeft+answerDivRight;
+  document.getElementById("D").innerHTML = answerDivLeft+answerDivRight;
+  document.getElementById("E").innerHTML = answerDivLeft+answerDivRight;
 
   // set up answer row
   const answerLetter = questionRow.answer;
