@@ -342,17 +342,17 @@ function setupCard() {
   document.getElementById("reveal-btn").innerHTML = SHOW;
   document.getElementById("flip-btn-back").innerHTML = FLIP;
 
-  // clear answer rows
-  document.getElementById("A").innerHTML = answerDivLeft+answerDivRight;
-  document.getElementById("B").innerHTML = answerDivLeft+answerDivRight;
-  document.getElementById("C").innerHTML = answerDivLeft+answerDivRight;
-  document.getElementById("D").innerHTML = answerDivLeft+answerDivRight;
-  document.getElementById("E").innerHTML = answerDivLeft+answerDivRight;
-
   // set up answer row
   const answerLetter = questionRow.answer;
   const answerDivLeft='<div id="answer">';
   const answerDivRight='</div>';
+  
+  document.getElementById("A").innerHTML = "";
+  document.getElementById("B").innerHTML = "";
+  document.getElementById("C").innerHTML = "";
+  document.getElementById("D").innerHTML = "";
+  document.getElementById("E").innerHTML = "";
+  
   switch (answerLetter)
   {
     case "A": 
