@@ -187,6 +187,7 @@
                 <p id="B" onclick='selectAnswer("B")'> </p>
                 <p id="C" onclick='selectAnswer("C")'> </p>
                 <p id="D" onclick='selectAnswer("D")'> </p>
+                <p id="E" onclick='selectAnswer("E")'> </p>
                 <p id="figure-back"> </p>
               </div>
               <BR>
@@ -316,6 +317,9 @@ function setupCard() {
   if (questionRow.hasOwnProperty("D")) {
     document.getElementById("D").innerHTML = questionRow.D;
   }
+  if (questionRow.hasOwnProperty("E")) {
+    document.getElementById("E").innerHTML = questionRow.E;
+  }
   document.getElementById("next-btn-1").innerHTML = NEXT;
   document.getElementById("flip-btn-front").innerHTML = FLIP;
 
@@ -383,7 +387,7 @@ function flipMe(degrees) {
 }
 
 function clearGuessAndAnswer() {
-  const letters = ["A", "B", "C", "D", "E"];
+  const letters = ["A", "B", "C", "D", "E"];  //TODO Code Smell breaks easily
   for (let i=0;i<letters.length;i++){
     document.getElementById(letters[i]).className = "";
   }
