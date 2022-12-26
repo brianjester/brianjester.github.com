@@ -342,6 +342,13 @@ function setupCard() {
   document.getElementById("reveal-btn").innerHTML = SHOW;
   document.getElementById("flip-btn-back").innerHTML = FLIP;
 
+  // clear answer rows
+  document.getElementById("A").innerHTML = "";
+  document.getElementById("B").innerHTML = "";
+  document.getElementById("C").innerHTML = "";
+  document.getElementById("D").innerHTML = "";
+  document.getElementById("E").innerHTML = "";
+
   // set up answer row
   const answerLetter = questionRow.answer;
   const answerDivLeft='<div id="answer">';
@@ -358,14 +365,10 @@ function setupCard() {
 		document.getElementById(answerLetter).innerHTML = answerDivLeft + questionRow.C + answerDivRight;
     break;
     case "D": 
-		if (questionRow.D !="") {
-			document.getElementById(answerLetter).innerHTML = answerDivLeft + questionRow.D + answerDivRight;
-		}
+		document.getElementById(answerLetter).innerHTML = answerDivLeft + questionRow.D + answerDivRight;
     break;
     case "E": 
-		if (questionRow.E !="") {
-			document.getElementById(answerLetter).innerHTML = answerDivLeft + questionRow.E + answerDivRight;
-		}
+		document.getElementById(answerLetter).innerHTML = answerDivLeft + questionRow.E + answerDivRight;
     break;
     default:
       // placeholder for case not covered
