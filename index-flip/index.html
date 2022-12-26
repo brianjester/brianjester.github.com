@@ -349,19 +349,23 @@ function setupCard() {
   switch (answerLetter)
   {
     case "A": 
-    document.getElementById(answerLetter).innerHTML = answerDivLeft + questionRow.A + answerDivRight;
+		document.getElementById(answerLetter).innerHTML = answerDivLeft + questionRow.A + answerDivRight;
     break;
     case "B": 
-    document.getElementById(answerLetter).innerHTML = answerDivLeft + questionRow.B + answerDivRight;
+		document.getElementById(answerLetter).innerHTML = answerDivLeft + questionRow.B + answerDivRight;
     break;
     case "C": 
-    document.getElementById(answerLetter).innerHTML = answerDivLeft + questionRow.C + answerDivRight;
+		document.getElementById(answerLetter).innerHTML = answerDivLeft + questionRow.C + answerDivRight;
     break;
     case "D": 
-    document.getElementById(answerLetter).innerHTML = answerDivLeft + questionRow.D + answerDivRight;
+		if (questionRow.D !="") {
+			document.getElementById(answerLetter).innerHTML = answerDivLeft + questionRow.D + answerDivRight;
+		}
     break;
     case "E": 
-    document.getElementById(answerLetter).innerHTML = answerDivLeft + questionRow.E + answerDivRight;
+		if (questionRow.E !="") {
+			document.getElementById(answerLetter).innerHTML = answerDivLeft + questionRow.E + answerDivRight;
+		}
     break;
     default:
       // placeholder for case not covered
