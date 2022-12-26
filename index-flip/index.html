@@ -383,13 +383,13 @@ function flipMe(degrees) {
 }
 
 function clearGuessAndAnswer() {
-  const letters = ["A", "B", "C", "D"];
+  const letters = ["A", "B", "C", "D", "E"];
   for (let i=0;i<letters.length;i++){
     document.getElementById(letters[i]).className = "";
   }
   document.getElementById("answer").className = "";
   document.getElementById("check-btn").className = "btn btn-secondary btn-med me-md-4";
-  window.candAnswer="E";
+  window.candAnswer="Z";
 }
 
 function selectAnswer(candidateAnswer) {
@@ -405,7 +405,7 @@ function check() {
   const test = window.json.test;  // top level node is test
   questionRow = test[window.questionRowNum];
   const candidateAnswer = window.candAnswer;
-  const letters = ["A", "B", "C", "D"];
+  const letters = ["A", "B", "C", "D", "E"];  // TODO code smell
   if (window.candAnswer == questionRow.answer) {
     document.getElementById("answer").className = "bg-success text-white";
     var snd = new Audio("success.mp3"); // buffers automatically when created
