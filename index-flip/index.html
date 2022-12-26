@@ -211,7 +211,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 <script>
-window.onload = loadCaDreQuestions();
+window.onload = loadJp2Questions();
 
 async function loadCaDmvQuestions() {
   resetNavLinks();
@@ -303,6 +303,11 @@ function setupCard() {
   questionRow = test[window.questionRowNum];
 
   // Front of card - set up question
+  document.getElementById("A").innerHTML = " ";
+  document.getElementById("B").innerHTML = " ";
+  document.getElementById("C").innerHTML = " ";
+  document.getElementById("D").innerHTML = " ";
+  document.getElementById("E").innerHTML = " ";
   document.getElementById("question_id").innerHTML = "Question: (" + questionRow.id + ")";
   document.getElementById("question").innerHTML = questionRow.question;
   if (questionRow.hasOwnProperty("A")) {
@@ -394,7 +399,7 @@ function clearGuessAndAnswer() {
   }
   document.getElementById("answer").className = "";
   document.getElementById("check-btn").className = "btn btn-secondary btn-med me-md-4";
-  window.candAnswer="Z";
+  window.candAnswer="";
 }
 
 function selectAnswer(candidateAnswer) {
