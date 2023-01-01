@@ -10,14 +10,354 @@
       "A": "Rōmaji: a"
     },
     {
-      "id": "h2",
-      "answer": "B",
-      "question": "図に示すように耐圧 50 〔V〕 で静電容量 200 〔μF〕 のコンデンサ C<sub>1</sub> と、耐圧 60 〔V〕 で静電容量 100 〔μF〕 のコンデンサ C<sub>2</sub> を直列に接続したとき、その両端に加えることができる最大電圧 V の値として、正しいものを下の番号から選べ。ただし、各コ ンデンサは、接続前に電荷は蓄えられていないものとする。",
-      "image": "Japanese_Hiragana_kyokashotai_A.svg.png",
-      "A": "1. 70 〔V〕",
-      "B": "2. 90 〔V〕",
-      "C": "3. 110 〔V〕",
-      "D": "4. 180 〔V〕"
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/Japanese_Hiragana_kyokashotai_I.svg.png",
+      "A": "Rōmaji: i"
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/Japanese_Hiragana_kyokashotai_U.svg.png",
+      "A": "Rōmaji: u"
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/1280px-Japanese_Hiragana_kyokashotai_E.svg.png",
+      "A": "Rōmaji: e"
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/Japanese_Hiragana_kyokashotai_O.svg.png",
+      "A": "Rōmaji: o"
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "hiragana/",
+      "A": "Rōmaji: "
     }
   ]
 }
