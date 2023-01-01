@@ -192,7 +192,7 @@
                 <p id="D" onclick='selectAnswer("D")'> </p>
                 <p id="E" onclick='selectAnswer("E")'> </p>
                 <p id="figure-back"> </p>
-                <p id="figure-attribution" class="text-secondary"> </p>
+                <p id="figure-attribution-back" class="text-secondary"> </p>
               </div>
               <BR>
               <div class="d-grid gap-2 d-md-flex justify-content-around">
@@ -362,6 +362,7 @@ function setupCard() {
   if (questionRow.hasOwnProperty("attribution")) {
 	  // add image
     document.getElementById("figure-attribution").innerHTML = "<i><sub>* "+questionRow.attribution+"</sub></i>";
+    document.getElementById("figure-attribution-back").innerHTML = "<i><sub>* "+questionRow.attribution+"</sub></i>";
   }
 
   document.getElementById("check-btn").innerHTML = CHECK;
