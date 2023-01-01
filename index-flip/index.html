@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -319,7 +318,7 @@ function setupCard() {
   document.getElementById("C").innerHTML = " ";
   document.getElementById("D").innerHTML = " ";
   document.getElementById("E").innerHTML = " ";
-  document.getElementById("question_id").innerHTML = "Question: (" + questionRow.id + ")";
+  document.getElementById("question_id").innerHTML = questionRow.id;
   document.getElementById("question").innerHTML = questionRow.question;
   if (questionRow.hasOwnProperty("A")) {
     document.getElementById("A").innerHTML = questionRow.A;

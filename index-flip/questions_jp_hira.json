@@ -3,11 +3,11 @@
   "ref": "https://en.wikipedia.org/wiki/Hiragana",
   "test": [
     {
-      "id": "h1",
-      "answer": "C",
-      "question": "Hiragana: あ",
+      "id": "hHiragana: あ",
+      "answer": "A",
+      "question": "",
       "image": "hiragana/Japanese_Hiragana_kyokashotai_A.svg.png",
-      "A": "1. Rōmaji: a"
+      "A": "Rōmaji: a"
     },
     {
       "id": "h2",
