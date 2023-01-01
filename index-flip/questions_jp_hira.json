@@ -3,7 +3,7 @@
   "ref": "https://en.wikipedia.org/wiki/Hiragana",
   "test": [
     {
-      "id": "hHiragana: あ",
+      "id": "",
       "answer": "A",
       "question": "",
       "image": "hiragana/Japanese_Hiragana_kyokashotai_A.svg.png",
