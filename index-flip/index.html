@@ -174,7 +174,7 @@
                 <p id = "question_id" class="text-primary"><u> </u></p>
                 <H5><p id = "question"> </p></H5>
                 <p id="figure-front"> </p>
-                <p id="figure-attribution"> </p>
+                <p id="figure-attribution" class="text-secondary"> </p>
               </div>
               <BR>
               <div class="d-grid gap-2 d-md-flex justify-content-around">
@@ -192,7 +192,7 @@
                 <p id="D" onclick='selectAnswer("D")'> </p>
                 <p id="E" onclick='selectAnswer("E")'> </p>
                 <p id="figure-back"> </p>
-                <p id="figure-attribution"> </p>
+                <p id="figure-attribution" class="text-secondary"> </p>
               </div>
               <BR>
               <div class="d-grid gap-2 d-md-flex justify-content-around">
@@ -359,7 +359,7 @@ function setupCard() {
   // check for figure/image attribution
   if (questionRow.hasOwnProperty("attribution")) {
 	  // add image
-    document.getElementById("figure-attribution").innerHTML = "<sub>* "+questionRow.attribution+"</sub>";
+    document.getElementById("figure-attribution").innerHTML = "<i><sub>* "+questionRow.attribution+"</sub></i>";
   }
 
   document.getElementById("check-btn").innerHTML = CHECK;
