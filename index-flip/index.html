@@ -140,7 +140,10 @@
         <li class="nav-item">
           <a class="nav-link active" id="ny_dmv_link" aria-current="page" href="#" onclick="loadNyDmvQuestions()">NY DMV</a>
         </li>
-		<li class="nav-item">
+		    <li class="nav-item">
+          <a class="nav-link active" id="jp_hira_link" aria-current="page" href="#" onclick="loadJpHiraQuestions()">Hiragana/ひらがな</a>
+        </li>
+		    <li class="nav-item">
           <a class="nav-link active" id="jp_2_link" aria-current="page" href="#" onclick="loadJp2Questions()">第二級アマチュア無線技士</a>
         </li>
       </ul>
@@ -247,12 +250,20 @@ async function loadJp2Questions() {
   postInit();
 }
 
+async function loadJpHiraQuestions() {
+  resetNavLinks();
+  document.getElementById("jp_hira_link").className = "nav-link active";
+  window.json = await fetch('https://brianjester.github.io/index-flip/questions_jp_hira.json').then(response => { return response.json() });
+  postInit();
+}
+
 function resetNavLinks() {
   document.getElementById("calif_dmv_c_link").className = "nav-link";
   document.getElementById("ny_dmv_link").className = "nav-link";
   document.getElementById("fcc_tech_link").className = "nav-link";
   document.getElementById("calif_dre_link").className = "nav-link";
   document.getElementById("jp_2_link").className = "nav-link";
+  document.getElementById("jp_hira_link").className = "nav-link";
 }
 
 function postInit() {
