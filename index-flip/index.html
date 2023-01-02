@@ -367,8 +367,8 @@ function setupCard() {
   // check for figure/image attribution
   if (questionRow.hasOwnProperty("attribution")) {
 	  // add image
-    document.getElementById("figure-attribution").innerHTML = "<i><sub>* "+questionRow.attribution+"</sub></i>";
-    document.getElementById("figure-attribution-back").innerHTML = "<i><sub>* "+questionRow.attribution+"</sub></i>";
+    document.getElementById("figure-attribution").innerHTML = "<i><small>* "+questionRow.attribution+"</small></i>";
+    document.getElementById("figure-attribution-back").innerHTML = "<i><small>* "+questionRow.attribution+"</small></i>";
   }
 
   document.getElementById("check-btn").innerHTML = CHECK;
