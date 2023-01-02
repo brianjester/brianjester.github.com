@@ -1,0 +1,22 @@
+{
+  "title": "🇯🇵 Kanji 1st Gr",
+  "ref": "https://en.wikipedia.org/wiki/Ky%C5%8Diku_kanji#First_grade_(80_kanji)",
+  "test": [
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/001_-_yi1_-_one.svg.png",
+      "attribution": "By Magna - Own work, CC BY-SA 4.0, https://commons.wikimedia.org",
+      "A": "Meaning: one ~ On'yomi: ichi, itsu ~ Kun'yomi: hito-tsu"
+    },
+    {
+      "id": "",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/007_-_er4_-_two.svg.png",
+      "attribution": "By Magna - Own work, CC BY-SA 4.0, https://commons.wikimedia.org",
+      "A": "Meaning: two ~ On'yomi: ni, ji ~ Kun'yomi: futa-tsu"
+    }
+  ]
+}

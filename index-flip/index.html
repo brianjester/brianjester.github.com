@@ -140,6 +140,9 @@
 		    <li class="nav-item">
           <a class="nav-link active" id="jp_2_link" aria-current="page" href="#" onclick="loadJp2Questions()">🇯🇵 第二級アマチュア無線技士</a>
         </li>
+		    <li class="nav-item">
+          <a class="nav-link active" id="jp_kanji_1_link" aria-current="page" href="#" onclick="loadJpK1Questions()">🇯🇵 Kanji 1st Gr</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -255,6 +258,13 @@ async function loadJpHiraQuestions() {
   postInit();
 }
 
+async function loadJpK1Questions() {
+  resetNavLinks();
+  document.getElementById("jp_kanji_1_link").className = "nav-link active";
+  window.json = await fetch('https://brianjester.github.io/index-flip/questions_jp_kanji_1.json').then(response => { return response.json() });
+  postInit();
+}
+
 function resetNavLinks() {
   document.getElementById("calif_dmv_c_link").className = "nav-link";
   document.getElementById("ny_dmv_link").className = "nav-link";
@@ -262,6 +272,7 @@ function resetNavLinks() {
   document.getElementById("calif_dre_link").className = "nav-link";
   document.getElementById("jp_2_link").className = "nav-link";
   document.getElementById("jp_hira_link").className = "nav-link";
+  document.getElementById("jp_kanji_1_link").className = "nav-link";
 }
 
 function postInit() {
