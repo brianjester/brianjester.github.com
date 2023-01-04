@@ -159,7 +159,8 @@
         <div class="flip-card">
           <div class="d-grid gap-2 d-md-flex justify-content-around">
             <row>
-              <button id="order-btn" class="btn btn-primary btn-med me-md-2" type="button" onclick="setupOrder()">◀️</button>
+              <button id="order-btn" class="btn btn-primary btn-med me-md-2" type="button" onclick="setupOrder()">◀️◀️</button>
+              <button id="back-one-btn" class="btn btn-primary btn-med me-md-2" type="button" onclick="backOne()">◀️</button>
               <button id="random-btn" class="btn btn-primary btn-med me-md-2" type="button" onclick="randomize()">🎲</button>
               <button id="next-btn-1" class="btn btn-primary btn-med" type="button" onclick="setupCard()"> </button>
             </row>
@@ -299,6 +300,15 @@ function randomize() {
   setupCard();
 }
 
+function backOne() {
+  window.order = "back-one";  // not actually used anywhere
+  console.info("0. question: "+window.questionRowNum)
+  window.questionRowNum = (window.questionRowNum == 0) ? 0 : window.questionRowNum = window.questionRowNum -1;
+  console.info("1. question: "+window.questionRowNum)
+  setupCard();
+  window.order = "inOrder";
+}
+
 function setupCard() {
   document.getElementById("order-btn").className = "btn btn-info btn-med me-md-2";
   window.candAnswer="";
@@ -310,17 +320,20 @@ function setupCard() {
   const test = window.json.test;  // top level node is test
   const numQuestions = test.length;
   var questionRow;
+  console.info("2. question: "+window.questionRowNum)
+
   if (window.order == "inOrder") {
     if (window.questionRowNum < numQuestions) {
       window.questionRowNum++;
     } else {
       window.questionRowNum = 0;
     }
-  } else {
+  } else if (window.order == "randomize") {
     window.questionRowNum = Math.floor(Math.random() * numQuestions);
-  }
+  } 
 
   questionRow = test[window.questionRowNum];
+  console.info("3. question: "+window.questionRowNum)
 
   // Front of card - set up question
   document.getElementById("A").innerHTML = " ";
