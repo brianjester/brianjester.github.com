@@ -279,7 +279,6 @@ function resetNavLinks() {
 function postInit() {
   setupPage();
   setupOrder();
-  document.getElementById("order-btn").className = "btn btn-secondary btn-med me-md-2";
 }
 
 function setupPage() {
@@ -291,12 +290,10 @@ function setupOrder() {
   window.order = "inOrder";
   window.questionRowNum = -1;
   setupCard();
-  document.getElementById("order-btn").className = "btn btn-secondary btn-med me-md-2";
 }
 
 function randomize() {
   window.order = "randomize";
-  document.getElementById("order-btn").className = "btn btn-info btn-med me-md-2";
   setupCard();
 }
 
@@ -310,7 +307,6 @@ function backOne() {
 }
 
 function setupCard() {
-  document.getElementById("order-btn").className = "btn btn-info btn-med me-md-2";
   window.candAnswer="";
   flipMe(0);
   const SHOW = "Reveal";
