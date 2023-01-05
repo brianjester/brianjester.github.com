@@ -319,7 +319,7 @@ function setupCard() {
   console.info("2. question: "+window.questionRowNum)
 
   if (window.order == "inOrder") {
-    if (window.questionRowNum < numQuestions) {
+    if (window.questionRowNum < numQuestions-1) {
       window.questionRowNum++;
     } else {
       window.questionRowNum = 0;
