@@ -299,9 +299,7 @@ function randomize() {
 
 function backOne() {
   window.order = "back-one";  // not actually used anywhere
-  console.info("0. question: "+window.questionRowNum)
   window.questionRowNum = (window.questionRowNum == 0) ? 0 : window.questionRowNum = window.questionRowNum -1;
-  console.info("1. question: "+window.questionRowNum)
   setupCard();
   window.order = "inOrder";
 }
@@ -316,7 +314,6 @@ function setupCard() {
   const test = window.json.test;  // top level node is test
   const numQuestions = test.length;
   var questionRow;
-  console.info("2. question: "+window.questionRowNum)
 
   if (window.order == "inOrder") {
     if (window.questionRowNum < numQuestions-1) {
@@ -329,7 +326,6 @@ function setupCard() {
   } 
 
   questionRow = test[window.questionRowNum];
-  console.info("3. question: "+window.questionRowNum)
 
   // Front of card - set up question
   document.getElementById("A").innerHTML = " ";
