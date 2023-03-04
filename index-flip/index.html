@@ -249,7 +249,7 @@ async function loadCaDreQuestions() {
 async function loadJp2Questions() {
   resetNavLinks();
   document.getElementById("jp_2_link").className = "nav-link active";
-  window.json = await fetch('https://brianjester.github.io/index-flip/questions_jp_2.json').then(response => { return response.json() });
+  window.json = await fetch('https://brianjester.github.io/index-flip/questions_jp_2.json2').then(response => { return response.json() });
   postInit();
 }
 
