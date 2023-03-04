@@ -166,24 +166,24 @@
           </div>
           <div class="flip-card-inner" id="flip-card-inner">
 
-            <div class="flip-card-front" onclick="flipMe(180)">
+            <div class="flip-card-front">
               <BR>
               <div  style="border: 1px solid grey;padding: 25px;background-color: ivory;">
                 <p id = "question_id" class="text-primary"><u> </u></p>
                 <H5><p id = "question"> </p></H5>
                 <p id="figure-front" style="text-align: center;"> </p>
                 <p id="figure-attribution" class="text-secondary" style="text-align: center;"> </p>
-                <p class="text-secondary" style="text-align: right;"><i>click to flip ⟳</i></p>
+                <p class="text-secondary" style="text-align: right;" onclick="flipMe(180)"><i>click to flip ⟳</i></p>
               </div>
               <BR>
               <div class="d-grid gap-2 d-md-flex justify-content-around">
-                <button id="flip-btn-front" class="btn btn-primary btn-med me-md-4" type="button" onclick="flipMe(0)"> </button>
+                <button id="flip-btn-front" class="btn btn-primary btn-med me-md-4" type="button" onclick="flipMe(180)"> </button>
               </div>            
             </div>
 
             <div class="flip-card-back">
               <BR>
-              <div  style="border: 1px solid grey;padding: 25px;background-color: ivory;" onclick="flipMe(0)">
+              <div  style="border: 1px solid grey;padding: 25px;background-color: ivory;">
                 <p id = "answer_id" class="text-primary"><u> </u></p>
                 <p id="A" onclick='selectAnswer("A")'> </p>
                 <p id="B" onclick='selectAnswer("B")'> </p>
@@ -192,7 +192,7 @@
                 <p id="E" onclick='selectAnswer("E")'> </p>
                 <p id="figure-back" style="text-align: center;"> </p>
                 <p id="figure-attribution-back" class="text-secondary" style="text-align: center;"> </p>
-                <p class="text-secondary" style="text-align: right;"><i>click to flip ⟳</i></p>
+                <p class="text-secondary" style="text-align: right;" onclick="flipMe(0)"><i>click to flip ⟳</i></p>
               </div>
               <BR>
               <div class="d-grid gap-2 d-md-flex justify-content-around">
