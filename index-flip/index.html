@@ -222,27 +222,27 @@ window.onload = loadJpHiraQuestions();
 async function loadCaDmvQuestions() {
   resetNavLinks();
   document.getElementById("calif_dmv_c_link").className = "nav-link active";
-  window.json = await fetch('https://brianjester.github.io/index-flip/questions_dl.json').then(response => { return response.json() });
+  window.json = await fetch('https://brianjester.github.io/index-flip/questions_us_ca_dl.json').then(response => { return response.json() });
   postInit();
 }
 async function loadNyDmvQuestions() {
   resetNavLinks();
   document.getElementById("ny_dmv_link").className = "nav-link active";
-  window.json = await fetch('https://brianjester.github.io/index-flip/questions_dl_ny.json').then(response => { return response.json() });
+  window.json = await fetch('https://brianjester.github.io/index-flip/questions_us_ny_dl.json').then(response => { return response.json() });
   postInit();
 }
 
 async function loadFccTechQuestions() {
   resetNavLinks();
   document.getElementById("fcc_tech_link").className = "nav-link active";
-  window.json = await fetch('https://brianjester.github.io/index-flip/questions.json5').then(response => { return response.json() });
+  window.json = await fetch('https://brianjester.github.io/index-flip/questions_us_fcc_tech.json').then(response => { return response.json() });
   postInit();
 }
 
 async function loadCaDreQuestions() {
   resetNavLinks();
   document.getElementById("calif_dre_link").className = "nav-link active";
-  window.json = await fetch('https://brianjester.github.io/index-flip/questions_ca_re.json').then(response => { return response.json() });
+  window.json = await fetch('https://brianjester.github.io/index-flip/questions_us_ca_re.json').then(response => { return response.json() });
   postInit();
 }
 
