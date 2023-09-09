@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Hiragana/ひらがな, 第二級アマチュア無線技士, FCC Amateur Radio Test Pool, Calif Depart of Real Estate Sample Test, Calif DMV Sample Tests, New York DMV Sample Test.">
+    <meta name="description" content="Flip Cards for Music, Japanese, Hiragana/ひらがな, 第二級アマチュア無線技士, FCC Amateur Radio Test Pool, Calif Depart of Real Estate Sample Test, Calif DMV Sample Tests, New York DMV Sample Test.">
     <meta name="author" content="Brian Jester">
     <meta name="generator" content="VS Code">
     <title>⟳IndexFlip</title>
@@ -122,6 +122,9 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav me-auto mb-2 mb-md-0">
         <li class="nav-item">
+          <a class="nav-link active" id="music_link" aria-current="page" href="#" onclick="loadMusicQuestions()">🇺🇸 Music Notes</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link active" id="calif_dmv_c_link" aria-current="page" href="#" onclick="loadCaDmvQuestions()">🇺🇸 Calif DMV</a>
         </li>
         <li class="nav-item">
@@ -217,7 +220,7 @@
 <script>
 
 // default questions to load   
-window.onload = loadJpHiraQuestions();
+window.onload = loadFccTechQuestions();
 
 async function loadCaDmvQuestions() {
   resetNavLinks();
@@ -267,6 +270,13 @@ async function loadJpK1Questions() {
   postInit();
 }
 
+async function loadMusicQuestions() {
+  resetNavLinks();
+  document.getElementById("music_link").className = "nav-link active";
+  window.json = await fetch('https://brianjester.github.io/index-flip/questions_us_music_notes_1.json').then(response => { return response.json() });
+  postInit();
+}
+
 function resetNavLinks() {
   document.getElementById("calif_dmv_c_link").className = "nav-link";
   document.getElementById("ny_dmv_link").className = "nav-link";
@@ -275,6 +285,7 @@ function resetNavLinks() {
   document.getElementById("jp_2_link").className = "nav-link";
   document.getElementById("jp_hira_link").className = "nav-link";
   document.getElementById("jp_kanji_1_link").className = "nav-link";
+  document.getElementById("music_link").className = "nav-link";
 }
 
 function postInit() {
