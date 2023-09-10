@@ -14,7 +14,7 @@
       "D": "D4"
     },
     {
-      "id": "T1Q7",
+      "id": "T1Q2",
       "answer": "B",
       "question": "What is this note?",
       "image": "music/B3w.JPG",
@@ -25,7 +25,7 @@
       "D": "D4"
     },
     {
-      "id": "T1Q6",
+      "id": "T1Q3",
       "answer": "C",
       "question": "What is this note?",
       "image": "music/C4w.JPG",
@@ -36,7 +36,7 @@
       "D": "D3"
     },
     {
-      "id": "T1Q2",
+      "id": "T1Q4",
       "answer": "D",
       "question": "What is this note?",
       "image": "music/D4w.JPG",
@@ -47,7 +47,7 @@
       "D": "D4"
     },
     {
-      "id": "T1Q3",
+      "id": "T1Q5",
       "answer": "A",
       "question": "What is this note?",
       "image": "music/E4w.JPG",
@@ -58,7 +58,7 @@
       "D": "D4"
     },
     {
-      "id": "T1Q5",
+      "id": "T1Q6",
       "answer": "B",
       "question": "What is this note?",
       "image": "music/F4w.JPG",
@@ -69,7 +69,7 @@
       "D": "A4"
     },
     {
-      "id": "T1Q4",
+      "id": "T1Q7",
       "answer": "C",
       "question": "What is this note?",
       "image": "music/G4w.JPG",
@@ -80,7 +80,7 @@
       "D": "A3"
     },
     {
-      "id": "T1Q1",
+      "id": "T1Q8",
       "answer": "A",
       "question": "What is this note?",
       "image": "music/A4w.JPG",
@@ -91,7 +91,7 @@
       "D": "D5"
     },
     {
-      "id": "T1Q7",
+      "id": "T1Q9",
       "answer": "B",
       "question": "What is this note?",
       "image": "music/B4w.JPG",
@@ -101,9 +101,8 @@
       "C": "C5",
       "D": "D5"
     },
-
     {
-      "id": "T1Q6",
+      "id": "T1Q10",
       "answer": "C",
       "question": "What is this note?",
       "image": "music/C5w.JPG",
@@ -114,7 +113,7 @@
       "D": "D5"
     },
     {
-      "id": "T1Q2",
+      "id": "T1Q11",
       "answer": "D",
       "question": "What is this note?",
       "image": "music/D5w.JPG",
@@ -125,7 +124,7 @@
       "D": "D5"
     },
     {
-      "id": "T1Q3",
+      "id": "T1Q12",
       "answer": "A",
       "question": "What is this note?",
       "image": "music/E5w.JPG",
@@ -136,7 +135,7 @@
       "D": "D5"
     },
     {
-      "id": "T1Q5",
+      "id": "T1Q13",
       "answer": "B",
       "question": "What is this note?",
       "image": "music/F5w.JPG",
@@ -147,7 +146,7 @@
       "D": "A4"
     },
     {
-      "id": "T1Q4",
+      "id": "T1Q14",
       "answer": "C",
       "question": "What is this note?",
       "image": "music/G5w.JPG",
@@ -158,7 +157,7 @@
       "D": "A3"
     },
     {
-      "id": "T1Q1",
+      "id": "T1Q15",
       "answer": "A",
       "question": "What is this note?",
       "image": "music/A5w.JPG",
@@ -169,7 +168,7 @@
       "D": "D5"
     },
     {
-      "id": "T1Q7",
+      "id": "T1Q16",
       "answer": "B",
       "question": "What is this note?",
       "image": "music/B5w.JPG",
