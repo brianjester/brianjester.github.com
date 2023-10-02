@@ -733,6 +733,10 @@ function recordPosition(position) {
 
 async function playAudio() {
     interval = $('text_interval').value;
+	if (interval <=0) {
+		interval = 300;
+		document.getElementById("text_interval").value = interval;
+	} 
 	stop = 0;
     while (stop == 0) {
 		// Play the audio. This only works once the audio file has been generated.
