@@ -51,7 +51,7 @@
 	<div class="container">
 	  <h1>APRSumo</h1>
 	  <h2>Instructions</h2>
-	  <p>Populate the Call Sign field below with your amateur radio call sign. Set your radio to your local packet frequency (e.g. 144.390 in the US), and transmit the produced sound through the radio. Go to <a href="https://aprs.fi/">https://aprs.fi/</a> and search for your track</p>
+	  <p>Enter your amateur radio call sign, and optional message. Set your radio to your local packet frequency (e.g. 144.390 in the US), and transmit the produced sound through the radio. Go to <a href="https://aprs.fi/">https://aprs.fi/</a> and search for your track</p>
 		<form onsubmit="if(generate() === null) {alert('Error in assembling packet');}; return false;">
             <div class="row">
 				<div class="col">
@@ -94,7 +94,6 @@
 				<div class="col">
 					<label for="select_type" class="form-label">Type of Message & APRS Data Type</label>
 					<select onChange="reflectSelect();" id="select_type" class="form-select form-select-sm" aria-label=".form-select-sm example">
-					  <option value="bulletin" selected>Bulletin (:)</option>
 					  <option value="position">Position Report (@)</option>
 					 </select>
 				</div>
@@ -116,7 +115,7 @@
 
 			<div class="row" id="div_comment" style="display: none;">
 				<div class="col">
-					<label for="text_comment" class="form-label">comment</label>
+					<label for="text_comment" class="form-label">COMMENT</label>
 					<input type="text" class="form-control" id="text_comment" placeholder="">
 				</div>
 			</div>
