@@ -669,11 +669,11 @@ function generate() {
 		case 'position':
 			message.longitude = $('text_longitude').value;
 			message.latitude  = $('text_latitude').value;
-			message.comment  = $('text_comment').value;
+			message.comment  = $('text_comment').value.toUpperCase();
 			break;
 		
 		case 'bulletin':
-			message.text     =  $('text_message').value;
+			message.text     =  $('text_message').value.toUpperCase();
 			break;
 		
 	}
@@ -683,7 +683,7 @@ function generate() {
 		{
 			destination_address: ($('text_destination').value),
 			destination_SSID: ($('text_destination_SSID').value),
-			source_address: ($('text_src').value),
+			source_address: ($('text_src').value.toUpperCase()),
 			source_SSID: ($('text_src_SSID').value),
 			digipeaters: ($('text_digipeaters').value),	
 			information_field: message
