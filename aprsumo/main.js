@@ -709,6 +709,7 @@ function generate() {
 	m.generateAudio(f);
 	
 	// Play the audio through the browser, taking the global dataURI variable and playing it in browser.
+	console.log("Playing audio...");
 	m.playAudio();
 	
 	// Because we've got the audio ready, make the download/play buttons on the form available to press. 
@@ -739,8 +740,6 @@ async function playAudio() {
 	} 
 	stop = 0;
     while (stop == 0) {
-		// Play the audio. This only works once the audio file has been generated.
-		console.log("Playing audio...");
 		//m.playAudio();
 		console.log("sleeping for "+interval+"s...");
 		await sleep(interval * 1000);
