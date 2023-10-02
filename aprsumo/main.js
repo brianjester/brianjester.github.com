@@ -740,9 +740,13 @@ async function playAudio() {
 	stop = 0;
     while (stop == 0) {
 		// Play the audio. This only works once the audio file has been generated.
-		m.playAudio();
+		console.log("Playing audio...");
+		//m.playAudio();
+		generate();
+		console.log("sleeping for "+interval+"s...");
 		await sleep(interval * 1000);
 		if (navigator.geolocation) {
+			console.log("updating geo loc...");
 			navigator.geolocation.getCurrentPosition(recordPosition);
 		}
     }
