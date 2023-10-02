@@ -58,11 +58,11 @@
             <div class="row">
 				<div class="col">
 					<label for="text_src" class="form-label">CALL SIGN</label>
-					<input type="text" class="form-control" id="text_src" placeholder="CALLSIGN">
+					<input type="text" class="form-control bg-warning fw-bold" id="text_src" placeholder="CALLSIGN">
 				</div>
 				<div class="col">
 					<label for="text_src_SSID" class="form-label">SSID</label>
-					<input type="text" class="form-control" id="text_src_SSID" value="0">
+					<input type="text" class="form-control fw-bold" id="text_src_SSID" value="0">
 				</div>
 				<div id="srcHelp" class="form-text">
 					Your callsign in uppper case. The SSID is used if you have multiple locations to distinguish between your stations. E.g. 2E0LDN-1 is different to 2E0LDN-3.
@@ -95,7 +95,7 @@
 			<div class="row">
 				<div class="col">
 					<label for="select_type" class="form-label">Type of Message & APRS Data Type</label>
-					<select onChange="reflectSelect();" id="select_type" class="form-select form-select-sm" aria-label=".form-select-sm example">
+					<select onChange="reflectSelect();" id="select_type" class="form-select form-select-sm  fw-bold bg-warning" aria-label=".form-select-sm example">
 					  <option value="position">Position Report (@)</option>
 					  <option value="bulletin" selected>Bulletin (:)</option>
 					 </select>
@@ -119,14 +119,14 @@
 			<div class="row" id="div_comment" >
 				<div class="col">
 					<label for="text_comment" class="form-label">OPTIONAL POSITION MSG</label>
-					<input type="text" class="form-control" id="text_comment" placeholder="">
+					<input type="text" class="form-control fw-bold" id="text_comment" placeholder="">
 				</div>
 			</div>
 			
 			<div class="row" id="div_interval">
 				<div class="col">
 					<label for="text_interval" class="form-label">Interval in seconds (default=300)</label>
-					<input type="text" class="form-control" id="text_interval" placeholder="300">
+					<input type="text" class="form-control  fw-bold" id="text_interval" placeholder="300">
 				</div>
 			</div>
 
