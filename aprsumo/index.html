@@ -122,6 +122,13 @@
 					<input type="text" class="form-control" id="text_comment" placeholder="">
 				</div>
 			</div>
+			
+			<div class="row" id="div_interval" style="display: none;">
+				<div class="col">
+					<label for="text_interval" class="form-label">Interval in seconds (default=300)</label>
+					<input type="text" class="form-control" id="text_interval" placeholder="300">
+				</div>
+			</div>
 
 			<div id="div_message" class="row">
 				<div class="col">
@@ -139,7 +146,7 @@
 			<div class="row">
 				<div class="col"><br/>
 					<input type="button" class="w-1 btn btn-primary btn-sm" value="Generate Sound" onclick="generate();">
-					<input type="button" class="w-1 btn btn-primary btn-sm" value="Play in Browser" id="button_play" disabled="true" onclick="playAudio();">
+					<input type="button" class="w-1 btn btn-primary btn-sm" value="Loop in Browser" id="button_play" disabled="true" onclick="playAudio();">
 					<input type="button" class="w-1 btn btn-primary btn-sm" value="Download Wav File" id="button_download" disabled="true" onclick="location.href=dataURI">
 				</div>
 			</div>
