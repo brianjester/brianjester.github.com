@@ -747,5 +747,3 @@ async function playAudio() {
 		}
     }
 }
-
-demo();
