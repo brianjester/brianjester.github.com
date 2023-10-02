@@ -100,6 +100,9 @@
 					  <option value="bulletin" selected>Bulletin (:)</option>
 					 </select>
 				</div>
+				<div id="posHelp" class="form-text">
+					You'll likely need to accept a request to allow the sharing of your location with this application. 
+				</div>
 			</div>
 
 			<div class="row" id="div_latitude" style="display: none;">
@@ -116,10 +119,17 @@
 				</div>
 			</div>
 
-			<div class="row" id="div_comment" >
+			<div class="row" id="div_comment" style="display: none;">
 				<div class="col">
 					<label for="text_comment" class="form-label">OPTIONAL POSITION MSG</label>
 					<input type="text" class="form-control fw-bold" id="text_comment" placeholder="">
+				</div>
+			</div>
+
+			<div id="div_message" class="row">
+				<div class="col">
+					<label for="text_message" class="form-label">OPTIONAL BULLETIN MSG</label>
+					<textarea class="form-control" id="text_message" rows="1" placeholder="OPTIONAL BULLETIN MSG">TEST</textarea>
 				</div>
 			</div>
 			
@@ -129,13 +139,7 @@
 					<input type="text" class="form-control  fw-bold" id="text_interval" placeholder="300">
 				</div>
 			</div>
-
-			<div id="div_message" class="row" style="display: none;">
-				<div class="col">
-					<label for="text_message" class="form-label">OPTIONAL BULLETIN MSG</label>
-					<textarea class="form-control" id="text_message" rows="1" placeholder="OPTIONAL BULLETIN MSG">TEST</textarea>
-				</div>
-			</div>
+			
 			<div id="div_error" class="row">
 				<div class="col"><br/>
 					<div class="alert alert-danger" role="alert" id="text_error" style="display: none;">
@@ -143,12 +147,16 @@
 					</div>
 				</div>
 			</div>
+			
 			<div class="row">
 				<div class="col"><br/>
 					<input type="button" class="w-1 btn btn-primary btn-sm" value="Generate Sound" onclick="generate();">
 					<input type="button" class="w-1 btn btn-success btn-sm" value="Loop in Browser" id="button_play" disabled="true" onclick="playAudio();">
-					<input type="button" class="w-1 btn btn-danger btn-sm" value="Stop Loop" id="button_stop" disabled="true" onclick="stopAudio();">
+					<input type="button" class="w-1 btn btn-danger btn-sm" value="Stop Looping" id="button_stop" disabled="true" onclick="stopAudio();">
 					<input type="button" class="w-1 btn btn-primary btn-sm" value="Download Wav File" id="button_download" disabled="true" onclick="location.href=dataURI">
+				</div>
+				<div id="loopHelp" class="form-text">
+					Loop in Browser will update geo location, and regenerate packet at the specified interval. 
 				</div>
 			</div>
 
