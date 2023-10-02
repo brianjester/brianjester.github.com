@@ -709,7 +709,7 @@ function generate() {
 	m.generateAudio(f);
 	
 	// Play the audio through the browser, taking the global dataURI variable and playing it in browser.
-	//m.playAudio();
+	m.playAudio();
 	
 	// Because we've got the audio ready, make the download/play buttons on the form available to press. 
 	$('button_download').disabled = false;
@@ -742,13 +742,14 @@ async function playAudio() {
 		// Play the audio. This only works once the audio file has been generated.
 		console.log("Playing audio...");
 		//m.playAudio();
-		generate();
 		console.log("sleeping for "+interval+"s...");
 		await sleep(interval * 1000);
-		m.playAudio();
 		if (navigator.geolocation) {
 			console.log("updating geo loc...");
 			navigator.geolocation.getCurrentPosition(recordPosition);
 		}
+		var generateButton = document.getElementById("generate_button");
+		generateButton.click();
+		// click Generate Packet button generate();
     }
 }
