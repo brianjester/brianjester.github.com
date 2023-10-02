@@ -1,4 +1,4 @@
- type<!DOCTYPE html>
+ <!DOCTYPE html>
 	<html>
 		<head>
 			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
@@ -116,7 +116,7 @@
 				</div>
 			</div>
 
-			<div class="row" id="div_comment" style="display: none;">
+			<div class="row" id="div_comment" >
 				<div class="col">
 					<label for="text_comment" class="form-label">OPTIONAL POSITION MSG</label>
 					<input type="text" class="form-control" id="text_comment" placeholder="">
@@ -130,7 +130,7 @@
 				</div>
 			</div>
 
-			<div id="div_message" class="row">
+			<div id="div_message" class="row" style="display: none;">
 				<div class="col">
 					<label for="text_message" class="form-label">OPTIONAL BULLETIN MSG</label>
 					<textarea class="form-control" id="text_message" rows="1" placeholder="OPTIONAL BULLETIN MSG">TEST</textarea>
@@ -146,7 +146,8 @@
 			<div class="row">
 				<div class="col"><br/>
 					<input type="button" class="w-1 btn btn-primary btn-sm" value="Generate Sound" onclick="generate();">
-					<input type="button" class="w-1 btn btn-primary btn-sm" value="Loop in Browser" id="button_play" disabled="true" onclick="playAudio();">
+					<input type="button" class="w-1 btn btn-success btn-sm" value="Loop in Browser" id="button_play" disabled="true" onclick="playAudio();">
+					<input type="button" class="w-1 btn btn-danger btn-sm" value="Stop Loop" id="button_stop" disabled="true" onclick="stopAudio();">
 					<input type="button" class="w-1 btn btn-primary btn-sm" value="Download Wav File" id="button_download" disabled="true" onclick="location.href=dataURI">
 				</div>
 			</div>
