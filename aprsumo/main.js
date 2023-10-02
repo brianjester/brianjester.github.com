@@ -1,5 +1,6 @@
 // Globals 
 var dataURI, audio;
+stop = 0;
 
 // Helper functions
 
@@ -713,20 +714,34 @@ function generate() {
 	// Because we've got the audio ready, make the download/play buttons on the form available to press. 
 	$('button_download').disabled = false;
 	$('button_play').disabled = false;
+	$('button_stop').disabled = false;
 }
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+function stopAudio() {
+    stop=1;
+}
+
+function recordPosition(position) {
+	currentPosition = position;
+	document.getElementById("text_longitude").value = position.coords.longitude;
+	document.getElementById("text_latitude").value = position.coords.latitude;
+}
+
 async function playAudio() {
     interval = $('text_interval').value;
-    for (let i = 0; i < 5; i++) {
-    // Play the audio. This only works once the audio file has been generated.
-    m.playAudio();
-    await sleep(i * 3000);
+	stop = 0;
+    while (stop == 0) {
+		// Play the audio. This only works once the audio file has been generated.
+		m.playAudio();
+		await sleep(interval * 1000);
+		if (navigator.geolocation) {
+			navigator.geolocation.getCurrentPosition(recordPosition);
+		}
     }
 }
 
 demo();
-
