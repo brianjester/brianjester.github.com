@@ -715,9 +715,18 @@ function generate() {
 	$('button_play').disabled = false;
 }
 
-function playAudio() {
-	// Play the audio. This only works once the audio file has been generated.
-	
-	m.playAudio();
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
 }
+
+async function playAudio() {
+    interval = $('text_interval').value;
+    for (let i = 0; i < 5; i++) {
+    // Play the audio. This only works once the audio file has been generated.
+    m.playAudio();
+    await sleep(i * 3000);
+    }
+}
+
+demo();
 
