@@ -57,15 +57,15 @@
 		<form onsubmit="if(generate() === null) {alert('Error in assembling packet');}; return false;">
             <div class="row">
 				<div class="col">
-					<label for="text_src" class="form-label">CALL SIGN</label>
-					<input type="text" class="form-control bg-warning fw-bold" id="text_src" placeholder="CALLSIGN">
+					<label for="text_src" class="form-label">Call Sign</label>
+					<input type="text" class="form-control bg-warning fw-bold" id="text_src" placeholder="CallSign">
 				</div>
 				<div class="col">
 					<label for="text_src_SSID" class="form-label">SSID</label>
 					<input type="text" class="form-control fw-bold" id="text_src_SSID" value="0">
 				</div>
 				<div id="srcHelp" class="form-text">
-					Your callsign in uppper case. The SSID is used if you have multiple locations to distinguish between your stations. E.g. 2E0LDN-1 is different to 2E0LDN-3.
+					Your callsign , the SSID is used if you have multiple locations to distinguish between your stations. E.g. 2E0LDN-1 is different to 2E0LDN-3.
 				</div>
 			</div>
 			<div class="row">
@@ -121,15 +121,15 @@
 
 			<div class="row" id="div_comment" style="display: none;">
 				<div class="col">
-					<label for="text_comment" class="form-label">OPTIONAL POSITION MSG</label>
+					<label for="text_comment" class="form-label">Optional Position Message</label>
 					<input type="text" class="form-control fw-bold" id="text_comment" placeholder="">
 				</div>
 			</div>
 
 			<div id="div_message" class="row">
 				<div class="col">
-					<label for="text_message" class="form-label">OPTIONAL BULLETIN MSG</label>
-					<textarea class="form-control" id="text_message" rows="1" placeholder="OPTIONAL BULLETIN MSG">TEST</textarea>
+					<label for="text_message" class="form-label">Optional Bulletin Message</label>
+					<textarea class="form-control" id="text_message" rows="1" placeholder="OPTIONAL BULLETIN MSG">test</textarea>
 				</div>
 			</div>
 			
