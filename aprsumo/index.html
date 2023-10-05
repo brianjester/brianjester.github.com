@@ -170,5 +170,9 @@
 </body>
 <script>
 		$('select_type').value = "bulletin";
+		if ("serviceWorker" in navigator) {
+	  		// register service worker
+	  		navigator.serviceWorker.register("service-worker.js");
+		}
 </script>
 </html>
