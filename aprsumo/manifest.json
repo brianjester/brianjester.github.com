@@ -5,12 +5,12 @@
   "scope": "./",
   "icons": [
     {
-      "src": "sumo-192.png",
+      "src": "contract.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "sumo-512.png",
+      "src": "contract.png",
       "sizes": "512x512",
       "type": "image/png"
     }
