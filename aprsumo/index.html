@@ -51,33 +51,33 @@
   <main>
 	<div class="container">
 	  <h1>APRSumo</h1>
-	  <h2>Credit</h2>
-	 	<p>Original project is here: <a href="https://github.com/kevinmpoulton/APRS.JS/tree/master">https://github.com/kevinmpoulton/APRS.JS/tree/master</a></p>
-	  	<p>PWA Icon: Image by catalyststuff on Freepik</p>
-	  <h2>Instructions</h2>
-	  <p>Enter your amateur radio call sign, select type of message, and optional message text. Set your radio to your local packet frequency (e.g. 144.390 in the US), and transmit the produced sound through the radio. Go to <a href="https://aprs.fi/">https://aprs.fi/</a> and search for your track</p>
 		<form onsubmit="if(generate() === null) {alert('Error in assembling packet');}; return false;">
             <div class="row">
-				<div class="col">
+				<div>
 					<label for="text_src" class="form-label">Call Sign</label>
-					<input type="text" class="form-control bg-warning fw-bold" id="text_src" placeholder="CallSign">
+					<input type="text" class="form-control bg-warning fs-2" id="text_src" placeholder="CallSign">
 				</div>
-				<div class="col">
+			</div>
+			<div class="row">
+				<div>
 					<label for="text_src_SSID" class="form-label">SSID</label>
-					<input type="text" class="form-control fw-bold" id="text_src_SSID" value="0">
+					<input type="text" class="form-control fs-2" id="text_src_SSID" value="0">
 				</div>
 				<div id="srcHelp" class="form-text">
 					Your callsign , the SSID is used if you have multiple locations to distinguish between your stations. E.g. 2E0LDN-1 is different to 2E0LDN-3.
 				</div>
 			</div>
+
 			<div class="row">
-				<div class="col">
+				<div>
 					<label for="text_destination" class="form-label">Destination Address</label>
-					<input type="text" disabled="true" class="form-control" id="text_destination" value="APZXXX">
+					<input type="text" disabled="true" class="form-control fs-2" id="text_destination" value="APZXXX">
 				</div>
-				<div class="col">
+			</div>
+			<div class="row">
+				<div>
 					<label for="text_destination_SSID"  class="form-label">SSID</label>
-					<input type="text" class="form-control" id="text_destination_SSID" disabled="true" value="0">
+					<input type="text" class="form-control fs-2" id="text_destination_SSID" disabled="true" value="0">
 				</div>
 				<div id="destHelp" class="form-text">
 					The destination address, limited to 6 characters, is used as a software identifier. APZxxx represents experimental software. 
@@ -85,9 +85,9 @@
 			</div>
 
 			<div class="row">
-				<div class="col">
+				<div>
 					<label for="text_destination" class="form-label">DIGIPEATERS</label>
-					<input type="text" class="form-control" id="text_digipeaters" placeholder="">
+					<input type="text" class="form-control fs-2" id="text_digipeaters" placeholder="">
 				</div>
 				<div id="digHelp" class="form-text">
 					Enter a comma separated list of digipeaters if you want to use these. Leaving blank is probably preferable for testing. 
@@ -95,9 +95,9 @@
 			</div>
 		
 			<div class="row">
-				<div class="col">
+				<div>
 					<label for="select_type" class="form-label">Type of Message & APRS Data Type</label>
-					<select onChange="reflectSelect();" id="select_type" class="form-select form-select-sm  fw-bold bg-warning" aria-label=".form-select-sm example">
+					<select onChange="reflectSelect();" id="select_type" class="form-select form-select-sm bg-warning fs-2" aria-label=".form-select-sm example">
 					  <option value="position">Position Report (@)</option>
 					  <option value="bulletin" selected>Bulletin (:)</option>
 					 </select>
@@ -108,42 +108,42 @@
 			</div>
 
 			<div class="row" id="div_latitude" style="display: none;">
-				<div class="col">
+				<div>
 					<label for="text_latitude" class="form-label">Latitude</label>
-					<input type="text" class="form-control" id="text_latitude" placeholder="">
+					<input type="text" class="form-control fs-2" id="text_latitude" placeholder="">
 				</div>
 			</div>
 		
 			<div class="row" id="div_longitude" style="display: none;">
-				<div class="col">
+				<div>
 					<label for="text_longitude" class="form-label">Longitude</label>
-					<input type="text" class="form-control" id="text_longitude" placeholder="">
+					<input type="text" class="form-control fs-2" id="text_longitude" placeholder="">
 				</div>
 			</div>
 
 			<div class="row" id="div_comment" style="display: none;">
-				<div class="col">
+				<div>
 					<label for="text_comment" class="form-label">Optional Position Message</label>
-					<input type="text" class="form-control fw-bold" id="text_comment" placeholder="">
+					<input type="text" class="form-control fw-bold fs-2" id="text_comment" placeholder="">
 				</div>
 			</div>
 
 			<div id="div_message" class="row">
-				<div class="col">
+				<div>
 					<label for="text_message" class="form-label">Optional Bulletin Message</label>
-					<textarea class="form-control" id="text_message" rows="1" placeholder="OPTIONAL BULLETIN MSG">test</textarea>
+					<textarea class="form-control fs-2" id="text_message" rows="1" placeholder="OPTIONAL BULLETIN MSG">test</textarea>
 				</div>
 			</div>
 			
 			<div class="row" id="div_interval">
-				<div class="col">
+				<div>
 					<label for="text_interval" class="form-label">Interval in seconds (default=300)</label>
-					<input type="text" class="form-control  fw-bold" id="text_interval" placeholder="300">
+					<input type="text" class="form-control fw-bold fs-2" id="text_interval" placeholder="300">
 				</div>
 			</div>
 			
 			<div id="div_error" class="row">
-				<div class="col"><br/>
+				<div><br/>
 					<div class="alert alert-danger" role="alert" id="text_error" style="display: none;">
 						  message
 					</div>
@@ -151,11 +151,11 @@
 			</div>
 			
 			<div class="row">
-				<div class="col"><br/>
-					<input type="button" class="w-1 btn btn-primary btn-sm" value="Generate Packet" onclick="generate();" id="generate_button">
-					<input type="button" class="w-1 btn btn-success btn-sm" value="Loop in Browser" id="button_play" disabled="true" onclick="playAudio();">
-					<input type="button" class="w-1 btn btn-danger btn-sm" value="Stop Looping" id="button_stop" disabled="true" onclick="stopAudio();">
-					<input type="button" class="w-1 btn btn-primary btn-sm" value="Download Wav File" id="button_download" disabled="true" onclick="location.href=dataURI">
+					<div class="d-grid gap-2">
+					<input type="button" class="btn btn-primary fs-2" value="Generate Packet" onclick="generate();" id="generate_button">
+					<input type="button" class="btn btn-success fs-2" value="Loop in Browser" id="button_play" disabled="true" onclick="playAudio();">
+					<input type="button" class="btn btn-danger fs-2" value="Stop Looping" id="button_stop" disabled="true" onclick="stopAudio();">
+					<input type="button" class="btn btn-primary fs-2" value="Download Wav File" id="button_download" disabled="true" onclick="location.href=dataURI">
 				</div>
 				<div id="loopHelp" class="form-text">
 					Loop in Browser will update geo location, and regenerate packet at the specified interval. 
@@ -164,6 +164,13 @@
 
 		</form>
 	</div>
+	<HR>
+	<h2>Credit</h2>
+	<p>Original project is here: <a href="https://github.com/kevinmpoulton/APRS.JS/tree/master">https://github.com/kevinmpoulton/APRS.JS/tree/master</a></p>
+	<p>PWA Icon: Image by catalyststuff on Freepik</p>
+ 	<h2>Instructions</h2>
+ 	<p>Enter your amateur radio call sign, select type of message, and optional message text. Set your radio to your local packet frequency (e.g. 144.390 in the US), and transmit the produced sound through the radio. Go to <a href="https://aprs.fi/">https://aprs.fi/</a> and search for your track</p>
+
 	</main>
 </div>
 
