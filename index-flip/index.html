@@ -134,6 +134,9 @@
           <a class="nav-link active" id="fcc_tech_link" aria-current="page" href="#" onclick="loadFccTechQuestions()">🇺🇸 FCC Tech</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link active" id="ca_basic_link" aria-current="page" href="#" onclick="loadCaBasicQuestions()">🇨🇦 CDN Basic Amateur Radio</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link active" id="ny_dmv_link" aria-current="page" href="#" onclick="loadNyDmvQuestions()">🇺🇸 NY DMV</a>
         </li>
 		    <li class="nav-item">
@@ -220,7 +223,7 @@
 <script>
 
 // default questions to load   
-window.onload = loadMusicQuestions();
+window.onload = loadCaBasicQuestions();
 
 async function loadCaDmvQuestions() {
   resetNavLinks();
@@ -239,6 +242,13 @@ async function loadFccTechQuestions() {
   resetNavLinks();
   document.getElementById("fcc_tech_link").className = "nav-link active";
   window.json = await fetch('https://brianjester.github.io/index-flip/questions_us_fcc_tech.json').then(response => { return response.json() });
+  postInit();
+}
+
+async function loadCaBasicQuestions() {
+  resetNavLinks();
+  document.getElementById("ca_basic_link").className = "nav-link active";
+  window.json = await fetch('https://brianjester.github.io/index-flip/questions_ca_basic.json').then(response => { return response.json() });
   postInit();
 }
 
@@ -281,6 +291,7 @@ function resetNavLinks() {
   document.getElementById("calif_dmv_c_link").className = "nav-link";
   document.getElementById("ny_dmv_link").className = "nav-link";
   document.getElementById("fcc_tech_link").className = "nav-link";
+  document.getElementById("ca_basic_link").className = "nav-link";
   document.getElementById("calif_dre_link").className = "nav-link";
   document.getElementById("jp_2_link").className = "nav-link";
   document.getElementById("jp_hira_link").className = "nav-link";
