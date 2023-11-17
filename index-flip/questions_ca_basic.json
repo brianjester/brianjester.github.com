@@ -8658,7 +8658,7 @@
       "id": "B-008-005-010",
       "answer": "D",
       "question": "A high pass filter would normally be fitted:",
-      "A": "A. between microphone and speech amplifier",
+      "A": "A. between microphone and speech amplifier ",
       "B": "B. at the Morse key or keying relay in a transmitter",
       "C": "C. between transmitter output and transmission line",
       "D": "D. at the antenna terminals of the TV receiver"
@@ -8673,4 +8673,4 @@
       "D": "D. attenduate frequencies above 30 MHz"
     }
   ]
-}
+} 
