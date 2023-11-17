@@ -3,6 +3,15 @@
   "ref": "https://apc-cap.ic.gc.ca/datafiles/amateur_basic_questions_en.pdf",
   "test": [
     {
+      "id": "Notes and Instructions",
+      "answer": "C",
+      "question": "This test bank has 971 questions. The exam has 100, you need 70% to pass, and 80% for Honours. ⟳IndexFlip buttons: Restart:◀️◀️ Back:◀️ Random:🎲 Forward:▶️",
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    {"
       "id": "B-001-001-001",
       "answer": "C",
       "question": "Authority to make regulations governing radiocommunications is derived from:",
