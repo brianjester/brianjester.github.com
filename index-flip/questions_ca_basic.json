@@ -652,12 +652,13 @@
       "question": "Amateur radio stations may communicate:",
       "A": "A. with anyone who uses international Morse code",
       "B": "B. with non amateur stations",
-      "C": "C. D with any station involved in a real or simulated emergency only with other amateur stations"
+      "C": "C. with any station involved in a real or simulated emergency",
+	  "D": "D. only with other amateur stations"
     },
     {
       "id": "B-001-011-002",
       "answer": "A",
-      "question": "During relief operations in the days following",
+      "question": "During relief operations in the days following a disaster, when may an amateur use his equipment to communicate on frequencies outside amateur bands?",
       "A": "A. Never",
       "B": "B. When relaying messages on behalf of government agencies",
       "C": "C. When messages are destined to agencies without amateur radio support",
