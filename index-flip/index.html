@@ -2,9 +2,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Flip Cards for Music, Japanese, Hiragana/ひらがな, 第二級アマチュア無線技士, FCC Amateur Radio Test Pool, Calif Depart of Real Estate Sample Test, Calif DMV Sample Tests, New York DMV Sample Test.">
+    <meta name="description" content="Study Cards for anything">
     <meta name="author" content="Brian Jester">
-    <meta name="generator" content="VS Code">
+    <meta name="generator" content="Notepad++">
     <title>⟳IndexFlip</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/navbar-static/">
@@ -110,6 +110,9 @@
     
     <!-- Custom styles for this template -->
     <link href="navbar-top.css" rel="stylesheet">
+    <!-- PWA - Progressive Web App manifest -->
+    <link rel="manifest" href="manifest.json">
+
   </head>
   <body>
     
@@ -493,6 +496,11 @@ function check() {
   gtag('js', new Date());
 
   gtag('config', 'G-JJGDGRJYDW');
+  <!-- PWA - Progressive Web App Service Worker -->
+  if ("serviceWorker" in navigator) {
+    // register service worker
+    navigator.serviceWorker.register("service-worker.js");
+  }
 </script>
       
   </body>
