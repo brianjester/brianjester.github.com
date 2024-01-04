@@ -194,6 +194,7 @@
               <BR>
               <div  style="border: 1px solid grey;padding: 25px;background-color: ivory;">
                 <p id = "answer_id" class="text-primary"><u> </u></p>
+				<H5><p id = "question-back"> </p></H5>
                 <p id="A" onclick='selectAnswer("A")'> </p>
                 <p id="B" onclick='selectAnswer("B")'> </p>
                 <p id="C" onclick='selectAnswer("C")'> </p>
@@ -361,6 +362,7 @@ function setupCard() {
   document.getElementById("E").innerHTML = " ";
   document.getElementById("question_id").innerHTML = questionRow.id;
   document.getElementById("question").innerHTML = questionRow.question;
+  document.getElementById("question-back").innerHTML = questionRow.question;
   if (questionRow.hasOwnProperty("A")) {
     document.getElementById("A").innerHTML = questionRow.A;
   }
