@@ -56,6 +56,12 @@
 		    <li class="nav-item">
           <a class="nav-link active" id="jp_kanji_1_link" aria-current="page" href="#" onclick="loadJpK1Questions()">🇯🇵 Kanji 1st Gr</a>
         </li>
+		<li class="nav-item">
+          <a class="nav-link active" id="create_cards_link" aria-current="page" href="create.html" onclick="createQuestions()">Create Cards</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link active" id="load_cards_link" aria-current="page" href="load.html" onclick="loadQuestions()">Load Cards</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -206,6 +212,8 @@ function resetNavLinks() {
   document.getElementById("jp_hira_link").className = "nav-link";
   document.getElementById("jp_kanji_1_link").className = "nav-link";
   document.getElementById("music_link").className = "nav-link";
+  document.getElementById("create_cards_link").className = "nav-link";
+  document.getElementById("load_cards_link").className = "nav-link";
 }
 
 function postInit() {
