@@ -149,8 +149,13 @@ if(!new_card) {
 
 }
 // Default questions to load   
-window.onload = loadFccTechQuestions();
+window.onload = loadWelcome();
 
+async function loadWelcome() {
+  resetNavLinks();
+  window.json = await fetch('https://brianjester.github.io/index-flip/welcome.json').then(response => { return response.json() });
+  postInit();
+}
 async function loadCaDmvQuestions() {
   resetNavLinks();
   document.getElementById("calif_dmv_c_link").className = "nav-link active";
