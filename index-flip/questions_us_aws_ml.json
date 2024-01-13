@@ -5,7 +5,7 @@
     {
       "id": "Introduction",
       "answer": "C",
-      "question": "<p><B>Test Bank and Test</B><p>This test bank has 10 questions. <p>The exam has 65.<HR> <p><B>⟳IndexFlip buttons</B> <p>Restart:◀️◀️ <p>Previous:◀️ <p>Random:🎲 <p>Next:▶️<HR><p> <A HREF=\"https://github.com/brianjester/brianjester.github.com/issues\">Need to file a bug\/feature request?<\/A>",
+      "question": "<p><B>Test Bank and Test</B><p>This test bank has 10 questions. <p>The exam has 65.<HR> <p><B>⟳IndexFlip buttons</B> <p>Restart:◀️◀️ <p>Previous:◀️ <p>Random:🎲 <p>Next:▶️<HR><p> <A HREF=\"https://github.com/brianjester/brianjester.github.com/issues\">Need to file a bug/feature request?</A>",
       "A": "",
       "B": "",
       "C": "",
@@ -86,8 +86,7 @@
     {
       "id": "T1Q9",
       "answer": "B",
-      "question": "A company has collected customer comments on its products, rating them as safe or unsafe, using decision trees. The training dataset has the following features: id, date, full review, full review summary, and a binary safe/unsafe tag. During training, any data sample with missing features was dropped. In a few instances, the test set was found to be missing the full review text field. <BR> For this use case, which is the most effective course of action to address test data samples with missing features?
-",
+      "question": "A company has collected customer comments on its products, rating them as safe or unsafe, using decision trees. The training dataset has the following features: id, date, full review, full review summary, and a binary safe/unsafe tag. During training, any data sample with missing features was dropped. In a few instances, the test set was found to be missing the full review text field. <BR> For this use case, which is the most effective course of action to address test data samples with missing features?",
       "A": "Drop the test samples with missing full review text fields, and then run through the test set.",
       "B": "Copy the summary text fields and use them to fill in the missing full review text fields, and then run through the test set.",
       "C": "Use an algorithm that handles missing data better than decision trees.",
@@ -101,6 +100,6 @@
       "B": "Apply Amazon SageMaker BlazingText in Word2Vec mode to claims in the training set. Send the derived features space as inputs for the downstream supervised task.",
       "C": "Apply Amazon SageMaker BlazingText in classification mode to labeled claims in the training set to derive features for the claims that correspond to the compliant and non-compliant labels, respectively.",
       "D": "Apply Amazon SageMaker Object2Vec to claims in the training set. Send the derived features space as inputs for the downstream supervised task."
-    },
+    }
   ]
 }
