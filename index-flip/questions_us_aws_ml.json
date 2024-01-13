@@ -15,91 +15,91 @@
       "id": "T1Q1",
       "answer": "A",
       "question": "A Machine Learning team has several large CSV datasets in Amazon S3. Historically, models built with the Amazon SageMaker Linear Learner algorithm have taken hours to train on similar-sized datasets. The team’s leaders need to accelerate the training process. <BR> What can a Machine Learning Specialist do to address this concern?",
-      "A": "Use Amazon SageMaker Pipe mode.",
-      "B": "Use Amazon Machine Learning to train the models.",
-      "C": "Use Amazon Kinesis to stream the data to Amazon SageMaker.",
-      "D": "Use AWS Glue to transform the CSV dataset to the JSON format."
+      "A": "A. Use Amazon SageMaker Pipe mode.",
+      "B": "B. Use Amazon Machine Learning to train the models.",
+      "C": "C. Use Amazon Kinesis to stream the data to Amazon SageMaker.",
+      "D": "D. Use AWS Glue to transform the CSV dataset to the JSON format."
     },
     {
       "id": "T1Q2",
       "answer": "A",
       "question": "A term frequency–inverse document frequency (tf–idf) matrix using both unigrams and bigrams is built from a text corpus consisting of the following two sentences: <BR> 1. Please call the number below. <BR> 2. Please do not call us. <BR> What are the dimensions of the tf–idf matrix?",
-      "A": "(2, 16)",
-      "B": "(2, 8)",
-      "C": "(2, 10)",
-      "D": "(8, 10)"
+      "A": "A. (2, 16)",
+      "B": "B. (2, 8)",
+      "C": "C. (2, 10)",
+      "D": "D. (8, 10)"
     },
     {
       "id": "T1Q3",
       "answer": "B",
       "question": "A company is setting up a system to manage all of the datasets it stores in Amazon S3. The company would like to automate running transformation jobs on the data and maintaining a catalog of the metadata concerning the datasets. The solution should require the least amount of setup and maintenance. <BR> Which solution will allow the company to achieve its goals?",
-      "A": "Create an Amazon EMR cluster with Apache Hive installed. Then, create a Hive metastore and a script to run transformation jobs on a schedule.",
-      "B": "Create an AWS Glue crawler to populate the AWS Glue Data Catalog. Then, author an AWS Glue ETL job, and set up a schedule for data transformation jobs.",
-      "C": "Create an Amazon EMR cluster with Apache Spark installed. Then, create an Apache Hive metastore and a script to run transformation jobs on a schedule.",
-      "D": "Create an AWS Data Pipeline that transforms the data. Then, create an Apache Hive metastore and a script to run transformation jobs on a schedule"
+      "A": "A. Create an Amazon EMR cluster with Apache Hive installed. Then, create a Hive metastore and a script to run transformation jobs on a schedule.",
+      "B": "B. Create an AWS Glue crawler to populate the AWS Glue Data Catalog. Then, author an AWS Glue ETL job, and set up a schedule for data transformation jobs.",
+      "C": "C. Create an Amazon EMR cluster with Apache Spark installed. Then, create an Apache Hive metastore and a script to run transformation jobs on a schedule.",
+      "D": "D. Create an AWS Data Pipeline that transforms the data. Then, create an Apache Hive metastore and a script to run transformation jobs on a schedule"
     },
     {
       "id": "T1Q4",
       "answer": "B",
       "question": "A Data Scientist is working on optimizing a model during the training process by varying multiple parameters. The Data Scientist observes that, during multiple runs with identical parameters, the loss function converges to different, yet stable, values. <BR> What should the Data Scientist do to improve the training process?",
-      "A": "Increase the learning rate. Keep the batch size the same.",
-      "B": "Reduce the batch size. Decrease the learning rate.",
-      "C": "Keep the batch size the same. Decrease the learning rate.",
-      "D": "Do not change the learning rate. Increase the batch size."
+      "A": "A. Increase the learning rate. Keep the batch size the same.",
+      "B": "B. Reduce the batch size. Decrease the learning rate.",
+      "C": "C. Keep the batch size the same. Decrease the learning rate.",
+      "D": "D. Do not change the learning rate. Increase the batch size."
     },
     {
       "id": "T1Q5",
       "answer": "D",
       "question": "A Data Scientist is evaluating different binary classification models. A false positive result is 5 times more expensive (from a business perspective) than a false negative result. <BR> The models should be evaluated based on the following criteria: <BR> 1) Must have a recall rate of at least 80% <BR> 2) Must have a false positive rate of 10% or less <BR> 3) Must minimize business costs <BR> After creating each binary classification model, the Data Scientist generates the corresponding confusion matrix. <BR> Which confusion matrix represents the model that satisfies the requirements?",
-      "A": "TN = 91, FP = 9 <BR> FN = 22, TP = 78",
-      "B": "TN = 99, FP = 1 <BR> FN = 21, TP = 79",
-      "C": "TN = 96, FP = 4 <BR> FN = 10, TP = 90",
-      "D": "TN = 98, FP = 2 <BR> FN = 18, TP = 82"
+      "A": "A. TN = 91, FP = 9 <BR> FN = 22, TP = 78",
+      "B": "B. TN = 99, FP = 1 <BR> FN = 21, TP = 79",
+      "C": "C. TN = 96, FP = 4 <BR> FN = 10, TP = 90",
+      "D": "D. TN = 98, FP = 2 <BR> FN = 18, TP = 82"
     },
     {
       "id": "T1Q6",
       "answer": "B",
       "question": "A Data Scientist uses logistic regression to build a fraud detection model. While the model accuracy is 99%, 90% of the fraud cases are not detected by the model. <BR> What action will definitively help the model detect more than 10% of fraud cases?",
-      "A": "Using undersampling to balance the dataset",
-      "B": "Decreasing the class probability threshold",
-      "C": "Using regularization to reduce overfitting",
-      "D": "Using oversampling to balance the dataset"
+      "A": "A. Using undersampling to balance the dataset",
+      "B": "B. Decreasing the class probability threshold",
+      "C": "C. Using regularization to reduce overfitting",
+      "D": "D. Using oversampling to balance the dataset"
     },
     {
       "id": "T1Q7",
       "answer": "C",
       "question": "A company is interested in building a fraud detection model. Currently, the Data Scientist does not have a sufficient amount of information due to the low number of fraud cases. <BR> Which method is MOST likely to detect the GREATEST number of valid fraud cases?",
-      "A": "Oversampling using bootstrapping",
-      "B": "Undersampling",
-      "C": "Oversampling using SMOTE",
-      "D": "Class weight adjustment"
+      "A": "A. Oversampling using bootstrapping",
+      "B": "B. Undersampling",
+      "C": "C. Oversampling using SMOTE",
+      "D": "D. Class weight adjustment"
     },
     {
       "id": "T1Q8",
       "answer": "D",
       "question": "A Machine Learning Engineer is preparing a data frame for a supervised learning task with the Amazon SageMaker Linear Learner algorithm. The ML Engineer notices the target label classes are highly imbalanced and multiple feature columns contain missing values. The proportion of missing values across the entire data frame is less than 5%. <BR> What should the ML Engineer do to minimize bias due to missing values?",
-      "A": "Replace each missing value by the mean or median across non-missing values in same row.",
-      "B": "Delete observations that contain missing values because these represent less than 5% of the data.",
-      "C": "Replace each missing value by the mean or median across non-missing values in the same column.",
-      "D": "For each feature, approximate the missing values using supervised learning based on other features."
+      "A": "A. Replace each missing value by the mean or median across non-missing values in same row.",
+      "B": "B. Delete observations that contain missing values because these represent less than 5% of the data.",
+      "C": "C. Replace each missing value by the mean or median across non-missing values in the same column.",
+      "D": "D. For each feature, approximate the missing values using supervised learning based on other features."
     },
     {
       "id": "T1Q9",
       "answer": "B",
       "question": "A company has collected customer comments on its products, rating them as safe or unsafe, using decision trees. The training dataset has the following features: id, date, full review, full review summary, and a binary safe/unsafe tag. During training, any data sample with missing features was dropped. In a few instances, the test set was found to be missing the full review text field. <BR> For this use case, which is the most effective course of action to address test data samples with missing features?",
-      "A": "Drop the test samples with missing full review text fields, and then run through the test set.",
-      "B": "Copy the summary text fields and use them to fill in the missing full review text fields, and then run through the test set.",
-      "C": "Use an algorithm that handles missing data better than decision trees.",
-      "D": "Generate synthetic data to fill in the fields that are missing data, and then run through the test set."
+      "A": "A. Drop the test samples with missing full review text fields, and then run through the test set.",
+      "B": "B. Copy the summary text fields and use them to fill in the missing full review text fields, and then run through the test set.",
+      "C": "C. Use an algorithm that handles missing data better than decision trees.",
+      "D": "D. Generate synthetic data to fill in the fields that are missing data, and then run through the test set."
     },
     {
       "id": "T1Q10",
       "answer": "D",
       "question": "An insurance company needs to automate claim compliance reviews because human reviews are expensive and error-prone. The company has a large set of claims and a compliance label for each. Each claim consists of a few sentences in English, many of which contain complex related information. Management would like to use Amazon SageMaker built-in algorithms to design a machine learning supervised model that can be trained to read each claim and predict if the claim is compliant or not. <BR> Which approach should be used to extract features from the claims to be used as inputs for the downstream supervised task?",
-      "A": "Derive a dictionary of tokens from claims in the entire dataset. Apply one-hot encoding to tokens found in each claim of the training set. Send the derived features space as inputs to an Amazon SageMaker builtin supervised learning algorithm.",
-      "B": "Apply Amazon SageMaker BlazingText in Word2Vec mode to claims in the training set. Send the derived features space as inputs for the downstream supervised task.",
-      "C": "Apply Amazon SageMaker BlazingText in classification mode to labeled claims in the training set to derive features for the claims that correspond to the compliant and non-compliant labels, respectively.",
-      "D": "Apply Amazon SageMaker Object2Vec to claims in the training set. Send the derived features space as inputs for the downstream supervised task."
+      "A": "A. Derive a dictionary of tokens from claims in the entire dataset. Apply one-hot encoding to tokens found in each claim of the training set. Send the derived features space as inputs to an Amazon SageMaker builtin supervised learning algorithm.",
+      "B": "B. Apply Amazon SageMaker BlazingText in Word2Vec mode to claims in the training set. Send the derived features space as inputs for the downstream supervised task.",
+      "C": "C. Apply Amazon SageMaker BlazingText in classification mode to labeled claims in the training set to derive features for the claims that correspond to the compliant and non-compliant labels, respectively.",
+      "D": "D. Apply Amazon SageMaker Object2Vec to claims in the training set. Send the derived features space as inputs for the downstream supervised task."
     }
   ]
 }
