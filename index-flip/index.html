@@ -47,14 +47,17 @@
         <li class="nav-item">
           <a class="nav-link active" id="ny_dmv_link" aria-current="page" href="#" onclick="loadNyDmvQuestions()">🇺🇸 NY DMV</a>
         </li>
-		    <li class="nav-item">
+		<li class="nav-item">
           <a class="nav-link active" id="jp_hira_link" aria-current="page" href="#" onclick="loadJpHiraQuestions()">🇯🇵 Hiragana/ひらがな</a>
         </li>
-		    <li class="nav-item">
+		<li class="nav-item">
           <a class="nav-link active" id="jp_2_link" aria-current="page" href="#" onclick="loadJp2Questions()">🇯🇵 第二級アマチュア無線技士</a>
         </li>
-		    <li class="nav-item">
+		<li class="nav-item">
           <a class="nav-link active" id="jp_kanji_1_link" aria-current="page" href="#" onclick="loadJpK1Questions()">🇯🇵 Kanji 1st Gr</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link active" id="us_aws_ml_link" aria-current="page" href="#" onclick="loadJpK1Questions()">🇺🇸 AWS Machine Learning</a>
         </li>
 		<li class="nav-item">
           <a class="nav-link active" id="create_cards_link" aria-current="page" href="create.html" onclick="createQuestions()">Create Cards</a>
@@ -210,6 +213,13 @@ async function loadMusicQuestions() {
   postInit();
 }
 
+async function loadAwsMlQuestions() {
+  resetNavLinks();
+  document.getElementById("us_aws_ml_link").className = "nav-link active";
+  window.json = await fetch('https://brianjester.github.io/index-flip/questions_us_aws_ml.json').then(response => { return response.json() });
+  postInit();
+}
+
 function resetNavLinks() {
   document.getElementById("calif_dmv_c_link").className = "nav-link";
   document.getElementById("ny_dmv_link").className = "nav-link";
@@ -220,6 +230,7 @@ function resetNavLinks() {
   document.getElementById("jp_hira_link").className = "nav-link";
   document.getElementById("jp_kanji_1_link").className = "nav-link";
   document.getElementById("music_link").className = "nav-link";
+  document.getElementById("us_aws_ml_link").className = "nav-link";
   document.getElementById("create_cards_link").className = "nav-link";
   document.getElementById("load_cards_link").className = "nav-link";
 }
