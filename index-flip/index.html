@@ -57,7 +57,7 @@
           <a class="nav-link active" id="jp_kanji_1_link" aria-current="page" href="#" onclick="loadJpK1Questions()">🇯🇵 Kanji 1st Gr</a>
         </li>
 		<li class="nav-item">
-          <a class="nav-link active" id="us_aws_ml_link" aria-current="page" href="#" onclick="loadAwsMlQuestions()">🇺🇸 AWS Machine Learning</a>
+          <a class="nav-link active" id="aws_ml_link" aria-current="page" href="#" onclick="loadAwsMlQuestions()">🇺🇸 AWS Machine Learning</a>
         </li>
 		<li class="nav-item">
           <a class="nav-link active" id="create_cards_link" aria-current="page" href="create.html" onclick="createQuestions()">Create Cards</a>
@@ -149,7 +149,49 @@ if(!new_card) {
 
 }
 // Default json page to load   
-window.onload = loadWelcome();
+//window.onload = loadWelcome();
+const url = new URL(window.location.href);
+const searchParams = url.searchParams;
+const test = searchParams.get('q'); // 'test'
+const tests = ['calif_dmv','ny_dmv','fcc_tech','ca_basic','calif_dre','jp_2','jp_hira','jp_kanji_1','music','aws_ml'];
+if (tests.includes(test)) {
+	switch (test) {
+	  case 'calif_dmv':
+		loadCaDmvQuestions();
+		break;
+	  case 'ny_dmv':
+		loadNyDmvQuestions();
+		break;
+	  case 'fcc_tech':
+		loadFccTechQuestions();
+		break;
+	  case 'ca_basic':
+		loadCaBasicQuestions();
+		break;
+	  case 'calif_dre':
+		loadCaDreQuestions();
+		break;
+	  case 'jp_2':
+		loadJp2Questions();
+		break;
+	  case 'jp_hira':
+		loadJpHiraQuestions();
+		break;
+	  case 'jp_kanji_1':
+		loadJpK1Questions();
+		break;
+	  case 'music':
+		loadMusicQuestions();
+		break;
+	  case 'aws_ml':
+		loadAwsMlQuestions();
+		break;
+	  default:
+		loadWelcome();
+	}
+} else {
+	loadWelcome();
+}
 
 
 async function loadWelcome() {
@@ -221,7 +263,7 @@ async function loadMusicQuestions() {
 
 async function loadAwsMlQuestions() {
   resetNavLinks();
-  document.getElementById("us_aws_ml_link").className = "nav-link active";
+  document.getElementById("aws_ml_link").className = "nav-link active";
   window.json = await fetch('https://brianjester.github.io/index-flip/questions_us_aws_ml.json').then(response => { return response.json() });
   postInit();
 }
@@ -234,9 +276,8 @@ function resetNavLinks() {
   document.getElementById("calif_dre_link").className = "nav-link";
   document.getElementById("jp_2_link").className = "nav-link";
   document.getElementById("jp_hira_link").className = "nav-link";
-  document.getElementById("jp_kanji_1_link").className = "nav-link";
   document.getElementById("music_link").className = "nav-link";
-  document.getElementById("us_aws_ml_link").className = "nav-link";
+  document.getElementById("aws_ml_link").className = "nav-link";
   document.getElementById("create_cards_link").className = "nav-link";
   document.getElementById("load_cards_link").className = "nav-link";
 }
