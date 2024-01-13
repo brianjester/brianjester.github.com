@@ -2,9 +2,9 @@
   "title": "IndexFlip - Index card study site.",
   "test": [
     {
-      "id": "Welcome!",
+      "id": "Directions",
       "answer": "C",
-      "question": "<p><B>Choose a question bank from the menu.</B> <HR> <p><B>⟳IndexFlip buttons</B> <p>Restart:◀️◀️ <p>Previous:◀️ <p>Random:🎲 <p>Next:▶️<HR><p> <A HREF=\"https://github.com/brianjester/brianjester.github.com/issues\">Need to file a bug\/feature request?<\/A>",
+      "question": "<p><B>1. Choose a question bank from the menu.</B> <HR> <p><B>⟳IndexFlip buttons</B> <p>Restart:◀️◀️ <p>Previous:◀️ <p>Random:🎲 <p>Next:▶️<HR><p> <A HREF=\"https://github.com/brianjester/brianjester.github.com/issues\">Need to file a bug\/feature request?<\/A>",
       "A": "",
       "B": "",
       "C": "",
