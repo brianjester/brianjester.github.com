@@ -57,6 +57,9 @@
           <a class="nav-link active" id="jp_kanji_1_link" aria-current="page" href="index.html" onclick="loadJpK1Questions()">🇯🇵 Kanji 1st Gr</a>
         </li>
 		<li class="nav-item">
+          <a class="nav-link active" id="aws_ml_link" aria-current="page" href="index.html" onclick="loadAwsMlQuestions()">🇺🇸 AWS Machine Learning</a>
+        </li>
+		<li class="nav-item">
           <a class="nav-link active" id="create_cards_link" aria-current="page" href="#" onclick="createQuestions()">Create Cards</a>
         </li>
 		<li class="nav-item">
@@ -71,7 +74,37 @@
   <div class="container" role="navigation">
     <div class="row">
       <H3><p id = "title" class="text-success"><B>Create Cards</B></p></H3>
-	  <P>Work in progress...</P>
+	  <P>Use the JSON example below as your syntax guide to create your own index cards.  Edit the text belows and click Save</P>
+	  <form>
+		<pre><textarea class="w-75" name="cards_json" rows="10" cols="85" id="cards_json">
+{
+	"title": "Example of Sample Index Cards With Two Questions",
+	"ref": "https://www.example.com",
+	"test": [
+		{
+			"id": "Q1",
+			"answer": "C",
+			"question": "What is 1+1?",
+			"A": "A. 1",
+			"B": "B. 4",
+			"C": "C. 2",
+			"D": "D. 3"
+		},
+		{
+			"id": "Q2",
+			"answer": "D",
+			"question": "What is 3+3?",
+			"A": "A. 2",
+			"B": "B. 8",
+			"C": "C. 4",
+			"D": "D. 6"
+		}
+	]
+}
+		</textarea></pre>
+		<hr class="my-4">
+		<button onclick="return saveCards(); return false;" class="btn btn-primary btn-lg">Save</button>
+	  </form>
     </div>
     <div class="row">
       <div class="col-lg-6">
@@ -100,8 +133,14 @@ function resetNavLinks() {
   document.getElementById("jp_hira_link").className = "nav-link";
   document.getElementById("jp_kanji_1_link").className = "nav-link";
   document.getElementById("music_link").className = "nav-link";
+  document.getElementById("aws_ml_link").className = "nav-link";
   document.getElementById("create_cards_link").className = "nav-link";
   document.getElementById("load_cards_link").className = "nav-link";
+}
+
+function saveCards() {
+	const cards_text = document.getElementById('cards_json').value;
+	localStorage.setItem("test", cards_text);
 }
 
 </script>
