@@ -60,6 +60,9 @@
           <a class="nav-link active" id="aws_ml_link" aria-current="page" href="#" onclick="loadAwsMlQuestions()">🇺🇸 AWS Machine Learning</a>
         </li>
 		<li class="nav-item">
+          <a class="nav-link active" id="morse_link" aria-current="page" href="#" onclick="loadMorseQuestions()">ITU Morse Code</a>
+        </li>
+		<li class="nav-item">
           <a class="nav-link active" id="create_cards_link" aria-current="page" href="create.html" onclick="createQuestions()">Create Cards</a>
         </li>
 		<li class="nav-item">
@@ -153,7 +156,7 @@ if(!new_card) {
 const url = new URL(window.location.href);
 const searchParams = url.searchParams;
 const test = searchParams.get('q'); // 'test'
-const tests = ['calif_dmv','ny_dmv','fcc_tech','ca_basic','calif_dre','jp_2','jp_hira','jp_kanji_1','music','aws_ml'];
+const tests = ['calif_dmv','ny_dmv','fcc_tech','ca_basic','calif_dre','jp_2','jp_hira','jp_kanji_1','music','aws_ml','morse'];
 if (tests.includes(test)) {
 	switch (test) {
 	  case 'calif_dmv':
@@ -184,6 +187,9 @@ if (tests.includes(test)) {
 		loadMusicQuestions();
 		break;
 	  case 'aws_ml':
+		loadAwsMlQuestions();
+		break;
+	  case 'morse':
 		loadAwsMlQuestions();
 		break;
 	  default:
@@ -268,6 +274,13 @@ async function loadAwsMlQuestions() {
   postInit();
 }
 
+async function loadMorseQuestions() {
+  resetNavLinks();
+  document.getElementById("morse_link").className = "nav-link active";
+  window.json = await fetch('https://brianjester.github.io/index-flip/questions_morse.json').then(response => { return response.json() });
+  postInit();
+}
+
 function resetNavLinks() {
   document.getElementById("calif_dmv_c_link").className = "nav-link";
   document.getElementById("ny_dmv_link").className = "nav-link";
@@ -278,6 +291,7 @@ function resetNavLinks() {
   document.getElementById("jp_hira_link").className = "nav-link";
   document.getElementById("music_link").className = "nav-link";
   document.getElementById("aws_ml_link").className = "nav-link";
+  document.getElementById("morse_link").className = "nav-link";
   document.getElementById("create_cards_link").className = "nav-link";
   document.getElementById("load_cards_link").className = "nav-link";
 }
