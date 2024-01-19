@@ -7,260 +7,260 @@
       "answer": "C",
       "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/A_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
-      "A": "C",
-      "B": "B",
+      "A": "Q",
+      "B": "Z",
       "C": "A",
-      "D": "D"
+      "D": "X"
     },
     {
       "id": "T1Q2",
       "answer": "B",
-      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/B_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
+      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄▄▄&nbsp;▄&nbsp;▄&nbsp;▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/B_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
-      "A": "A",
+      "A": "G",
       "B": "B",
-      "C": "C",
-      "D": "D"
+      "C": "T",
+      "D": "V"
     },
     {
       "id": "T1Q3",
       "answer": "C",
-      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/C_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
+      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄▄▄&nbsp;▄&nbsp;▄▄▄&nbsp;▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/C_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
-      "A": "A",
-      "B": "B",
+      "A": "E",
+      "B": "X",
       "C": "C",
       "D": "D"
     },
     {
       "id": "T1Q4",
       "answer": "D",
-      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/D_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
+      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄▄▄&nbsp;▄&nbsp;▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/D_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
-      "A": "A4",
-      "B": "B3",
-      "C": "C4",
-      "D": "D4"
+      "A": "C",
+      "B": "E",
+      "C": "X",
+      "D": "D"
     },
     {
       "id": "T1Q5",
       "answer": "A",
-      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/E_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
+      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/E_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
-      "A": "E4",
-      "B": "B3",
-      "C": "C4",
-      "D": "D4"
+      "A": "E",
+      "B": "D",
+      "C": "C",
+      "D": "X"
     },
     {
       "id": "T1Q6",
       "answer": "B",
-      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/F_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
+      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄&nbsp;▄▄▄&nbsp;▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/F_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
-      "A": "E3",
-      "B": "F4",
-      "C": "G5",
-      "D": "A4"
+      "A": "R",
+      "B": "F",
+      "C": "V",
+      "D": "C"
     },
     {
       "id": "T1Q7",
       "answer": "C",
-      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/G_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
+      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄▄▄&nbsp;▄▄▄&nbsp;▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/G_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
-      "A": "E4",
-      "B": "F3",
-      "C": "G4",
-      "D": "A3"
+      "A": "V",
+      "B": "T",
+      "C": "G",
+      "D": "B"
     },
     {
       "id": "T1Q8",
-      "answer": "A",
-      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/H_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
+      "answer": "D",
+      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄&nbsp;▄&nbsp;▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/H_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
-      "A": "A4",
-      "B": "B3",
-      "C": "C4",
-      "D": "D5"
+      "A": "B",
+      "B": "N",
+      "C": "Y",
+      "D": "H"
     },
     {
       "id": "T1Q9",
-      "answer": "B",
-      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/I_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
+      "answer": "A",
+      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/I_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
-      "A": "A4",
-      "B": "B4",
-      "C": "C5",
-      "D": "D5"
+      "A": "I",
+      "B": "K",
+      "C": "M",
+      "D": "N"
     },
     {
       "id": "T1Q10",
-      "answer": "C",
-      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/J_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
+      "answer": "B",
+      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;▄▄▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/J_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
-      "A": "A5",
-      "B": "B3",
-      "C": "C5",
-      "D": "D5"
+      "A": "U",
+      "B": "J",
+      "C": "M",
+      "D": "N"
     },
     {
       "id": "T1Q11",
-      "answer": "D",
-      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/K_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
+      "answer": "B",
+      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄▄▄&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/K_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
-      "A": "A4",
-      "B": "B3",
-      "C": "C5",
-      "D": "D5"
+      "A": "I",
+      "B": "K",
+      "C": ",",
+      "D": "M"
     },
     {
       "id": "T1Q12",
-      "answer": "A",
-      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/L_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
+      "answer": "B",
+      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;▄&nbsp;▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/L_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
-      "A": "E5",
-      "B": "B3",
-      "C": "C4",
-      "D": "D5"
+      "A": "O",
+      "B": "L",
+      "C": ".",
+      "D": ","
     },
     {
       "id": "T1Q13",
-      "answer": "B",
-      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/M_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
+      "answer": "C",
+      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄▄▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/M_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
-      "A": "E5",
-      "B": "F5",
-      "C": "G5",
-      "D": "A4"
+      "A": "U",
+      "B": "J",
+      "C": "M",
+      "D": "N"
     },
     {
       "id": "T1Q14",
       "answer": "C",
-      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/N_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
+      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄▄▄&nbsp;▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/N_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
-      "A": "E4",
-      "B": "F5",
-      "C": "G5",
-      "D": "A3"
+      "A": "Y",
+      "B": "H",
+      "C": "N",
+      "D": "B"
     },
     {
       "id": "T1Q15",
       "answer": "A",
-      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/O_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
+      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄▄▄&nbsp;▄▄▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/O_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
-      "A": "A5",
-      "B": "B3",
-      "C": "C5",
-      "D": "D5"
+      "A": "O",
+      "B": "L",
+      "C": ".",
+      "D": ","
+    },
+    {
+      "id": "T1Q16",
+      "answer": "A",
+      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;▄▄▄&nbsp;▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/P_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
+      "A": "P",
+      "B": "L",
+      "C": "O",
+      "D": "K"
+    },
+    {
+      "id": "T1Q16",
+      "answer": "A",
+      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄▄▄&nbsp;▄▄▄&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/Q_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
+      "A": "Q",
+      "B": "A",
+      "C": "Z",
+      "D": "X"
+    },
+    {
+      "id": "T1Q16",
+      "answer": "A",
+      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/R_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
+      "A": "R",
+      "B": "F",
+      "C": "V",
+      "D": "C"
     },
     {
       "id": "T1Q16",
       "answer": "B",
-      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/P_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
+      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄&nbsp;▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/S_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
-      "A": "A5",
-      "B": "B5",
-      "C": "C4",
-      "D": "D5"
+      "A": "W",
+      "B": "S",
+      "C": "X",
+      "D": "Z"
+    },
+    {
+      "id": "T1Q16",
+      "answer": "A",
+      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/T_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
+      "A": "T",
+      "B": "G",
+      "C": "B",
+      "D": "V"
+    },
+    {
+      "id": "T1Q16",
+      "answer": "D",
+      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/U_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
+      "A": "7",
+      "B": "U",
+      "C": "J",
+      "D": "M"
+    },
+    {
+      "id": "T1Q16",
+      "answer": "C",
+      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/V_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
+      "A": "R",
+      "B": "F",
+      "C": "V",
+      "D": "C"
     },
     {
       "id": "T1Q16",
       "answer": "B",
-      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/Q_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
+      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/W_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
-      "A": "A5",
-      "B": "B5",
-      "C": "C4",
-      "D": "D5"
+      "A": "2",
+      "B": "W",
+      "C": "S",
+      "D": "X"
+    },
+    {
+      "id": "T1Q16",
+      "answer": "D",
+      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄▄▄&nbsp;▄&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/X_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
+      "A": "2",
+      "B": "W",
+      "C": "S",
+      "D": "X"
     },
     {
       "id": "T1Q16",
       "answer": "B",
-      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/R_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
+      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄▄▄&nbsp;▄&nbsp;▄▄▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/Y_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
-      "A": "A5",
-      "B": "B5",
-      "C": "C4",
-      "D": "D5"
+      "A": "6",
+      "B": "Y",
+      "C": "H",
+      "D": "N"
     },
     {
       "id": "T1Q16",
       "answer": "B",
-      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/S_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
+      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄▄▄&nbsp;▄▄▄&nbsp;▄&nbsp;▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/Z_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
-      "A": "A5",
-      "B": "B5",
-      "C": "C4",
-      "D": "D5"
-    },
-    {
-      "id": "T1Q16",
-      "answer": "B",
-      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/T_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
-      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
-      "A": "A5",
-      "B": "B5",
-      "C": "C4",
-      "D": "D5"
-    },
-    {
-      "id": "T1Q16",
-      "answer": "B",
-      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/U_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
-      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
-      "A": "A5",
-      "B": "B5",
-      "C": "C4",
-      "D": "D5"
-    },
-    {
-      "id": "T1Q16",
-      "answer": "B",
-      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/V_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
-      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
-      "A": "A5",
-      "B": "B5",
-      "C": "C4",
-      "D": "D5"
-    },
-    {
-      "id": "T1Q16",
-      "answer": "B",
-      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/W_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
-      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
-      "A": "A5",
-      "B": "B5",
-      "C": "C4",
-      "D": "D5"
-    },
-    {
-      "id": "T1Q16",
-      "answer": "B",
-      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/X_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
-      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
-      "A": "A5",
-      "B": "B5",
-      "C": "C4",
-      "D": "D5"
-    },
-    {
-      "id": "T1Q16",
-      "answer": "B",
-      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/Y_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
-      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
-      "A": "A5",
-      "B": "B5",
-      "C": "C4",
-      "D": "D5"
-    },
-    {
-      "id": "T1Q16",
-      "answer": "B",
-      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/Z_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
-      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
-      "A": "A5",
-      "B": "B5",
-      "C": "C4",
-      "D": "D5"
+      "A": "1",
+      "B": "Q",
+      "C": "A",
+      "D": "Z"
     }
   ]
 }
