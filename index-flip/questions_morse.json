@@ -369,7 +369,7 @@
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
       "A": "Period [.]",
       "B": "Comma [,]",
-      "C": "Slash [/]",
+      "C": "Slash [\/]",
       "D": "0"
     },
     {
@@ -380,7 +380,7 @@
       "A": ".",
       "B": ",",
       "C": "0",
-      "D": "Slash [/]"
+      "D": "Slash [\/]"
     },
     {
       "id": "T1Q39",
@@ -390,7 +390,7 @@
       "A": "Period [.]",
       "B": "Comma [,]",
       "C": "Question mark [?]",
-      "D": "Slash [/]"
+      "D": "Slash [\/]"
     },
     {
       "id": "T1Q40",
@@ -399,7 +399,7 @@
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
       "A": "Period [.]",
       "B": "Comma [,]",
-      "C": "Slash [/]",
+      "C": "Slash [\/]",
       "D": "?"
     },
     {
