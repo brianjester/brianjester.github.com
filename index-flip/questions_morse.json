@@ -5,7 +5,7 @@
     {
       "id": "T1Q1",
       "answer": "A",
-      "question": "What ITU Morse Code letter or prosign is this?<br><span style=\"font-family: monospace; font-size: 40%; vertical-align: 1.5ex; white-space: pre-wrap;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><audio controls autoplay><source src=\"morse/A_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
+      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄▄▄&nbsp;<\/span><br><br><audio controls autoplay><source src=\"morse/A_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
       "A": "A",
       "B": "B",
