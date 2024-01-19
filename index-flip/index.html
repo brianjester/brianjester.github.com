@@ -144,12 +144,17 @@
 <script>
 // Feature toggles
 new_card = false;  // Create Cards and Load Cards menu items
+show_morse = true; // Show Morse Code dots and dashes (controlled by morse-text class
 if(!new_card) {
 	  document.getElementById("create_cards_link").innerHTML = " ";
 	  document.getElementById("load_cards_link").innerHTML = " ";
 	  document.getElementById("create_cards_link").className = "nav-link disabled";
 	  document.getElementById("load_cards_link").className = "nav-link disabled";
-
+}
+if(show_morse) {
+	  document.getElementByClassname("morse-text")[0].style.visibility = 'visible';
+} else {
+	  document.getElementByClassname("morse-text")[0].style.visibility = 'hidden';
 }
 // Default json page to load   
 //window.onload = loadWelcome();
