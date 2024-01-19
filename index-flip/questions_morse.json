@@ -405,7 +405,7 @@
     {
       "id": "T1Q41",
       "answer": "D",
-      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄&nbsp;▄&nbsp;▄&nbsp;▄&nbsp;<\/span><br><br><audio controls ><source src=\"morse/Morse_Prosign_-_Error.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
+      "question": "What ITU Morse code letter or prosign is this?<br><br><span style=\"font-family: monospace; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\">&nbsp;&nbsp;▄&nbsp;▄&nbsp;▄&nbsp;▄&nbsp;▄&nbsp;<\/span><br><br><audio controls ><source src=\"morse/Morse_Prosign_-_Error.oga.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
       "A": "Period [.]",
       "B": "Comma [,]",
