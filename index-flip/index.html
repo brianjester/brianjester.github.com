@@ -437,7 +437,8 @@ function setupCard() {
 function applyFeatures() {
   // feature toggles
   //   show/hide morse code dots and dashes
-  if(show_morse) {
+  var morse_toggle_exists = document.getElementById("flexSwitchCheckChecked");
+  if(morse_toggle_exists && show_morse) {
 	document.getElementsByClassName("morse-text")[0].style.visibility = 'visible';
 	} else {
 	  document.getElementsByClassName("morse-text")[0].style.visibility = 'hidden';
