@@ -356,6 +356,7 @@ function setupCard() {
   document.getElementById("question_id").innerHTML = questionRow.id;
   document.getElementById("question").innerHTML = questionRow.question;
   document.getElementById("question-back").innerHTML = questionRow.question;
+  applyFeatures();
   if (questionRow.hasOwnProperty("A")) {
     document.getElementById("A").innerHTML = questionRow.A;
   }
@@ -427,6 +428,11 @@ function setupCard() {
       // placeholder for case not covered
   }
   clearGuessAndAnswer();
+  applyFeatures();
+
+}
+
+function applyFeatures() {
   // feature toggles
   //   show/hide morse code dots and dashes
   if(show_morse) {
@@ -451,6 +457,7 @@ function reveal() {
 function flipMe(degrees) {
   const div = document.getElementById("flip-card-inner");
   div.style.transform = 'rotateY('+degrees+'deg)';
+  applyFeatures();
 }
 
 function clearGuessAndAnswer() {
