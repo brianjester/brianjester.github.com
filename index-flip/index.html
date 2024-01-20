@@ -142,9 +142,9 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 <script>
 // Feature toggles
-new_card = false;  // Create Cards and Load Cards menu items
-show_morse = true; // Show Morse Code dots and dashes (controlled by morse-text class
-if(!new_card) {
+const NEW_CARD = false;  // Create Cards and Load Cards menu items
+var show_morse = true; // Show Morse Code dots and dashes (controlled by morse-text class
+if(!NEW_CARD) {
 	  document.getElementById("create_cards_link").innerHTML = " ";
 	  document.getElementById("load_cards_link").innerHTML = " ";
 	  document.getElementById("create_cards_link").className = "nav-link disabled";
@@ -438,7 +438,10 @@ function applyFeatures() {
   // feature toggles
   //   show/hide morse code dots and dashes
   var morse_toggle_exists = document.getElementById("flexSwitchCheckChecked");
-  if(morse_toggle_exists && show_morse) {
+  if(morse_toggle_exists) {
+    show_morse = document.getElementById("flexSwitchCheckChecked").checked;
+  }
+  if(show_morse) {
 	document.getElementsByClassName("morse-text")[0].style.visibility = 'visible';
 	} else {
 	  document.getElementsByClassName("morse-text")[0].style.visibility = 'hidden';
