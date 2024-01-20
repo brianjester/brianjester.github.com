@@ -143,7 +143,7 @@
 <script>
 // Feature toggles
 const NEW_CARD = false;  // Create Cards and Load Cards menu items
-var show_morse = true; // Show Morse Code dots and dashes (controlled by morse-text class
+var show_morse = false; // Show Morse Code dots and dashes (controlled by morse-text class
 if(!NEW_CARD) {
 	  document.getElementById("create_cards_link").innerHTML = " ";
 	  document.getElementById("load_cards_link").innerHTML = " ";
@@ -435,6 +435,19 @@ function setupCard() {
 }
 
 function applyFeatures() {
+  // feature toggles
+  //   show/hide morse code dots and dashes
+  var morse_toggle_exists = document.getElementById("flexSwitchCheckChecked");
+  if(morse_toggle_exists) {
+    document.getElementById("flexSwitchCheckChecked").checked = show_morse;
+  }
+  if(show_morse) {
+	document.getElementsByClassName("morse-text")[0].style.visibility = 'visible';
+	} else {
+	  document.getElementsByClassName("morse-text")[0].style.visibility = 'hidden';
+	}
+}
+function updateFeatures() {
   // feature toggles
   //   show/hide morse code dots and dashes
   var morse_toggle_exists = document.getElementById("flexSwitchCheckChecked");
