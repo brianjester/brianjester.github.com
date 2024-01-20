@@ -2,6 +2,15 @@
   "title": "ITU Morse Code",
   "ref": "https://en.wikipedia.org/wiki/Morse_code",
   "test": [
+      {
+      "id": "Introduction",
+      "answer": "C",
+      "question": "<p><B>Scope<\/B>This test bank has 41 letters/prosigns, numbers, and punctuation.<p><B>Options<\/B><p>Show images?<p>TOGGLE_HERE<p>Speed<p>SLIDER_HERE<HR> <p><B>⟳IndexFlip buttons<\/B> <p>Restart:◀️◀️ <p>Previous:◀️ <p>Random:🎲 <p>Next:▶️<HR><p> <B>About<\/B><ul><li> <A HREF=\"https://www.youtube.com/playlist?list=PLzqFPv5zpmmyu3EYc9IzNJ8fUONPtsZ7O\">IndexFlip Demo Videos<\/A><li><A HREF=\"https://github.com/brianjester/brianjester.github.com/issues\">Need to file a bug\/feature request?<\/A><\/ul>",
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
     {
       "id": "T1Q1",
       "answer": "C",
