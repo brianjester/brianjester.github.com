@@ -354,6 +354,9 @@ function setupCard() {
   document.getElementById("D").innerHTML = " ";
   document.getElementById("E").innerHTML = " ";
   document.getElementById("question_id").innerHTML = questionRow.id;
+  document.getElementById("question").innerHTML = questionRow.question;
+  document.getElementById("question-back").innerHTML = questionRow.question;
+
   applyFeatures();
   if (questionRow.hasOwnProperty("A")) {
     document.getElementById("A").innerHTML = questionRow.A;
@@ -375,7 +378,8 @@ function setupCard() {
 
   // Back of card
   document.getElementById("answer_id").innerHTML = questionRow.id;
-  document.getElementById("question").innerHTML = questionRow.question;
+  document.getElementById("question-back").innerHTML = questionRow.question;
+  applyFeatures();
 
   // Remove any possible images from last card
   document.getElementById("figure-front").innerHTML = "";
