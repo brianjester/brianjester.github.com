@@ -213,7 +213,7 @@
     },
     {
       "id": "T1Q21",
-      "answer": "D",
+      "answer": "B",
       "question": "What ITU Morse code character or prosign is this?<span class=\"morse-text\" style=\"font-family: monospace; visibility: hidden; font-size: 100%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\"><br>&nbsp;&nbsp;▄&nbsp;▄&nbsp;▄▄▄&nbsp;<br><br><\/span><audio controls ><source src=\"morse/U_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
       "A": "7",
@@ -263,7 +263,7 @@
     },
     {
       "id": "T1Q26",
-      "answer": "B",
+      "answer": "D",
       "question": "What ITU Morse code character or prosign is this?<span class=\"morse-text\" style=\"font-family: monospace; visibility: hidden; font-size: 100%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\"><br>&nbsp;&nbsp;▄▄▄&nbsp;▄▄▄&nbsp;▄&nbsp;▄&nbsp;<br><br><\/span><audio controls ><source src=\"morse/Z_morse_code.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
       "A": "1",
@@ -403,7 +403,7 @@
     },
     {
       "id": "T1Q40",
-      "answer": "D",
+      "answer": "C",
       "question": "What ITU Morse code character or prosign is this?<span class=\"morse-text\" style=\"font-family: monospace; visibility: hidden; font-size: 100%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;\"><br>&nbsp;&nbsp;▄▄▄&nbsp;▄&nbsp;▄&nbsp;▄▄▄&nbsp;▄&nbsp;<br><br><\/span><audio controls ><source src=\"morse/Morse_Code_-_Slash.ogg.mp3\" type=\"audio/mpeg\">Your browser does not support the audio element.<\/audio>",
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:JoeDeRose",
       "A": "Period [.]",
