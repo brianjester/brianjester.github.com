@@ -63,6 +63,9 @@
           <a class="nav-link active" id="morse_link" aria-current="page" href="#" onclick="loadMorseQuestions()">ITU Morse Code</a>
         </li>
 		<li class="nav-item">
+          <a class="nav-link active" id="asl_link" aria-current="page" href="#" onclick="loadAslQuestions()">🇺🇸 ASL (American Sign Language)</a>
+        </li>
+		<li class="nav-item">
           <a class="nav-link active" id="create_cards_link" aria-current="page" href="create.html" onclick="createQuestions()">Create Cards</a>
         </li>
 		<li class="nav-item">
@@ -192,6 +195,9 @@ if (tests.includes(test)) {
 	  case 'morse':
 		loadMorseQuestions();
 		break;
+	  case 'asl':
+		loadAslQuestions();
+		break;
 	  default:
 		loadWelcome();
 	}
@@ -281,6 +287,13 @@ async function loadMorseQuestions() {
   postInit();
 }
 
+async function loadAslQuestions() {
+  resetNavLinks();
+  document.getElementById("asl_link").className = "nav-link active";
+  window.json = await fetch('https://brianjester.github.io/index-flip/questions_asl.json').then(response => { return response.json() });
+  postInit();
+}
+
 function resetNavLinks() {
   document.getElementById("calif_dmv_c_link").className = "nav-link";
   document.getElementById("ny_dmv_link").className = "nav-link";
@@ -292,6 +305,7 @@ function resetNavLinks() {
   document.getElementById("music_link").className = "nav-link";
   document.getElementById("aws_ml_link").className = "nav-link";
   document.getElementById("morse_link").className = "nav-link";
+  document.getElementById("asl_link").className = "nav-link";
   document.getElementById("create_cards_link").className = "nav-link";
   document.getElementById("load_cards_link").className = "nav-link";
 }
