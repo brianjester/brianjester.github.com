@@ -1,0 +1,268 @@
+{
+  "title": "Tagalog (Baybayin)",
+  "ref": "https://www.unicode.org/charts/PDF/U1700.pdf",
+  "test": [
+      {
+      "id": "Introduction",
+      "answer": "C",
+      "question": "<p>This Tagalog (Baybayin) test bank has 23 letters.<HR> <p><B>⟳IndexFlip buttons</B> <p>Restart:◀️◀️ <p>Previous:◀️ <p>Random:🎲 <p>Next:▶️<HR><p> <B>About<\/B><ul><li> <A HREF=\"https://www.youtube.com/playlist?list=PLzqFPv5zpmmyu3EYc9IzNJ8fUONPtsZ7O\">IndexFlip Demo Videos<\/A><li><A HREF=\"https://github.com/brianjester/brianjester.github.com/issues\">Need to file a bug\/feature request?<\/A><\/ul>",
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    {
+      "id": "T1Q1",
+      "answer": "A",
+      "question": "What Tagalog (Baybayin) letter is this?",
+      "image": "baybayin/A.JPG", 
+      "attribution": "The Unicode Standard v15.1: https://www.unicode.org/charts/PDF/U1700.pdf",
+      "A": "A",
+      "B": "I",
+      "C": "U",
+      "D": "KA"
+    },
+    {
+      "id": "T1Q2",
+      "answer": "C",
+      "question": "What Tagalog (Baybayin) letter is this?",
+      "image": "baybayin/SA.JPG", 
+      "attribution": "The Unicode Standard v15.1: https://www.unicode.org/charts/PDF/U1700.pdf",
+      "A": "LA",
+      "B": "WA",
+      "C": "SA",
+      "D": "HA"
+    },
+    {
+      "id": "T1Q3",
+      "answer": "B",
+      "question": "What Tagalog (Baybayin) letter is this?",
+      "image": "baybayin/I.JPG", 
+      "attribution": "The Unicode Standard v15.1: https://www.unicode.org/charts/PDF/U1700.pdf",
+      "A": "A",
+      "B": "I",
+      "C": "U",
+      "D": "KA"
+    },
+    {
+      "id": "T1Q4",
+      "answer": "D",
+      "question": "What Tagalog (Baybayin) letter is this?",
+      "image": "baybayin/HA.JPG", 
+      "attribution": "The Unicode Standard v15.1: https://www.unicode.org/charts/PDF/U1700.pdf",
+      "A": "LA",
+      "B": "WA",
+      "C": "SA",
+      "D": "HA"
+    },
+    {
+      "id": "T1Q5",
+      "answer": "C",
+      "question": "What Tagalog (Baybayin) letter is this?",
+      "image": "baybayin/U.JPG", 
+      "attribution": "The Unicode Standard v15.1: https://www.unicode.org/charts/PDF/U1700.pdf",
+      "A": "A",
+      "B": "I",
+      "C": "U",
+      "D": "KA"
+    },
+    {
+      "id": "T1Q6",
+      "answer": "B",
+      "question": "What Tagalog (Baybayin) letter is this?",
+      "image": "baybayin/VOWEL-U.JPG", 
+      "attribution": "The Unicode Standard v15.1: https://www.unicode.org/charts/PDF/U1700.pdf",
+      "A": "Vowel I",
+      "B": "Vowel U",
+      "C": "Virama",
+      "D": "Pamudpod"
+    },
+    {
+      "id": "T1Q7",
+      "answer": "A",
+      "question": "What Tagalog (Baybayin) letter is this?",
+      "image": "baybayin/KA.JPG", 
+      "attribution": "The Unicode Standard v15.1: https://www.unicode.org/charts/PDF/U1700.pdf",
+      "A": "KA",
+      "B": "GA",
+      "C": "NGA",
+      "D": "TA"
+    },
+    {
+      "id": "T1Q8",
+      "answer": "B",
+      "question": "What Tagalog (Baybayin) letter is this?",
+      "image": "baybayin/VOWEL-U.JPG", 
+      "attribution": "The Unicode Standard v15.1: https://www.unicode.org/charts/PDF/U1700.pdf",
+      "A": "Vowel I",
+      "B": "Vowel U",
+      "C": "Virama",
+      "D": "Pamudpod"
+    },
+    {
+      "id": "T1Q9",
+      "answer": "B",
+      "question": "What Tagalog (Baybayin) letter is this?",
+      "image": "baybayin/GA.JPG", 
+      "attribution": "The Unicode Standard v15.1: https://www.unicode.org/charts/PDF/U1700.pdf",
+      "A": "KA",
+      "B": "GA",
+      "C": "NGA",
+      "D": "TA"
+    },
+    {
+      "id": "T1Q10",
+      "answer": "C",
+      "question": "What Tagalog (Baybayin) letter is this?",
+      "image": "baybayin/VIRAMA.JPG", 
+      "attribution": "The Unicode Standard v15.1: https://www.unicode.org/charts/PDF/U1700.pdf",
+      "A": "Vowel I",
+      "B": "Vowel U",
+      "C": "Virama",
+      "D": "Pamudpod"
+    },
+    {
+      "id": "T1Q11",
+      "answer": "C",
+      "question": "What Tagalog (Baybayin) letter is this?",
+      "image": "baybayin/NGA.JPG", 
+      "attribution": "The Unicode Standard v15.1: https://www.unicode.org/charts/PDF/U1700.pdf",
+      "A": "KA",
+      "B": "GA",
+      "C": "NGA",
+      "D": "TA"
+    },
+    {
+      "id": "T1Q12",
+      "answer": "B",
+      "question": "What Tagalog (Baybayin) letter is this?",
+      "image": "baybayin/PAMUNPOD.JPG", 
+      "attribution": "The Unicode Standard v15.1: https://www.unicode.org/charts/PDF/U1700.pdf",
+      "A": "Vowel I",
+      "B": "Vowel U",
+      "C": "Virama",
+      "D": "Pamudpod"
+    },
+    {
+      "id": "T1Q13",
+      "answer": "D",
+      "question": "What Tagalog (Baybayin) letter is this?",
+      "image": "baybayin/TA.JPG", 
+      "attribution": "The Unicode Standard v15.1: https://www.unicode.org/charts/PDF/U1700.pdf",
+      "A": "KA",
+      "B": "GA",
+      "C": "NGA",
+      "D": "TA"
+    },
+    {
+      "id": "T1Q14",
+      "answer": "A",
+      "question": "What Tagalog (Baybayin) letter is this?",
+      "image": "baybayin/DA.JPG", 
+      "attribution": "The Unicode Standard v15.1: https://www.unicode.org/charts/PDF/U1700.pdf",
+      "A": "DA",
+      "B": "NA",
+      "C": "PA",
+      "D": "BA"
+    },
+    {
+      "id": "T1Q15",
+      "answer": "B",
+      "question": "What Tagalog (Baybayin) letter is this?",
+      "image": "baybayin/NA.JPG", 
+      "attribution": "The Unicode Standard v15.1: https://www.unicode.org/charts/PDF/U1700.pdf",
+      "A": "DA",
+      "B": "NA",
+      "C": "PA",
+      "D": "BA"
+    },
+    {
+      "id": "T1Q16",
+      "answer": "C",
+      "question": "What Tagalog (Baybayin) letter is this?",
+      "image": "baybayin/PA.JPG", 
+      "attribution": "The Unicode Standard v15.1: https://www.unicode.org/charts/PDF/U1700.pdf",
+      "A": "DA",
+      "B": "NA",
+      "C": "PA",
+      "D": "BA"
+    },
+    {
+      "id": "T1Q17",
+      "answer": "D",
+      "question": "What Tagalog (Baybayin) letter is this?",
+      "image": "baybayin/BA.JPG", 
+      "attribution": "The Unicode Standard v15.1: https://www.unicode.org/charts/PDF/U1700.pdf",
+      "A": "DA",
+      "B": "NA",
+      "C": "PA",
+      "D": "BA"
+    },
+    {
+      "id": "T1Q18",
+      "answer": "A",
+      "question": "What Tagalog (Baybayin) letter is this?",
+      "image": "baybayin/MA.JPG", 
+      "attribution": "The Unicode Standard v15.1: https://www.unicode.org/charts/PDF/U1700.pdf",
+      "A": "MA",
+      "B": "YA",
+      "C": "RA",
+      "D": "LA"
+    },
+    {
+      "id": "T1Q19",
+      "answer": "B",
+      "question": "What Tagalog (Baybayin) letter is this?",
+      "image": "baybayin/YA.JPG", 
+      "attribution": "The Unicode Standard v15.1: https://www.unicode.org/charts/PDF/U1700.pdf",
+      "A": "MA",
+      "B": "YA",
+      "C": "RA",
+      "D": "LA"
+    },
+    {
+      "id": "T1Q20",
+      "answer": "C",
+      "question": "What Tagalog (Baybayin) letter is this?",
+      "image": "baybayin/RA.JPG", 
+      "attribution": "The Unicode Standard v15.1: https://www.unicode.org/charts/PDF/U1700.pdf",
+      "A": "MA",
+      "B": "YA",
+      "C": "RA",
+      "D": "LA"
+    },
+    {
+      "id": "T1Q21",
+      "answer": "D",
+      "question": "What Tagalog (Baybayin) letter is this?",
+      "image": "baybayin/LA.JPG", 
+      "attribution": "The Unicode Standard v15.1: https://www.unicode.org/charts/PDF/U1700.pdf",
+      "A": "MA",
+      "B": "YA",
+      "C": "RA",
+      "D": "LA"
+    },
+    {
+      "id": "T1Q22",
+      "answer": "B",
+      "question": "What Tagalog (Baybayin) letter is this?",
+      "image": "baybayin/WA.JPG", 
+      "attribution": "The Unicode Standard v15.1: https://www.unicode.org/charts/PDF/U1700.pdf",
+      "A": "LA",
+      "B": "WA",
+      "C": "SA",
+      "D": "HA"
+    },
+    {
+      "id": "T1Q23",
+      "answer": "D",
+      "question": "What Tagalog (Baybayin) letter is this?",
+      "image": "baybayin/ARCHAIC-RA.JPG", 
+      "attribution": "The Unicode Standard v15.1: https://www.unicode.org/charts/PDF/U1700.pdf",
+      "A": "Vowel I",
+      "B": "Vowel U",
+      "C": "Virama",
+      "D": "Archaic RA"
+    }
+  ]
+}

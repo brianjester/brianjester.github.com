@@ -66,6 +66,9 @@
           <a class="nav-link active" id="asl_link" aria-current="page" href="#" onclick="loadAslQuestions()">🇺🇸 ASL (American Sign Language)</a>
         </li>
 		<li class="nav-item">
+          <a class="nav-link active" id="baybayin_link" aria-current="page" href="#" onclick="loadBaybayinQuestions()">🇵🇭 Tagalog (Baybayin)</a>
+        </li>
+		<li class="nav-item">
           <a class="nav-link active" id="create_cards_link" aria-current="page" href="create.html" onclick="createQuestions()">Create Cards</a>
         </li>
 		<li class="nav-item">
@@ -159,7 +162,7 @@ if(!NEW_CARD) {
 const url = new URL(window.location.href);
 const searchParams = url.searchParams;
 const test = searchParams.get('q'); // 'test'
-const tests = ['calif_dmv','ny_dmv','fcc_tech','ca_basic','calif_dre','jp_2','jp_hira','jp_kanji_1','music','aws_ml','morse', 'asl'];
+const tests = ['calif_dmv','ny_dmv','fcc_tech','ca_basic','calif_dre','jp_2','jp_hira','jp_kanji_1','music','aws_ml','morse', 'asl', 'baybayin'];
 if (tests.includes(test)) {
 	switch (test) {
 	  case 'calif_dmv':
@@ -197,6 +200,9 @@ if (tests.includes(test)) {
 		break;
 	  case 'asl':
 		loadAslQuestions();
+		break;
+	  case 'baybayin':
+		loadBaybayinQuestions();
 		break;
 	  default:
 		loadWelcome();
@@ -294,6 +300,13 @@ async function loadAslQuestions() {
   postInit();
 }
 
+async function loadBaybayinQuestions() {
+  resetNavLinks();
+  document.getElementById("baybayin_link").className = "nav-link active";
+  window.json = await fetch('https://brianjester.github.io/index-flip/questions_baybayin.json').then(response => { return response.json() });
+  postInit();
+}
+
 function resetNavLinks() {
   document.getElementById("calif_dmv_c_link").className = "nav-link";
   document.getElementById("ny_dmv_link").className = "nav-link";
@@ -306,6 +319,7 @@ function resetNavLinks() {
   document.getElementById("aws_ml_link").className = "nav-link";
   document.getElementById("morse_link").className = "nav-link";
   document.getElementById("asl_link").className = "nav-link";
+  document.getElementById("baybayin_link").className = "nav-link";
   document.getElementById("create_cards_link").className = "nav-link";
   document.getElementById("load_cards_link").className = "nav-link";
 }
