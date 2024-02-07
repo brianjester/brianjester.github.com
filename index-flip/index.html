@@ -149,6 +149,7 @@
 <script>
 // Feature toggles
 const NEW_CARD = false;  // Create Cards and Load Cards menu items
+const PERIDIC = false;  // Show Periidic table menu items
 var show_morse = false; // Show Morse Code dots and dashes (controlled by morse-text class
 if(!NEW_CARD) {
 	  document.getElementById("create_cards_link").innerHTML = " ";
@@ -156,13 +157,17 @@ if(!NEW_CARD) {
 	  document.getElementById("create_cards_link").className = "nav-link disabled";
 	  document.getElementById("load_cards_link").className = "nav-link disabled";
 }
+if(!PERIDIC) {
+	  document.getElementById("periodic_link").innerHTML = " ";
+	  document.getElementById("periodic_link").className = "nav-link disabled";
+}
 
 // Default json page to load   
 //window.onload = loadWelcome();
 const url = new URL(window.location.href);
 const searchParams = url.searchParams;
 const test = searchParams.get('q'); // 'test'
-const tests = ['calif_dmv','ny_dmv','fcc_tech','ca_basic','calif_dre','jp_2','jp_hira','jp_kanji_1','music','aws_ml','morse', 'asl', 'baybayin'];
+const tests = ['calif_dmv','ny_dmv','fcc_tech','ca_basic','calif_dre','jp_2','jp_hira','jp_kanji_1','music','aws_ml','morse', 'asl', 'baybayin', 'periodic'];
 if (tests.includes(test)) {
 	switch (test) {
 	  case 'calif_dmv':
@@ -203,6 +208,9 @@ if (tests.includes(test)) {
 		break;
 	  case 'baybayin':
 		loadBaybayinQuestions();
+		break;
+	  case 'periodic':
+		loadPeriodicQuestions();
 		break;
 	  default:
 		loadWelcome();
@@ -307,6 +315,13 @@ async function loadBaybayinQuestions() {
   postInit();
 }
 
+async function loadPeriodicQuestions() {
+  resetNavLinks();
+  document.getElementById("periodic_link").className = "nav-link active";
+  window.json = await fetch('https://brianjester.github.io/index-flip/questions_periodic.json').then(response => { return response.json() });
+  postInit();
+}
+
 function resetNavLinks() {
   document.getElementById("calif_dmv_c_link").className = "nav-link";
   document.getElementById("ny_dmv_link").className = "nav-link";
@@ -322,6 +337,7 @@ function resetNavLinks() {
   document.getElementById("baybayin_link").className = "nav-link";
   document.getElementById("create_cards_link").className = "nav-link";
   document.getElementById("load_cards_link").className = "nav-link";
+  document.getElementById("periodic_link").className = "nav-link";
 }
 
 function postInit() {
