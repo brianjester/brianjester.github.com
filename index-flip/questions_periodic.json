@@ -14,7 +14,7 @@
     {
       "id": "T1Q1",
       "answer": "A",
-      "question": "What element is this?<p><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: coral; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;H&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: coral; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;H&nbsp;<\/span>",
       "A": "Hydrogen",
       "B": "Helium",
       "C": "Lithium",
