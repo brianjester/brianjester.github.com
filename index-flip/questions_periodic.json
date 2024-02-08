@@ -5,7 +5,7 @@
       {
       "id": "Introduction",
       "answer": "C",
-      "question": "<p>This Periodic Table (of the elements) test bank has 118 elements.<HR> <p><B>⟳IndexFlip buttons</B> <p>Restart:◀️◀️ <p>Previous:◀️ <p>Random:🎲 <p>Next:▶️<HR><p> <B>About<\/B><ul><li> <A HREF=\"https://www.youtube.com/playlist?list=PLzqFPv5zpmmyu3EYc9IzNJ8fUONPtsZ7O\">IndexFlip Demo Videos<\/A><li><A HREF=\"https://github.com/brianjester/brianjester.github.com/issues\">Need to file a bug\/feature request?<\/A><\/ul>",
+      "question": "<p>This Periodic Table test bank has 118 elements.<HR> <p><B>⟳IndexFlip buttons</B> <p>Restart:◀️◀️ <p>Previous:◀️ <p>Random:🎲 <p>Next:▶️<HR><p> <B>About<\/B><ul><li> <A HREF=\"https://www.youtube.com/playlist?list=PLzqFPv5zpmmyu3EYc9IzNJ8fUONPtsZ7O\">IndexFlip Demo Videos<\/A><li><A HREF=\"https://github.com/brianjester/brianjester.github.com/issues\">Need to file a bug\/feature request?<\/A><\/ul>",
       "A": "",
       "B": "",
       "C": "",
@@ -17,8 +17,89 @@
       "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: coral; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;H&nbsp;<\/span>",
       "A": "Hydrogen",
       "B": "Helium",
+      "C": "Hafnium",
+      "D": "Hassium"
+    },
+    {
+      "id": "T1Q2",
+      "answer": "B",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: coral; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;He&nbsp;<\/span>",
+      "A": "Hydrogen",
+      "B": "Helium",
+      "C": "Hafnium",
+      "D": "Hassium"
+    },
+    {
+      "id": "T1Q3",
+      "answer": "C",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: coral; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Li&nbsp;<\/span>",
+      "A": "Lead",
+      "B": "Lanthanum",
       "C": "Lithium",
+      "D": "Lutetium"
+    },
+    {
+      "id": "T1Q4",
+      "answer": "D",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: coral; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Be&nbsp;<\/span>",
+      "A": "Barium",
+      "B": "Bismuth",
+      "C": "Boron",
       "D": "Berylium"
+    },
+    {
+      "id": "T1Q5",
+      "answer": "C",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: coral; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;B&nbsp;<\/span>",
+      "A": "Barium",
+      "B": "Bismuth",
+      "C": "Boron",
+      "D": "Berylium"
+    },
+    {
+      "id": "T1Q6",
+      "answer": "B",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: coral; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;C&nbsp;<\/span>",
+      "A": "Chlorine",
+      "B": "Carbon",
+      "C": "Copper",
+      "D": "Cobalt"
+    },
+    {
+      "id": "T1Q7",
+      "answer": "D",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: coral; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;N&nbsp;<\/span>",
+      "A": "Neodymium",
+      "B": "Nickel",
+      "C": "Neon",
+      "D": "Nitrogen"
+    },
+    {
+      "id": "T1Q8",
+      "answer": "B",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: coral; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;O&nbsp;<\/span>",
+      "A": "Osmium",
+      "B": "Oxygen",
+      "C": "Oganesson",
+      "D": "Gold"
+    },
+    {
+      "id": "T1Q9",
+      "answer": "C",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: coral; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;F&nbsp;<\/span>",
+      "A": "Fermium",
+      "B": "Flerovium",
+      "C": "Fluorine",
+      "D": "Francium"
+    },
+    {
+      "id": "T1Q10",
+      "answer": "C",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: coral; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Ne&nbsp;<\/span>",
+      "A": "Neodymium",
+      "B": "Nickel",
+      "C": "Neon",
+      "D": "Nitrogen"
     }
 
   ]
