@@ -50,7 +50,7 @@
     {
       "id": "T1Q5",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: coral; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;B&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: yellow; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;B&nbsp;<\/span>",
       "A": "Barium",
       "B": "Bismuth",
       "C": "Boron",
@@ -59,7 +59,7 @@
     {
       "id": "T1Q6",
       "answer": "B",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: coral; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;C&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: yellow; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;C&nbsp;<\/span>",
       "A": "Chlorine",
       "B": "Carbon",
       "C": "Copper",
@@ -68,7 +68,7 @@
     {
       "id": "T1Q7",
       "answer": "D",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: coral; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;N&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: yellow; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;N&nbsp;<\/span>",
       "A": "Neodymium",
       "B": "Nickel",
       "C": "Neon",
@@ -77,7 +77,7 @@
     {
       "id": "T1Q8",
       "answer": "B",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: coral; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;O&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: yellow; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;O&nbsp;<\/span>",
       "A": "Osmium",
       "B": "Oxygen",
       "C": "Oganesson",
@@ -86,7 +86,7 @@
     {
       "id": "T1Q9",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: coral; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;F&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: yellow; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;F&nbsp;<\/span>",
       "A": "Fermium",
       "B": "Flerovium",
       "C": "Fluorine",
@@ -95,7 +95,7 @@
     {
       "id": "T1Q10",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: coral; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Ne&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: yellow; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Ne&nbsp;<\/span>",
       "A": "Neodymium",
       "B": "Nickel",
       "C": "Neon",
