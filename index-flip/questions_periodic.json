@@ -100,6 +100,96 @@
       "B": "Nickel",
       "C": "Neon",
       "D": "Nitrogen"
+    },
+    {
+      "id": "T1Q11",
+      "answer": "A",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: coral; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Na&nbsp;<\/span>",
+      "A": "Sodium",
+      "B": "Nickel",
+      "C": "Neon",
+      "D": "Nitrogen"
+    },
+    {
+      "id": "T1Q12",
+      "answer": "A",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: coral; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Mg&nbsp;<\/span>",
+      "A": "Magnesium",
+      "B": "Manganese",
+      "C": "Mercury",
+      "D": "Molybdenum"
+    },
+    {
+      "id": "T1Q13",
+      "answer": "D",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: yellow; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Al&nbsp;<\/span>",
+      "A": "Argon",
+      "B": "Antimony",
+      "C": "Arsenic",
+      "D": "Aluminum"
+    },
+    {
+      "id": "T1Q14",
+      "answer": "B",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: yellow; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Si&nbsp;<\/span>",
+      "A": "Selenium",
+      "B": "Silicon",
+      "C": "Silver",
+      "D": "Sodium"
+    },
+    {
+      "id": "T1Q15",
+      "answer": "B",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: yellow; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;P&nbsp;<\/span>",
+      "A": "Palladium",
+      "B": "Phosphorus",
+      "C": "Platinum",
+      "D": "Plutonium"
+    },
+    {
+      "id": "T1Q16",
+      "answer": "D",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: yellow; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;S&nbsp;<\/span>",
+      "A": "Silver",
+      "B": "Sodium",
+      "C": "Strontium",
+      "D": "Sulfur"
+    },
+    {
+      "id": "T1Q17",
+      "answer": "B",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: yellow; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Cl&nbsp;<\/span>",
+      "A": "Cesium",
+      "B": "Chlorine",
+      "C": "Chromium",
+      "D": "Cobalt"
+    },
+    {
+      "id": "T1Q18",
+      "answer": "D",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: yellow; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Ar&nbsp;<\/span>",
+      "A": "Aluminum",
+      "B": "Americum",
+      "C": "Antimony",
+      "D": "Argon"
+    },
+    {
+      "id": "T1Q19",
+      "answer": "D",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: coral; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;K&nbsp;<\/span>",
+      "A": "Krypton",
+      "B": "Polonium",
+      "C": "Platinum",
+      "D": "Potassium"
+    },
+    {
+      "id": "T1Q20",
+      "answer": "B",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: coral; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Ca&nbsp;<\/span>",
+      "A": "Cadmium",
+      "B": "Calcium",
+      "C": "Carbon",
+      "D": "Copper"
     }
 
   ]
