@@ -271,7 +271,78 @@
       "B": "Chromium",
       "C": "Copper",
       "D": "Cobalt"
+    },
+    {
+      "id": "T1Q30",
+      "answer": "C",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: blue; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Zn&nbsp;<\/span>",
+      "A": "Ytterbium",
+      "B": "Yttrium",
+      "C": "Zinc",
+      "D": "Zirconium"
+    },
+    {
+      "id": "T1Q31",
+      "answer": "B",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: yellow; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Ga&nbsp;<\/span>",
+      "A": "Gadolinium",
+      "B": "Gallium",
+      "C": "Germanium",
+      "D": "Gold"
+    },
+    {
+      "id": "T1Q32",
+      "answer": "C",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: yellow; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Ge&nbsp;<\/span>",
+      "A": "Gadolinium",
+      "B": "Gallium",
+      "C": "Germanium",
+      "D": "Gold"
+    },
+    {
+      "id": "T1Q33",
+      "answer": "C",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: yellow; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;As&nbsp;<\/span>",
+      "A": "Argon",
+      "B": "Antimony",
+      "C": "Arsenic",
+      "D": "Aluminum"
+    },
+    {
+      "id": "T1Q34",
+      "answer": "D",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: yellow; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Se&nbsp;<\/span>",
+      "A": "Silver",
+      "B": "Sodium",
+      "C": "Strontium",
+      "D": "Selenium"
+    },
+    {
+      "id": "T1Q35",
+      "answer": "A",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: yellow; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Br&nbsp;<\/span>",
+      "A": "Bromine",
+      "B": "Bismuth",
+      "C": "Boron",
+      "D": "Berylium"
+    },
+    {
+      "id": "T1Q36",
+      "answer": "A",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: yellow; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Kr&nbsp;<\/span>",
+      "A": "Krypton",
+      "B": "Polonium",
+      "C": "Platinum",
+      "D": "Potassium"
+    },
+    {
+      "id": "T1Q37",
+      "answer": "D",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: yellow; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Rb&nbsp;<\/span>",
+      "A": "Radium",
+      "B": "Radon",
+      "C": "Rhodium",
+      "D": "Rubidium"
     }
-
   ]
 }
