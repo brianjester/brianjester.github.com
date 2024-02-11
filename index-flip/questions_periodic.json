@@ -975,7 +975,16 @@
       "D": "Berylium"
     },
     {
-      "id": "Atomic Number 107",
+      "id": "Atomic Number 108",
+      "answer": "D",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Hs&nbsp;<\/span>",
+      "A": "Hydrogen",
+      "B": "Helium",
+      "C": "Hafnium",
+      "D": "Hassium"
+    },
+    {
+      "id": "Atomic Number 109",
       "answer": "A",
       "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Mt&nbsp;<\/span>",
       "A": "Meitnerium",
