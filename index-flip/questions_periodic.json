@@ -534,6 +534,114 @@
       "D": "Cobalt"
     },
     {
+      "id": "Atomic_Number_59",
+      "answer": "D",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Pr&nbsp;<\/span>",
+      "A": "Palladium",
+      "B": "Phosphorus",
+      "C": "Platinum",
+      "D": "Praseodymium"
+    },
+    {
+      "id": "Atomic_Number_60",
+      "answer": "A",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Nd&nbsp;<\/span>",
+      "A": "Neodymium",
+      "B": "Nickel",
+      "C": "Neon",
+      "D": "Nitrogen"
+    },
+    {
+      "id": "Atomic_Number_61",
+      "answer": "B",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Pm&nbsp;<\/span>",
+      "A": "Palladium",
+      "B": "Promethium",
+      "C": "Platinum",
+      "D": "Plutonium"
+    },
+    {
+      "id": "Atomic_Number_62",
+      "answer": "C",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Sm&nbsp;<\/span>",
+      "A": "Silver",
+      "B": "Sodium",
+      "C": "Samarium",
+      "D": "Selenium"
+    },
+    {
+      "id": "Atomic_Number_63",
+      "answer": "C",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Sm&nbsp;<\/span>",
+      "A": "Silver",
+      "B": "Sodium",
+      "C": "Samarium",
+      "D": "Selenium"
+    },
+    {
+      "id": "Atomic_Number_64",
+      "answer": "A",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Gd&nbsp;<\/span>",
+      "A": "Gadolinium",
+      "B": "Gallium",
+      "C": "Germanium",
+      "D": "Gold"
+    },
+    {
+      "id": "Atomic_Number_65",
+      "answer": "A",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Tb&nbsp;<\/span>",
+      "A": "Terbium",
+      "B": "Tin",
+      "C": "Tungsten",
+      "D": "Technetium"
+    },
+    {
+      "id": "Atomic_Number_66",
+      "answer": "C",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Dy&nbsp;<\/span>",
+      "A": "Darmstadtium",
+      "B": "Dubnium",
+      "C": "Dysprosium",
+      "D": "Einsteinium"
+    },
+    {
+      "id": "Atomic_Number_67",
+      "answer": "D",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Ho&nbsp;<\/span>",
+      "A": "Hydrogen",
+      "B": "Helium",
+      "C": "Hafnium",
+      "D": "Holmium"
+    },
+    {
+      "id": "Atomic_Number_68",
+      "answer": "B",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Ho&nbsp;<\/span>",
+      "A": "Einsteinium",
+      "B": "Erbium",
+      "C": "Europium",
+      "D": "Fermium"
+    },
+    {
+      "id": "Atomic_Number_69",
+      "answer": "B",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Tm&nbsp;<\/span>",
+      "A": "Titanium",
+      "B": "Thulium",
+      "C": "Tellurium",
+      "D": "Technetium"
+    },
+    {
+      "id": "Atomic_Number_70",
+      "answer": "B",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Yb&nbsp;<\/span>",
+      "A": "Xenon",
+      "B": "Ytterbium",
+      "C": "Yttrium",
+      "D": "Zinc"
+    },
+    {
       "id": "Atomic_Number_71",
       "answer": "D",
       "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Lu&nbsp;<\/span>",
