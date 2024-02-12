@@ -572,11 +572,11 @@
     {
       "id": "Atomic Number 63",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Sm&nbsp;<\/span>",
-      "A": "Silver",
-      "B": "Sodium",
-      "C": "Samarium",
-      "D": "Selenium"
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Eu&nbsp;<\/span>",
+      "A": "Einsteinium",
+      "B": "Erbium",
+      "C": "Europium",
+      "D": "Fermium"
     },
     {
       "id": "Atomic Number 64",
@@ -617,7 +617,7 @@
     {
       "id": "Atomic Number 68",
       "answer": "B",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Ho&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Er&nbsp;<\/span>",
       "A": "Einsteinium",
       "B": "Erbium",
       "C": "Europium",
@@ -886,7 +886,7 @@
     },
     {
       "id": "Atomic Number 98",
-      "answer": "A",
+      "answer": "C",
       "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Cf&nbsp;<\/span>",
       "A": "Chlorine",
       "B": "Curium",
