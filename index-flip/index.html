@@ -291,7 +291,7 @@ async function loadJpK1Questions() {
 async function loadJlptN5KanjiQuestions() {
   resetNavLinks();
   document.getElementById("jlpt_n5_k_link").className = "nav-link active";
-  window.json = await fetch('https://brianjester.github.io/index-flip/questions_nlpt_n5_k.json').then(response => { return response.json() });
+  window.json = await fetch('https://brianjester.github.io/index-flip/questions_jlpt_n5_k.json').then(response => { return response.json() });
   postInit();
 }
 
