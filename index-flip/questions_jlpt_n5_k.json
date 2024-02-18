@@ -312,7 +312,7 @@
       "id": "JLPT N5 Kanji 5 Stroke",
       "answer": "A",
       "question": "What JLPT N5 Kanji is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF99FF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;出&nbsp;<\/span>",
-      "A": "exit leave",
+      "A": "exit; leave",
       "B": "four",
       "C": "book",
       "D": "live"
