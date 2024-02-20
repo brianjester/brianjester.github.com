@@ -1,0 +1,51 @@
+{
+  "title": "JLPT (Japanese Language Proficiency Test) N5 Vocabulary",
+  "ref": "https://www.jlpt.jp/e/index.html",
+  "test": [
+      {
+      "id": "Introduction",
+      "answer": "C",
+      "question": "<p>This JLPT N5 Vocabulary List has +500 entries.<HR> <p><B>⟳IndexFlip buttons</B> <p>Restart:◀️◀️ <p>Previous:◀️ <p>Random:🎲 <p>Next:▶️<HR><p> <B>About<\/B><ul><li> <A HREF=\"https://www.youtube.com/playlist?list=PLzqFPv5zpmmyu3EYc9IzNJ8fUONPtsZ7O\">IndexFlip Demo Videos<\/A><li><A HREF=\"https://github.com/brianjester/brianjester.github.com/issues\">Need to file a bug\/feature request?<\/A><li><a href=\"https://ko-fi.com/J3J7UOXY0\" target=\"_blank\"><img height=\"36\" style=\"border:0px;height:36px;\" src=\"https://storage.ko-fi.com/cdn/kofi2.png?v=3\" border=\"0\" alt=\"Buy Me a Coffee at ko-fi.com\" \/><\/a><\/ul>",
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    {
+      "id": "A1",
+      "answer": "D",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp; 浴びる 【あびる】&nbsp;<\/span>",
+      "A": "to give",
+      "B": "dangerous",
+      "C": "over there",
+      "D": "to bathe"
+    },
+    {
+      "id": "A2",
+      "answer": "B",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp; 危ない 【あぶない】&nbsp;<\/span>",
+      "A": "to give",
+      "B": "dangerous",
+      "C": "over there",
+      "D": "to bathe"
+    },
+    {
+      "id": "A3",
+      "answer": "C",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp; あちら&nbsp;<\/span>",
+      "A": "to give",
+      "B": "dangerous",
+      "C": "over there",
+      "D": "to bathe"
+    },
+    {
+      "id": "A4",
+      "answer": "A",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp; あげる&nbsp;<\/span>",
+      "A": "to give",
+      "B": "dangerous",
+      "C": "over there",
+      "D": "to bathe"
+    }
+  ]
+}
