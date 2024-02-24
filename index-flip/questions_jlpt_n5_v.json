@@ -127,6 +127,51 @@
       "B": "older brother",
       "C": "you",
       "D": "that"
+    },
+    {
+      "id": "A14",
+      "answer": "A",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp; 姉 【あね】&nbsp;<\/span>",
+      "A": "older sister",
+      "B": "older brother",
+      "C": "you",
+      "D": "that"
+    },
+    {
+      "id": "A15",
+      "answer": "B",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp; 兄 【あに】&nbsp;<\/span>",
+      "A": "older sister",
+      "B": "older brother",
+      "C": "you",
+      "D": "that"
+    },
+    {
+      "id": "A16",
+      "answer": "B",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp; あの &nbsp;<\/span>",
+      "A": "to wash",
+      "B": "that, well, then",
+      "C": "blue",
+      "D": "apartment"
+    },
+    {
+      "id": "A17",
+      "answer": "C",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp; 青い 【あおい】&nbsp;<\/span>",
+      "A": "to wash",
+      "B": "that, well, then",
+      "C": "blue",
+      "D": "apartment"
+    },
+    {
+      "id": "A18",
+      "answer": "D",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp; アパート&nbsp;<\/span>",
+      "A": "to wash",
+      "B": "that, well, then",
+      "C": "blue",
+      "D": "apartment"
     }
   ]
 }
