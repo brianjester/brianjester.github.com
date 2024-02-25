@@ -60,6 +60,9 @@
           <a class="nav-link active" id="jlpt_n5_k_link" aria-current="page" href="#" onclick="loadJlptN5KanjiQuestions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">🇯🇵 JLPT N5 Kanji</a>
         </li>
 		<li class="nav-item">
+          <a class="nav-link active" id="jlpt_n5_v_link" aria-current="page" href="#" onclick="loadJlptN5VocabQuestions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">🇯🇵 JLPT N5 Vocab</a>
+        </li>
+		<li class="nav-item">
           <a class="nav-link active" id="aws_ml_link" aria-current="page" href="#" onclick="loadAwsMlQuestions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">🇺🇸 AWS Machine Learning</a>
         </li>
 		<li class="nav-item">
@@ -173,7 +176,7 @@ if(!PERIODIC) {
 const url = new URL(window.location.href);
 const searchParams = url.searchParams;
 const test = searchParams.get('q'); // 'test'
-const tests = ['calif_dmv','ny_dmv','fcc_tech','ca_basic','calif_dre','jp_2','jp_hira','jp_kanji_1','music','aws_ml','morse', 'asl', 'baybayin', 'periodic', 'n5k'];
+const tests = ['calif_dmv','ny_dmv','fcc_tech','ca_basic','calif_dre','jp_2','jp_hira','jp_kanji_1','music','aws_ml','morse', 'asl', 'baybayin', 'periodic', 'n5k', 'n5v'];
 if (tests.includes(test)) {
 	switch (test) {
 	  case 'calif_dmv':
@@ -221,13 +224,15 @@ if (tests.includes(test)) {
 	  case 'n5k':
 		loadJlptN5KanjiQuestions();
 		break;
+	  case 'n5k':
+		loadJlptN5VocabQuestions();
+		break;
 	  default:
 		loadWelcome();
 	}
 } else {
 	loadWelcome();
 }
-
 
 async function loadWelcome() {
   resetNavLinks();
@@ -294,6 +299,12 @@ async function loadJlptN5KanjiQuestions() {
   window.json = await fetch('https://brianjester.github.io/index-flip/questions_jlpt_n5_k.json').then(response => { return response.json() });
   postInit();
 }
+async function loadJlptN5VocabQuestions() {
+  resetNavLinks();
+  document.getElementById("jlpt_n5_v_link").className = "nav-link active";
+  window.json = await fetch('https://brianjester.github.io/index-flip/questions_jlpt_n5_v.json').then(response => { return response.json() });
+  postInit();
+}
 
 async function loadMusicQuestions() {
   resetNavLinks();
@@ -345,6 +356,7 @@ function resetNavLinks() {
   document.getElementById("calif_dre_link").className = "nav-link";
   document.getElementById("jp_2_link").className = "nav-link";
   document.getElementById("jlpt_n5_k_link").className = "nav-link";
+  document.getElementById("jlpt_n5_v_link").className = "nav-link";
   document.getElementById("jp_hira_link").className = "nav-link";
   document.getElementById("music_link").className = "nav-link";
   document.getElementById("aws_ml_link").className = "nav-link";
