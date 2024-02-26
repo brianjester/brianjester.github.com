@@ -14,7 +14,7 @@
     {
       "id": "A1",
       "answer": "D",
-      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">浴びる<p>【あびる】<\/span>",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">浴びる<br>【あびる】<\/span>",
       "A": "A. to give",
       "B": "B. dangerous",
       "C": "C. over there",
@@ -23,7 +23,7 @@
     {
       "id": "A2",
       "answer": "B",
-      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">危ない<p>【あぶない】<\/span>",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">危ない<br>【あぶない】<\/span>",
       "A": "A. to give",
       "B": "B. dangerous",
       "C": "C. over there",
@@ -50,7 +50,7 @@
     {
       "id": "A5a",
       "answer": "C",
-      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">赤い<p>【あかい】<\/span>",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">赤い<br>【あかい】<\/span>",
       "A": "A. to open",
       "B": "B. bright",
       "C": "C. red",
@@ -59,7 +59,7 @@
     {
       "id": "A5b",
       "answer": "C",
-      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">赤か<p>【あか】<\/span>",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">赤か<br>【あか】<\/span>",
       "A": "A. to open",
       "B": "B. bright",
       "C": "C. red",
@@ -68,7 +68,7 @@
     {
       "id": "A6",
       "answer": "B",
-      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">明るい<p>【あかるい】<\/span>",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">明るい<br>【あかるい】<\/span>",
       "A": "A. to open",
       "B": "B. bright",
       "C": "C. red",
@@ -77,7 +77,7 @@
     {
       "id": "A7a",
       "answer": "A",
-      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">開ける<p>【あける】<\/span>",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">開ける<br>【あける】<\/span>",
       "A": "A. to open",
       "B": "B. bright",
       "C": "C. red",
@@ -86,7 +86,7 @@
     {
       "id": "A7b",
       "answer": "A",
-      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\"> 開く<p>【あく】<\/span>",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\"> 開く<br>【あく】<\/span>",
       "A": "A. to open",
       "B": "B. bright",
       "C": "C. red",
@@ -95,7 +95,7 @@
     {
       "id": "A8",
       "answer": "D",
-      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">秋<p>【あき】<\/span>",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">秋<br>【あき】<\/span>",
       "A": "A. to open",
       "B": "B. bright",
       "C": "C. red",
@@ -104,7 +104,7 @@
     {
       "id": "A9",
       "answer": "D",
-      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">甘い<p>【あまい】<\/span>",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">甘い<br>【あまい】<\/span>",
       "A": "A. (not) very",
       "B": "B. rain",
       "C": "C. candy",
@@ -131,7 +131,7 @@
     {
       "id": "A12",
       "answer": "B",
-      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">雨<p>【あめ】<\/span>",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">雨<br>【あめ】<\/span>",
       "A": "A. (not) very",
       "B": "B. rain",
       "C": "C. (hard) candy",
@@ -140,7 +140,7 @@
     {
       "id": "A13",
       "answer": "C",
-      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">貴方<p>【あなた】<\/span>",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">貴方<br>【あなた】<\/span>",
       "A": "A. older sister",
       "B": "B. older brother",
       "C": "C. you",
@@ -149,7 +149,7 @@
     {
       "id": "A14",
       "answer": "A",
-      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">姉<p>【あね】<\/span>",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">姉<br>【あね】<\/span>",
       "A": "A. older sister",
       "B": "B. older brother",
       "C": "C. you",
@@ -158,7 +158,7 @@
     {
       "id": "A15",
       "answer": "B",
-      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">兄<p>【あに】<\/span>",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">兄<br>【あに】<\/span>",
       "A": "A. older sister",
       "B": "B. older brother",
       "C": "C. you",
@@ -176,7 +176,7 @@
     {
       "id": "A17",
       "answer": "C",
-      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">青い<p>【あおい】<\/span>",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">青い<br>【あおい】<\/span>",
       "A": "A. to wash",
       "B": "B. that, well, then",
       "C": "C. blue",
@@ -194,7 +194,7 @@
     {
       "id": "A19",
       "answer": "A",
-      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">洗う<p>【あらう】<\/span>",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">洗う<br>【あらう】<\/span>",
       "A": "A. to wash",
       "B": "B. that, well, then",
       "C": "C. blue",
@@ -203,7 +203,7 @@
     {
       "id": "A20",
       "answer": "D",
-      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">有る<p>【ある】<\/span>",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">有る<br>【ある】<\/span>",
       "A": "A. breakfast",
       "B": "B. to walk",
       "C": "C. morning",
@@ -212,7 +212,7 @@
     {
       "id": "A21",
       "answer": "D",
-      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">歩く<p>【あるく】<\/span>",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">歩く<br>【あるく】<\/span>",
       "A": "A. breakfast",
       "B": "B. to walk",
       "C": "C. morning",
@@ -221,7 +221,7 @@
     {
       "id": "A22",
       "answer": "C",
-      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">朝<p>【あさ】<\/span>",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">朝<br>【あさ】<\/span>",
       "A": "A. breakfast",
       "B": "B. to walk",
       "C": "C. morning",
@@ -230,7 +230,7 @@
     {
       "id": "A23",
       "answer": "A",
-      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">朝ご飯<p>【あさごはん】<\/span>",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">朝ご飯<br>【あさごはん】<\/span>",
       "A": "A. breakfast",
       "B": "B. to walk",
       "C": "C. morning",
@@ -248,7 +248,7 @@
     {
       "id": "A25",
       "answer": "C",
-      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">足<p>【あし】<\/span>",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">足<br>【あし】<\/span>",
       "A": "A. to play",
       "B": "B. day after tomorrow",
       "C": "C. foot",
@@ -257,7 +257,7 @@
     {
       "id": "A26",
       "answer": "D",
-      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">明日<p>【あした】<\/span>",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">明日<br>【あした】<\/span>",
       "A": "A. to play",
       "B": "B. day after tomorrow",
       "C": "C. foot",
@@ -266,7 +266,7 @@
     {
       "id": "A27",
       "answer": "A",
-      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">遊ぶ<p>【あそぶ】<\/span>",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">遊ぶ<br>【あそぶ】<\/span>",
       "A": "A. to play",
       "B": "B. day after tomorrow",
       "C": "C. foot",
@@ -284,7 +284,7 @@
     {
       "id": "A29",
       "answer": "B",
-      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">頭<p>【あたま】<\/span>",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">頭<br>【あたま】<\/span>",
       "A": "A. warm",
       "B": "B. head",
       "C": "C. over there",
@@ -293,7 +293,7 @@
     {
       "id": "A30",
       "answer": "D",
-      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\"> 新しい<p>【あたらしい】<\/span>",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\"> 新しい<br>【あたらしい】<\/span>",
       "A": "A. warm",
       "B": "B. head",
       "C": "C. over there",
@@ -302,7 +302,7 @@
     {
       "id": "A31",
       "answer": "A",
-      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\"> 温かい<p>【あたたかい】<\/span>",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\"> 温かい<br>【あたたかい】<\/span>",
       "A": "A. warm",
       "B": "B. head",
       "C": "C. over there",
@@ -311,7 +311,7 @@
     {
       "id": "A32",
       "answer": "D",
-      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\"> 後<p>【あと】<\/span>",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\"> 後<br>【あと】<\/span>",
       "A": "A. to meet",
       "B": "B. hot",
       "C": "C. thick",
@@ -320,7 +320,7 @@
     {
       "id": "A33",
       "answer": "C",
-      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\"> 厚い<p>【あつい】<\/span>",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\"> 厚い<br>【あつい】<\/span>",
       "A": "A. to meet",
       "B": "B. hot",
       "C": "C. thick",
@@ -329,7 +329,7 @@
     {
       "id": "A34",
       "answer": "B",
-      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\"> 暑い<p>【あつい】<\/span>",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\"> 暑い<br>【あつい】<\/span>",
       "A": "A. to meet",
       "B": "B. hot",
       "C": "C. thick",
@@ -338,7 +338,7 @@
     {
       "id": "A35",
       "answer": "A",
-      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\"> 会う<p>【あう】<\/span>",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\"> 会う<br>【あう】<\/span>",
       "A": "A. to meet",
       "B": "B. hot",
       "C": "C. thick",
