@@ -48,9 +48,18 @@
       "D": "D. to bathe"
     },
     {
-      "id": "A5",
+      "id": "A5a",
       "answer": "C",
-      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">赤い 【あかい】 / 赤か 【あか】<\/span>",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">赤い 【あかい】<\/span>",
+      "A": "A. to open",
+      "B": "B. bright",
+      "C": "C. red",
+      "D": "D. autumn"
+    },
+    {
+      "id": "A5b",
+      "answer": "C",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">赤か 【あか】<\/span>",
       "A": "A. to open",
       "B": "B. bright",
       "C": "C. red",
@@ -66,9 +75,18 @@
       "D": "D. autumn"
     },
     {
-      "id": "A7",
+      "id": "A7a",
       "answer": "A",
-      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">開ける 【あける】 / 開く 【あく】<\/span>",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">開ける 【あける】<\/span>",
+      "A": "A. to open",
+      "B": "B. bright",
+      "C": "C. red",
+      "D": "D. autumn"
+    },
+    {
+      "id": "A7b",
+      "answer": "A",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\"> 開く 【あく】<\/span>",
       "A": "A. to open",
       "B": "B. bright",
       "C": "C. red",
@@ -95,7 +113,7 @@
     {
       "id": "A10",
       "answer": "A",
-      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">あまり / あんまり<\/span>",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; vertical-align: 1.5ex; background-color: #99FF99; white-space: pre-wrap; text-align: center;\">あ(ん)まり<\/span>",
       "A": "A. (not) very",
       "B": "B. rain",
       "C": "C. candy",
