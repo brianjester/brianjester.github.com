@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -156,9 +156,10 @@
 </main>
 <span class="morse-text" style="font-family: monospace; visibility: visible; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;"></span>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-<script src="https://brianjester.github.io/index-flip/index-flip.js">
+<script>
 // Feature toggles
 const NEW_CARD = false;  // Create Cards and Load Cards menu items
+const PERIODIC = true;  // Show Periodic table menu items
 var show_morse = false; // Show Morse Code dots and dashes (controlled by morse-text class
 if(!NEW_CARD) {
 	  document.getElementById("create_cards_link").innerHTML = " ";
@@ -166,6 +167,7 @@ if(!NEW_CARD) {
 	  document.getElementById("create_cards_link").className = "nav-link disabled";
 	  document.getElementById("load_cards_link").className = "nav-link disabled";
 }
+
 
 // Default json page to load   
 //window.onload = loadWelcome();
@@ -582,6 +584,7 @@ function check() {
     }
   }
 }
+
 </script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-JJGDGRJYDW"></script>
