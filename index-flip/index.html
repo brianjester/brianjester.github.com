@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Study Cards for anything">
+    <meta name="description" content="IndexFlip - Study for anything">
     <meta name="author" content="Brian Jester">
     <meta name="generator" content="Notepad++">
     <title>⟳IndexFlip</title>
@@ -158,17 +158,12 @@
 <script>
 // Feature toggles
 const NEW_CARD = false;  // Create Cards and Load Cards menu items
-const PERIODIC = true;  // Show Periodic table menu items
 var show_morse = false; // Show Morse Code dots and dashes (controlled by morse-text class
 if(!NEW_CARD) {
 	  document.getElementById("create_cards_link").innerHTML = " ";
 	  document.getElementById("load_cards_link").innerHTML = " ";
 	  document.getElementById("create_cards_link").className = "nav-link disabled";
 	  document.getElementById("load_cards_link").className = "nav-link disabled";
-}
-if(!PERIODIC) {
-	  document.getElementById("periodic_link").innerHTML = " ";
-	  document.getElementById("periodic_link").className = "nav-link disabled";
 }
 
 // Default json page to load   
