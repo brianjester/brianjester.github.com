@@ -643,15 +643,6 @@
     },
     {
       "id": "JLPT N5 Kanji 8 Stroke",
-      "answer": "A",
-      "question": "What JLPT N5 Kanji is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #44FF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;長&nbsp;<\/span>",
-      "A": "long",
-      "B": "east",
-      "C": "country",
-      "D": "gold"
-    },
-    {
-      "id": "JLPT N5 Kanji 8 Stroke",
       "answer": "B",
       "question": "What JLPT N5 Kanji is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #44FF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;東&nbsp;<\/span>",
       "A": "long",
