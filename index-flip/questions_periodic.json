@@ -14,7 +14,7 @@
     {
       "id": "Atomic Number 1",
       "answer": "A",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;H&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;H&nbsp;<\/span>",
       "A": "Hydrogen",
       "B": "Helium",
       "C": "Hafnium",
@@ -23,7 +23,7 @@
     {
       "id": "Atomic Number 2",
       "answer": "B",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;He&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;He&nbsp;<\/span>",
       "A": "Hydrogen",
       "B": "Helium",
       "C": "Hafnium",
@@ -32,7 +32,7 @@
     {
       "id": "Atomic Number 3",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Li&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Li&nbsp;<\/span>",
       "A": "Lead",
       "B": "Lanthanum",
       "C": "Lithium",
@@ -41,7 +41,7 @@
     {
       "id": "Atomic Number 4",
       "answer": "D",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Be&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Be&nbsp;<\/span>",
       "A": "Barium",
       "B": "Bismuth",
       "C": "Boron",
@@ -50,7 +50,7 @@
     {
       "id": "Atomic Number 5",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;B&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;B&nbsp;<\/span>",
       "A": "Barium",
       "B": "Bismuth",
       "C": "Boron",
@@ -59,7 +59,7 @@
     {
       "id": "Atomic Number 6",
       "answer": "B",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;C&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;C&nbsp;<\/span>",
       "A": "Chlorine",
       "B": "Carbon",
       "C": "Copper",
@@ -68,7 +68,7 @@
     {
       "id": "Atomic Number 7",
       "answer": "D",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;N&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;N&nbsp;<\/span>",
       "A": "Neodymium",
       "B": "Nickel",
       "C": "Neon",
@@ -77,7 +77,7 @@
     {
       "id": "Atomic Number 8",
       "answer": "B",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;O&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;O&nbsp;<\/span>",
       "A": "Osmium",
       "B": "Oxygen",
       "C": "Oganesson",
@@ -86,7 +86,7 @@
     {
       "id": "Atomic Number 9",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;F&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;F&nbsp;<\/span>",
       "A": "Fermium",
       "B": "Flerovium",
       "C": "Fluorine",
@@ -95,7 +95,7 @@
     {
       "id": "Atomic Number 10",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Ne&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Ne&nbsp;<\/span>",
       "A": "Neodymium",
       "B": "Nickel",
       "C": "Neon",
@@ -104,7 +104,7 @@
     {
       "id": "Atomic Number 11",
       "answer": "A",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Na&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Na&nbsp;<\/span>",
       "A": "Sodium",
       "B": "Nickel",
       "C": "Neon",
@@ -113,7 +113,7 @@
     {
       "id": "Atomic Number 12",
       "answer": "A",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Mg&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Mg&nbsp;<\/span>",
       "A": "Magnesium",
       "B": "Manganese",
       "C": "Mercury",
@@ -122,7 +122,7 @@
     {
       "id": "Atomic Number 13",
       "answer": "D",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Al&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Al&nbsp;<\/span>",
       "A": "Argon",
       "B": "Antimony",
       "C": "Arsenic",
@@ -131,7 +131,7 @@
     {
       "id": "Atomic Number 14",
       "answer": "B",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Si&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Si&nbsp;<\/span>",
       "A": "Selenium",
       "B": "Silicon",
       "C": "Silver",
@@ -140,7 +140,7 @@
     {
       "id": "Atomic Number 15",
       "answer": "B",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;P&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;P&nbsp;<\/span>",
       "A": "Palladium",
       "B": "Phosphorus",
       "C": "Platinum",
@@ -149,7 +149,7 @@
     {
       "id": "Atomic Number 16",
       "answer": "D",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;S&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;S&nbsp;<\/span>",
       "A": "Silver",
       "B": "Sodium",
       "C": "Strontium",
@@ -158,7 +158,7 @@
     {
       "id": "Atomic Number 17",
       "answer": "B",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Cl&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Cl&nbsp;<\/span>",
       "A": "Cesium",
       "B": "Chlorine",
       "C": "Chromium",
@@ -167,7 +167,7 @@
     {
       "id": "Atomic Number 18",
       "answer": "D",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Ar&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Ar&nbsp;<\/span>",
       "A": "Aluminum",
       "B": "Americum",
       "C": "Antimony",
@@ -176,7 +176,7 @@
     {
       "id": "Atomic Number 19",
       "answer": "D",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;K&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;K&nbsp;<\/span>",
       "A": "Krypton",
       "B": "Polonium",
       "C": "Platinum",
@@ -185,7 +185,7 @@
     {
       "id": "Atomic Number 20",
       "answer": "B",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Ca&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Ca&nbsp;<\/span>",
       "A": "Cadmium",
       "B": "Calcium",
       "C": "Carbon",
@@ -194,7 +194,7 @@
     {
       "id": "Atomic Number 21",
       "answer": "D",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Sc&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Sc&nbsp;<\/span>",
       "A": "Silver",
       "B": "Sodium",
       "C": "Strontium",
@@ -203,7 +203,7 @@
     {
       "id": "Atomic Number 22",
       "answer": "A",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Ti&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Ti&nbsp;<\/span>",
       "A": "Titanium",
       "B": "Tin",
       "C": "Tungsten",
@@ -212,7 +212,7 @@
     {
       "id": "Atomic Number 23",
       "answer": "D",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;V&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;V&nbsp;<\/span>",
       "A": "Ytterbium",
       "B": "Zinc",
       "C": "Zenon",
@@ -221,7 +221,7 @@
     {
       "id": "Atomic Number 24",
       "answer": "B",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Cr&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Cr&nbsp;<\/span>",
       "A": "Chlorine",
       "B": "Chromium",
       "C": "Copper",
@@ -230,7 +230,7 @@
     {
       "id": "Atomic Number 25",
       "answer": "B",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Mn&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Mn&nbsp;<\/span>",
       "A": "Magnesium",
       "B": "Manganese",
       "C": "Mercury",
@@ -239,7 +239,7 @@
     {
       "id": "Atomic Number 26",
       "answer": "A",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Fe&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Fe&nbsp;<\/span>",
       "A": "Iron",
       "B": "Indium",
       "C": "Iodine",
@@ -248,7 +248,7 @@
     {
       "id": "Atomic Number 27",
       "answer": "D",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Co&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Co&nbsp;<\/span>",
       "A": "Chlorine",
       "B": "Chromium",
       "C": "Copper",
@@ -257,7 +257,7 @@
     {
       "id": "Atomic Number 28",
       "answer": "B",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Ni&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Ni&nbsp;<\/span>",
       "A": "Neodymium",
       "B": "Nickel",
       "C": "Neon",
@@ -266,7 +266,7 @@
     {
       "id": "Atomic Number 29",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Cu&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Cu&nbsp;<\/span>",
       "A": "Chlorine",
       "B": "Chromium",
       "C": "Copper",
@@ -275,7 +275,7 @@
     {
       "id": "Atomic Number 30",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Zn&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Zn&nbsp;<\/span>",
       "A": "Ytterbium",
       "B": "Yttrium",
       "C": "Zinc",
@@ -284,7 +284,7 @@
     {
       "id": "Atomic Number 31",
       "answer": "B",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Ga&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Ga&nbsp;<\/span>",
       "A": "Gadolinium",
       "B": "Gallium",
       "C": "Germanium",
@@ -293,7 +293,7 @@
     {
       "id": "Atomic Number 32",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Ge&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Ge&nbsp;<\/span>",
       "A": "Gadolinium",
       "B": "Gallium",
       "C": "Germanium",
@@ -302,7 +302,7 @@
     {
       "id": "Atomic Number 33",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;As&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;As&nbsp;<\/span>",
       "A": "Argon",
       "B": "Antimony",
       "C": "Arsenic",
@@ -311,7 +311,7 @@
     {
       "id": "Atomic Number 34",
       "answer": "D",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Se&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Se&nbsp;<\/span>",
       "A": "Silver",
       "B": "Sodium",
       "C": "Strontium",
@@ -320,7 +320,7 @@
     {
       "id": "Atomic Number 35",
       "answer": "A",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Br&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Br&nbsp;<\/span>",
       "A": "Bromine",
       "B": "Bismuth",
       "C": "Boron",
@@ -329,7 +329,7 @@
     {
       "id": "Atomic Number 36",
       "answer": "A",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Kr&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Kr&nbsp;<\/span>",
       "A": "Krypton",
       "B": "Polonium",
       "C": "Platinum",
@@ -338,7 +338,7 @@
     {
       "id": "Atomic Number 37",
       "answer": "D",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Rb&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Rb&nbsp;<\/span>",
       "A": "Radium",
       "B": "Radon",
       "C": "Rhodium",
@@ -347,7 +347,7 @@
     {
       "id": "Atomic Number 38",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Sr&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Sr&nbsp;<\/span>",
       "A": "Silver",
       "B": "Sodium",
       "C": "Strontium",
@@ -356,7 +356,7 @@
     {
       "id": "Atomic Number 39",
       "answer": "B",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Y&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Y&nbsp;<\/span>",
       "A": "Ytterbium",
       "B": "Yttrium",
       "C": "Zinc",
@@ -365,7 +365,7 @@
     {
       "id": "Atomic Number 40",
       "answer": "D",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Zr&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Zr&nbsp;<\/span>",
       "A": "Ytterbium",
       "B": "Yttrium",
       "C": "Zinc",
@@ -374,7 +374,7 @@
     {
       "id": "Atomic Number 41",
       "answer": "D",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Nb&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Nb&nbsp;<\/span>",
       "A": "Neodymium",
       "B": "Nickel",
       "C": "Neon",
@@ -383,7 +383,7 @@
     {
       "id": "Atomic Number 42",
       "answer": "D",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Mo&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Mo&nbsp;<\/span>",
       "A": "Magnesium",
       "B": "Manganese",
       "C": "Mercury",
@@ -392,7 +392,7 @@
     {
       "id": "Atomic Number 43",
       "answer": "D",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Tc&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Tc&nbsp;<\/span>",
       "A": "Titanium",
       "B": "Tin",
       "C": "Tungsten",
@@ -401,7 +401,7 @@
     {
       "id": "Atomic Number 44",
       "answer": "A",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Ru&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Ru&nbsp;<\/span>",
       "A": "Ruthenium",
       "B": "Radon",
       "C": "Rhodium",
@@ -410,7 +410,7 @@
     {
       "id": "Atomic Number 45",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Rh&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Rh&nbsp;<\/span>",
       "A": "Ruthenium",
       "B": "Radon",
       "C": "Rhodium",
@@ -419,7 +419,7 @@
     {
       "id": "Atomic Number 46",
       "answer": "A",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Pd&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Pd&nbsp;<\/span>",
       "A": "Palladium",
       "B": "Phosphorus",
       "C": "Platinum",
@@ -428,7 +428,7 @@
     {
       "id": "Atomic Number 47",
       "answer": "A",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Ag&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Ag&nbsp;<\/span>",
       "A": "Silver",
       "B": "Sodium",
       "C": "Strontium",
@@ -437,7 +437,7 @@
     {
       "id": "Atomic Number 48",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Cd&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Cd&nbsp;<\/span>",
       "A": "Chlorine",
       "B": "Chromium",
       "C": "Cadmium",
@@ -446,7 +446,7 @@
     {
       "id": "Atomic Number 49",
       "answer": "A",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;In&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;In&nbsp;<\/span>",
       "A": "Indium",
       "B": "Iodine",
       "C": "Iridium",
@@ -455,7 +455,7 @@
     {
       "id": "Atomic Number 50",
       "answer": "B",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Sn&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Sn&nbsp;<\/span>",
       "A": "Titanium",
       "B": "Tin",
       "C": "Tungsten",
@@ -464,7 +464,7 @@
     {
       "id": "Atomic Number 51",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Sb&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Sb&nbsp;<\/span>",
       "A": "Aluminum",
       "B": "Americum",
       "C": "Antimony",
@@ -473,7 +473,7 @@
     {
       "id": "Atomic Number 52",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Te&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Te&nbsp;<\/span>",
       "A": "Titanium",
       "B": "Tin",
       "C": "Tellurium",
@@ -482,7 +482,7 @@
     {
       "id": "Atomic Number 53",
       "answer": "B",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;I&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;I&nbsp;<\/span>",
       "A": "Indium",
       "B": "Iodine",
       "C": "Iridium",
@@ -491,7 +491,7 @@
     {
       "id": "Atomic Number 54",
       "answer": "A",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Xe&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Xe&nbsp;<\/span>",
       "A": "Xenon",
       "B": "Zinc",
       "C": "Zirconium",
@@ -500,7 +500,7 @@
     {
       "id": "Atomic Number 55",
       "answer": "D",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Cs&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Cs&nbsp;<\/span>",
       "A": "Chlorine",
       "B": "Chromium",
       "C": "Copper",
@@ -509,7 +509,7 @@
     {
       "id": "Atomic Number 56",
       "answer": "A",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Ba&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Ba&nbsp;<\/span>",
       "A": "Barium",
       "B": "Bismuth",
       "C": "Boron",
@@ -518,7 +518,7 @@
     {
       "id": "Atomic Number 57",
       "answer": "B",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;La&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;La&nbsp;<\/span>",
       "A": "Lead",
       "B": "Lanthanum",
       "C": "Lithium",
@@ -527,7 +527,7 @@
     {
       "id": "Atomic Number 58",
       "answer": "A",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Ce&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Ce&nbsp;<\/span>",
       "A": "Cerium",
       "B": "Chromium",
       "C": "Copper",
@@ -536,7 +536,7 @@
     {
       "id": "Atomic Number 59",
       "answer": "D",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Pr&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Pr&nbsp;<\/span>",
       "A": "Palladium",
       "B": "Phosphorus",
       "C": "Platinum",
@@ -545,7 +545,7 @@
     {
       "id": "Atomic Number 60",
       "answer": "A",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Nd&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Nd&nbsp;<\/span>",
       "A": "Neodymium",
       "B": "Nickel",
       "C": "Neon",
@@ -554,7 +554,7 @@
     {
       "id": "Atomic Number 61",
       "answer": "B",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Pm&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Pm&nbsp;<\/span>",
       "A": "Palladium",
       "B": "Promethium",
       "C": "Platinum",
@@ -563,7 +563,7 @@
     {
       "id": "Atomic Number 62",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Sm&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Sm&nbsp;<\/span>",
       "A": "Silver",
       "B": "Sodium",
       "C": "Samarium",
@@ -572,7 +572,7 @@
     {
       "id": "Atomic Number 63",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Eu&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Eu&nbsp;<\/span>",
       "A": "Einsteinium",
       "B": "Erbium",
       "C": "Europium",
@@ -581,7 +581,7 @@
     {
       "id": "Atomic Number 64",
       "answer": "A",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Gd&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Gd&nbsp;<\/span>",
       "A": "Gadolinium",
       "B": "Gallium",
       "C": "Germanium",
@@ -590,7 +590,7 @@
     {
       "id": "Atomic Number 65",
       "answer": "A",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Tb&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Tb&nbsp;<\/span>",
       "A": "Terbium",
       "B": "Tin",
       "C": "Tungsten",
@@ -599,7 +599,7 @@
     {
       "id": "Atomic Number 66",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Dy&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Dy&nbsp;<\/span>",
       "A": "Darmstadtium",
       "B": "Dubnium",
       "C": "Dysprosium",
@@ -608,7 +608,7 @@
     {
       "id": "Atomic Number 67",
       "answer": "D",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Ho&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Ho&nbsp;<\/span>",
       "A": "Hydrogen",
       "B": "Helium",
       "C": "Hafnium",
@@ -617,7 +617,7 @@
     {
       "id": "Atomic Number 68",
       "answer": "B",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Er&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Er&nbsp;<\/span>",
       "A": "Einsteinium",
       "B": "Erbium",
       "C": "Europium",
@@ -626,7 +626,7 @@
     {
       "id": "Atomic Number 69",
       "answer": "B",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Tm&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Tm&nbsp;<\/span>",
       "A": "Titanium",
       "B": "Thulium",
       "C": "Tellurium",
@@ -635,7 +635,7 @@
     {
       "id": "Atomic Number 70",
       "answer": "B",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Yb&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Yb&nbsp;<\/span>",
       "A": "Xenon",
       "B": "Ytterbium",
       "C": "Yttrium",
@@ -644,7 +644,7 @@
     {
       "id": "Atomic Number 71",
       "answer": "D",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Lu&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Lu&nbsp;<\/span>",
       "A": "Lead",
       "B": "Lanthanum",
       "C": "Lithium",
@@ -653,7 +653,7 @@
     {
       "id": "Atomic Number 72",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Hf&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Hf&nbsp;<\/span>",
       "A": "Hydrogen",
       "B": "Helium",
       "C": "Hafnium",
@@ -662,7 +662,7 @@
     {
       "id": "Atomic Number 73",
       "answer": "A",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Ta&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Ta&nbsp;<\/span>",
       "A": "Tantalum",
       "B": "Tin",
       "C": "Tungsten",
@@ -671,7 +671,7 @@
     {
       "id": "Atomic Number 74",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;W&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;W&nbsp;<\/span>",
       "A": "Tantalum",
       "B": "Tin",
       "C": "Tungsten",
@@ -680,7 +680,7 @@
     {
       "id": "Atomic Number 75",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Re&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Re&nbsp;<\/span>",
       "A": "Radium",
       "B": "Radon",
       "C": "Rhenium",
@@ -689,7 +689,7 @@
     {
       "id": "Atomic Number 76",
       "answer": "A",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Os&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Os&nbsp;<\/span>",
       "A": "Osmium",
       "B": "Oxygen",
       "C": "Oganesson",
@@ -698,7 +698,7 @@
     {
       "id": "Atomic Number 77",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Ir&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Ir&nbsp;<\/span>",
       "A": "Indium",
       "B": "Iodine",
       "C": "Iridium",
@@ -707,7 +707,7 @@
     {
       "id": "Atomic Number 78",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Pt&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Pt&nbsp;<\/span>",
       "A": "Palladium",
       "B": "Phosphorus",
       "C": "Platinum",
@@ -716,7 +716,7 @@
     {
       "id": "Atomic Number 79",
       "answer": "D",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Au&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Au&nbsp;<\/span>",
       "A": "Gadolinium",
       "B": "Gallium",
       "C": "Germanium",
@@ -725,7 +725,7 @@
     {
       "id": "Atomic Number 80",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Hg&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Hg&nbsp;<\/span>",
       "A": "Magnesium",
       "B": "Manganese",
       "C": "Mercury",
@@ -734,7 +734,7 @@
     {
       "id": "Atomic Number 81",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Tl&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Tl&nbsp;<\/span>",
       "A": "Titanium",
       "B": "Tin",
       "C": "Thallium",
@@ -743,7 +743,7 @@
     {
       "id": "Atomic Number 82",
       "answer": "A",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Pb&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Pb&nbsp;<\/span>",
       "A": "Lead",
       "B": "Lanthanum",
       "C": "Lithium",
@@ -752,7 +752,7 @@
     {
       "id": "Atomic Number 83",
       "answer": "B",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Bi&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Bi&nbsp;<\/span>",
       "A": "Barium",
       "B": "Bismuth",
       "C": "Boron",
@@ -761,7 +761,7 @@
     {
       "id": "Atomic Number 84",
       "answer": "B",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Po&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Po&nbsp;<\/span>",
       "A": "Palladium",
       "B": "Polonium",
       "C": "Platinum",
@@ -770,7 +770,7 @@
     {
       "id": "Atomic Number 85",
       "answer": "D",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;At&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;At&nbsp;<\/span>",
       "A": "Argon",
       "B": "Antimony",
       "C": "Arsenic",
@@ -779,7 +779,7 @@
     {
       "id": "Atomic Number 86",
       "answer": "B",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Rn&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Rn&nbsp;<\/span>",
       "A": "Ruthenium",
       "B": "Radon",
       "C": "Rhodium",
@@ -788,7 +788,7 @@
     {
       "id": "Atomic Number 87",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Fr&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Fr&nbsp;<\/span>",
       "A": "Flerovium",
       "B": "Fluorine",
       "C": "Francium",
@@ -797,7 +797,7 @@
     {
       "id": "Atomic Number 88",
       "answer": "A",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Ra&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Ra&nbsp;<\/span>",
       "A": "Radium",
       "B": "Radon",
       "C": "Rhodium",
@@ -806,7 +806,7 @@
     {
       "id": "Atomic Number 89",
       "answer": "A",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Ac&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Ac&nbsp;<\/span>",
       "A": "Actinium",
       "B": "Antimony",
       "C": "Arsenic",
@@ -815,7 +815,7 @@
     {
       "id": "Atomic Number 90",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Th&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Th&nbsp;<\/span>",
       "A": "Tantalum",
       "B": "Tin",
       "C": "Thorium",
@@ -824,7 +824,7 @@
     {
       "id": "Atomic Number 91",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Pa&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Pa&nbsp;<\/span>",
       "A": "Palladium",
       "B": "Phosphorus",
       "C": "Protactinium",
@@ -833,7 +833,7 @@
     {
       "id": "Atomic Number 92",
       "answer": "A",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;U&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;U&nbsp;<\/span>",
       "A": "Uranium",
       "B": "Zinc",
       "C": "Tungsten",
@@ -842,7 +842,7 @@
     {
       "id": "Atomic Number 93",
       "answer": "D",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Np&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Np&nbsp;<\/span>",
       "A": "Neodymium",
       "B": "Nickel",
       "C": "Neon",
@@ -851,7 +851,7 @@
     {
       "id": "Atomic Number 94",
       "answer": "D",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Pu&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Pu&nbsp;<\/span>",
       "A": "Palladium",
       "B": "Phosphorus",
       "C": "Platinum",
@@ -860,7 +860,7 @@
     {
       "id": "Atomic Number 95",
       "answer": "D",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Am&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Am&nbsp;<\/span>",
       "A": "Argon",
       "B": "Antimony",
       "C": "Arsenic",
@@ -869,7 +869,7 @@
     {
       "id": "Atomic Number 96",
       "answer": "B",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Cm&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Cm&nbsp;<\/span>",
       "A": "Chlorine",
       "B": "Curium",
       "C": "Copper",
@@ -878,7 +878,7 @@
     {
       "id": "Atomic Number 97",
       "answer": "A",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Bk&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Bk&nbsp;<\/span>",
       "A": "Berkelium",
       "B": "Bismuth",
       "C": "Boron",
@@ -887,7 +887,7 @@
     {
       "id": "Atomic Number 98",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Cf&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Cf&nbsp;<\/span>",
       "A": "Chlorine",
       "B": "Curium",
       "C": "Californium",
@@ -896,7 +896,7 @@
     {
       "id": "Atomic Number 99",
       "answer": "A",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Es&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Es&nbsp;<\/span>",
       "A": "Einsteinium",
       "B": "Erbium",
       "C": "Europium",
@@ -905,7 +905,7 @@
     {
       "id": "Atomic Number 100",
       "answer": "D",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Fm&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Fm&nbsp;<\/span>",
       "A": "Einsteinium",
       "B": "Flerovium",
       "C": "Fluorine",
@@ -914,7 +914,7 @@
     {
       "id": "Atomic Number 101",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Md&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Md&nbsp;<\/span>",
       "A": "Magnesium",
       "B": "Manganese",
       "C": "Mendelevium",
@@ -923,7 +923,7 @@
     {
       "id": "Atomic Number 102",
       "answer": "B",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;No&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9BFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;No&nbsp;<\/span>",
       "A": "Neodymium",
       "B": "Nobelium",
       "C": "Neon",
@@ -932,7 +932,7 @@
     {
       "id": "Atomic Number 103",
       "answer": "A",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Lr&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Lr&nbsp;<\/span>",
       "A": "Lawrencium",
       "B": "Lanthanum",
       "C": "Lithium",
@@ -941,7 +941,7 @@
     {
       "id": "Atomic Number 104",
       "answer": "A",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Rf&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Rf&nbsp;<\/span>",
       "A": "Rutherfordium",
       "B": "Radon",
       "C": "Rhodium",
@@ -950,7 +950,7 @@
     {
       "id": "Atomic Number 105",
       "answer": "B",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Db&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Db&nbsp;<\/span>",
       "A": "Darmstadtium",
       "B": "Dubnium",
       "C": "Dysprosium",
@@ -959,7 +959,7 @@
     {
       "id": "Atomic Number 106",
       "answer": "B",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Sg&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Sg&nbsp;<\/span>",
       "A": "Silver",
       "B": "Seaborgium",
       "C": "Strontium",
@@ -968,7 +968,7 @@
     {
       "id": "Atomic Number 107",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Bh&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Bh&nbsp;<\/span>",
       "A": "Barium",
       "B": "Bismuth",
       "C": "Bohrium",
@@ -977,7 +977,7 @@
     {
       "id": "Atomic Number 108",
       "answer": "D",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Hs&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Hs&nbsp;<\/span>",
       "A": "Hydrogen",
       "B": "Helium",
       "C": "Hafnium",
@@ -986,7 +986,7 @@
     {
       "id": "Atomic Number 109",
       "answer": "A",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Mt&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Mt&nbsp;<\/span>",
       "A": "Meitnerium",
       "B": "Manganese",
       "C": "Mercury",
@@ -995,7 +995,7 @@
     {
       "id": "Atomic Number 110",
       "answer": "A",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Ds&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Ds&nbsp;<\/span>",
       "A": "Darmstadtium",
       "B": "Dubnium",
       "C": "Dysprosium",
@@ -1004,7 +1004,7 @@
     {
       "id": "Atomic Number 111",
       "answer": "D",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Rg&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Rg&nbsp;<\/span>",
       "A": "Ruthenium",
       "B": "Radon",
       "C": "Rhodium",
@@ -1013,7 +1013,7 @@
     {
       "id": "Atomic Number 112",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Cn&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99CCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Cn&nbsp;<\/span>",
       "A": "Cesium",
       "B": "Chlorine",
       "C": "Copernicium",
@@ -1022,7 +1022,7 @@
     {
       "id": "Atomic Number 113",
       "answer": "A",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Nh&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Nh&nbsp;<\/span>",
       "A": "Nihonium",
       "B": "Nickel",
       "C": "Neon",
@@ -1031,7 +1031,7 @@
     {
       "id": "Atomic Number 114",
       "answer": "B",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Fl&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Fl&nbsp;<\/span>",
       "A": "Fermium",
       "B": "Flerovium",
       "C": "Fluorine",
@@ -1040,7 +1040,7 @@
     {
       "id": "Atomic Number 115",
       "answer": "A",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Mc&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Mc&nbsp;<\/span>",
       "A": "Moscovium",
       "B": "Manganese",
       "C": "Mercury",
@@ -1049,7 +1049,7 @@
     {
       "id": "Atomic Number 116",
       "answer": "D",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Lv&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Lv&nbsp;<\/span>",
       "A": "Lawrencium",
       "B": "Lanthanum",
       "C": "Lithium",
@@ -1058,7 +1058,7 @@
     {
       "id": "Atomic Number 117",
       "answer": "B",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Ts&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Ts&nbsp;<\/span>",
       "A": "Titanium",
       "B": "Tennessine",
       "C": "Thallium",
@@ -1067,7 +1067,7 @@
     {
       "id": "Atomic Number 118",
       "answer": "C",
-      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; text-align: center;\">&nbsp;Og&nbsp;<\/span>",
+      "question": "What element is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FDFF8C; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;Og&nbsp;<\/span>",
       "A": "Osmium",
       "B": "Oxygen",
       "C": "Oganesson",
