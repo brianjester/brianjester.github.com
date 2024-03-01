@@ -156,7 +156,7 @@
 </main>
 <span class="morse-text" style="font-family: monospace; visibility: visible; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;"></span>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-<script src='https://brianjester.github.io/index-flip/index-flip.json'>
+<script>
 // Feature toggles
 const NEW_CARD = false;  // Create Cards and Load Cards menu items
 const PERIODIC = true;  // Show Periodic table menu items
@@ -370,7 +370,12 @@ function postInit() {
   setupPage(document, window.json.title);
   setupOrder();
 }
-// setupPage moved to index-flip.js
+
+function setupPage(page_dom, page_title) {
+  // Above card - title and options
+  return page_dom.getElementById("title").innerHTML = page_title;
+}
+
 function setupOrder() {
   window.order = "inOrder";
   window.questionRowNum = -1;
