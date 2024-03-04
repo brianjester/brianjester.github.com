@@ -367,13 +367,13 @@ function resetNavLinks() {
 }
 
 function postInit() {
-  setupPage(document, window.json.title);
+  setupPage();
   setupOrder();
 }
 
-function setupPage(page_dom, page_title) {
+function setupPage() {
   // Above card - title and options
-  return page_dom.getElementById("title").innerHTML = page_title;
+  document.getElementById("title").innerHTML = window.json.title;
 }
 
 function setupOrder() {
