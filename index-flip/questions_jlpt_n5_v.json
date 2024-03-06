@@ -343,6 +343,150 @@
       "B": "B. hot",
       "C": "C. thick",
       "D": "D. behind, after"
+    },
+    {
+      "id": "B1",
+      "answer": "A",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #FFFF99; white-space: pre-wrap; display: block; text-align: center;\"> 晩<br>【ばん】<\/span>",
+      "A": "A. evening",
+      "B": "B. dinner",
+      "C": "C. number",
+      "D": "D. bus"
+    },
+    {
+      "id": "B2",
+      "answer": "B",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #FFFF99; white-space: pre-wrap; display: block; text-align: center;\"> 晩ご飯<br>【ばんごはん】<\/span>",
+      "A": "A. evening",
+      "B": "B. dinner",
+      "C": "C. number",
+      "D": "D. bus"
+    },
+    {
+      "id": "B3",
+      "answer": "C",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #FFFF99; white-space: pre-wrap; display: block; text-align: center;\"> 番号<br>【ばんごう】<\/span>",
+      "A": "A. evening",
+      "B": "B. dinner",
+      "C": "C. number",
+      "D": "D. bus"
+    },
+    {
+      "id": "B4",
+      "answer": "C",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #FFFF99; white-space: pre-wrap; display: block; text-align: center;\"> 番号<br>【ばんごう】<\/span>",
+      "A": "A. evening",
+      "B": "B. dinner",
+      "C": "C. number",
+      "D": "D. bus"
+    },
+    {
+      "id": "B5",
+      "answer": "A",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #FFFF99; white-space: pre-wrap; display: block; text-align: center;\"> バター<\/span>",
+      "A": "A. butter",
+      "B": "B. bed",
+      "C": "C. study",
+      "D": "D. convenient"
+    },
+    {
+      "id": "B6",
+      "answer": "B",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #FFFF99; white-space: pre-wrap; display: block; text-align: center;\"> ベッド<\/span>",
+      "A": "A. butter",
+      "B": "B. bed",
+      "C": "C. study",
+      "D": "D. convenient"
+    },
+    {
+      "id": "B7",
+      "answer": "C",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #FFFF99; white-space: pre-wrap; display: block; text-align: center;\"> 勉強【べんきょう】<\/span>",
+      "A": "A. butter",
+      "B": "B. bed",
+      "C": "C. study",
+      "D": "D. convenient"
+    },
+    {
+      "id": "B8",
+      "answer": "D",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #FFFF99; white-space: pre-wrap; display: block; text-align: center;\"> 便利【べんり】<\/span>",
+      "A": "A. butter",
+      "B": "B. bed",
+      "C": "C. study",
+      "D": "D. convenient"
+    },
+    {
+      "id": "B9",
+      "answer": "A",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #FFFF99; white-space: pre-wrap; display: block; text-align: center;\"> ペン<\/span>",
+      "A": "A. pen",
+      "B": "B. button",
+      "C": "C. hat",
+      "D": "D. sentence"
+    },
+    {
+      "id": "B10",
+      "answer": "B",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #FFFF99; white-space: pre-wrap; display: block; text-align: center;\"> ボタン<\/span>",
+      "A": "A. pen",
+      "B": "B. button",
+      "C": "C. hat",
+      "D": "D. sentence"
+    },
+    {
+      "id": "B11",
+      "answer": "C",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #FFFF99; white-space: pre-wrap; display: block; text-align: center;\"> 帽子【ぼうし】<\/span>",
+      "A": "A. pen",
+      "B": "B. button",
+      "C": "C. hat",
+      "D": "D. sentence"
+    },
+    {
+      "id": "B12",
+      "answer": "D",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #FFFF99; white-space: pre-wrap; display: block; text-align: center;\"> 文章【ぶんしょう】<\/span>",
+      "A": "A. pen",
+      "B": "B. button",
+      "C": "C. hat",
+      "D": "D. sentence"
+    },
+    {
+      "id": "B13",
+      "answer": "A",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #FFFF99; white-space: pre-wrap; display: block; text-align: center;\"> 豚肉【ぶたにく】<\/span>",
+      "A": "A. pork",
+      "B": "B. hospital",
+      "C": "C. illness",
+      "D": "D. brown"
+    },
+    {
+      "id": "B14",
+      "answer": "B",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #FFFF99; white-space: pre-wrap; display: block; text-align: center;\"> 病院【びょういん】<\/span>",
+      "A": "A. pork",
+      "B": "B. hospital",
+      "C": "C. illness",
+      "D": "D. brown"
+    },
+    {
+      "id": "B15",
+      "answer": "C",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #FFFF99; white-space: pre-wrap; display: block; text-align: center;\"> 病気【びょうき】<\/span>",
+      "A": "A. pork",
+      "B": "B. hospital",
+      "C": "C. illness",
+      "D": "D. brown"
+    },
+    {
+      "id": "B16",
+      "answer": "D",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #FFFF99; white-space: pre-wrap; display: block; text-align: center;\"> 茶色【ちゃいろ】<\/span>",
+      "A": "A. pork",
+      "B": "B. hospital",
+      "C": "C. illness",
+      "D": "D. brown"
     }
   ]
 }
