@@ -52,6 +52,9 @@
           <a class="nav-link active" id="jp_hira_link" aria-current="page" href="#" onclick="loadJpHiraQuestions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">🇯🇵 Hiragana/ひらがな</a>
         </li>
 		<li class="nav-item">
+          <a class="nav-link active" id="jp_kata_link" aria-current="page" href="#" onclick="loadJpKataQuestions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">🇯🇵 Katakana/カタカナ</a>
+        </li>
+		<li class="nav-item">
           <a class="nav-link active" id="jp_2_link" aria-current="page" href="#" onclick="loadJp2Questions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">🇯🇵 第二級アマチュア無線技士</a>
         </li>
 		<li class="nav-item">
@@ -174,7 +177,7 @@ if(!NEW_CARD) {
 const url = new URL(window.location.href);
 const searchParams = url.searchParams;
 const test = searchParams.get('q'); // 'test'
-const tests = ['calif_dmv','ny_dmv','fcc_tech','ca_basic','calif_dre','jp_2','jp_hira','jp_kanji_1','music','aws_ml','morse', 'asl', 'baybayin', 'periodic', 'n5k', 'n5v'];
+const tests = ['calif_dmv','ny_dmv','fcc_tech','ca_basic','calif_dre','jp_2','jp_hira','jp_kata','jp_kanji_1','music','aws_ml','morse', 'asl', 'baybayin', 'periodic', 'n5k', 'n5v'];
 if (tests.includes(test)) {
 	switch (test) {
 	  case 'calif_dmv':
@@ -197,6 +200,9 @@ if (tests.includes(test)) {
 		break;
 	  case 'jp_hira':
 		loadJpHiraQuestions();
+		break;
+	  case 'jp_kata':
+		loadJpKataQuestions();
 		break;
 	  case 'jp_kanji_1':
 		loadJpK1Questions();
@@ -285,6 +291,13 @@ async function loadJpHiraQuestions() {
   postInit();
 }
 
+async function loadJpKataQuestions() {
+  resetNavLinks();
+  document.getElementById("jp_kata_link").className = "nav-link active";
+  window.json = await fetch('https://brianjester.github.io/index-flip/questions_jp_kata.json').then(response => { return response.json() });
+  postInit();
+}
+
 async function loadJpK1Questions() {
   resetNavLinks();
   document.getElementById("jp_kanji_1_link").className = "nav-link active";
@@ -356,6 +369,7 @@ function resetNavLinks() {
   document.getElementById("jlpt_n5_k_link").className = "nav-link";
   document.getElementById("jlpt_n5_v_link").className = "nav-link";
   document.getElementById("jp_hira_link").className = "nav-link";
+  document.getElementById("jp_kata_link").className = "nav-link";
   document.getElementById("music_link").className = "nav-link";
   document.getElementById("aws_ml_link").className = "nav-link";
   document.getElementById("morse_link").className = "nav-link";
