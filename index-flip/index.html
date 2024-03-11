@@ -159,7 +159,21 @@
 </main>
 <span class="morse-text" style="font-family: monospace; visibility: visible; font-size: 120%; vertical-align: 1.5ex; white-space: pre-wrap; text-align: center;"></span>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JJGDGRJYDW"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7109249808946513"
+     crossorigin="anonymous"></script>
 <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-JJGDGRJYDW');
+  <!-- PWA - Progressive Web App Service Worker -->
+  if ("serviceWorker" in navigator) {
+    // register service worker
+    navigator.serviceWorker.register("service-worker.js");
+  }
+
 // Feature toggles
 const NEW_CARD = false;  // Create Cards and Load Cards menu items
 const PERIODIC = true;  // Show Periodic table menu items
@@ -239,17 +253,26 @@ if (tests.includes(test)) {
 }
 
 async function loadWelcome() {
+  gtag('event', 'page_view', {
+    "page_title": "loadWelcome",
+    });
   resetNavLinks();
   window.json = await fetch('https://brianjester.github.io/index-flip/welcome.json').then(response => { return response.json() });
   postInit();
 }
 async function loadCaDmvQuestions() {
+  gtag('event', 'page_view', {
+    "page_title": "loadCaDmvQuestions",
+    });
   resetNavLinks();
   document.getElementById("calif_dmv_c_link").className = "nav-link active";
   window.json = await fetch('https://brianjester.github.io/index-flip/questions_us_ca_dl.json').then(response => { return response.json() });
   postInit();
 }
 async function loadNyDmvQuestions() {
+  gtag('event', 'page_view', {
+    "page_title": "loadNyDmvQuestions",
+    });
   resetNavLinks();
   document.getElementById("ny_dmv_link").className = "nav-link active";
   window.json = await fetch('https://brianjester.github.io/index-flip/questions_us_ny_dl.json').then(response => { return response.json() });
@@ -257,6 +280,9 @@ async function loadNyDmvQuestions() {
 }
 
 async function loadFccTechQuestions() {
+  gtag('event', 'page_view', {
+    "page_title": "loadFccTechQuestions",
+    });
   resetNavLinks();
   document.getElementById("fcc_tech_link").className = "nav-link active";
   window.json = await fetch('https://brianjester.github.io/index-flip/questions_us_fcc_tech.json').then(response => { return response.json() });
@@ -264,6 +290,9 @@ async function loadFccTechQuestions() {
 }
 
 async function loadCaBasicQuestions() {
+  gtag('event', 'page_view', {
+    "page_title": "loadCaBasicQuestions",
+    });
   resetNavLinks();
   document.getElementById("ca_basic_link").className = "nav-link active";
   window.json = await fetch('https://brianjester.github.io/index-flip/questions_ca_basic.json').then(response => { return response.json() });
@@ -271,6 +300,9 @@ async function loadCaBasicQuestions() {
 }
 
 async function loadCaDreQuestions() {
+  gtag('event', 'page_view', {
+    "page_title": "loadCaDreQuestions",
+    });
   resetNavLinks();
   document.getElementById("calif_dre_link").className = "nav-link active";
   window.json = await fetch('https://brianjester.github.io/index-flip/questions_us_ca_re.json').then(response => { return response.json() });
@@ -278,6 +310,9 @@ async function loadCaDreQuestions() {
 }
 
 async function loadJp2Questions() {
+  gtag('event', 'page_view', {
+    "page_title": "loadJp2Questions",
+    });
   resetNavLinks();
   document.getElementById("jp_2_link").className = "nav-link active";
   window.json = await fetch('https://brianjester.github.io/index-flip/questions_jp_2.json2').then(response => { return response.json() });
@@ -285,6 +320,9 @@ async function loadJp2Questions() {
 }
 
 async function loadJpHiraQuestions() {
+  gtag('event', 'page_view', {
+    "page_title": "loadJpHiraQuestions",
+    });
   resetNavLinks();
   document.getElementById("jp_hira_link").className = "nav-link active";
   window.json = await fetch('https://brianjester.github.io/index-flip/questions_jp_hira.json').then(response => { return response.json() });
@@ -292,6 +330,9 @@ async function loadJpHiraQuestions() {
 }
 
 async function loadJpKataQuestions() {
+  gtag('event', 'page_view', {
+    "page_title": "loadJpKataQuestions",
+    });
   resetNavLinks();
   document.getElementById("jp_kata_link").className = "nav-link active";
   window.json = await fetch('https://brianjester.github.io/index-flip/questions_jp_kata.json').then(response => { return response.json() });
@@ -299,18 +340,27 @@ async function loadJpKataQuestions() {
 }
 
 async function loadJpK1Questions() {
+  gtag('event', 'page_view', {
+    "page_title": "loadJpK1Questions",
+    });
   resetNavLinks();
   document.getElementById("jp_kanji_1_link").className = "nav-link active";
   window.json = await fetch('https://brianjester.github.io/index-flip/questions_jp_kanji_1.json').then(response => { return response.json() });
   postInit();
 }
 async function loadJlptN5KanjiQuestions() {
+  gtag('event', 'page_view', {
+    "page_title": "loadJlptN5KanjiQuestions",
+    });
   resetNavLinks();
   document.getElementById("jlpt_n5_k_link").className = "nav-link active";
   window.json = await fetch('https://brianjester.github.io/index-flip/questions_jlpt_n5_k.json').then(response => { return response.json() });
   postInit();
 }
 async function loadJlptN5VocabQuestions() {
+  gtag('event', 'page_view', {
+    "page_title": "loadJlptN5VocabQuestions",
+    });
   resetNavLinks();
   document.getElementById("jlpt_n5_v_link").className = "nav-link active";
   window.json = await fetch('https://brianjester.github.io/index-flip/questions_jlpt_n5_v.json').then(response => { return response.json() });
@@ -318,6 +368,9 @@ async function loadJlptN5VocabQuestions() {
 }
 
 async function loadMusicQuestions() {
+  gtag('event', 'page_view', {
+    "page_title": "loadMusicQuestions",
+    });
   resetNavLinks();
   document.getElementById("music_link").className = "nav-link active";
   window.json = await fetch('https://brianjester.github.io/index-flip/questions_us_music_notes_1.json').then(response => { return response.json() });
@@ -325,6 +378,9 @@ async function loadMusicQuestions() {
 }
 
 async function loadAwsMlQuestions() {
+  gtag('event', 'page_view', {
+    "page_title": "loadAwsMlQuestions",
+    });
   resetNavLinks();
   document.getElementById("aws_ml_link").className = "nav-link active";
   window.json = await fetch('https://brianjester.github.io/index-flip/questions_us_aws_ml.json').then(response => { return response.json() });
@@ -332,6 +388,9 @@ async function loadAwsMlQuestions() {
 }
 
 async function loadMorseQuestions() {
+  gtag('event', 'page_view', {
+    "page_title": "loadMorseQuestions",
+    });
   resetNavLinks();
   document.getElementById("morse_link").className = "nav-link active";
   window.json = await fetch('https://brianjester.github.io/index-flip/questions_morse.json').then(response => { return response.json() });
@@ -339,6 +398,9 @@ async function loadMorseQuestions() {
 }
 
 async function loadAslQuestions() {
+  gtag('event', 'page_view', {
+    "page_title": "loadAslQuestions",
+    });
   resetNavLinks();
   document.getElementById("asl_link").className = "nav-link active";
   window.json = await fetch('https://brianjester.github.io/index-flip/questions_asl.json').then(response => { return response.json() });
@@ -346,6 +408,9 @@ async function loadAslQuestions() {
 }
 
 async function loadBaybayinQuestions() {
+  gtag('event', 'page_view', {
+    "page_title": "loadBaybayinQuestions",
+    });
   resetNavLinks();
   document.getElementById("baybayin_link").className = "nav-link active";
   window.json = await fetch('https://brianjester.github.io/index-flip/questions_baybayin.json').then(response => { return response.json() });
@@ -353,6 +418,9 @@ async function loadBaybayinQuestions() {
 }
 
 async function loadPeriodicQuestions() {
+  gtag('event', 'page_view', {
+    "page_title": "loadPeriodicQuestions",
+    });
   resetNavLinks();
   document.getElementById("periodic_link").className = "nav-link active";
   window.json = await fetch('https://brianjester.github.io/index-flip/questions_periodic.json').then(response => { return response.json() });
@@ -600,21 +668,5 @@ function check() {
 }
 
 </script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JJGDGRJYDW"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-JJGDGRJYDW');
-  <!-- PWA - Progressive Web App Service Worker -->
-  if ("serviceWorker" in navigator) {
-    // register service worker
-    navigator.serviceWorker.register("service-worker.js");
-  }
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7109249808946513"
-     crossorigin="anonymous"></script>
   </body>
 </html>
