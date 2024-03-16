@@ -5,7 +5,7 @@
       {
       "id": "Introduction",
       "answer": "C",
-      "question": "<p>This JLPT N5 Vocabulary List has +500 entries.<HR> <p><B>⟳IndexFlip buttons</B> <p>Restart:◀️◀️ <p>Previous:◀️ <p>Random:🎲 <p>Next:▶️<HR><p> <B>About<\/B><ul><li> <A HREF=\"https://www.youtube.com/playlist?list=PLzqFPv5zpmmyu3EYc9IzNJ8fUONPtsZ7O\">IndexFlip Demo Videos<\/A><li><A HREF=\"https://github.com/brianjester/brianjester.github.com/issues\">Need to file a bug\/feature request?<\/A><li><a href=\"https://ko-fi.com/J3J7UOXY0\" target=\"_blank\"><img height=\"36\" style=\"border:0px;height:36px;\" src=\"https://storage.ko-fi.com/cdn/kofi2.png?v=3\" border=\"0\" alt=\"Buy Me a Coffee at ko-fi.com\" \/><\/a><\/ul>",
+      "question": "<p>This JLPT N5 Vocabulary List is under construction, when finished it will have +500 entries.<HR> <p><B>⟳IndexFlip buttons</B> <p>Restart:◀️◀️ <p>Previous:◀️ <p>Random:🎲 <p>Next:▶️<HR><p> <B>About<\/B><ul><li> <A HREF=\"https://www.youtube.com/playlist?list=PLzqFPv5zpmmyu3EYc9IzNJ8fUONPtsZ7O\">IndexFlip Demo Videos<\/A><li><A HREF=\"https://github.com/brianjester/brianjester.github.com/issues\">Need to file a bug\/feature request?<\/A><li><a href=\"https://ko-fi.com/J3J7UOXY0\" target=\"_blank\"><img height=\"36\" style=\"border:0px;height:36px;\" src=\"https://storage.ko-fi.com/cdn/kofi2.png?v=3\" border=\"0\" alt=\"Buy Me a Coffee at ko-fi.com\" \/><\/a><\/ul>",
       "A": "A. ",
       "B": "B. ",
       "C": "C. ",
@@ -568,6 +568,114 @@
       "B": "B. kitchen",
       "C": "C. university",
       "D": "D. all right"
+    },
+    {
+      "id": "D1",
+      "answer": "A",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">台所【だいどころ】<\/span>",
+      "A": "A. kitchen",
+      "B": "B. university",
+      "C": "C. all right",
+      "D": "D. very likeable"
+    },
+    {
+      "id": "D2",
+      "answer": "B",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">大学【だいがく】<\/span>",
+      "A": "A. kitchen",
+      "B": "B. university",
+      "C": "C. all right",
+      "D": "D. very likeable"
+    },
+    {
+      "id": "D3",
+      "answer": "C",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">大丈夫【だいじょうぶ】<\/span>",
+      "A": "A. kitchen",
+      "B": "B. university",
+      "C": "C. all right",
+      "D": "D. very likeable"
+    },
+    {
+      "id": "D4",
+      "answer": "D",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">大好き【だいすき】<\/span>",
+      "A": "A. kitchen",
+      "B": "B. university",
+      "C": "C. all right",
+      "D": "D. very likeable"
+    },
+    {
+      "id": "D5",
+      "answer": "A",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">だんだん<\/span>",
+      "A": "A. gradually",
+      "B": "B. who",
+      "C": "C. somebody",
+      "D": "D. take out/hand in"
+    },
+    {
+      "id": "D6",
+      "answer": "B",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">誰【だれ】<\/span>",
+      "A": "A. gradually",
+      "B": "B. who",
+      "C": "C. somebody",
+      "D": "D. take out/hand in"
+    },
+    {
+      "id": "D7",
+      "answer": "C",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">誰か【だれか】<\/span>",
+      "A": "A. gradually",
+      "B": "B. who",
+      "C": "C. somebody",
+      "D": "D. take out/hand in"
+    },
+    {
+      "id": "D8",
+      "answer": "D",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">出す【だす】<\/span>",
+      "A": "A. gradually",
+      "B": "B. who",
+      "C": "C. somebody",
+      "D": "D. take out/hand in"
+    },
+    {
+      "id": "D9",
+      "answer": "A",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">出口【でぐち】<\/span>",
+      "A": "A. exit",
+      "B": "B. to go out",
+      "C": "C. to be able to",
+      "D": "D. but"
+    },
+    {
+      "id": "D10",
+      "answer": "B",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">出かける【でかける】<\/span>",
+      "A": "A. exit",
+      "B": "B. to go out",
+      "C": "C. to be able to",
+      "D": "D. but"
+    },
+    {
+      "id": "D11",
+      "answer": "C",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">出来る【できる】<\/span>",
+      "A": "A. exit",
+      "B": "B. to go out",
+      "C": "C. to be able to",
+      "D": "D. but"
+    },
+    {
+      "id": "D12",
+      "answer": "D",
+      "question": "What does this JLPT N5 word mean?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">でも<\/span>",
+      "A": "A. exit",
+      "B": "B. to go out",
+      "C": "C. to be able to",
+      "D": "D. but"
     }
   ]
 }
