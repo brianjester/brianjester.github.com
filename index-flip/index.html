@@ -543,12 +543,14 @@ function setupCard() {
   document.getElementById("figure-front").innerHTML = "";
   document.getElementById("figure-back").innerHTML = "";
   document.getElementById("figure-attribution").innerHTML = " ";
+  document.getElementById("figure-attribution-back").innerHTML = " ";
   
   // check for figures/images
   if (questionRow.hasOwnProperty("image")) {
     const cardImage = questionRow.image;
 	  // add image
     document.getElementById("figure-front").innerHTML = "<img src=\""+cardImage+"\" alt=\""+cardImage+"\" class=\"img-fluid\">";
+	// TODO ignore back image if no answer B
     document.getElementById("figure-back").innerHTML = "<img src=\""+cardImage+"\" alt=\""+cardImage+"\" class=\"img-fluid\">";
   }
 
@@ -556,6 +558,7 @@ function setupCard() {
   if (questionRow.hasOwnProperty("attribution")) {
 	  // add image
     document.getElementById("figure-attribution").innerHTML = "<i><small>* "+questionRow.attribution+"</small></i>";
+	// TODO ignore back image attribution if no answer B
     document.getElementById("figure-attribution-back").innerHTML = "<i><small>* "+questionRow.attribution+"</small></i>";
   }
 
@@ -571,6 +574,7 @@ function setupCard() {
   switch (answerLetter)
   {
     case "A": 
+		// TODO make answer 400% larger if no answer B
 		document.getElementById(answerLetter).innerHTML = answerDivLeft + questionRow.A + answerDivRight;
     break;
     case "B": 
