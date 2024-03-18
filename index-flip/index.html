@@ -504,8 +504,12 @@ function setupCard() {
   } 
 
   questionRow = test[window.questionRowNum];
+  var multipleChoice = true
+  if (questionRow.B.length < 1) {
+	multipleChoice = false
+  }
 
-  // Front of card - set up question
+  // Set up question
   document.getElementById("A").innerHTML = " ";
   document.getElementById("B").innerHTML = " ";
   document.getElementById("C").innerHTML = " ";
@@ -513,11 +517,17 @@ function setupCard() {
   document.getElementById("E").innerHTML = " ";
   document.getElementById("question_id").innerHTML = questionRow.id;
   document.getElementById("question").innerHTML = questionRow.question;
-  document.getElementById("question-back").innerHTML = questionRow.question;
+  if (multipleChoice) {
+    document.getElementById("question-back").innerHTML = questionRow.question;
+  }
 
   applyFeatures();
   if (questionRow.hasOwnProperty("A")) {
-    document.getElementById("A").innerHTML = questionRow.A;
+  	if (multipleChoice) {
+		document.getElementById("A").innerHTML = questionRow.A;
+	} else {
+		document.getElementById("A").innerHTML = "<span font-size: 400%; display: block; text-align: center;\">" + questionRow.A + "<\/span>";
+	}
   }
   if (questionRow.hasOwnProperty("B")) {
     document.getElementById("B").innerHTML = questionRow.B;
@@ -536,7 +546,9 @@ function setupCard() {
 
   // Back of card
   document.getElementById("answer_id").innerHTML = questionRow.id;
-  document.getElementById("question-back").innerHTML = questionRow.question;
+  if (multipleChoice) {
+	document.getElementById("question-back").innerHTML = questionRow.question;
+  }
   applyFeatures();
 
   // Remove any possible images from last card
@@ -550,16 +562,18 @@ function setupCard() {
     const cardImage = questionRow.image;
 	  // add image
     document.getElementById("figure-front").innerHTML = "<img src=\""+cardImage+"\" alt=\""+cardImage+"\" class=\"img-fluid\">";
-	// TODO ignore back image if no answer B
-    document.getElementById("figure-back").innerHTML = "<img src=\""+cardImage+"\" alt=\""+cardImage+"\" class=\"img-fluid\">";
+	if (multipleChoice) {
+		document.getElementById("figure-back").innerHTML = "<img src=\""+cardImage+"\" alt=\""+cardImage+"\" class=\"img-fluid\">";
+	}
   }
 
   // check for figure/image attribution
   if (questionRow.hasOwnProperty("attribution")) {
-	  // add image
+	// add image
     document.getElementById("figure-attribution").innerHTML = "<i><small>* "+questionRow.attribution+"</small></i>";
-	// TODO ignore back image attribution if no answer B
-    document.getElementById("figure-attribution-back").innerHTML = "<i><small>* "+questionRow.attribution+"</small></i>";
+	if (multipleChoice) {
+      document.getElementById("figure-attribution-back").innerHTML = "<i><small>* "+questionRow.attribution+"</small></i>";
+	}
   }
 
   document.getElementById("check-btn").innerHTML = CHECK;
@@ -574,7 +588,6 @@ function setupCard() {
   switch (answerLetter)
   {
     case "A": 
-		// TODO make answer 400% larger if no answer B
 		document.getElementById(answerLetter).innerHTML = answerDivLeft + questionRow.A + answerDivRight;
     break;
     case "B": 
