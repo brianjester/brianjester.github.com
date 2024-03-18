@@ -504,9 +504,9 @@ function setupCard() {
   } 
 
   questionRow = test[window.questionRowNum];
-  var multipleChoice = true
-  if (questionRow.B.length < 1) {
-	multipleChoice = false
+  const multipleChoice = true;
+  if (questionRow.B == "") {
+	multipleChoice = false;
   }
 
   // Set up question
