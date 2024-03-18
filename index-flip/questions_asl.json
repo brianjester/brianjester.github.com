@@ -4,7 +4,7 @@
   "test": [
       {
       "id": "Introduction",
-      "answer": "C",
+      "answer": "A",
       "question": "<p>This ASL (American Sign Language) deck has 36 letters and numbers.<HR> <p><B>⟳IndexFlip buttons</B> <p>Restart:◀️◀️ <p>Previous:◀️ <p>Random:🎲 <p>Next:▶️<HR><p> <B>About<\/B><ul><li> <A HREF=\"https://www.youtube.com/playlist?list=PLzqFPv5zpmmyu3EYc9IzNJ8fUONPtsZ7O\">IndexFlip Demo Videos<\/A><li><A HREF=\"https://github.com/brianjester/brianjester.github.com/issues\">Need to file a bug\/feature request?<\/A><li><a href=\"https://ko-fi.com/J3J7UOXY0\" target=\"_blank\"><img height=\"36\" style=\"border:0px;height:36px;\" src=\"https://storage.ko-fi.com/cdn/kofi2.png?v=3\" border=\"0\" alt=\"Buy Me a Coffee at ko-fi.com\" \/><\/a><\/ul>",
       "A": "",
       "B": "",
@@ -13,7 +13,7 @@
     },
     {
       "id": "T1Q1",
-      "answer": "C",
+      "answer": "A",
       "question": "What ASL letter or number is this?",
       "image": "asl/a.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
@@ -24,36 +24,36 @@
     },
     {
       "id": "T1Q2",
-      "answer": "B",
+      "answer": "A",
       "question": "What ASL letter or number is this?",
       "image": "asl/b.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
-      "A": "G",
-      "B": "B",
-      "C": "T",
-      "D": "V"
+      "A": "B",
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q3",
-      "answer": "C",
+      "answer": "A",
       "question": "What ASL letter or number is this?",
       "image": "asl/c.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
-      "A": "E",
-      "B": "X",
-      "C": "C",
-      "D": "D"
+      "A": "C",
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q4",
-      "answer": "D",
+      "answer": "A",
       "question": "What ASL letter or number is this?",
       "image": "asl/d.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
-      "A": "C",
-      "B": "E",
-      "C": "X",
-      "D": "D"
+      "A": "D",
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q5",
@@ -62,42 +62,42 @@
       "image": "asl/e.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
       "A": "E",
-      "B": "D",
-      "C": "C",
-      "D": "X"
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q6",
-      "answer": "B",
+      "answer": "A",
       "question": "What ASL letter or number is this?",
       "image": "asl/f.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
-      "A": "R",
-      "B": "F",
-      "C": "V",
-      "D": "C"
+      "A": "F",
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q7",
-      "answer": "C",
+      "answer": "A",
       "question": "What ASL letter or number is this?",
       "image": "asl/g.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
-      "A": "V",
-      "B": "T",
-      "C": "G",
-      "D": "B"
+      "A": "G",
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q8",
-      "answer": "D",
+      "answer": "A",
       "question": "What ASL letter or number is this?",
       "image": "asl/h.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
-      "A": "B",
-      "B": "N",
-      "C": "Y",
-      "D": "H"
+      "A": "H",
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q9",
@@ -106,64 +106,64 @@
       "image": "asl/i.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
       "A": "I",
-      "B": "K",
-      "C": "M",
-      "D": "N"
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q10",
-      "answer": "B",
+      "answer": "A",
       "question": "What ASL letter or number is this?",
       "image": "asl/j.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
-      "A": "U",
-      "B": "J",
-      "C": "M",
-      "D": "N"
+      "A": "J",
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q11",
-      "answer": "B",
+      "answer": "A",
       "question": "What ASL letter or number is this?",
       "image": "asl/k.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
-      "A": "I",
-      "B": "K",
-      "C": "J",
-      "D": "M"
+      "A": "K",
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q12",
-      "answer": "B",
+      "answer": "A",
       "question": "What ASL letter or number is this?",
       "image": "asl/l.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
-      "A": "O",
-      "B": "L",
-      "C": "K",
-      "D": "M"
+      "A": "L",
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q13",
-      "answer": "C",
+      "answer": "A",
       "question": "What ASL letter or number is this?",
       "image": "asl/m.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
-      "A": "U",
-      "B": "J",
-      "C": "M",
-      "D": "N"
+      "A": "M",
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q14",
-      "answer": "C",
+      "answer": "A",
       "question": "What ASL letter or number is this?",
       "image": "asl/n.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
-      "A": "Y",
-      "B": "H",
-      "C": "N",
-      "D": "B"
+      "A": "N",
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q15",
@@ -172,9 +172,9 @@
       "image": "asl/o.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
       "A": "O",
-      "B": "L",
-      "C": "K",
-      "D": "M"
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q16",
@@ -183,9 +183,9 @@
       "image": "asl/p.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
       "A": "P",
-      "B": "L",
-      "C": "O",
-      "D": "K"
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q17",
@@ -194,9 +194,9 @@
       "image": "asl/q.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
       "A": "Q",
-      "B": "A",
-      "C": "Z",
-      "D": "X"
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q18",
@@ -205,20 +205,20 @@
       "image": "asl/r.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
       "A": "R",
-      "B": "F",
-      "C": "V",
-      "D": "C"
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q19",
-      "answer": "B",
+      "answer": "A",
       "question": "What ASL letter or number is this?",
       "image": "asl/s.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
-      "A": "W",
-      "B": "S",
-      "C": "X",
-      "D": "Z"
+      "A": "S",
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q20",
@@ -227,86 +227,86 @@
       "image": "asl/t.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
       "A": "T",
-      "B": "G",
-      "C": "B",
-      "D": "V"
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q21",
-      "answer": "B",
+      "answer": "A",
       "question": "What ASL letter or number is this?",
       "image": "asl/u.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
-      "A": "7",
-      "B": "U",
-      "C": "J",
-      "D": "M"
+      "A": "U",
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q22",
-      "answer": "C",
+      "answer": "A",
       "question": "What ASL letter or number is this?",
       "image": "asl/v.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
-      "A": "R",
-      "B": "F",
-      "C": "V",
-      "D": "C"
+      "A": "V",
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q23",
-      "answer": "B",
+      "answer": "A",
       "question": "What ASL letter or number is this?",
       "image": "asl/w.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
-      "A": "2",
-      "B": "W",
-      "C": "S",
-      "D": "X"
+      "A": "W",
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q24",
-      "answer": "D",
+      "answer": "A",
       "question": "What ASL letter or number is this?",
       "image": "asl/x.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
-      "A": "2",
-      "B": "W",
-      "C": "S",
-      "D": "X"
+      "A": "X",
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q25",
-      "answer": "B",
+      "answer": "A",
       "question": "What ASL letter or number is this?",
       "image": "asl/y.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
-      "A": "6",
-      "B": "Y",
-      "C": "H",
-      "D": "N"
+      "A": "Y",
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q26",
-      "answer": "D",
+      "answer": "A",
       "question": "What ASL letter or number is this?",
       "image": "asl/z.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
-      "A": "1",
-      "B": "Q",
-      "C": "A",
-      "D": "Z"
+      "A": "Z",
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q27",
-      "answer": "D",
+      "answer": "A",
       "question": "What ASL letter or number is this?",
       "image": "asl/0.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
-      "A": "7",
-      "B": "8",
-      "C": "9",
-      "D": "0"
+      "A": "0",
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q28",
@@ -315,53 +315,53 @@
       "image": "asl/1.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
       "A": "1",
-      "B": "4",
-      "C": "5",
-      "D": "0"
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q29",
-      "answer": "B",
+      "answer": "A",
       "question": "What ASL letter or number is this?",
       "image": "asl/2.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
-      "A": "3",
-      "B": "2",
-      "C": "7",
-      "D": "5"
+      "A": "2",
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q30",
-      "answer": "C",
+      "answer": "A",
       "question": "What ASL letter or number is this?",
       "image": "asl/3.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
-      "A": "6",
-      "B": "1",
-      "C": "3",
-      "D": "9"
+      "A": "3",
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q31",
-      "answer": "D",
+      "answer": "A",
       "question": "What ASL letter or number is this?",
       "image": "asl/4.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
-      "A": "0",
-      "B": "5",
-      "C": "8",
-      "D": "4"
+      "A": "4",
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q32",
-      "answer": "D",
+      "answer": "A",
       "question": "What ASL letter or number is this?",
       "image": "asl/5.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
-      "A": "1",
-      "B": "7",
-      "C": "3",
-      "D": "5"
+      "A": "5",
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q33",
@@ -370,42 +370,42 @@
       "image": "asl/6.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
       "A": "6",
-      "B": "8",
-      "C": "4",
-      "D": "3"
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q34",
-      "answer": "D",
+      "answer": "A",
       "question": "What ASL letter or number is this?",
       "image": "asl/7.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
-      "A": "3",
-      "B": "4",
-      "C": "0",
-      "D": "7"
+      "A": "7",
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q35",
-      "answer": "B",
+      "answer": "A",
       "question": "What ASL letter or number is this?",
       "image": "asl/8.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
-      "A": "1",
-      "B": "8",
-      "C": "2",
-      "D": "9"
+      "A": "8",
+      "B": "",
+      "C": "",
+      "D": ""
     },
     {
       "id": "T1Q36",
-      "answer": "C",
+      "answer": "A",
       "question": "What ASL letter or number is this?",
       "image": "asl/9.JPG", 
       "attribution": "PD, created by: https://en.wikipedia.org/wiki/User:Ds13",
-      "A": "2",
-      "B": "6",
-      "C": "9",
-      "D": "0"
+      "A": "9",
+      "B": "",
+      "C": "",
+      "D": ""
     }
   ]
 }
