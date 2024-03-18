@@ -519,6 +519,9 @@ function setupCard() {
   document.getElementById("question").innerHTML = questionRow.question;
   if (multipleChoice) {
     document.getElementById("question-back").innerHTML = questionRow.question;
+  } else {
+    document.getElementById("question-back").innerHTML = "";
+
   }
 
   applyFeatures();
@@ -548,6 +551,8 @@ function setupCard() {
   document.getElementById("answer_id").innerHTML = questionRow.id;
   if (multipleChoice) {
 	document.getElementById("question-back").innerHTML = questionRow.question;
+  } else {
+  	document.getElementById("question-back").innerHTML = "";
   }
   applyFeatures();
 
@@ -564,6 +569,8 @@ function setupCard() {
     document.getElementById("figure-front").innerHTML = "<img src=\""+cardImage+"\" alt=\""+cardImage+"\" class=\"img-fluid\">";
 	if (multipleChoice) {
 		document.getElementById("figure-back").innerHTML = "<img src=\""+cardImage+"\" alt=\""+cardImage+"\" class=\"img-fluid\">";
+	} else {
+		document.getElementById("figure-back").innerHTML = "";
 	}
   }
 
@@ -573,6 +580,8 @@ function setupCard() {
     document.getElementById("figure-attribution").innerHTML = "<i><small>* "+questionRow.attribution+"</small></i>";
 	if (multipleChoice) {
       document.getElementById("figure-attribution-back").innerHTML = "<i><small>* "+questionRow.attribution+"</small></i>";
+	} else {
+      document.getElementById("figure-attribution-back").innerHTML = "";
 	}
   }
 
