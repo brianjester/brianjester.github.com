@@ -15,289 +15,289 @@
       "id": "k1",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ア&nbsp;<\/span>",
-      "A": "Rōmaji: a"
+      "A": "a"
     },
     {
       "id": "k2",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;カ&nbsp;<\/span>",
-      "A": "Rōmaji: ka"
+      "A": "ka"
     },
     {
       "id": "k3",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;サ&nbsp;<\/span>",
-      "A": "Rōmaji: sa"
+      "A": "sa"
     },
     {
       "id": "k4",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;タ&nbsp;<\/span>",
-      "A": "Rōmaji: ta"
+      "A": "ta"
     },
     {
       "id": "k5",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ナ&nbsp;<\/span>",
-      "A": "Rōmaji: na"
+      "A": "na"
     },
     {
       "id": "k6",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ハ&nbsp;<\/span>",
-      "A": "Rōmaji: ha"
+      "A": "ha"
     },
     {
       "id": "k7",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;マ&nbsp;<\/span>",
-      "A": "Rōmaji: ma"
+      "A": "ma"
     },
     {
       "id": "k8",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ヤ&nbsp;<\/span>",
-      "A": "Rōmaji: ya"
+      "A": "ya"
     },
     {
       "id": "k9",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ラ&nbsp;<\/span>",
-      "A": "Rōmaji: ra"
+      "A": "ra"
     },
     {
       "id": "k10",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ワ&nbsp;<\/span>",
-      "A": "Rōmaji: wa"
+      "A": "wa"
     },
     {
       "id": "k11",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF99FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;イ&nbsp;<\/span>",
-      "A": "Rōmaji: i"
+      "A": "i"
     },
     {
       "id": "k12",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF99FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;キ&nbsp;<\/span>",
-      "A": "Rōmaji: ki"
+      "A": "ki"
     },
     {
       "id": "k13",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF99FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;シ&nbsp;<\/span>",
-      "A": "Rōmaji: shi"
+      "A": "shi"
     },
     {
       "id": "k14",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF99FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;チ&nbsp;<\/span>",
-      "A": "Rōmaji: chi"
+      "A": "chi"
     },
     {
       "id": "k15",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF99FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ニ&nbsp;<\/span>",
-      "A": "Rōmaji: ni"
+      "A": "ni"
     },
     {
       "id": "k16",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF99FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ヒ&nbsp;<\/span>",
-      "A": "Rōmaji: hi"
+      "A": "hi"
     },
     {
       "id": "k17",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF99FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ミ&nbsp;<\/span>",
-      "A": "Rōmaji: mi"
+      "A": "mi"
     },
     {
       "id": "k18",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF99FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;リ&nbsp;<\/span>",
-      "A": "Rōmaji: ri"
+      "A": "ri"
     },
     {
       "id": "k19",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF99FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ヰ&nbsp;<\/span>",
-      "A": "Rōmaji: wi"
+      "A": "wi"
     },
     {
       "id": "k20",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FFFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ウ&nbsp;<\/span>",
-      "A": "Rōmaji: u"
+      "A": "u"
     },
     {
       "id": "k21",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FFFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ク&nbsp;<\/span>",
-      "A": "Rōmaji: ku"
+      "A": "ku"
     },
     {
       "id": "k22",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FFFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ス&nbsp;<\/span>",
-      "A": "Rōmaji: su"
+      "A": "su"
     },
     {
       "id": "k23",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FFFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ツ&nbsp;<\/span>",
-      "A": "Rōmaji: tsu"
+      "A": "tsu"
     },
     {
       "id": "k24",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FFFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ヌ&nbsp;<\/span>",
-      "A": "Rōmaji: nu"
+      "A": "nu"
     },
     {
       "id": "k25",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FFFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;フ&nbsp;<\/span>",
-      "A": "Rōmaji: fu"
+      "A": "fu"
     },
     {
       "id": "k26",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FFFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ム&nbsp;<\/span>",
-      "A": "Rōmaji: mu"
+      "A": "mu"
     },
     {
       "id": "k27",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FFFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ユ&nbsp;<\/span>",
-      "A": "Rōmaji: yu"
+      "A": "yu"
     },
     {
       "id": "k28",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FFFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ル&nbsp;<\/span>",
-      "A": "Rōmaji: ru"
+      "A": "ru"
     },
     {
       "id": "k29",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;エ&nbsp;<\/span>",
-      "A": "Rōmaji: e"
+      "A": "e"
     },
     {
       "id": "k30",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ケ&nbsp;<\/span>",
-      "A": "Rōmaji: ke"
+      "A": "ke"
     },
     {
       "id": "k31",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;セ&nbsp;<\/span>",
-      "A": "Rōmaji: se"
+      "A": "se"
     },
     {
       "id": "k32",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;テ&nbsp;<\/span>",
-      "A": "Rōmaji: te"
+      "A": "te"
     },
     {
       "id": "k33",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ネ&nbsp;<\/span>",
-      "A": "Rōmaji: ne"
+      "A": "ne"
     },
     {
       "id": "k34",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ヘ&nbsp;<\/span>",
-      "A": "Rōmaji: he"
+      "A": "he"
     },
     {
       "id": "k35",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;メ&nbsp;<\/span>",
-      "A": "Rōmaji: me"
+      "A": "me"
     },
     {
       "id": "k36",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;レ&nbsp;<\/span>",
-      "A": "Rōmaji: re"
+      "A": "re"
     },
     {
       "id": "k37",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ヱ&nbsp;<\/span>",
-      "A": "Rōmaji: we"
+      "A": "we"
     },
     {
       "id": "k38",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF99FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;オ&nbsp;<\/span>",
-      "A": "Rōmaji: o"
+      "A": "o"
     },
     {
       "id": "k39",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF99FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;コ&nbsp;<\/span>",
-      "A": "Rōmaji: ko"
+      "A": "ko"
     },
     {
       "id": "k40",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF99FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ソ&nbsp;<\/span>",
-      "A": "Rōmaji: so"
+      "A": "so"
     },
     {
       "id": "k41",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF99FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ト&nbsp;<\/span>",
-      "A": "Rōmaji: to"
+      "A": "to"
     },
     {
       "id": "k42",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF99FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ノ&nbsp;<\/span>",
-      "A": "Rōmaji: no"
+      "A": "no"
     },
     {
       "id": "k43",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF99FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ホ&nbsp;<\/span>",
-      "A": "Rōmaji: ho"
+      "A": "ho"
     },
     {
       "id": "k44",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF99FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;モ&nbsp;<\/span>",
-      "A": "Rōmaji: mo"
+      "A": "mo"
     },
     {
       "id": "k45",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF99FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ヨ&nbsp;<\/span>",
-      "A": "Rōmaji: yo"
+      "A": "yo"
     },
     {
       "id": "k46",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF99FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ロ&nbsp;<\/span>",
-      "A": "Rōmaji: ro"
+      "A": "ro"
     },
     {
       "id": "k47",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF99FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ヲ&nbsp;<\/span>",
-      "A": "Rōmaji: wo"
+      "A": "wo"
     },
     {
       "id": "k48",
       "answer": "A",
       "question": "What katakana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9999FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ン&nbsp;<\/span>",
-      "A": "Rōmaji: n"
+      "A": "n"
     }
   ]
 }
