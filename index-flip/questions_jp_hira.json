@@ -14,263 +14,199 @@
     {
       "id": "h1",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_あ_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;あ&nbsp;<\/span>",
       "A": "Rōmaji: a"
     },
     {
       "id": "h2",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_い_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;い&nbsp;<\/span>",
       "A": "Rōmaji: i"
     },
     {
       "id": "h3",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_う_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;う&nbsp;<\/span>",
       "A": "Rōmaji: u"
     },
     {
       "id": "h4",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_え_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;え&nbsp;<\/span>",
       "A": "Rōmaji: e"
     },
     {
       "id": "h5",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_お_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;お&nbsp;<\/span>",
       "A": "Rōmaji: o"
     },
     {
       "id": "h6",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_か_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;か&nbsp;<\/span>",
       "A": "Rōmaji: ka"
     },
     {
       "id": "h7",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_き_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;き&nbsp;<\/span>",
       "A": "Rōmaji: ki"
     },
     {
       "id": "h8",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_く_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;く&nbsp;<\/span>",
       "A": "Rōmaji: ku"
     },
     {
       "id": "h9",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_け_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;け&nbsp;<\/span>",
       "A": "Rōmaji: ke"
     },
     {
       "id": "h10",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_こ_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;こ&nbsp;<\/span>",
       "A": "Rōmaji: ko"
     },
     {
       "id": "h11",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_さ_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;さ&nbsp;<\/span>",
       "A": "Rōmaji: sa"
     },
     {
       "id": "h12",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_し_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;し&nbsp;<\/span>",
       "A": "Rōmaji: shi"
     },
     {
       "id": "h13",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_す_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;す&nbsp;<\/span>",
       "A": "Rōmaji: su"
     },
     {
       "id": "h14",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_せ_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;せ&nbsp;<\/span>",
       "A": "Rōmaji: se"
     },
     {
       "id": "h15",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_そ_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;そ&nbsp;<\/span>",
       "A": "Rōmaji: so"
     },
     {
       "id": "h16",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_た_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;た&nbsp;<\/span>",
       "A": "Rōmaji: ta"
     },
     {
       "id": "h17",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_ち_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ち&nbsp;<\/span>",
       "A": "Rōmaji: chi"
     },
     {
       "id": "h18",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_つ_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;つ&nbsp;<\/span>",
       "A": "Rōmaji: tsu"
     },
     {
       "id": "h19",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_て_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;て&nbsp;<\/span>",
       "A": "Rōmaji: te"
     },
     {
       "id": "h20",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_と_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;と&nbsp;<\/span>",
       "A": "Rōmaji: to"
     },
     {
       "id": "h21",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_な_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;な&nbsp;<\/span>",
       "A": "Rōmaji: na"
     },
     {
       "id": "h22",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_に_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;に&nbsp;<\/span>",
       "A": "Rōmaji: ni"
     },
     {
       "id": "h23",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_ぬ_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ぬ&nbsp;<\/span>",
       "A": "Rōmaji: nu"
     },
     {
       "id": "h24",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_ね_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ね&nbsp;<\/span>",
       "A": "Rōmaji: ne"
     },
     {
       "id": "h25",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_の_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;の&nbsp;<\/span>",
       "A": "Rōmaji: no"
     },
     {
       "id": "h26",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_は_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;は&nbsp;<\/span>",
       "A": "Rōmaji: ha"
     },
     {
       "id": "h27",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_ひ_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ひ&nbsp;<\/span>",
       "A": "Rōmaji: hi"
     },
     {
       "id": "h28",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_ふ_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ふ&nbsp;<\/span>",
       "A": "Rōmaji: fu"
     },
     {
       "id": "h29",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_へ_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;へ&nbsp;<\/span>",
       "A": "Rōmaji: he"
     },
     {
       "id": "h30",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_ほ_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ほ&nbsp;<\/span>",
       "A": "Rōmaji: ho"
     },
     {
       "id": "h31",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_ま_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ま&nbsp;<\/span>",
       "A": "Rōmaji: ma"
     },
     {
       "id": "h32",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_み_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;み&nbsp;<\/span>",
       "A": "Rōmaji: mi"
     },
     {
       "id": "h33",
       "answer": "A",
-      "question": "",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;む&nbsp;<\/span>",
       "image": "hiragana/Hiragana_む_stroke_order_animation.gif",
       "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
       "A": "Rōmaji: mu"
@@ -278,121 +214,91 @@
     {
       "id": "h34",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_め_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;め&nbsp;<\/span>",
       "A": "Rōmaji: me"
     },
     {
       "id": "h35",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_も_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;も&nbsp;<\/span>",
       "A": "Rōmaji: mo"
     },
     {
       "id": "h36",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_や_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;や&nbsp;<\/span>",
       "A": "Rōmaji: ya"
     },
     {
       "id": "h37",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_ゆ_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ゆ&nbsp;<\/span>",
       "A": "Rōmaji: yu"
     },
     {
       "id": "h38",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_よ_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;よ&nbsp;<\/span>",
       "A": "Rōmaji: yo"
     },
     {
       "id": "h39",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_ら_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ら&nbsp;<\/span>",
       "A": "Rōmaji: ra"
     },
     {
       "id": "h40",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_り_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;り&nbsp;<\/span>",
       "A": "Rōmaji: ri"
     },
     {
       "id": "h41",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_る_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;る&nbsp;<\/span>",
       "A": "Rōmaji: ru"
     },
     {
       "id": "h42",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_れ_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;れ&nbsp;<\/span>",
       "A": "Rōmaji: re"
     },
     {
       "id": "h43",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_ろ_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ろ&nbsp;<\/span>",
       "A": "Rōmaji: ro"
     },
     {
       "id": "h44",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_わ_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;わ&nbsp;<\/span>",
       "A": "Rōmaji: wa"
     },
     {
       "id": "h45",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_ゐ_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ゐ&nbsp;<\/span>",
       "A": "Rōmaji: wi"
     },
     {
       "id": "h46",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_ゑ_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ゑ&nbsp;<\/span>",
       "A": "Rōmaji: we"
     },
     {
       "id": "h47",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_を_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;を&nbsp;<\/span>",
       "A": "Rōmaji: (w)o"
     },
     {
       "id": "h48",
       "answer": "A",
-      "question": "",
-      "image": "hiragana/Hiragana_ん_stroke_order_animation.gif",
-      "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
+      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ん&nbsp;<\/span>",
       "A": "Rōmaji: n"
     }
   ]
