@@ -505,7 +505,7 @@ function setupCard() {
   } 
 
   questionRow = test[window.questionRowNum];
-  if (questionRow.B == "") {
+  if (questionRow.B == "" | !questionRow.hasOwnProperty("B")) {
 	window.multipleChoice = false;
   }
 
