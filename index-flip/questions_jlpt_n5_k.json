@@ -421,264 +421,177 @@
     },
     {
       "id": "JLPT N5 Kanji 8 Stroke",
-      "answer": "C",
+      "answer": "A",
       "question": "What JLPT N5 Kanji is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #44FF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;国&nbsp;<\/span>",
-      "A": "long",
-      "B": "east",
-      "C": "country",
-      "D": "gold"
+      "A": "country"
     },
     {
       "id": "JLPT N5 Kanji 8 Stroke",
       "answer": "A",
       "question": "What JLPT N5 Kanji is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #44FF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;長&nbsp;<\/span>",
-      "A": "long",
-      "B": "east",
-      "C": "country",
-      "D": "gold"
+      "A": "long"
     },
     {
       "id": "JLPT N5 Kanji 8 Stroke",
-      "answer": "B",
+      "answer": "A",
       "question": "What JLPT N5 Kanji is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #44FF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;東&nbsp;<\/span>",
-      "A": "long",
-      "B": "east",
-      "C": "country",
-      "D": "gold"
+      "A": "east"
     },
     {
       "id": "JLPT N5 Kanji 8 Stroke",
-      "answer": "D",
+      "answer": "A",
       "question": "What JLPT N5 Kanji is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #44FF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;金&nbsp;<\/span>",
-      "A": "long",
-      "B": "east",
-      "C": "country",
-      "D": "gold"
+      "A": "gold"
     },
     {
       "id": "JLPT N5 Kanji 8 Stroke",
-      "answer": "C",
+      "answer": "A",
       "question": "What JLPT N5 Kanji is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #44FF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;学&nbsp;<\/span>",
-      "A": "rain",
-      "B": "sky; empty",
-      "C": "study; learn",
-      "D": "store"
+      "A": "study; learn"
     },
     {
       "id": "JLPT N5 Kanji 8 Stroke",
-      "answer": "B",
+      "answer": "A",
       "question": "What JLPT N5 Kanji is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #44FF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;空&nbsp;<\/span>",
-      "A": "rain",
-      "B": "sky; empty",
-      "C": "study; learn",
-      "D": "store"
+      "A": "sky; empty"
     },
     {
       "id": "JLPT N5 Kanji 8 Stroke",
-      "answer": "D",
+      "answer": "A",
       "question": "What JLPT N5 Kanji is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #44FF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;店&nbsp;<\/span>",
-      "A": "rain",
-      "B": "sky; empty",
-      "C": "study; learn",
-      "D": "store"
+      "A": "store"
     },
     {
       "id": "JLPT N5 Kanji 8 Stroke",
       "answer": "A",
       "question": "What JLPT N5 Kanji is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #44FF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;雨&nbsp;<\/span>",
-      "A": "rain",
-      "B": "sky; empty",
-      "C": "study; learn",
-      "D": "store"
+      "A": "rain"
     },
     {
       "id": "JLPT N5 Kanji 9 Stroke",
-      "answer": "D",
+      "answer": "A",
       "question": "What JLPT N5 Kanji is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #4499FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;後&nbsp;<\/span>",
-      "A": "before; front",
-      "B": "eat",
-      "C": "south",
-      "D": "after; behind"
+      "A": "after; behind"
     },
     {
       "id": "JLPT N5 Kanji 9 Stroke",
       "answer": "A",
       "question": "What JLPT N5 Kanji is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #4499FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;前&nbsp;<\/span>",
-      "A": "before; front",
-      "B": "eat",
-      "C": "south",
-      "D": "after; behind"
+      "A": "before; front"
     },
     {
       "id": "JLPT N5 Kanji 9 Stroke",
-      "answer": "B",
+      "answer": "A",
       "question": "What JLPT N5 Kanji is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #4499FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;食&nbsp;<\/span>",
-      "A": "before; front",
-      "B": "eat",
-      "C": "south",
-      "D": "after; behind"
+      "A": "eat"
     },
     {
       "id": "JLPT N5 Kanji 9 Stroke",
-      "answer": "C",
+      "answer": "A",
       "question": "What JLPT N5 Kanji is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #4499FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;南&nbsp;<\/span>",
-      "A": "before; front",
-      "B": "eat",
-      "C": "south",
-      "D": "after; behind"
+      "A": "south"
     },
     {
       "id": "JLPT N5 Kanji 10 Stroke",
-      "answer": "B",
+      "answer": "A",
       "question": "What JLPT N5 Kanji is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF4499; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;時&nbsp;<\/span>",
-      "A": "high",
-      "B": "hour",
-      "C": "school",
-      "D": "write"
+      "A": "hour"
     },
     {
       "id": "JLPT N5 Kanji 10 Stroke",
       "answer": "A",
       "question": "What JLPT N5 Kanji is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF4499; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;高&nbsp;<\/span>",
-      "A": "high",
-      "B": "hour",
-      "C": "school",
-      "D": "write"
+      "A": "high"
     },
     {
       "id": "JLPT N5 Kanji 10 Stroke",
-      "answer": "D",
+      "answer": "A",
       "question": "What JLPT N5 Kanji is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF4499; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;書&nbsp;<\/span>",
-      "A": "high",
-      "B": "hour",
-      "C": "school",
-      "D": "write"
+      "A": "write"
     },
     {
       "id": "JLPT N5 Kanji 10 Stroke",
-      "answer": "C",
+      "answer": "A",
       "question": "What JLPT N5 Kanji is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF4499; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;校&nbsp;<\/span>",
-      "A": "high",
-      "B": "hour",
-      "C": "school",
-      "D": "write"
+      "A": "school"
     },
     {
       "id": "JLPT N5 Kanji 11 Stroke",
-      "answer": "C",
+      "answer": "A",
       "question": "What JLPT N5 Kanji is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9944FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;魚&nbsp;<\/span>",
-      "A": "write",
-      "B": "school",
-      "C": "fish",
-      "D": "week"
+      "A": "fish"
     },
     {
       "id": "JLPT N5 Kanji 12 Stroke",
-      "answer": "D",
+      "answer": "A",
       "question": "What JLPT N5 Kanji is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9944; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;週&nbsp;<\/span>",
-      "A": "between",
-      "B": "buy",
-      "C": "way",
-      "D": "week"
+      "A": "week"
     },
     {
       "id": "JLPT N5 Kanji 12 Stroke",
-      "answer": "C",
+      "answer": "A",
       "question": "What JLPT N5 Kanji is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9944; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;道&nbsp;<\/span>",
-      "A": "between",
-      "B": "buy",
-      "C": "way",
-      "D": "week"
+      "A": "way"
     },
     {
       "id": "JLPT N5 Kanji 12 Stroke",
       "answer": "A",
       "question": "What JLPT N5 Kanji is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9944; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;間&nbsp;<\/span>",
-      "A": "between",
-      "B": "buy",
-      "C": "way",
-      "D": "week"
+      "A": "between"
     },
     {
       "id": "JLPT N5 Kanji 12 Stroke",
-      "answer": "B",
+      "answer": "A",
       "question": "What JLPT N5 Kanji is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9944; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;買&nbsp;<\/span>",
-      "A": "between",
-      "B": "buy",
-      "C": "way",
-      "D": "drink"
+      "A": "buy"
     },
     {
       "id": "JLPT N5 Kanji 12 Stroke",
-      "answer": "D",
+      "answer": "A",
       "question": "What JLPT N5 Kanji is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9944; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;飲&nbsp;<\/span>",
-      "A": "between",
-      "B": "buy",
-      "C": "way",
-      "D": "drink"
+      "A": "drink"
     },
     {
       "id": "JLPT N5 Kanji 13 Stroke",
-      "answer": "C",
+      "answer": "A",
       "question": "What JLPT N5 Kanji is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FF44; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;新&nbsp;<\/span>",
-      "A": "eletricity",
-      "B": "talk; speak",
-      "C": "new",
-      "D": "language"
+      "A": "new"
     },
     {
       "id": "JLPT N5 Kanji 13 Stroke",
-      "answer": "B",
+      "answer": "A",
       "question": "What JLPT N5 Kanji is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FF44; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;話&nbsp;<\/span>",
-      "A": "eletricity",
-      "B": "talk; speak",
-      "C": "new",
-      "D": "language"
+      "A": "talk; speak"
     },
     {
       "id": "JLPT N5 Kanji 13 Stroke",
       "answer": "A",
       "question": "What JLPT N5 Kanji is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FF44; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;電&nbsp;<\/span>",
-      "A": "eletricity",
-      "B": "talk; speak",
-      "C": "new",
-      "D": "language"
+      "A": "eletricity"
     },
     {
       "id": "JLPT N5 Kanji 14 Stroke",
-      "answer": "D",
+      "answer": "A",
       "question": "What JLPT N5 Kanji is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF4444; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;語&nbsp;<\/span>",
-      "A": "eletricity",
-      "B": "talk; speak",
-      "C": "new",
-      "D": "language"
+      "A": "language"
     },
     {
       "id": "JLPT N5 Kanji 14 Stroke",
       "answer": "A",
       "question": "What JLPT N5 Kanji is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF4444; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;聞&nbsp;<\/span>",
-      "A": "hear;listen",
-      "B": "station",
-      "C": "read",
-      "D": "language"
+      "A": "hear;listen"
     },
     {
       "id": "JLPT N5 Kanji 14 Stroke",
-      "answer": "C",
+      "answer": "A",
       "question": "What JLPT N5 Kanji is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF4444; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;読&nbsp;<\/span>",
-      "A": "hear;listen",
-      "B": "station",
-      "C": "read",
-      "D": "language"
+      "A": "read"
     },
     {
       "id": "JLPT N5 Kanji 14 Stroke",
-      "answer": "B",
+      "answer": "A",
       "question": "What JLPT N5 Kanji is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF4444; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;駅&nbsp;<\/span>",
-      "A": "hear;listen",
-      "B": "station",
-      "C": "read",
-      "D": "language"
+      "A": "station"
     }
   ]
 }
