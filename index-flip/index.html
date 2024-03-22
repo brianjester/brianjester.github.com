@@ -46,6 +46,9 @@
           <a class="nav-link active" id="music_link" aria-current="page" href="#" onclick="loadMusicQuestions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">Music Notes</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link active" id="braille_link" aria-current="page" href="#" onclick="loadBrailleQuestions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">Braille</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link active" id="calif_dmv_c_link" aria-current="page" href="#" onclick="loadCaDmvQuestions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">🇺🇸 Calif DMV</a>
         </li>
         <li class="nav-item">
@@ -196,7 +199,7 @@ document.getElementById("calif_dre_link").className = "nav-link disabled";
 const url = new URL(window.location.href);
 const searchParams = url.searchParams;
 const test = searchParams.get('q'); // 'test'
-const tests = ['calif_dmv','ny_dmv','fcc_tech','ca_basic','calif_dre','jp_2','jp_hira','jp_kata','jp_kanji_1','music','aws_ml','morse', 'asl', 'baybayin', 'periodic', 'n5k', 'n5v'];
+const tests = ['calif_dmv','ny_dmv','fcc_tech','ca_basic','calif_dre','jp_2','jp_hira','jp_kata','jp_kanji_1','music','aws_ml','morse', 'asl', 'baybayin', 'periodic', 'n5k', 'n5v', 'braille'];
 if (tests.includes(test)) {
 	switch (test) {
 	  case 'calif_dmv':
@@ -249,6 +252,9 @@ if (tests.includes(test)) {
 		break;
 	  case 'n5k':
 		loadJlptN5VocabQuestions();
+		break;
+	  case 'braille':
+		loadBrailleQuestions();
 		break;
 	  default:
 		loadWelcome();
@@ -421,6 +427,15 @@ async function loadBaybayinQuestions() {
   window.json = await fetch('https://brianjester.github.io/index-flip/questions_baybayin.json').then(response => { return response.json() });
   postInit();
 }
+async function loadBrailleQuestions() {
+  gtag('event', 'page_view', {
+    "page_title": "loadBrailleQuestions",
+    });
+  resetNavLinks();
+  document.getElementById("braille_link").className = "nav-link active";
+  window.json = await fetch('https://brianjester.github.io/index-flip/questions_braille.json').then(response => { return response.json() });
+  postInit();
+}
 
 async function loadPeriodicQuestions() {
   gtag('event', 'page_view', {
@@ -452,6 +467,7 @@ function resetNavLinks() {
   document.getElementById("create_cards_link").className = "nav-link";
   document.getElementById("load_cards_link").className = "nav-link";
   document.getElementById("periodic_link").className = "nav-link";
+  document.getElementById("braille_link").className = "nav-link";
 }
 
 function postInit() {
