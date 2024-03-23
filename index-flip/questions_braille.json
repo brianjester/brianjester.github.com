@@ -17,7 +17,7 @@
       "question": "What Braille letter or number is this?",
       "image": "braille/a1.png", 
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
-      "A": "A",
+      "A": "A/1",
       "B": "",
       "C": "",
       "D": ""
@@ -28,7 +28,7 @@
       "question": "What Braille letter or number is this?",
       "image": "braille/b2.png", 
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
-      "A": "B",
+      "A": "B/2",
       "B": "",
       "C": "",
       "D": ""
@@ -39,7 +39,7 @@
       "question": "What Braille letter or number is this?",
       "image": "braille/c3.png", 
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
-      "A": "C",
+      "A": "C/3",
       "B": "",
       "C": "",
       "D": ""
@@ -50,7 +50,7 @@
       "question": "What Braille letter or number is this?",
       "image": "braille/d4.png", 
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
-      "A": "D",
+      "A": "D/4",
       "B": "",
       "C": "",
       "D": ""
@@ -61,7 +61,7 @@
       "question": "What Braille letter or number is this?",
       "image": "braille/e5.png", 
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
-      "A": "E",
+      "A": "E/5",
       "B": "",
       "C": "",
       "D": ""
@@ -72,7 +72,7 @@
       "question": "What Braille letter or number is this?",
       "image": "braille/f6.png", 
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
-      "A": "F",
+      "A": "F/6",
       "B": "",
       "C": "",
       "D": ""
@@ -83,7 +83,7 @@
       "question": "What Braille letter or number is this?",
       "image": "braille/g7.png", 
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
-      "A": "G",
+      "A": "G/7",
       "B": "",
       "C": "",
       "D": ""
@@ -94,7 +94,7 @@
       "question": "What Braille letter or number is this?",
       "image": "braille/h8.png", 
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
-      "A": "H",
+      "A": "H/8",
       "B": "",
       "C": "",
       "D": ""
@@ -105,7 +105,7 @@
       "question": "What Braille letter or number is this?",
       "image": "braille/i9.png", 
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
-      "A": "I",
+      "A": "I/9",
       "B": "",
       "C": "",
       "D": ""
@@ -116,7 +116,7 @@
       "question": "What Braille letter or number is this?",
       "image": "braille/j0.png", 
       "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
-      "A": "J",
+      "A": "J/0",
       "B": "",
       "C": "",
       "D": ""
