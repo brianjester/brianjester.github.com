@@ -181,6 +181,7 @@
 const NEW_CARD = false;  // Create Cards and Load Cards menu items
 const PERIODIC = true;  // Show Periodic table menu items
 var show_morse = false; // Show Morse Code dots and dashes (controlled by morse-text class
+window.skip_list = ["T1Q9999"];
 if(!NEW_CARD) {
 	  document.getElementById("create_cards_link").innerHTML = " ";
 	  document.getElementById("load_cards_link").innerHTML = " ";
@@ -492,8 +493,12 @@ function randomize() {
 }
 
 function backOne() {
+  const test = window.json.test;  // top level node is test
   window.order = "back-one";  // not actually used anywhere
   window.questionRowNum = (window.questionRowNum == 0) ? 0 : window.questionRowNum = window.questionRowNum -1;
+  while (window.skip_list.includes(test[window.questionRowNum].id)) {
+	window.questionRowNum = (window.questionRowNum == 0) ? 0 : window.questionRowNum = window.questionRowNum -1;
+  }
   setupCard();
   window.order = "inOrder";
 }
@@ -512,7 +517,10 @@ function setupCard() {
 
   if (window.order == "inOrder") {
     if (window.questionRowNum < numQuestions-1) {
-      window.questionRowNum++;
+	  window.questionRowNum++;
+	  while (window.skip_list.includes(test[window.questionRowNum].id)) {
+	  	window.questionRowNum++;
+	  }
     } else {
       window.questionRowNum = 0;
     }
