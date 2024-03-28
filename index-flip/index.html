@@ -109,6 +109,7 @@
               <button id="order-btn" class="btn btn-primary btn-med me-md-2" type="button" onclick="setupOrder()">◀️◀️</button>
               <button id="back-one-btn" class="btn btn-primary btn-med me-md-2" type="button" onclick="backOne()">◀️</button>
               <button id="random-btn" class="btn btn-primary btn-med me-md-2" type="button" onclick="randomize()">🎲</button>
+              <button id="skip-btn" class="btn btn-primary btn-med me-md-2" type="button" onclick="skip()">☠️</button>
               <button id="next-btn-1" class="btn btn-primary btn-med" type="button" onclick="setupCard()"> </button>
             </row>
           </div>
@@ -181,7 +182,7 @@
 const NEW_CARD = false;  // Create Cards and Load Cards menu items
 const PERIODIC = true;  // Show Periodic table menu items
 var show_morse = false; // Show Morse Code dots and dashes (controlled by morse-text class
-window.skip_list = ["T1Q9999"];
+window.skip_list = [""];
 if(!NEW_CARD) {
 	  document.getElementById("create_cards_link").innerHTML = " ";
 	  document.getElementById("load_cards_link").innerHTML = " ";
@@ -472,6 +473,7 @@ function resetNavLinks() {
 }
 
 function postInit() {
+  window.skip_list = [""];
   setupPage();
   setupOrder();
 }
@@ -501,6 +503,11 @@ function backOne() {
   }
   setupCard();
   window.order = "inOrder";
+}
+function skip() {
+  const test = window.json.test;  // top level node is test
+  window.skip_list.push(test[window.questionRowNum].id)
+  setupCard();
 }
 
 function setupCard() {
