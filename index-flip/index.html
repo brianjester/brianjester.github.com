@@ -266,9 +266,6 @@ if (tests.includes(test)) {
 }
 
 async function loadWelcome() {
-  gtag('event', 'page_view', {
-    "page_title": "loadWelcome",
-    });
   resetNavLinks();
   window.json = await fetch('https://brianjester.github.io/index-flip/welcome.json').then(response => { return response.json() });
   postInit();
