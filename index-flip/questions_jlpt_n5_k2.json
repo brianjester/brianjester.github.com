@@ -1,60 +1,60 @@
 {
-  "title": "JLPT (Japanese Language Proficiency Test) N5 Kanji/English (97 cards)",
+  "title": "JLPT (Japanese Language Proficiency Test) N5 Kanji/ひらがな (97 cards)",
   "ref": "https://www.jlpt.jp/e/index.html",
   "test": [
     {
       "id": "k1",
       "answer": "A",
       "question": "<span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;一&nbsp;<\/span>",
-      "A": "1"
+      "A": "いち / ひと(つ)"
     },
     {
       "id": "k2",
       "answer": "A",
       "question": "<span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9999FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;七&nbsp;<\/span>",
-      "A": "7"
+      "A": "しち / なな(つ)"
     },
     {
       "id": "k3",
       "answer": "A",
       "question": "<span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9999FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;十&nbsp;<\/span>",
-      "A": "10"
+      "A": "じゅう / とう"
     },
     {
       "id": "k4",
       "answer": "A",
       "question": "<span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9999FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;二&nbsp;<\/span>",
-      "A": "2"
+      "A": "に / ふた(つ)"
     },
     {
       "id": "k5",
       "answer": "A",
       "question": "<span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9999FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;入&nbsp;<\/span>",
-      "A": "enter / go in"
+      "A": "にゅう / はい(る), い(れる)"
     },
     {
       "id": "k6",
       "answer": "A",
       "question": "<span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9999FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;八&nbsp;<\/span>",
-      "A": "8"
+      "A": "はち / や(っつ)"
     },
     {
       "id": "k7",
       "answer": "A",
       "question": "<span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;大&nbsp;<\/span>",
-      "A": "big"
+      "A": "だい, たい / おお(きい)"
     },
     {
       "id": "k8",
       "answer": "A",
       "question": "<span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;三&nbsp;<\/span>",
-      "A": "3"
+      "A": "さん / み(っつ)"
     },
     {
       "id": "k9",
       "answer": "A",
       "question": "<span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;子&nbsp;<\/span>",
-      "A": "child"
+      "A": "し / こ"
     },
     {
       "id": "k10",
