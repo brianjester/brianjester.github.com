@@ -1,212 +1,203 @@
 {
-  "title": "🇯🇵 Hiragana/ひらがな",
+  "title": "🇯🇵 Hiragana/ひらがな (48 cards)",
   "ref": "https://en.wikipedia.org/wiki/Hiragana",
   "test": [
     {
-      "id": "Introduction",
-      "answer": "C",
-      "question": "<p>This Hiragana test bank has 48 symbols.<HR> <p><B>⟳IndexFlip buttons</B> <p>Restart:◀️◀️ <p>Previous:◀️ <p>Random:🎲 <p>Skip:☠️ <p>Next:▶️<HR><p> <B>About<\/B><ul><li> <A HREF=\"https://www.youtube.com/playlist?list=PLzqFPv5zpmmyu3EYc9IzNJ8fUONPtsZ7O\">IndexFlip Demo Videos<\/A><li><A HREF=\"https://github.com/brianjester/brianjester.github.com/issues\">Need to file a bug\/feature request?<\/A><li><a href=\"https://ko-fi.com/J3J7UOXY0\" target=\"_blank\"><img height=\"36\" style=\"border:0px;height:36px;\" src=\"https://storage.ko-fi.com/cdn/kofi2.png?v=3\" border=\"0\" alt=\"Buy Me a Coffee at ko-fi.com\" \/><\/a><\/ul>",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    {
       "id": "h1",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;あ&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;あ&nbsp;<\/span>",
       "A": "a"
     },
     {
       "id": "h2",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;い&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;い&nbsp;<\/span>",
       "A": "i"
     },
     {
       "id": "h3",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;う&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;う&nbsp;<\/span>",
       "A": "u"
     },
     {
       "id": "h4",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;え&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;え&nbsp;<\/span>",
       "A": "e"
     },
     {
       "id": "h5",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;お&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF9999; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;お&nbsp;<\/span>",
       "A": "o"
     },
     {
       "id": "h6",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;か&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;か&nbsp;<\/span>",
       "A": "ka"
     },
     {
       "id": "h7",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;き&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;き&nbsp;<\/span>",
       "A": "ki"
     },
     {
       "id": "h8",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;く&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;く&nbsp;<\/span>",
       "A": "ku"
     },
     {
       "id": "h9",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;け&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;け&nbsp;<\/span>",
       "A": "ke"
     },
     {
       "id": "h10",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;こ&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFFF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;こ&nbsp;<\/span>",
       "A": "ko"
     },
     {
       "id": "h11",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;さ&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;さ&nbsp;<\/span>",
       "A": "sa"
     },
     {
       "id": "h12",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;し&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;し&nbsp;<\/span>",
       "A": "shi"
     },
     {
       "id": "h13",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;す&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;す&nbsp;<\/span>",
       "A": "su"
     },
     {
       "id": "h14",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;せ&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;せ&nbsp;<\/span>",
       "A": "se"
     },
     {
       "id": "h15",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;そ&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FF99; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;そ&nbsp;<\/span>",
       "A": "so"
     },
     {
       "id": "h16",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF99FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;た&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF99FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;た&nbsp;<\/span>",
       "A": "ta"
     },
     {
       "id": "h17",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF99FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ち&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF99FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ち&nbsp;<\/span>",
       "A": "chi"
     },
     {
       "id": "h18",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF99FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;つ&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF99FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;つ&nbsp;<\/span>",
       "A": "tsu"
     },
     {
       "id": "h19",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF99FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;て&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF99FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;て&nbsp;<\/span>",
       "A": "te"
     },
     {
       "id": "h20",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF99FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;と&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FF99FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;と&nbsp;<\/span>",
       "A": "to"
     },
     {
       "id": "h21",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9999FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;な&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9999FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;な&nbsp;<\/span>",
       "A": "na"
     },
     {
       "id": "h22",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9999FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;に&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9999FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;に&nbsp;<\/span>",
       "A": "ni"
     },
     {
       "id": "h23",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9999FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ぬ&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9999FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ぬ&nbsp;<\/span>",
       "A": "nu"
     },
     {
       "id": "h24",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9999FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ね&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9999FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ね&nbsp;<\/span>",
       "A": "ne"
     },
     {
       "id": "h25",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9999FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;の&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #9999FF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;の&nbsp;<\/span>",
       "A": "no"
     },
     {
       "id": "h26",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FFFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;は&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FFFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;は&nbsp;<\/span>",
       "A": "ha"
     },
     {
       "id": "h27",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FFFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ひ&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FFFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ひ&nbsp;<\/span>",
       "A": "hi"
     },
     {
       "id": "h28",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FFFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ふ&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FFFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ふ&nbsp;<\/span>",
       "A": "fu"
     },
     {
       "id": "h29",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FFFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;へ&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FFFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;へ&nbsp;<\/span>",
       "A": "he"
     },
     {
       "id": "h30",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FFFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ほ&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #99FFFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ほ&nbsp;<\/span>",
       "A": "ho"
     },
     {
       "id": "h31",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFCCCC; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ま&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFCCCC; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ま&nbsp;<\/span>",
       "A": "ma"
     },
     {
       "id": "h32",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFCCCC; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;み&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFCCCC; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;み&nbsp;<\/span>",
       "A": "mi"
     },
     {
       "id": "h33",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFCCCC; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;む&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFCCCC; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;む&nbsp;<\/span>",
       "image": "hiragana/Hiragana_む_stroke_order_animation.gif",
       "attribution": "By Sirgazil - Own work, CC0, https://commons.wikimedia.org",
       "A": "mu"
@@ -214,91 +205,91 @@
     {
       "id": "h34",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFCCCC; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;め&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFCCCC; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;め&nbsp;<\/span>",
       "A": "me"
     },
     {
       "id": "h35",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFCCCC; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;も&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFCCCC; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;も&nbsp;<\/span>",
       "A": "mo"
     },
     {
       "id": "h36",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #CCFFCC; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;や&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #CCFFCC; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;や&nbsp;<\/span>",
       "A": "ya"
     },
     {
       "id": "h37",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #CCFFCC; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ゆ&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #CCFFCC; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ゆ&nbsp;<\/span>",
       "A": "yu"
     },
     {
       "id": "h38",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #CCFFCC; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;よ&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #CCFFCC; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;よ&nbsp;<\/span>",
       "A": "yo"
     },
     {
       "id": "h39",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #CCCCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ら&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #CCCCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ら&nbsp;<\/span>",
       "A": "ra"
     },
     {
       "id": "h40",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #CCCCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;り&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #CCCCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;り&nbsp;<\/span>",
       "A": "ri"
     },
     {
       "id": "h41",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #CCCCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;る&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #CCCCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;る&nbsp;<\/span>",
       "A": "ru"
     },
     {
       "id": "h42",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #CCCCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;れ&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #CCCCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;れ&nbsp;<\/span>",
       "A": "re"
     },
     {
       "id": "h43",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #CCCCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ろ&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #CCCCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ろ&nbsp;<\/span>",
       "A": "ro"
     },
     {
       "id": "h44",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFCCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;わ&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFCCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;わ&nbsp;<\/span>",
       "A": "wa"
     },
     {
       "id": "h45",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFCCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ゐ&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFCCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ゐ&nbsp;<\/span>",
       "A": "wi"
     },
     {
       "id": "h46",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFCCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ゑ&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFCCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ゑ&nbsp;<\/span>",
       "A": "we"
     },
     {
       "id": "h47",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFCCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;を&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFCCFF; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;を&nbsp;<\/span>",
       "A": "(w)o"
     },
     {
       "id": "h48",
       "answer": "A",
-      "question": "What hiragana is this?<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFFFCC; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ん&nbsp;<\/span>",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 400%; vertical-align: 1.5ex; background-color: #FFFFCC; border:3px solid; white-space: pre-wrap; display: block; text-align: center;\">&nbsp;ん&nbsp;<\/span>",
       "A": "n"
     }
   ]
