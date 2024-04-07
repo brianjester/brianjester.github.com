@@ -37,7 +37,10 @@
           <a class="nav-link active" id="jp_kata_link" aria-current="page" href="#" onclick="loadJpKataQuestions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">🇯🇵 Katakana</a>
         </li>
 		<li class="nav-item">
-          <a class="nav-link active" id="jlpt_n5_k_link" aria-current="page" href="#" onclick="loadJlptN5KanjiQuestions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">🇯🇵 JLPT N5 Kanji</a>
+          <a class="nav-link active" id="jlpt_n5_k_link" aria-current="page" href="#" onclick="loadJlptN5KanjiQuestions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">🇯🇵 JLPT N5 Kanji/Eng</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link active" id="jlpt_n5_k2_link" aria-current="page" href="#" onclick="loadJlptN5Kanji2Questions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">🇯🇵 JLPT N5 Kanji/Hira</a>
         </li>
 		<li class="nav-item">
           <a class="nav-link active" id="jlpt_n5_v_link" aria-current="page" href="#" onclick="loadJlptN5VocabQuestions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">🇯🇵 JLPT N5 Vocab</a>
@@ -201,7 +204,7 @@ document.getElementById("calif_dre_link").className = "nav-link disabled";
 const url = new URL(window.location.href);
 const searchParams = url.searchParams;
 const test = searchParams.get('q'); // 'test'
-const tests = ['calif_dmv','ny_dmv','fcc_tech','ca_basic','calif_dre','jp_2','jp_hira','jp_kata','jp_kanji_1','music','aws_ml','morse', 'asl', 'baybayin', 'periodic', 'n5k', 'n5v', 'braille'];
+const tests = ['calif_dmv','ny_dmv','fcc_tech','ca_basic','calif_dre','jp_2','jp_hira','jp_kata','jp_kanji_1','music','aws_ml','morse', 'asl', 'baybayin', 'periodic', 'n5k', 'n5k2', 'n5v', 'braille'];
 if (tests.includes(test)) {
 	switch (test) {
 	  case 'calif_dmv':
@@ -253,6 +256,9 @@ if (tests.includes(test)) {
 		loadJlptN5KanjiQuestions();
 		break;
 	  case 'n5k':
+		loadJlptN5VocabQuestions();
+		break;
+	  case 'n5k2':
 		loadJlptN5VocabQuestions();
 		break;
 	  case 'braille':
@@ -360,11 +366,20 @@ async function loadJpK1Questions() {
 }
 async function loadJlptN5KanjiQuestions() {
   gtag('event', 'page_view', {
-    "page_title": "loadJlptN5KanjiQuestions",
+    "page_title": "loadJlptN5KanjiEngQuestions",
     });
   resetNavLinks();
   document.getElementById("jlpt_n5_k_link").className = "nav-link active";
   window.json = await fetch('https://brianjester.github.io/index-flip/questions_jlpt_n5_k.json').then(response => { return response.json() });
+  postInit();
+}
+async function loadJlptN5KanjiQuestions() {
+  gtag('event', 'page_view', {
+    "page_title": "loadJlptN5KanjiHiraQuestions",
+    });
+  resetNavLinks();
+  document.getElementById("jlpt_n5_k2_link").className = "nav-link active";
+  window.json = await fetch('https://brianjester.github.io/index-flip/questions_jlpt_n5_k2.json').then(response => { return response.json() });
   postInit();
 }
 async function loadJlptN5VocabQuestions() {
@@ -455,6 +470,7 @@ function resetNavLinks() {
   document.getElementById("jp_2_link").className = "nav-link";
   document.getElementById("jp_kanji_1_link").className = "nav-link";
   document.getElementById("jlpt_n5_k_link").className = "nav-link";
+  document.getElementById("jlpt_n5_k2_link").className = "nav-link";
   document.getElementById("jlpt_n5_v_link").className = "nav-link";
   document.getElementById("jp_hira_link").className = "nav-link";
   document.getElementById("jp_kata_link").className = "nav-link";
