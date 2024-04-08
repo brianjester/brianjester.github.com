@@ -334,174 +334,117 @@
     },
     {
       "id": "C4",
-      "answer": "C",
+      "answer": "A",
       "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #FF99FF; white-space: pre-wrap; display: block; text-align: center;\">違う【ちがう】<\/span>",
-      "A": "A. rice bowl",
-      "B": "B. father",
-      "C": "C. to differ",
-      "D": "D. little"
+      "A": "to differ"
     },
     {
       "id": "C5",
-      "answer": "D",
+      "answer": "A",
       "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #FF99FF; white-space: pre-wrap; display: block; text-align: center;\">小さい【ちいさい】<\/span>",
-      "A": "A. rice bowl",
-      "B": "B. father",
-      "C": "C. to differ",
-      "D": "D. little"
+      "A": "little"
     },
     {
       "id": "C6",
       "answer": "A",
       "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #FF99FF; white-space: pre-wrap; display: block; text-align: center;\">近い【ちかい】<\/span>",
-      "A": "A. near",
-      "B": "B. subway",
-      "C": "C. map",
-      "D": "D. exactly"
+      "A": "near"
     },
     {
       "id": "C6",
-      "answer": "B",
+      "answer": "A",
       "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #FF99FF; white-space: pre-wrap; display: block; text-align: center;\">地下鉄【ちかてつ】<\/span>",
-      "A": "A. near",
-      "B": "B. subway",
-      "C": "C. map",
-      "D": "D. exactly"
+      "A": "subway"
     },
     {
       "id": "C6",
-      "answer": "C",
+      "answer": "A",
       "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #FF99FF; white-space: pre-wrap; display: block; text-align: center;\">地図【ちず】<\/span>",
-      "A": "A. near",
-      "B": "B. subway",
-      "C": "C. map",
-      "D": "D. exactly"
+      "A": "map"
     },
     {
       "id": "C6",
-      "answer": "D",
+      "answer": "A",
       "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #FF99FF; white-space: pre-wrap; display: block; text-align: center;\">ちょうど<\/span>",
-      "A": "A. near",
-      "B": "B. subway",
-      "C": "C. map",
-      "D": "D. just/exactly"
+      "A": "just/exactly"
     },
     {
       "id": "C7",
       "answer": "A",
       "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #FF99FF; white-space: pre-wrap; display: block; text-align: center;\">ちょっと<\/span>",
-      "A": "A. a little/somewhat",
-      "B": "B. kitchen",
-      "C": "C. university",
-      "D": "D. all right"
+      "A": "a little/somewhat"
     },
     {
       "id": "D1",
       "answer": "A",
       "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">台所【だいどころ】<\/span>",
-      "A": "A. kitchen",
-      "B": "B. university",
-      "C": "C. all right",
-      "D": "D. very likeable"
+      "A": "kitchen"
     },
     {
       "id": "D2",
-      "answer": "B",
+      "answer": "A",
       "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">大学【だいがく】<\/span>",
-      "A": "A. kitchen",
-      "B": "B. university",
-      "C": "C. all right",
-      "D": "D. very likeable"
+      "A": "university"
     },
     {
       "id": "D3",
-      "answer": "C",
+      "answer": "A",
       "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">大丈夫【だいじょうぶ】<\/span>",
-      "A": "A. kitchen",
-      "B": "B. university",
-      "C": "C. all right",
-      "D": "D. very likeable"
+      "A": "all right"
     },
     {
       "id": "D4",
-      "answer": "D",
+      "answer": "A",
       "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">大好き【だいすき】<\/span>",
-      "A": "A. kitchen",
-      "B": "B. university",
-      "C": "C. all right",
-      "D": "D. very likeable"
+      "A": "very likeable"
     },
     {
       "id": "D5",
       "answer": "A",
       "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">だんだん<\/span>",
-      "A": "A. gradually",
-      "B": "B. who",
-      "C": "C. somebody",
-      "D": "D. take out/hand in"
+      "A": "gradually"
     },
     {
       "id": "D6",
-      "answer": "B",
+      "answer": "A",
       "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">誰【だれ】<\/span>",
-      "A": "A. gradually",
-      "B": "B. who",
-      "C": "C. somebody",
-      "D": "D. take out/hand in"
+      "A": "who"
     },
     {
       "id": "D7",
-      "answer": "C",
+      "answer": "A",
       "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">誰か【だれか】<\/span>",
-      "A": "A. gradually",
-      "B": "B. who",
-      "C": "C. somebody",
-      "D": "D. take out/hand in"
+      "A": "somebody"
     },
     {
       "id": "D8",
-      "answer": "D",
+      "answer": "A",
       "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">出す【だす】<\/span>",
-      "A": "A. gradually",
-      "B": "B. who",
-      "C": "C. somebody",
-      "D": "D. take out/hand in"
+      "A": "take out/hand in"
     },
     {
       "id": "D9",
       "answer": "A",
       "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">出口【でぐち】<\/span>",
-      "A": "A. exit",
-      "B": "B. to go out",
-      "C": "C. to be able to",
-      "D": "D. but"
+      "A": "exit"
     },
     {
       "id": "D10",
-      "answer": "B",
+      "answer": "A",
       "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">出かける【でかける】<\/span>",
-      "A": "A. exit",
-      "B": "B. to go out",
-      "C": "C. to be able to",
-      "D": "D. but"
+      "A": "to go out"
     },
     {
       "id": "D11",
-      "answer": "C",
+      "answer": "A",
       "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">出来る【できる】<\/span>",
-      "A": "A. exit",
-      "B": "B. to go out",
-      "C": "C. to be able to",
-      "D": "D. but"
+      "A": "to be able to"
     },
     {
       "id": "D12",
-      "answer": "D",
+      "answer": "A",
       "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">でも<\/span>",
-      "A": "A. exit",
-      "B": "B. to go out",
-      "C": "C. to be able to",
-      "D": "D. but"
+      "A": "but"
     }
   ]
 }
