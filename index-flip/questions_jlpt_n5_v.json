@@ -445,6 +445,48 @@
       "answer": "A",
       "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">でも<\/span>",
       "A": "but"
+    },
+    {
+      "id": "D13",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">電【でん】<\/span>",
+      "A": "electricity"
+    },
+    {
+      "id": "D14",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">電車【でんしゃ】<\/span>",
+      "A": "(electric) train"
+    },
+    {
+      "id": "D15",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">電話【でんわ】<\/span>",
+      "A": "telephone"
+    },
+    {
+      "id": "D16",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">デパート<\/span>",
+      "A": "department store"
+    },
+    {
+      "id": "D17",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">出る【でる】<\/span>",
+      "A": "appear"
+    },
+    {
+      "id": "D18",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">では<\/span>",
+      "A": "with that"
+    },
+    {
+      "id": "D19",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">ドア<\/span>",
+      "A": "door"
     }
   ]
 }
