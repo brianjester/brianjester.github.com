@@ -685,6 +685,108 @@
       "answer": "A",
       "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">冬【ふゆ】く<\/span>",
       "A": "winter"
+    },
+    {
+      "id": "G1",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">外国【がいこく】く<\/span>",
+      "A": "foreign country"
+    },
+    {
+      "id": "G2",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">外国人【がいこくじん】く<\/span>",
+      "A": "foreigner"
+    },
+    {
+      "id": "G3",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">学校【がっこう】く<\/span>",
+      "A": "school"
+    },
+    {
+      "id": "G4",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">学生【がくせい】く<\/span>",
+      "A": "student"
+    },
+    {
+      "id": "G5",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">玄関【げんかん】く<\/span>",
+      "A": "entry hall"
+    },
+    {
+      "id": "G6",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">元気【げんき】く<\/span>",
+      "A": "health(y)"
+    },
+    {
+      "id": "G7",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">月曜日【げつようび】く<\/span>",
+      "A": "Monday"
+    },
+    {
+      "id": "G8",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">銀行【ぎんこう】く<\/span>",
+      "A": "bank"
+    },
+    {
+      "id": "G9",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">ギターく<\/span>",
+      "A": "guitar"
+    },
+    {
+      "id": "G10",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">五【ご,いつ】<\/span>",
+      "A": "5"
+    },
+    {
+      "id": "G11",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">午後【ごご】<\/span>",
+      "A": "afternoon"
+    },
+    {
+      "id": "G12",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">ご飯【ごはん】<\/span>",
+      "A": "(cooked) rice"
+    },
+    {
+      "id": "G13",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">ご主人【ごしゅじん】<\/span>",
+      "A": "husband"
+    },
+    {
+      "id": "G14",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">午前【ごぜん】<\/span>",
+      "A": "morning"
+    },
+    {
+      "id": "G15",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">グラム<\/span>",
+      "A": "gram"
+    },
+    {
+      "id": "G16",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">牛肉【ぎゅうにく】<\/span>",
+      "A": "beef"
+    },
+    {
+      "id": "G17",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">牛乳【ぎゅうにゅう】<\/span>",
+      "A": "(cow's) milk"
     }
   ]
 }
