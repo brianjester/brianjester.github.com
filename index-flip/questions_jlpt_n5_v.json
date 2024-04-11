@@ -601,6 +601,90 @@
       "answer": "A",
       "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">エレベーター<\/span>",
       "A": "elevator"
+    },
+    {
+      "id": "F1",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">フィルム<\/span>",
+      "A": "(roll of) film"
+    },
+    {
+      "id": "F2",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">フォーク<\/span>",
+      "A": "fork"
+    },
+    {
+      "id": "F3",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">吹く【ふ】く<\/span>",
+      "A": "blow (wind)"
+    },
+    {
+      "id": "F4",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">洋服【ようふく】く<\/span>",
+      "A": "blow (wind)"
+    },
+    {
+      "id": "F5",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">(洋)服【(よう)ふく】く<\/span>",
+      "A": "western clothes"
+    },
+    {
+      "id": "F6",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">(お)風呂【(お)ふろ】く<\/span>",
+      "A": "bath"
+    },
+    {
+      "id": "F7",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">降る【ふる】く<\/span>",
+      "A": "to fall (rain, snow)"
+    },
+    {
+      "id": "F8",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">古い【ふるい】く<\/span>",
+      "A": "old"
+    },
+    {
+      "id": "F9",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">二人【ふたり】く<\/span>",
+      "A": "two (people)"
+    },
+    {
+      "id": "F10",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">二つ【ふたつ】く<\/span>",
+      "A": "two (pieces)"
+    },
+    {
+      "id": "F11",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">太い【ふとい】く<\/span>",
+      "A": "fat, daring"
+    },
+    {
+      "id": "F12",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">二日【ふつか】く<\/span>",
+      "A": "two days"
+    },
+    {
+      "id": "F13",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">封筒【ふうとう】く<\/span>",
+      "A": "envelope"
+    },
+    {
+      "id": "F14",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">冬【ふゆ】く<\/span>",
+      "A": "winter"
     }
   ]
 }
