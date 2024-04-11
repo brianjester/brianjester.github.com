@@ -787,6 +787,174 @@
       "answer": "A",
       "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">牛乳【ぎゅうにゅう】<\/span>",
       "A": "(cow's) milk"
+    },
+    {
+      "id": "H1",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">歯【は】<\/span>",
+      "A": "tooth"
+    },
+    {
+      "id": "H2",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">八【はち】<\/span>",
+      "A": "8"
+    },
+    {
+      "id": "H3",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">葉書【はがき】<\/span>",
+      "A": "postcard"
+    },
+    {
+      "id": "H4",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">母【はは】<\/span>",
+      "A": "mother"
+    },
+    {
+      "id": "H5",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">はい<\/span>",
+      "A": "mother"
+    },
+    {
+      "id": "H6",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">入る【はいる】<\/span>",
+      "A": "to enter"
+    },
+    {
+      "id": "H7",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">灰皿【はいざら】<\/span>",
+      "A": "ashtray"
+    },
+    {
+      "id": "H8",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">始まる【はじまる】<\/span>",
+      "A": "to begin"
+    },
+    {
+      "id": "H9",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">始め【はじめ】<\/span>",
+      "A": "begining"
+    },
+    {
+      "id": "H10",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">初めて【はじめて】<\/span>",
+      "A": "first time"
+    },
+    {
+      "id": "H11",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">箱【はこ】<\/span>",
+      "A": "box"
+    },
+    {
+      "id": "H12",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">履く【はく】<\/span>",
+      "A": "to put on (clothes)"
+    },
+    {
+      "id": "H13",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">半(分)【はん(ぶん)】<\/span>",
+      "A": "half"
+    },
+    {
+      "id": "H14",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">花【はな】<\/span>",
+      "A": "flower"
+    },
+    {
+      "id": "H15",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">鼻【はな】<\/span>",
+      "A": "nose"
+    },
+    {
+      "id": "H16",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">話し【はなし】<\/span>",
+      "A": "talk"
+    },
+    {
+      "id": "H17",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">話し/す【はなし/す】<\/span>",
+      "A": "speak"
+    },
+    {
+      "id": "H18",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">ハンカチ<\/span>",
+      "A": "handkerchief"
+    },
+    {
+      "id": "H19",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">晴れ【はれ】<\/span>",
+      "A": "clear weather"
+    },
+    {
+      "id": "H20",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">晴れる【はれる】<\/span>",
+      "A": "sunny"
+    },
+    {
+      "id": "H21",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">春【はる】<\/span>",
+      "A": "Spring"
+    },
+    {
+      "id": "H22",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">張る【はる】<\/span>",
+      "A": "to stick"
+    },
+    {
+      "id": "H23",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">橋【はし】<\/span>",
+      "A": "bridge"
+    },
+    {
+      "id": "H24",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">箸【はし】<\/span>",
+      "A": "chop sticks"
+    },
+    {
+      "id": "H25",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">走る【はしる】<\/span>",
+      "A": "to run"
+    },
+    {
+      "id": "H26",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">二十歳【はたち】<\/span>",
+      "A": "20 yrs old"
+    },
+    {
+      "id": "H27",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">働く【はたらく】<\/span>",
+      "A": "to work"
+    },
+    {
+      "id": "H28",
+      "answer": "A",
+      "question": "<br><br><span class=\"periodic-text\" style=\"font-family: monospace; font-size: 200%; background-color: #99FFFF; white-space: pre-wrap; display: block; text-align: center;\">二十日【はつか】<\/span>",
+      "A": "20 days"
     }
   ]
 }
