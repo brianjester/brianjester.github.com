@@ -29,40 +29,10 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav me-auto mb-2 mb-md-0">
-        <li class="nav-item">
-          <a class="nav-link active" id="music_link" aria-current="page" href="index.html" onclick="loadMusicQuestions()">🇺🇸 Music Notes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" id="calif_dmv_c_link" aria-current="page" href="index.html" onclick="loadCaDmvQuestions()">🇺🇸 Calif DMV</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" id="calif_dre_link" aria-current="page" href="index.html" onclick="loadCaDreQuestions()">🇺🇸 Calif Real Estate</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" id="fcc_tech_link" aria-current="page" href="index.html" onclick="loadFccTechQuestions()">🇺🇸 FCC Tech</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" id="ca_basic_link" aria-current="page" href="index.html" onclick="loadCaBasicQuestions()">🇨🇦 CDN Basic Amateur Radio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" id="ny_dmv_link" aria-current="page" href="index.html" onclick="loadNyDmvQuestions()">🇺🇸 NY DMV</a>
-        </li>
 		    <li class="nav-item">
-          <a class="nav-link active" id="jp_hira_link" aria-current="page" href="index.html" onclick="loadJpHiraQuestions()">🇯🇵 Hiragana/ひらがな</a>
-        </li>
-		    <li class="nav-item">
-          <a class="nav-link active" id="jp_2_link" aria-current="page" href="index.html" onclick="loadJp2Questions()">🇯🇵 第二級アマチュア無線技士</a>
-        </li>
-		    <li class="nav-item">
-          <a class="nav-link active" id="jp_kanji_1_link" aria-current="page" href="index.html" onclick="loadJpK1Questions()">🇯🇵 Kanji 1st Gr</a>
-        </li>
-		<li class="nav-item">
-          <a class="nav-link active" id="aws_ml_link" aria-current="page" href="index.html" onclick="loadAwsMlQuestions()">🇺🇸 AWS Machine Learning</a>
-        </li>
-		<li class="nav-item">
           <a class="nav-link active" id="create_cards_link" aria-current="page" href="#" onclick="createQuestions()">Create Cards</a>
         </li>
-		<li class="nav-item">
+		    <li class="nav-item">
           <a class="nav-link active" id="load_cards_link" aria-current="page" href="load.html" onclick="loadQuestions()">Load Cards</a>
         </li>
       </ul>
@@ -74,73 +44,58 @@
   <div class="container" role="navigation">
     <div class="row">
       <H3><p id = "title" class="text-success"><B>Create Cards</B></p></H3>
-	  <P>Use the JSON example below as your syntax guide to create your own index cards.  Edit the text belows and click Save</P>
-	  <form>
-		<pre><textarea class="w-75" name="cards_json" rows="10" cols="85" id="cards_json">
-{
-	"title": "Example of Sample Index Cards With Two Questions",
-	"ref": "https://www.example.com",
-	"test": [
-		{
-			"id": "Q1",
-			"answer": "C",
-			"question": "What is 1+1?",
-			"A": "A. 1",
-			"B": "B. 4",
-			"C": "C. 2",
-			"D": "D. 3"
-		},
-		{
-			"id": "Q2",
-			"answer": "D",
-			"question": "What is 3+3?",
-			"A": "A. 2",
-			"B": "B. 8",
-			"C": "C. 4",
-			"D": "D. 6"
-		}
-	]
-}
-		</textarea></pre>
-		<hr class="my-4">
-		<button onclick="return saveCards(); return false;" class="btn btn-primary btn-lg">Save</button>
-	  </form>
-    </div>
-    <div class="row">
-      <div class="col-lg-6">
-
-      </div>
+  	  <P>Edit the text belows and click Save</P>
+      <P>Deck Name: <input name="new_title" id="new_title" required size="80" value="Anatomy Deck"></P>
+      <P>URL Reference (optional): <input type="url" size="80" name="new_ref" id="new_ref" value="https://www.example.com"></P>
+  		<div name="cards_json" id="cards_json"></div>
+      <P><button onclick="addRow();" class="btn btn-primary btn-sm">Add row</button>
+      <P><button onclick="saveCards();" class="btn btn-primary btn-sm">Save</button>
     </div>
   </div>
 </main>
 
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 <script>
+// sample deck
+window.deck = {
+  "title": "Anatomy Terms Deck",
+  "ref": "https://www.example.com",
+  "test": [
+    {
+      "id": "1",
+      "answer": "A",
+      "question": "What is 1 + 1?",
+      "A": "2"
+    }
+  ]
+};
 
-async function createQuestions() {
+window.new_row=0;
+
+function createQuestions() {
   resetNavLinks();
   document.getElementById("create_cards_link").className = "nav-link active";
 }
 
 function resetNavLinks() {
-  document.getElementById("calif_dmv_c_link").className = "nav-link";
-  document.getElementById("ny_dmv_link").className = "nav-link";
-  document.getElementById("fcc_tech_link").className = "nav-link";
-  document.getElementById("ca_basic_link").className = "nav-link";
-  document.getElementById("calif_dre_link").className = "nav-link";
-  document.getElementById("jp_2_link").className = "nav-link";
-  document.getElementById("jp_hira_link").className = "nav-link";
-  document.getElementById("jp_kanji_1_link").className = "nav-link";
-  document.getElementById("music_link").className = "nav-link";
-  document.getElementById("aws_ml_link").className = "nav-link";
   document.getElementById("create_cards_link").className = "nav-link";
   document.getElementById("load_cards_link").className = "nav-link";
 }
 
+function addRow() {
+  var new_question = "Front - Card " + window.new_row + ": <input size=\"40\" name=\"new_question\" id=\"new_question\">";
+  var new_a = "Back - Card " + window.new_row + ": <input size=\"40\" name=\"new_a\" id=\"new_a\">";
+  document.getElementById('cards_json').innerHTML = document.getElementById('cards_json').innerHTML + "<BR><BR>" + new_question + "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; " + new_a;
+  window.new_row++;
+}
+
 function saveCards() {
-	const cards_text = document.getElementById('cards_json').value;
-	localStorage.setItem("test", cards_text);
+  // update window.deck with any on-screen updates
+  window.deck.title = document.getElementById("new_title").value;
+  window.deck.ref = document.getElementById("new_ref").value;
+  // TODO remove stringify if not needed, only using here so I can see value in Dev Tools Application tab
+  const my_deck = JSON.stringify(window.deck);
+  localStorage.setItem("deck", my_deck);
 }
 
 </script>
