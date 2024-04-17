@@ -44,12 +44,11 @@
 	<div class="container" role="navigation">
 		<div class="row">
 			<H3><p id = "title" class="text-success"><B>Create Card Deck</B></p></H3>
-			<P>Edit the text belows and click Save</P>
-			<P>Deck Name: <input name="new_title" id="new_title" required size="80" value="Anatomy Deck"></P>
-			<P>Optional Ref: <input type="url" size="80" name="new_ref" id="new_ref" value="https://www.example.com"></P>
+			<P>Add card (rows) and when finished click Save deck.  Deck is saved in your browser's local storage with the "Deck Name", and will persist even after exiting the browser.</P>
+			<P><H3>Deck Name: <input name="new_title" id="new_title" required size="40" value="New Example Deck"></H3></P>
+			<P><H4>Optional Source URL: <input type="url" size="40" name="new_ref" id="new_ref" value="https://www.example.com"></H4></P>
 			<div name="cards_json" id="cards_json"></div>
-			<P><button onclick="return addRow(); return false;" class="btn btn-primary btn-sm">Add row</button>
-			<P><button onclick="return saveCards(); return false;" class="btn btn-primary btn-sm">Save</button>
+			<P><button onclick="return addRow(); return false;" class="btn btn-primary btn-sm">➕Add card</button>&nbsp;<button onclick="return saveCards(); return false;" class="btn btn-primary btn-sm">☁️Save deck</button>
 		</div>
 	</div>
 </main>
@@ -60,14 +59,7 @@
 window.deck = {
   "title": "Anatomy Terms Deck",
   "ref": "https://www.example.com",
-  "test": [
-    {
-      "id": "1",
-      "answer": "A",
-      "question": "What is 1 + 1?",
-      "A": "2"
-    }
-  ]
+  "test": []
 };
 
 window.new_row=1;
@@ -87,7 +79,7 @@ function addRow() {
   const cur_row = window.new_row;  // count
   const new_q = "Card " + cur_row + " (Front): <input size=\"40\" name=\"new_q" + cur_row + "\" id=\"new_q" + cur_row + "\">";
   const new_a = "Card " + cur_row + " (Back): <input size=\"40\" name=\"new_a" + cur_row + "\" id=\"new_a" + cur_row + "\">";
-  document.getElementById('cards_json').insertAdjacentHTML('beforeend', "<BR><BR>" + new_q + "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; " + new_a);
+  document.getElementById('cards_json').insertAdjacentHTML('beforeend', new_q + "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; " + new_a + "<BR><BR>");
   window.new_row++;
 }
 
@@ -95,6 +87,12 @@ function saveCards() {
   // update window.deck with any on-screen updates
   window.deck.title = document.getElementById("new_title").value;
   window.deck.ref = document.getElementById("new_ref").value;
+  window.deck.test = [];
+  // iterate through q & a
+  for (let i = 0; i < window.new_row-1; i++) {
+	  let card_num = i+1;
+	  window.deck.test.push({"id": card_num, "answer": "A", "question": document.getElementById("new_q"+card_num).value, "A": document.getElementById("new_a"+card_num).value});
+  }
   // TODO remove stringify if not needed, only using here so I can see value in Dev Tools Application tab
   const my_deck = JSON.stringify(window.deck);
   localStorage.setItem("deck", my_deck);
