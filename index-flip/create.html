@@ -43,12 +43,12 @@
 <main class="container">
 	<div class="container" role="navigation">
 		<div class="row">
-			<H3><p id = "title" class="text-success"><B>Create Card Deck</B></p></H3>
+			<p id = "title" class="text-success"><B>Create Card Deck</B></p>
 			<P>Add card (rows) and when finished click Save deck.  Deck is saved in your browser's local storage with the "Deck Name", and will persist even after exiting the browser.</P>
-			<P><H3>Deck Name: <input name="new_title" id="new_title" required size="40" value="New Example Deck"></H3></P>
-			<P><H4>Optional Source URL: <input type="url" size="40" name="new_ref" id="new_ref" value="https://www.example.com"></H4></P>
+			<P>Deck Name: <input name="new_title" id="new_title" required size="40" value="New Example Deck"></P>
+			<P>Optional Source URL: <input type="url" size="40" name="new_ref" id="new_ref" value="https://www.example.com"></P>
 			<div name="cards_json" id="cards_json"></div>
-			<P><button onclick="return addRow(); return false;" class="btn btn-primary btn-sm">➕Add card</button>&nbsp;<button onclick="return saveCards(); return false;" class="btn btn-primary btn-sm">☁️Save deck</button>
+			<P><button onclick="return addRow(); return false;" class="btn btn-primary btn-sm">➕Add card (row)</button>&nbsp;&nbsp;<button onclick="return saveCards(); return false;" class="btn btn-primary btn-sm">☁️Save deck (cards)</button>
 		</div>
 	</div>
 </main>
