@@ -44,7 +44,7 @@
 	<div class="container" role="navigation">
 		<div class="row">
 			<p id = "title" class="text-success"><B>Create Card Deck</B></p>
-			<P>Add card (rows) and when finished click Save deck.  Deck is saved in your browser's local storage with the "Deck Name", and will persist even after exiting the browser.</P>
+			<P>Click <B>➕Add card (row)</B> and when finished click <B>☁Save deck (cards)</B>.  Deck is saved in your browser's local storage with the "Deck Name", and will persist even after exiting the browser.</P>
 			<P>Deck Name: <input name="new_title" id="new_title" required size="40" value="New Example Deck"></P>
 			<P>Optional Source URL: <input type="url" size="40" name="new_ref" id="new_ref" value="https://www.example.com"></P>
 			<div name="cards_json" id="cards_json"></div>
@@ -95,7 +95,7 @@ function saveCards() {
   }
   // TODO remove stringify if not needed, only using here so I can see value in Dev Tools Application tab
   const my_deck = JSON.stringify(window.deck);
-  localStorage.setItem("deck", my_deck);
+  localStorage.setItem(window.deck.title, my_deck);
 }
 
 </script>
