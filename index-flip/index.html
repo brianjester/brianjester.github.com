@@ -510,16 +510,16 @@ function randomize() {
 function backOne() {
   const test = window.json.test;  // top level node is test
   window.order = "back-one";  // not actually used anywhere
-  window.questionRowNum = (window.questionRowNum == 0) ? 0 : window.questionRowNum = window.questionRowNum -1;
-  while (window.skip_list.includes(test[window.questionRowNum].id)) {
-	window.questionRowNum = (window.questionRowNum == 0) ? 0 : window.questionRowNum = window.questionRowNum -1;
+  window.questionRowNum = (window.questionRowNum == 0) ? test.length - 1 : window.questionRowNum = window.questionRowNum -1;
+  while (window.skip_list.includes(test[window.questionRowNum])) {
+	window.questionRowNum = (window.questionRowNum == 0) ? test.length - 1 : window.questionRowNum = window.questionRowNum -1;
   }
   setupCard();
   window.order = "inOrder";
 }
 function skip() {
   const test = window.json.test;  // top level node is test
-  window.skip_list.push(test[window.questionRowNum].id)
+  window.skip_list.push(test[window.questionRowNum])
   setupCard();
 }
 
@@ -538,7 +538,7 @@ function setupCard() {
   if (window.order == "inOrder") {
     if (window.questionRowNum < numQuestions-1) {
 	  window.questionRowNum++;
-	  while (window.skip_list.includes(test[window.questionRowNum].id)) {
+	  while (window.skip_list.includes(test[window.questionRowNum])) {
 	  	window.questionRowNum++;
 	  }
     } else {
