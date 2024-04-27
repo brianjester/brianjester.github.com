@@ -185,7 +185,6 @@
 const NEW_CARD = false;  // Create Cards and Load Cards menu items
 const PERIODIC = true;  // Show Periodic table menu items
 var show_morse = false; // Show Morse Code dots and dashes (controlled by morse-text class
-window.skip_list = [""];
 if(!NEW_CARD) {
 	  document.getElementById("create_cards_link").innerHTML = " ";
 	  document.getElementById("load_cards_link").innerHTML = " ";
@@ -203,7 +202,7 @@ document.getElementById("calif_dre_link").className = "nav-link disabled";
 //window.onload = loadWelcome();
 const url = new URL(window.location.href);
 const searchParams = url.searchParams;
-const test = searchParams.get('q'); // 'test'
+const test = searchParams.get('q'); // allows custom URL for particular card deck
 const tests = ['calif_dmv','ny_dmv','fcc_tech','ca_basic','calif_dre','jp_2','jp_hira','jp_kata','jp_kanji_1','music','aws_ml','morse', 'asl', 'baybayin', 'periodic', 'n5k', 'n5k2', 'n5v', 'braille'];
 if (tests.includes(test)) {
 	switch (test) {
@@ -486,13 +485,12 @@ function resetNavLinks() {
 }
 
 function postInit() {
-  window.skip_list = [""];
+  window.test = window.json.test;  // json.test is a CONST, and we might be modifying the test
   setupPage();
   setupOrder();
 }
 
 function setupPage() {
-  // Above card - title and options
   document.getElementById("title").innerHTML = window.json.title;
 }
 
@@ -508,19 +506,22 @@ function randomize() {
 }
 
 function backOne() {
-  const test = window.json.test;  // top level node is test
+  const test = window.test;  // top level node is test
   window.order = "back-one";  // not actually used anywhere
   window.questionRowNum = (window.questionRowNum == 0) ? test.length - 1 : window.questionRowNum = window.questionRowNum -1;
-  while (window.skip_list.includes(test[window.questionRowNum])) {
-	window.questionRowNum = (window.questionRowNum == 0) ? test.length - 1 : window.questionRowNum = window.questionRowNum -1;
-  }
   setupCard();
   window.order = "inOrder";
 }
 function skip() {
-  const test = window.json.test;  // top level node is test
-  window.skip_list.push(test[window.questionRowNum])
-  setupCard();
+	trim_test = window.test;  // top level node is test
+	trim_test.splice(window.questionRowNum, 1); // 2nd parameter means remove one item only
+	window.test = trim_test;
+	if (window.questionRowNum < trim_test.length-1) {
+	  window.questionRowNum--;
+    } else {
+      window.questionRowNum = 0;
+    }
+	setupCard();
 }
 
 function setupCard() {
@@ -531,16 +532,13 @@ function setupCard() {
   const NEXT = "▶️";
   const FLIP = "⟳ Flip";
   const CHECK = "Check";
-  const test = window.json.test;  // top level node is test
+  const test = window.test;  // top level node is test
   const numQuestions = test.length;
   var questionRow;
 
   if (window.order == "inOrder") {
     if (window.questionRowNum < numQuestions-1) {
 	  window.questionRowNum++;
-	  while (window.skip_list.includes(test[window.questionRowNum])) {
-	  	window.questionRowNum++;
-	  }
     } else {
       window.questionRowNum = 0;
     }
@@ -726,12 +724,11 @@ function selectAnswer(candidateAnswer) {
   document.getElementById("answer").className = "";
   window.candAnswer=candidateAnswer;
   document.getElementById(candidateAnswer).className = "bg-warning";
-  //btn btn-secondary btn-med me-md-4
   document.getElementById("check-btn").className = "btn btn-info btn-med me-md-4";
 }
 
 function check() {
-  const test = window.json.test;  // top level node is test
+  const test = window.test;  // top level node is test
   questionRow = test[window.questionRowNum];
   const candidateAnswer = window.candAnswer;
   const letters = ["A", "B", "C", "D", "E"];  // TODO code smell
