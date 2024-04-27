@@ -270,194 +270,96 @@ if (tests.includes(test)) {
 	loadWelcome();
 }
 
+async function fetchDeck(my_title, my_link, my_file) {
+  gtag('event', 'page_view', {
+    "page_title": my_title,
+    });
+  resetNavLinks();
+  document.getElementById(my_link).className = "nav-link active";
+  window.json = await fetch('https://brianjester.github.io/index-flip/'+my_file).then(response => { return response.json() });
+  postInit();
+}
+
 async function loadWelcome() {
   resetNavLinks();
   window.json = await fetch('https://brianjester.github.io/index-flip/welcome.json').then(response => { return response.json() });
   postInit();
 }
+
 async function loadCaDmvQuestions() {
-  gtag('event', 'page_view', {
-    "page_title": "loadCaDmvQuestions",
-    });
-  resetNavLinks();
-  document.getElementById("calif_dmv_c_link").className = "nav-link active";
-  window.json = await fetch('https://brianjester.github.io/index-flip/questions_us_ca_dl.json').then(response => { return response.json() });
-  postInit();
+	fetchDeck("loadCaDmvQuestions", "calif_dmv_c_link", "questions_us_ca_dl.json");
 }
+
 async function loadNyDmvQuestions() {
-  gtag('event', 'page_view', {
-    "page_title": "loadNyDmvQuestions",
-    });
-  resetNavLinks();
-  document.getElementById("ny_dmv_link").className = "nav-link active";
-  window.json = await fetch('https://brianjester.github.io/index-flip/questions_us_ny_dl.json').then(response => { return response.json() });
-  postInit();
+	fetchDeck("loadNyDmvQuestions", "ny_dmv_link", "questions_us_ny_dl.json");
 }
 
 async function loadFccTechQuestions() {
-  gtag('event', 'page_view', {
-    "page_title": "loadFccTechQuestions",
-    });
-  resetNavLinks();
-  document.getElementById("fcc_tech_link").className = "nav-link active";
-  window.json = await fetch('https://brianjester.github.io/index-flip/questions_us_fcc_tech.json').then(response => { return response.json() });
-  postInit();
+	fetchDeck("loadFccTechQuestions", "fcc_tech_link", "questions_us_fcc_tech.json");
 }
 
 async function loadCaBasicQuestions() {
-  gtag('event', 'page_view', {
-    "page_title": "loadCaBasicQuestions",
-    });
-  resetNavLinks();
-  document.getElementById("ca_basic_link").className = "nav-link active";
-  window.json = await fetch('https://brianjester.github.io/index-flip/questions_ca_basic.json').then(response => { return response.json() });
-  postInit();
+	fetchDeck("loadCaBasicQuestions", "ca_basic_link", "questions_ca_basic.json");
 }
 
 async function loadCaDreQuestions() {
-  gtag('event', 'page_view', {
-    "page_title": "loadCaDreQuestions",
-    });
-  resetNavLinks();
-  document.getElementById("calif_dre_link").className = "nav-link active";
-  window.json = await fetch('https://brianjester.github.io/index-flip/questions_us_ca_re.json').then(response => { return response.json() });
-  postInit();
+	fetchDeck("loadCaDreQuestions", "calif_dre_link", "questions_us_ca_re.json");
 }
 
 async function loadJp2Questions() {
-  gtag('event', 'page_view', {
-    "page_title": "loadJp2Questions",
-    });
-  resetNavLinks();
-  document.getElementById("jp_2_link").className = "nav-link active";
-  window.json = await fetch('https://brianjester.github.io/index-flip/questions_jp_2.json2').then(response => { return response.json() });
-  postInit();
+	fetchDeck("loadJp2Questions", "jp_2_link", "questions_jp_2.json2");
 }
 
 async function loadJpHiraQuestions() {
-  gtag('event', 'page_view', {
-    "page_title": "loadJpHiraQuestions",
-    });
-  resetNavLinks();
-  document.getElementById("jp_hira_link").className = "nav-link active";
-  window.json = await fetch('https://brianjester.github.io/index-flip/questions_jp_hira.json').then(response => { return response.json() });
-  postInit();
+	fetchDeck("loadJpHiraQuestions", "jp_hira_link", "questions_jp_hira.json");
 }
 
 async function loadJpKataQuestions() {
-  gtag('event', 'page_view', {
-    "page_title": "loadJpKataQuestions",
-    });
-  resetNavLinks();
-  document.getElementById("jp_kata_link").className = "nav-link active";
-  window.json = await fetch('https://brianjester.github.io/index-flip/questions_jp_kata.json').then(response => { return response.json() });
-  postInit();
+	fetchDeck("loadJpKataQuestions", "jp_kata_link", "questions_jp_kata.json");
 }
 
 async function loadJpK1Questions() {
-  gtag('event', 'page_view', {
-    "page_title": "loadJpK1Questions",
-    });
-  resetNavLinks();
-  document.getElementById("jp_kanji_1_link").className = "nav-link active";
-  window.json = await fetch('https://brianjester.github.io/index-flip/questions_jp_kanji_1.json').then(response => { return response.json() });
-  postInit();
+	fetchDeck("loadJpK1Questions", "jp_kanji_1_link", "questions_jp_kanji_1.json");
 }
+
 async function loadJlptN5KanjiQuestions() {
-  gtag('event', 'page_view', {
-    "page_title": "loadJlptN5KanjiEngQuestions",
-    });
-  resetNavLinks();
-  document.getElementById("jlpt_n5_k_link").className = "nav-link active";
-  window.json = await fetch('https://brianjester.github.io/index-flip/questions_jlpt_n5_k.json').then(response => { return response.json() });
-  postInit();
+	fetchDeck("loadJlptN5KanjiEngQuestions", "jlpt_n5_k_link", "questions_jlpt_n5_k.json");
 }
+
 async function loadJlptN5Kanji2Questions() {
-  gtag('event', 'page_view', {
-    "page_title": "loadJlptN5KanjiHiraQuestions",
-    });
-  resetNavLinks();
-  document.getElementById("jlpt_n5_k2_link").className = "nav-link active";
-  window.json = await fetch('https://brianjester.github.io/index-flip/questions_jlpt_n5_k2.json').then(response => { return response.json() });
-  postInit();
+	fetchDeck("loadJlptN5KanjiHiraQuestions", "jlpt_n5_k2_link", "questions_jlpt_n5_k2.json");
 }
+
 async function loadJlptN5VocabQuestions() {
-  gtag('event', 'page_view', {
-    "page_title": "loadJlptN5VocabQuestions",
-    });
-  resetNavLinks();
-  document.getElementById("jlpt_n5_v_link").className = "nav-link active";
-  window.json = await fetch('https://brianjester.github.io/index-flip/questions_jlpt_n5_v.json').then(response => { return response.json() });
-  postInit();
+	fetchDeck("loadJlptN5VocabQuestions", "jlpt_n5_v_link", "questions_jlpt_n5_v.json");
 }
 
 async function loadMusicQuestions() {
-  gtag('event', 'page_view', {
-    "page_title": "loadMusicQuestions",
-    });
-  resetNavLinks();
-  document.getElementById("music_link").className = "nav-link active";
-  window.json = await fetch('https://brianjester.github.io/index-flip/questions_us_music_notes_1.json').then(response => { return response.json() });
-  postInit();
+	fetchDeck("loadMusicQuestions", "music_link", "questions_us_music_notes_1.json");
 }
 
 async function loadAwsMlQuestions() {
-  gtag('event', 'page_view', {
-    "page_title": "loadAwsMlQuestions",
-    });
-  resetNavLinks();
-  document.getElementById("aws_ml_link").className = "nav-link active";
-  window.json = await fetch('https://brianjester.github.io/index-flip/questions_us_aws_ml.json').then(response => { return response.json() });
-  postInit();
+	fetchDeck("loadAwsMlQuestions", "aws_ml_link", "questions_us_aws_ml.json");
 }
 
 async function loadMorseQuestions() {
-  gtag('event', 'page_view', {
-    "page_title": "loadMorseQuestions",
-    });
-  resetNavLinks();
-  document.getElementById("morse_link").className = "nav-link active";
-  window.json = await fetch('https://brianjester.github.io/index-flip/questions_morse.json').then(response => { return response.json() });
-  postInit();
+	fetchDeck("loadMorseQuestions", "morse_link", "questions_morse.json");
 }
 
 async function loadAslQuestions() {
-  gtag('event', 'page_view', {
-    "page_title": "loadAslQuestions",
-    });
-  resetNavLinks();
-  document.getElementById("asl_link").className = "nav-link active";
-  window.json = await fetch('https://brianjester.github.io/index-flip/questions_asl.json').then(response => { return response.json() });
-  postInit();
+	fetchDeck("loadAslQuestions", "asl_link", "questions_asl.json");
 }
 
 async function loadBaybayinQuestions() {
-  gtag('event', 'page_view', {
-    "page_title": "loadBaybayinQuestions",
-    });
-  resetNavLinks();
-  document.getElementById("baybayin_link").className = "nav-link active";
-  window.json = await fetch('https://brianjester.github.io/index-flip/questions_baybayin.json').then(response => { return response.json() });
-  postInit();
+	fetchDeck("loadBaybayinQuestions", "baybayin_link", "questions_baybayin.json");
 }
+
 async function loadBrailleQuestions() {
-  gtag('event', 'page_view', {
-    "page_title": "loadBrailleQuestions",
-    });
-  resetNavLinks();
-  document.getElementById("braille_link").className = "nav-link active";
-  window.json = await fetch('https://brianjester.github.io/index-flip/questions_braille.json').then(response => { return response.json() });
-  postInit();
+	fetchDeck("loadBrailleQuestions", "braille_link", "questions_braille.json");
 }
 
 async function loadPeriodicQuestions() {
-  gtag('event', 'page_view', {
-    "page_title": "loadPeriodicQuestions",
-    });
-  resetNavLinks();
-  document.getElementById("periodic_link").className = "nav-link active";
-  window.json = await fetch('https://brianjester.github.io/index-flip/questions_periodic.json').then(response => { return response.json() });
-  postInit();
+	fetchDeck("loadPeriodicQuestions", "periodic_link", "questions_periodic.json");
 }
 
 function resetNavLinks() {
