@@ -64,7 +64,7 @@
           <a class="nav-link active" id="ca_basic_link" aria-current="page" href="#" onclick="loadCaBasicQuestions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">🇨🇦 CDN Basic Amateur Radio</a>
         </li>
 		<li class="nav-item">
-          <a class="nav-link active" id="jp_2_link" aria-current="page" href="#" onclick="loadJp2Questions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">🇯🇵 第二級アマチュア無線技士</a>
+          <a class="nav-link active" id="jp_2_link" aria-current="page" href="#" onclick="loadJp2Questions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">🇯🇵 第二級 アマチュア 無線技士</a>
         </li>
 		<li class="nav-item">
           <a class="nav-link active" id="morse_link" aria-current="page" href="#" onclick="loadMorseQuestions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">Morse Code</a>
@@ -73,7 +73,7 @@
           <a class="nav-link active" id="aws_ml_link" aria-current="page" href="#" onclick="loadAwsMlQuestions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">AWS ML</a>
         </li>
 		<li class="nav-item">
-          <a class="nav-link active" id="asl_link" aria-current="page" href="#" onclick="loadAslQuestions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">ASL</a>
+          <a class="nav-link active" id="asl_link" aria-current="page" href="#" onclick="loadAslQuestions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">🇺🇸 ASL</a>
         </li>
 		<li class="nav-item">
           <a class="nav-link active" id="baybayin_link" aria-current="page" href="#" onclick="loadBaybayinQuestions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">🇵🇭 Baybayin</a>
@@ -363,27 +363,10 @@ async function loadPeriodicQuestions() {
 }
 
 function resetNavLinks() {
-  document.getElementById("calif_dmv_c_link").className = "nav-link";
-  document.getElementById("ny_dmv_link").className = "nav-link";
-  document.getElementById("fcc_tech_link").className = "nav-link";
-  document.getElementById("ca_basic_link").className = "nav-link";
-  document.getElementById("calif_dre_link").className = "nav-link";
-  document.getElementById("jp_2_link").className = "nav-link";
-  document.getElementById("jp_kanji_1_link").className = "nav-link";
-  document.getElementById("jlpt_n5_k_link").className = "nav-link";
-  document.getElementById("jlpt_n5_k2_link").className = "nav-link";
-  document.getElementById("jlpt_n5_v_link").className = "nav-link";
-  document.getElementById("jp_hira_link").className = "nav-link";
-  document.getElementById("jp_kata_link").className = "nav-link";
-  document.getElementById("music_link").className = "nav-link";
-  document.getElementById("aws_ml_link").className = "nav-link";
-  document.getElementById("morse_link").className = "nav-link";
-  document.getElementById("asl_link").className = "nav-link";
-  document.getElementById("baybayin_link").className = "nav-link";
-  document.getElementById("create_cards_link").className = "nav-link";
-  document.getElementById("load_cards_link").className = "nav-link";
-  document.getElementById("periodic_link").className = "nav-link";
-  document.getElementById("braille_link").className = "nav-link";
+	let my_links = ["calif_dmv_c_link", "ny_dmv_link", "fcc_tech_link", "ca_basic_link", "calif_dre_link", "jp_2_link",  "jp_kanji_1_link", "jlpt_n5_k_link", "jlpt_n5_k2_link", "jlpt_n5_v_link", "jp_hira_link", "jp_kata_link", "music_link", "aws_ml_link", "morse_link", "asl_link", "baybayin_link", "create_cards_link", "load_cards_link", "periodic_link", "braille_link"];
+	for (const my_link of my_links){
+		document.getElementById(my_link).className = "nav-link";
+	}
 }
 
 function postInit() {
@@ -454,11 +437,10 @@ function setupCard() {
   }
 
   // Set up question
-  document.getElementById("A").innerHTML = " ";
-  document.getElementById("B").innerHTML = " ";
-  document.getElementById("C").innerHTML = " ";
-  document.getElementById("D").innerHTML = " ";
-  document.getElementById("E").innerHTML = " ";
+  	let my_answers = ["A", "B", "C", "D", "E"];
+	for (const my_answer of my_answers){
+		document.getElementById(my_answer).innerHTML = " ";
+	}
   document.getElementById("question_id").innerHTML = questionRow.id;
   document.getElementById("question").innerHTML = questionRow.question;
   if (window.multipleChoice) {
