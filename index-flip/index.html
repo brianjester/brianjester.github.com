@@ -64,34 +64,10 @@
           <a class="nav-link active" id="ca_basic_link" aria-current="page" href="#" onclick="loadCaBasicQuestions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">🇨🇦 CDN Basic Amateur Radio</a>
         </li>
 		<li class="nav-item">
-          <a class="nav-link active" id="jp_2_link" aria-current="page" href="#" onclick="loadJp2Questions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">🇯🇵 第二級 アマチュア 無線技士</a>
-        </li>
-		<li class="nav-item">
           <a class="nav-link active" id="morse_link" aria-current="page" href="#" onclick="loadMorseQuestions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">Morse Code</a>
         </li>
 		<li class="nav-item">
-          <a class="nav-link active" id="aws_ml_link" aria-current="page" href="#" onclick="loadAwsMlQuestions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">AWS ML</a>
-        </li>
-		<li class="nav-item">
-          <a class="nav-link active" id="asl_link" aria-current="page" href="#" onclick="loadAslQuestions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">🇺🇸 ASL</a>
-        </li>
-		<li class="nav-item">
-          <a class="nav-link active" id="baybayin_link" aria-current="page" href="#" onclick="loadBaybayinQuestions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">🇵🇭 Baybayin</a>
-        </li>
-		<li class="nav-item">
-          <a class="nav-link active" id="periodic_link" aria-current="page" href="#" onclick="loadPeriodicQuestions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">Periodic Table</a>
-        </li>
-		<li class="nav-item">
-          <a class="nav-link active" id="create_cards_link" aria-current="page" href="#" onclick="createQuestions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">Create Cards</a>
-        </li>
-		<li class="nav-item">
-          <a class="nav-link active" id="load_cards_link" aria-current="page" href="#" onclick="loadQuestions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">Load Cards</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" id="calif_dre_link" aria-current="page" href="#" onclick="loadCaDreQuestions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">🇺🇸 Calif Real Estate</a>
-        </li>
-		<li class="nav-item">
-          <a class="nav-link active" id="jp_kanji_1_link" aria-current="page" href="#" onclick="loadJpK1Questions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">🇯🇵 Kanji 1st Gr</a>
+		  <a class="nav-link active" id="periodic_link" aria-current="page" href="#" onclick="loadPeriodicQuestions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">Periodic Table</a>
         </li>
 		<li class="nav-item">
           <a class="nav-link active" id="save_deck_link" aria-current="page" href="#" onclick="saveDeck()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">Save Deck</a>
@@ -188,28 +164,14 @@
   }
 
 // Feature toggles
-const NEW_CARD = false;  // Create Cards and Load Cards menu items
-const PERIODIC = true;  // Show Periodic table menu items
 var show_morse = false; // Show Morse Code dots and dashes (controlled by morse-text class
-if(!NEW_CARD) {
-	  document.getElementById("create_cards_link").innerHTML = " ";
-	  document.getElementById("load_cards_link").innerHTML = " ";
-	  document.getElementById("create_cards_link").className = "nav-link disabled";
-	  document.getElementById("load_cards_link").className = "nav-link disabled";
-}
 
-document.getElementById("calif_dre_link").innerHTML = " ";
-document.getElementById("calif_dre_link").className = "nav-link disabled";
-document.getElementById("jp_kanji_1_link").innerHTML = " ";
-document.getElementById("jp_kanji_1_link").className = "nav-link disabled";
-document.getElementById("calif_dre_link").innerHTML = " ";
-document.getElementById("calif_dre_link").className = "nav-link disabled";
 // Default json page to load   
 //window.onload = loadWelcome();
 const url = new URL(window.location.href);
 const searchParams = url.searchParams;
 const test = searchParams.get('q'); // allows custom URL for particular card deck
-const tests = ['calif_dmv','ny_dmv','fcc_tech','ca_basic','calif_dre','jp_2','jp_hira','jp_kata','jp_kanji_1','music','aws_ml','morse', 'asl', 'baybayin', 'periodic', 'n5k', 'n5k2', 'n5v', 'braille'];
+const tests = ['calif_dmv','ny_dmv','fcc_tech','ca_basic','jp_hira','jp_kata','music','morse', 'periodic', 'n5k', 'n5k2', 'n5v', 'braille'];
 if (tests.includes(test)) {
 	switch (test) {
 	  case 'calif_dmv':
@@ -224,35 +186,17 @@ if (tests.includes(test)) {
 	  case 'ca_basic':
 		loadCaBasicQuestions();
 		break;
-	  case 'calif_dre':
-		loadCaDreQuestions();
-		break;
-	  case 'jp_2':
-		loadJp2Questions();
-		break;
 	  case 'jp_hira':
 		loadJpHiraQuestions();
 		break;
 	  case 'jp_kata':
 		loadJpKataQuestions();
 		break;
-	  case 'jp_kanji_1':
-		loadJpK1Questions();
-		break;
 	  case 'music':
 		loadMusicQuestions();
 		break;
-	  case 'aws_ml':
-		loadAwsMlQuestions();
-		break;
 	  case 'morse':
 		loadMorseQuestions();
-		break;
-	  case 'asl':
-		loadAslQuestions();
-		break;
-	  case 'baybayin':
-		loadBaybayinQuestions();
 		break;
 	  case 'periodic':
 		loadPeriodicQuestions();
@@ -308,24 +252,12 @@ async function loadCaBasicQuestions() {
 	fetchDeck("loadCaBasicQuestions", "ca_basic_link", "questions_ca_basic.json");
 }
 
-async function loadCaDreQuestions() {
-	fetchDeck("loadCaDreQuestions", "calif_dre_link", "questions_us_ca_re.json");
-}
-
-async function loadJp2Questions() {
-	fetchDeck("loadJp2Questions", "jp_2_link", "questions_jp_2.json2");
-}
-
 async function loadJpHiraQuestions() {
 	fetchDeck("loadJpHiraQuestions", "jp_hira_link", "questions_jp_hira.json");
 }
 
 async function loadJpKataQuestions() {
 	fetchDeck("loadJpKataQuestions", "jp_kata_link", "questions_jp_kata.json");
-}
-
-async function loadJpK1Questions() {
-	fetchDeck("loadJpK1Questions", "jp_kanji_1_link", "questions_jp_kanji_1.json");
 }
 
 async function loadJlptN5KanjiQuestions() {
@@ -344,20 +276,8 @@ async function loadMusicQuestions() {
 	fetchDeck("loadMusicQuestions", "music_link", "questions_us_music_notes_1.json");
 }
 
-async function loadAwsMlQuestions() {
-	fetchDeck("loadAwsMlQuestions", "aws_ml_link", "questions_us_aws_ml.json");
-}
-
 async function loadMorseQuestions() {
 	fetchDeck("loadMorseQuestions", "morse_link", "questions_morse.json");
-}
-
-async function loadAslQuestions() {
-	fetchDeck("loadAslQuestions", "asl_link", "questions_asl.json");
-}
-
-async function loadBaybayinQuestions() {
-	fetchDeck("loadBaybayinQuestions", "baybayin_link", "questions_baybayin.json");
 }
 
 async function loadBrailleQuestions() {
@@ -386,7 +306,7 @@ function loadDeck() {
 }
 
 function resetNavLinks() {
-	let my_links = ["calif_dmv_c_link", "ny_dmv_link", "fcc_tech_link", "ca_basic_link", "calif_dre_link", "jp_2_link",  "jp_kanji_1_link", "jlpt_n5_k_link", "jlpt_n5_k2_link", "jlpt_n5_v_link", "jp_hira_link", "jp_kata_link", "music_link", "aws_ml_link", "morse_link", "asl_link", "baybayin_link", "create_cards_link", "load_cards_link", "periodic_link", "braille_link"];
+	let my_links = ["calif_dmv_c_link", "ny_dmv_link", "fcc_tech_link", "ca_basic_link", "jlpt_n5_k_link", "jlpt_n5_k2_link", "jlpt_n5_v_link", "jp_hira_link", "jp_kata_link", "music_link", "morse_link", "periodic_link", "braille_link"];
 	for (const my_link of my_links){
 		document.getElementById(my_link).className = "nav-link";
 	}
