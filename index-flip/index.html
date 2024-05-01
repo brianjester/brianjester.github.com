@@ -93,6 +93,12 @@
 		<li class="nav-item">
           <a class="nav-link active" id="jp_kanji_1_link" aria-current="page" href="#" onclick="loadJpK1Questions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">🇯🇵 Kanji 1st Gr</a>
         </li>
+		<li class="nav-item">
+          <a class="nav-link active" id="save_deck_link" aria-current="page" href="#" onclick="saveDeck()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">Save Deck</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link active" id="load_deck_link" aria-current="page" href="#" onclick="loadDeck()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">Load Deck</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -360,6 +366,23 @@ async function loadBrailleQuestions() {
 
 async function loadPeriodicQuestions() {
 	fetchDeck("loadPeriodicQuestions", "periodic_link", "questions_periodic.json");
+}
+
+function saveDeck() {
+  const my_deck = JSON.stringify(window.test);
+  localStorage.setItem(window.json.title, my_deck);
+}
+
+function loadDeck() {
+	try {
+		custom_test = JSON.parse(localStorage.getItem(window.json.title));
+		if (custom_test) {
+			window.test = custom_test;
+		}
+	} catch (ex) {
+		console.error(ex);
+	}
+	setupCard();
 }
 
 function resetNavLinks() {
