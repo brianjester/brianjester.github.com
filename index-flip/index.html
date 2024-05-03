@@ -94,7 +94,7 @@
               <button id="order-btn" class="btn btn-primary btn-med me-md-2" type="button" onclick="setupOrder()">◀️◀️</button>
               <button id="back-one-btn" class="btn btn-primary btn-med me-md-2" type="button" onclick="backOne()">◀️</button>
               <button id="random-btn" class="btn btn-primary btn-med me-md-2" type="button" onclick="randomize()">🎲</button>
-              <button id="skip-btn" class="btn btn-primary btn-med me-md-2" type="button" onclick="skip()">☠️</button>
+              
               <button id="next-btn-1" class="btn btn-primary btn-med" type="button" onclick="setupCard()"> </button>
             </row>
           </div>
@@ -103,7 +103,7 @@
             <div class="flip-card-front">
               <BR>
               <div  style="border: 1px solid grey;padding: 25px;background-color: ivory;">
-                <p id = "question_id" class="text-primary"><u> </u></p>
+                <div class="d-flex justify-content-between"><p id = "question_id" class="text-primary"><u> </u></p><button id="skip-btn" class="btn btn-outline-secondary btn-sm me-md-2" type="button" onclick="skip()">❌</button></div>
                 <H5><p id = "question"> </p></H5>
                 <p id="figure-front" style="text-align: center;"> </p>
                 <p id="figure-attribution" class="text-secondary" style="text-align: center;"> </p>
