@@ -91,11 +91,11 @@
         <div class="flip-card">
           <div class="d-grid gap-2 d-md-flex justify-content-around">
             <row>
-              <button id="order-btn" class="btn btn-primary btn-med me-md-2" type="button" onclick="setupOrder()">◀️◀️</button>
-              <button id="back-one-btn" class="btn btn-primary btn-med me-md-2" type="button" onclick="backOne()">◀️</button>
-              <button id="random-btn" class="btn btn-primary btn-med me-md-2" type="button" onclick="randomize()">🎲</button>
-              
-              <button id="next-btn-1" class="btn btn-primary btn-med" type="button" onclick="setupCard()"> </button>
+				<button id="random-btn" class="btn btn-outline-secondary btn-med me-md-2" type="button" onclick="randomize()">🎲</button>
+				<button id="order-btn" class="btn btn-outline-secondary btn-med me-md-2" type="button" onclick="setupOrder()">◀️◀️</button>
+				<button id="back-one-btn" class="btn btn-outline-secondary btn-med me-md-2" type="button" onclick="backOne()">◀️</button>
+				<a id="current_card"></a>
+				<button id="next-btn-1" class="btn btn-outline-secondary btn-med" type="button" onclick="setupCard()"> </button>
             </row>
           </div>
           <div class="flip-card-inner" id="flip-card-inner">
@@ -385,6 +385,7 @@ function setupCard() {
 		document.getElementById(my_answer).innerHTML = " ";
 	}
   document.getElementById("question_id").innerHTML = questionRow.id;
+  document.getElementById("current_card").innerHTML = "<b>"+(window.questionRowNum+1) + " of " + numQuestions + "</b> &nbsp";
   document.getElementById("question").innerHTML = questionRow.question;
   if (window.multipleChoice) {
     document.getElementById("question-back").innerHTML = questionRow.question;
