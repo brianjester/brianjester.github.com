@@ -1,16 +1,7 @@
 {
-  "title": "(Canadian) Basic Qualifications Question Bank for Amateur Radio Operator Certificate Examination, 30 March 2023",
+  "title": "(Canadian) Basic Qualifications Question Bank for Amateur Radio Operator Certificate Examination",
   "ref": "https://apc-cap.ic.gc.ca/datafiles/amateur_basic_questions_en.pdf",
   "test": [
-    {
-      "id": "Introduction",
-      "answer": "C",
-      "question": "<p><B>Test Bank and Test</B><p>This test bank has 971 questions. <p>The exam has 100, you need 70% to pass, and 80% for Honours. <HR> <p><B>⟳IndexFlip buttons</B> <p>Restart:◀️◀️ <p>Previous:◀️ <p>Random:🎲 <p>Skip:☠️ <p>Next:▶️<HR><p> <B>About<\/B><ul><li> <A HREF=\"https://www.youtube.com/playlist?list=PLzqFPv5zpmmyu3EYc9IzNJ8fUONPtsZ7O\">IndexFlip Demo Videos<\/A><li><A HREF=\"https://github.com/brianjester/brianjester.github.com/issues\">Need to file a bug\/feature request?<\/A><li><a href=\"https://ko-fi.com/J3J7UOXY0\" target=\"_blank\"><img height=\"36\" style=\"border:0px;height:36px;\" src=\"https://storage.ko-fi.com/cdn/kofi2.png?v=3\" border=\"0\" alt=\"Buy Me a Coffee at ko-fi.com\" \/><\/a><\/ul>",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
     {
       "id": "B-001-001-001",
       "answer": "C",
