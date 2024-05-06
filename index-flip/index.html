@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="IndexFlip - Study decks for Hiragana, Katakana, JLPT N5 Kanji, Morse code, Braille, Periodic Table, ASL, Baybayin, FCC Amatuer Radio Technician, Canadian Basic Amateur Radio, AWS Machine Learning, California DMV, New York DMV, Music Notes, Californa DRE">
+    <meta name="description" content="IndexFlip - Study decks for Hiragana, Katakana, JLPT N5 Kanji, Morse code, Braille, Periodic Table, FCC Amatuer Radio Technician, Canadian Basic Amateur Radio, California DMV, New York DMV, Music Notes">
     <meta name="author" content="Brian Jester">
     <meta name="generator" content="Notepad++">
     <title>⟳IndexFlip</title>
@@ -69,12 +69,6 @@
 		<li class="nav-item">
 		  <a class="nav-link active" id="periodic_link" aria-current="page" href="#" onclick="loadPeriodicQuestions()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">Periodic Table</a>
         </li>
-		<li class="nav-item">
-          <a class="nav-link active" id="save_deck_link" aria-current="page" href="#" onclick="saveDeck()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">Save Deck</a>
-        </li>
-		<li class="nav-item">
-          <a class="nav-link active" id="load_deck_link" aria-current="page" href="#" onclick="loadDeck()" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">Load Deck</a>
-        </li>
       </ul>
     </div>
   </div>
@@ -82,9 +76,11 @@
 
 <main class="container">
   <div class="container" role="navigation">
-    <div class="row">
-      <H3><p id = "title" class="text-success"><B> </B></p></H3>
-    </div>
+    <div class="row" >
+		<div class="d-grid gap-2 d-md-flex mb-4">
+		  <H3><div id = "title" class="text-success"><B> </B></div></H3><button id="save-btn" class="btn btn-outline-success btn-med" type="button" onclick="saveDeck()">Save</button><button id="load-btn" class="btn btn-outline-success btn-med" type="button" onclick="loadDeck()">Load</button>
+		</div>
+	</div>
     <div class="row">
       <div class="col-lg-6">
 
