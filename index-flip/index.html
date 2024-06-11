@@ -159,7 +159,7 @@
               <div class="d-grid gap-2 d-md-flex justify-content-around">
                 <row>
                   <button id="check-btn" class="btn btn-primary btn-med me-md-4" type="button" onclick="check()"> </button>
-                  <button id="flip-btn-back" class="btn btn-primary btn-med" type="button" onclick="flipMe(0)"> </button>
+                  <button id="flip-btn-back" class="btn btn-outline-primary btn-med me-md-4" type="button" onclick="flipMe(0)"> </button>
 				  <button id="reveal-btn" class="btn btn-primary btn-med me-md-4" type="button" onclick="reveal()"> </button>
                 </row>
               </div>
@@ -385,10 +385,10 @@ function setupCard() {
   window.candAnswer="";
   window.multipleChoice = true;
   flipMe(0);
-  const SHOW = "Reveal";
+  const SHOW = "👀 Show answer";
   const NEXT = "▶️";
   const FLIP = "⟳ Flip";
-  const CHECK = "Check";
+  const CHECK = "👁️ Check guess";
   const test = window.test;  // top level node is test
   const numQuestions = test.length;
   var questionRow;
@@ -549,8 +549,8 @@ function updateFeatures() {
 }
 
 function reveal() {
-  const HIDE = "Hide";
-  const SHOW = "Reveal";
+  const HIDE = "🙈 Hide answer";
+  const SHOW = "👀 Show answer";
   if (document.getElementById("reveal-btn").innerHTML == HIDE) {
     document.getElementById("answer").className = "";
     document.getElementById("reveal-btn").innerHTML = SHOW;
@@ -572,7 +572,6 @@ function clearGuessAndAnswer() {
     document.getElementById(letters[i]).className = "";
   }
   document.getElementById("answer").className = "";
-  document.getElementById("check-btn").className = "btn btn-secondary btn-med me-md-4";
   window.candAnswer="";
 }
 
@@ -581,7 +580,6 @@ function selectAnswer(candidateAnswer) {
   document.getElementById("answer").className = "";
   window.candAnswer=candidateAnswer;
   document.getElementById(candidateAnswer).className = "bg-warning";
-  document.getElementById("check-btn").className = "btn btn-info btn-med me-md-4";
 }
 
 function check() {
