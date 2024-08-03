@@ -29,36 +29,6 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav me-auto mb-2 mb-md-0">
-        <li class="nav-item">
-          <a class="nav-link active" id="music_link" aria-current="page" href="index.html" onclick="loadMusicQuestions()">🇺🇸 Music Notes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" id="calif_dmv_c_link" aria-current="page" href="index.html" onclick="loadCaDmvQuestions()">🇺🇸 Calif DMV</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" id="calif_dre_link" aria-current="page" href="index.html" onclick="loadCaDreQuestions()">🇺🇸 Calif Real Estate</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" id="fcc_tech_link" aria-current="page" href="index.html" onclick="loadFccTechQuestions()">🇺🇸 FCC Tech</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" id="ca_basic_link" aria-current="page" href="index.html" onclick="loadCaBasicQuestions()">🇨🇦 CDN Basic Amateur Radio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" id="ny_dmv_link" aria-current="page" href="index.html" onclick="loadNyDmvQuestions()">🇺🇸 NY DMV</a>
-        </li>
-		    <li class="nav-item">
-          <a class="nav-link active" id="jp_hira_link" aria-current="page" href="index.html" onclick="loadJpHiraQuestions()">🇯🇵 Hiragana/ひらがな</a>
-        </li>
-		    <li class="nav-item">
-          <a class="nav-link active" id="jp_2_link" aria-current="page" href="index.html" onclick="loadJp2Questions()">🇯🇵 第二級アマチュア無線技士</a>
-        </li>
-		    <li class="nav-item">
-          <a class="nav-link active" id="jp_kanji_1_link" aria-current="page" href="index.html" onclick="loadJpK1Questions()">🇯🇵 Kanji 1st Gr</a>
-        </li>
-		<li class="nav-item">
-          <a class="nav-link active" id="aws_ml_link" aria-current="page" href="index.html" onclick="loadAwsMlQuestions()">🇺🇸 AWS Machine Learning</a>
-        </li>
 		<li class="nav-item">
           <a class="nav-link active" id="create_cards_link" aria-current="page" href="create.html" onclick="createQuestions()">Create Cards</a>
         </li>
@@ -91,19 +61,14 @@
 async function loadQuestions() {
   resetNavLinks();
   document.getElementById("load_cards_link").className = "nav-link active";
+  //window.deck_title = localStorage.getItem("deck_titles");
+  deck_titles = localStorage.getItem("deck_titles");
+  //window.json = localStorage.getItem(window.deck_title);
+  //document.getElementById("title").innerHTML = window.deck_title;
+  document.getElementById("title").innerHTML = deck_titles;
 }
 
 function resetNavLinks() {
-  document.getElementById("calif_dmv_c_link").className = "nav-link";
-  document.getElementById("ny_dmv_link").className = "nav-link";
-  document.getElementById("fcc_tech_link").className = "nav-link";
-  document.getElementById("ca_basic_link").className = "nav-link";
-  document.getElementById("calif_dre_link").className = "nav-link";
-  document.getElementById("jp_2_link").className = "nav-link";
-  document.getElementById("jp_hira_link").className = "nav-link";
-  document.getElementById("jp_kanji_1_link").className = "nav-link";
-  document.getElementById("music_link").className = "nav-link";
-  document.getElementById("aws_ml_link").className = "nav-link";
   document.getElementById("create_cards_link").className = "nav-link";
   document.getElementById("load_cards_link").className = "nav-link";
 }

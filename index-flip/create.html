@@ -94,8 +94,15 @@ function saveCards() {
 	  window.deck.test.push({"id": card_num, "answer": "A", "question": document.getElementById("new_q"+card_num).value, "A": document.getElementById("new_a"+card_num).value});
   }
   // TODO remove stringify if not needed, only using here so I can see value in Dev Tools Application tab
-  const my_deck = JSON.stringify(window.deck);
-  localStorage.setItem(window.deck.title, my_deck);
+  deck_titles = [];
+  // check if there are deck titles, if so load
+  if (localStorage.getItem("deck_titles") !== null) {
+    deck_titles = JSON.parse(localStorage.getItem("deck_titles"));
+  }
+  deck_titles.push(window.deck.title);
+  localStorage.setItem("deck_titles", JSON.stringify(deck_titles));
+  localStorage.setItem(window.deck.title, JSON.stringify(window.deck.test));
+  //localStorage.setItem(window.deck.title, window.deck.test);
 }
 
 </script>
