@@ -1,0 +1,96 @@
+{
+  "title": "🇺🇸 California Dept Real Estate Sample Test",
+  "ref": "https://www.dre.ca.gov/files/pdf/forms/re425.pdf",
+  "test": [
+    {
+      "id": "T1Q1",
+      "answer": "C",
+      "question": "Which of the following elements is required in a valid bill of sale?",
+      "A": "A. The date",
+      "B": "B. The acknowledgement",
+      "C": "C. The seller's signature",
+      "D": "D. The verification"
+    },
+    {
+      "id": "T1Q2",
+      "answer": "B",
+      "question": "Which of the following loans describe a balloon loan?",
+      "A": "A. A fully amortized loan",
+      "B": "B. A partially amortized loan",
+      "C": "C. A self-liquidating loan",
+      "D": "D. A standing loan"
+    },
+    {
+      "id": "T1Q3",
+      "answer": "B",
+      "question": "Which of the following instruments transfer possession of real property, but does not transfer ownership?",
+      "A": "A. A trust deed",
+      "B": "B. A sublease",
+      "C": "C. A security agreement",
+      "D": "D. An easement grant"
+    },
+    {
+      "id": "T1Q4",
+      "answer": "B",
+      "question": "How many years is a real estate broker required to keep copies of trust account records?",
+      "A": "A. One year",
+      "B": "B. Three years",
+      "C": "C. Five years",
+      "D": "D. Seven years"
+    },
+    {
+      "id": "T1Q5",
+      "answer": "B",
+      "question": "Which of the following legal processes give the government the right to take private land for public use?",
+      "A": "A. Police Power",
+      "B": "B. Eminent domain",
+      "C": "C. Reverter",
+      "D": "D. Escheat"
+    },
+    {
+      "id": "T1Q6",
+      "answer": "A",
+      "question": "If an interest in real property is acquired by prescription, which of the following privileges transfer to the acquiring party?",
+      "A": "A. The right to use another's land",
+      "B": "B. A possessory title",
+      "C": "C. An equitable interest",
+      "D": "D. A private grant"
+    },
+    {
+      "id": "T1Q7",
+      "answer": "C",
+      "question": "Where are grant deeds recorded for real property?",
+      "A": "A. With the title company",
+      "B": "B. With the lender",
+      "C": "C. With the county",
+      "D": "D. With the city"
+    },
+    {
+      "id": "T1Q8",
+      "answer": "C",
+      "question": "Which type of tenancy is considered joint ownership of real property by two or more persons with undivided interest (not necessarily equal) without the right of survivorship?",
+      "A": "A. Tenancy in partnership",
+      "B": "B.  Tenancy by the entireties",
+      "C": "C. Tenancy in common",
+      "D": "D. Leasehold Tenancy"
+    },
+    {
+      "id": "T1Q9",
+      "answer": "B",
+      "question": "What is the Federal Housing Administration's role in the financing of real property?",
+      "A": "A. Act as the lender of funds",
+      "B": "B. Insure loans made by approved lenders",
+      "C": "C. Purchase specific trust deeds",
+      "D": "D. Sell loans on the secondary market"
+    },
+    {
+      "id": "T1Q10",
+      "answer": "D",
+      "question": "Which of the following clauses is included in a trust deed to insure that the rights of the beneficiary shall be primary to all subsequent trust deeds?",
+      "A": "A. Acceleration clause",
+      "B": "B. Alienation clause",
+      "C": "C. Subdivision clause",
+      "D": "D. Subordination clause"
+    }
+  ]
+}

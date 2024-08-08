@@ -1,0 +1,406 @@
+{
+  "title": "🇺🇸 California DMV Regular Driver (Class C) Written Test",
+  "ref": "https://www.dmv.ca.gov/portal/driver-education-and-safety/educational-materials/sample-driver-license-dl-knowledge-tests/",
+  "test": [
+    {
+      "id": "T1Q1",
+      "answer": "C",
+      "question": "You may drive off of the paved roadway to pass another vehicle:",
+      "A": "A. If the shoulder is wide enough to accommodate your vehicle.",
+      "B": "B. If the vehicle ahead of you is turning left.",
+      "C": "C. Under no circumstances."
+    },
+    {
+      "id": "T1Q2",
+      "answer": "A",
+      "question": "You are approaching a railroad crossing with no warning devices and are unable to see 400 feet down the tracks in one direction. The speed limit is:",
+      "A": "A. 15 mph.",
+      "B": "B. 20 mph.",
+      "C": "C. 25 mph."
+    },
+    {
+      "id": "T1Q3",
+      "answer": "B",
+      "question": "When parking your vehicle parallel to the curb on a level street:",
+      "A": "A. Your front wheels must be turned toward the street.",
+      "B": "B. Your wheels must be within 18 inches of the curb.",
+      "C": "C. One of your rear wheels must touch the curb."
+    },
+    {
+      "id": "T1Q4",
+      "answer": "A",
+      "question": "When you are merging onto the freeway, you should be driving:",
+      "A": "A. At or near the same speed as the traffic on the freeway.",
+      "B": "B. 5 to 10 MPH slower than the traffic on the freeway.",
+      "C": "C. The posted speed limit for traffic on the freeway."
+    },
+    {
+      "id": "T1Q5",
+      "answer": "C",
+      "question": "When driving in fog, you should use your:",
+      "A": "A. Fog lights only.",
+      "B": "B. High beams.",
+      "C": "C. Low beams."
+    },
+    {
+      "id": "T1Q6",
+      "answer": "B",
+      "question": "A white painted curb means:",
+      "A": "A. Loading zone for freight or passengers.",
+      "B": "B. Loading zone for passengers or mail only.",
+      "C": "C. Loading zone for freight only."
+    },
+    {
+      "id": "T1Q7",
+      "answer": "C",
+      "question": "A school bus ahead of you in your lane is stopped with red lights flashing. You should:",
+      "A": "A. Stop, then proceed when you think all of the children have exited the bus.",
+      "B": "B. Slow to 25 MPH and pass cautiously.",
+      "C": "C. Stop as long as the red lights are flashing."
+    },
+    {
+      "id": "T1Q8",
+      "answer": "B",
+      "question": "California's \"Basic Speed Law\" says:",
+      "A": "A. You should never drive faster than posted speed limits.",
+      "B": "B. You should never drive faster than is safe for current conditions.",
+      "C": "C. The maximum speed limit in California is 70 mph on certain freeways."
+    },
+    {
+      "id": "T1Q9",
+      "answer": "B",
+      "question": "You just sold your vehicle. You must notify the DMV within ___ days.",
+      "A": "A. 5",
+      "B": "B. 10",
+      "C": "C. 15"
+    },
+    {
+      "id": "T1Q10",
+      "answer": "B",
+      "question": "To avoid last minute moves, you should be looking down the road to where your vehicle will be in about ______________.",
+      "A": "A. 5 to 10 seconds",
+      "B": "B. 10 to 15 seconds",
+      "C": "C. 15 to 20 seconds"
+    },
+    {
+      "id": "T2Q1",
+      "answer": "C",
+      "question": "You are about to make a left turn. You must signal continuously during the last ____ feet before the turn.",
+      "A": "A. 50",
+      "B": "B. 75",
+      "C": "C. 100"
+    },
+    {
+      "id": "T2Q2",
+      "answer": "B",
+      "question": "Which of the following statements about blind spots is true?",
+      "A": "A. They are eliminated if you have one outside mirror on each side of the vehicle.",
+      "B": "B. Large trucks have bigger blind spots than most passenger vehicles.",
+      "C": "C. Blind spots can be checked by looking in your rear view mirrors."
+    },
+    {
+      "id": "T2Q3",
+      "answer": "C",
+      "question": "You have been involved in a minor traffic collision with a parked vehicle and you can't find the owner. You must:",
+      "A": "A. Leave a note on the vehicle.",
+      "B": "B. Report the accident without delay to the city police or, in unincorporated areas, to the CHP.",
+      "C": "C. Both of the above."
+    },
+    {
+      "id": "T2Q4",
+      "answer": "B",
+      "question": "Unless otherwise posted the speed limit in a residential area is ____.",
+      "A": "A. 20 mph",
+      "B": "B. 25 mph",
+      "C": "C. 30 mph"
+    },
+    {
+      "id": "T2Q5",
+      "answer": "C",
+      "question": "You may legally block an intersection:",
+      "A": "A. When you entered the intersection on the green light.",
+      "B": "B. During rush hour traffic.",
+      "C": "C. Under no circumstances."
+    },
+    {
+      "id": "T2Q6",
+      "answer": "B",
+      "question": "When parking uphill on a two-way street with no curb, your front wheels should be:",
+      "A": "A. Turned to the left (toward the street).",
+      "B": "B. Turned to the right (away from the street).",
+      "C": "C. Parallel with the pavement."
+    },
+    {
+      "id": "T2Q7",
+      "answer": "A",
+      "question": "With a Class C drivers license a person may drive:",
+      "A": "A. A 3-axle vehicle if the Gross Vehicle Weight is less than 6,000 pounds.",
+      "B": "B. Any 3-axle vehicle regardless of the weight.",
+      "C": "C. A vehicle pulling two trailers."
+    },
+    {
+      "id": "T2Q8",
+      "answer": "B",
+      "question": "To turn left from a multilane one-way street onto a one-way street, you should start your turn from:",
+      "A": "A. Any lane (as long as it is safe).",
+      "B": "B. The lane closest to the left curb.",
+      "C": "C. The lane in the center of the road."
+    },
+    {
+      "id": "T2Q9",
+      "answer": "B",
+      "question": "If you are involved in a traffic collision, you are required to complete and submit a written report (SR1) to the DMV:",
+      "A": "A. Only if you or the other driver is injured.",
+      "B": "B. If there is property damage in excess of $1,000 or if there are any injuries.",
+      "C": "C. Only if you are at fault."
+    },
+    {
+      "id": "T2Q10",
+      "answer": "C",
+      "question": "Roadways are the most slippery:",
+      "A": "A. During a heavy downpour.",
+      "B": "B. After it has been raining for awhile.",
+      "C": "C. The first rain after a dry spell."
+    },
+    {
+      "id": "T3Q1",
+      "answer": "B",
+      "question": "You may not park your vehicle:",
+      "A": "A. On the side of the freeway in an emergency.",
+      "B": "B. Next to a red painted curb.",
+      "C": "C. Within 100 feet of an elementary school."
+    },
+    {
+      "id": "T3Q2",
+      "answer": "A",
+      "question": "You must notify the DMV within 5 days if you:",
+      "A": "A. Sell or transfer your vehicle.",
+      "B": "B. Fail a smog test for your vehicle.",
+      "C": "C. Get a new prescription for lenses or contacts."
+    },
+    {
+      "id": "T3Q3",
+      "answer": "B",
+      "question": "Two sets of solid, double, yellow lines that are two or more feet apart:",
+      "A": "A. May be crossed to enter or exit a private driveway.",
+      "B": "B. May not be crossed for any reason.",
+      "C": "C. Should be treated as a separate traffic lane."
+    },
+    {
+      "id": "T3Q4",
+      "answer": "C",
+      "question": "You want to make a right turn at an upcoming intersection. You should slow down and:",
+      "A": "A. Move toward the left side of your lane.",
+      "B": "B. Avoid driving in the bicycle lane.",
+      "C": "C. Signal for 100 feet before turning."
+    },
+    {
+      "id": "T3Q5",
+      "answer": "C",
+      "question": "You are driving on a freeway posted for 65 MPH. The traffic is traveling at 70 MPH. You may legally drive:",
+      "A": "A. 70 mph or faster to keep up with the speed of traffic.",
+      "B": "B. Between 65 mph and 70 mph.",
+      "C": "C. No faster than 65 mph."
+    },
+    {
+      "id": "T3Q6",
+      "answer": "A",
+      "question": "It is illegal to park your vehicle:",
+      "A": "A. In an unmarked crosswalk.",
+      "B": "B. Within three feet of a private driveway.",
+      "C": "C. In a bicycle lane."
+    },
+    {
+      "id": "T3Q7",
+      "answer": "A",
+      "question": "The safest precaution that you can take regarding the use of cellular phones and driving is:",
+      "A": "A. Use hands-free devices so you can keep both hands on the steering wheel.",
+      "B": "B. Keep your phone within easy reach so you won't need to take your eyes off the road.",
+      "C": "C. Review the number before answering a call."
+    },
+    {
+      "id": "T3Q8",
+      "answer": "A",
+      "question": "If you have a green light, but traffic is blocking the intersection, you should:",
+      "A": "A. Stay out of the intersection until traffic clears.",
+      "B": "B. Enter the intersection and wait until traffic clears.",
+      "C": "C. Merge into another lane and try to go around the traffic."
+    },
+    {
+      "id": "T3Q9",
+      "answer": "C",
+      "question": "You are getting ready to make a right turn. You should:",
+      "A": "A. Signal and turn immediately.",
+      "B": "B. Stop before entering the right lane and let all other traffic go first.",
+      "C": "C. Slow down or stop, if necessary, and then make the turn."
+    },
+    {
+      "id": "T3Q10",
+      "answer": "A",
+      "question": "You must obey instructions from school crossing guards:",
+      "A": "A. At all times.",
+      "B": "B. Only during school hours.",
+      "C": "C. Unless you do not see any children present."
+    },
+    {
+      "id": "T4Q1",
+      "answer": "C",
+      "question": "It is a very windy day. You are driving and a dust storm blows across the freeway reducing your visibility. You should drive slower and turn on your:",
+      "A": "A. Interior lights.",
+      "B": "B. Parking lights.",
+      "C": "C. Headlights."
+    },
+    {
+      "id": "T4Q2",
+      "answer": "A",
+      "question": "If you plan to pass another vehicle, you should:",
+      "A": "A. Not assume the other driver will make space for you to return to your lane.",
+      "B": "B. Assume the other driver will let you pass if you use your turn signal.",
+      "C": "C. Assume the other driver will maintain a constant speed."
+    },
+    {
+      "id": "T4Q3",
+      "answer": "C",
+      "question": "You are driving on a freeway posted for 65 mph. Most of the other vehicles are driving 70 mph or faster. You may legally drive:",
+      "A": "A. 70 mph or faster to keep up with the speed of traffic.",
+      "B": "B. Between 65 mph and 70 mph.",
+      "C": "C. No faster than 65 mph. "
+    },
+    {
+      "id": "T4Q4",
+      "answer": "B",
+      "question": "If you drive faster than other vehicles on a road with one lane in each direction and continually pass the other cars, you will:",
+      "A": "A. Get you to your destination much faster and safer.",
+      "B": "B. Increase your chances of an accident.",
+      "C": "C. Help prevent traffic congestion."
+    },
+    {
+      "id": "T4Q5",
+      "answer": "A",
+      "question": "Which of these vehicles must always stop before crossing railroad tracks?",
+      "A": "A. Tank trucks marked with hazardous materials placards.",
+      "B": "B. Motor homes or pickup trucks towing a boat trailer.",
+      "C": "C. Any vehicle with 3 or more axles or weighing more than 4,000 pounds."
+    },
+    {
+      "id": "T4Q6",
+      "answer": "C",
+      "question": "You are driving on a one-way street. You may turn left onto another one-way street only if:",
+      "A": "A. A sign permits the turn.",
+      "B": "B. Traffic on the street moves to the right.",
+      "C": "C. Traffic on the street moves to the left."
+    },
+    {
+      "id": "T4Q7",
+      "answer": "B",
+      "question": "A large truck is ahead of you and is turning right onto a street with two lanes in each direction. The truck:",
+      "A": "A. May complete its turn in either of the two lanes.",
+      "B": "B. May have to swing wide to complete the right turn.",
+      "C": "C. Must stay in the right lane at all times while turning."
+    },
+    {
+      "id": "T4Q8",
+      "answer": "B",
+      "question": "You may cross a double yellow line to pass another vehicle, if the yellow line next to:",
+      "A": "A. The other side of the road is a solid line.",
+      "B": "B. Your side of the road is a broken line.",
+      "C": "C. The other side of the road is a broken line."
+    },
+    {
+      "id": "T4Q9",
+      "answer": "B",
+      "question": "At intersections, crosswalks, and railroad crossings, you should always:",
+      "A": "A. Stop, listen, and proceed cautiously.",
+      "B": "B. Look to the sides of your vehicle to see what is coming.",
+      "C": "C. Slowly pass vehicles that seem to be stopped for no reason."
+    },
+    {
+      "id": "T4Q10",
+      "answer": "C",
+      "question": "You drive defensively when you:",
+      "A": "A. Always put one car length between you and the car ahead.",
+      "B": "B. Look only at the car in front of you while driving.",
+      "C": "C. Keep your eyes moving to look for possible hazards."
+    },
+    {
+      "id": "T5Q1",
+      "answer": "B",
+      "question": "You are driving on the freeway. The vehicle in front of you is a large truck. You should drive:",
+      "A": "A. Closely behind the truck in bad weather because the driver can see farther ahead.",
+      "B": "B. Farther behind the truck than you would for a passenger vehicle.",
+      "C": "C. No more than one car length behind the truck so the driver can see you."
+    },
+    {
+      "id": "T5Q2",
+      "answer": "A",
+      "question": "All of the following practices are dangerous to do while driving. Which of these is also illegal?",
+      "A": "A. Listening to music through headphones that cover both ears. ",
+      "B": "B. Adjusting your outside mirrors.",
+      "C": "C. Transporting an unrestrained animal inside the vehicle."
+    },
+    {
+      "id": "T5Q3",
+      "answer": "A",
+      "question": "Always stop before you cross railroad tracks when:",
+      "A": "A. You don't have room on the other side to completely cross the tracks.",
+      "B": "B. The railroad crossing is located in a city or town that has frequent train traffic.",
+      "C": "C. You transport two or more young children in a passenger vehicle."
+    },
+    {
+      "id": "T5Q4",
+      "answer": "A",
+      "question": "When you tailgate other drivers (drive close to their rear bumper):",
+      "A": "A. You can frustrate the other drivers and make them angry.",
+      "B": "B. Your actions cannot result in a traffic citation.",
+      "C": "C. You help reduce traffic congestion."
+    },
+    {
+      "id": "T5Q5",
+      "answer": "A",
+      "question": "Should you always drive slower than other traffic?",
+      "A": "A. No, you can block traffic when you drive too slowly.",
+      "B": "B. Yes, it is a good defensive driving technique.",
+      "C": "C. Yes, it is always safer than driving faster than other traffic."
+    },
+    {
+      "id": "T5Q6",
+      "answer": "C",
+      "question": "You see a signal person at a road construction site ahead. You should obey his or her instructions:",
+      "A": "A. Only if you see orange cones on the road ahead.",
+      "B": "B. Unless they conflict with existing signs, signals, or laws.",
+      "C": "C. At all times."
+    },
+    {
+      "id": "T5Q7",
+      "answer": "B",
+      "question": "When can you drive in a bike lane?",
+      "A": "A. During rush hour traffic if there are no bicyclists in the bike lane.",
+      "B": "B. When you are within 200 feet of a cross street where you plan to turn right.",
+      "C": "C. When you want to pass a driver ahead of you who is turning right."
+    },
+    {
+      "id": "T5Q8",
+      "answer": "C",
+      "question": "You see a flashing yellow traffic signal at an upcoming intersection. The flashing yellow light means:",
+      "A": "A. Stop before entering the intersection as long as you can do so safely.",
+      "B": "B. Stop. Yield to all cross traffic before crossing the intersection.",
+      "C": "C. Slow down and cross the intersection carefully."
+    },
+    {
+      "id": "T5Q9",
+      "answer": "C",
+      "question": "There is no crosswalk and you see a pedestrian crossing your lane ahead. You should:",
+      "A": "A. Make eye contact and then pass him/her.",
+      "B": "B. Slow down as you pass him/her.",
+      "C": "C. Stop and let him/her finish crossing the street."
+    },
+    {
+      "id": "T5Q10",
+      "answer": "B",
+      "question": "A solid yellow line next to a broken yellow line means that vehicles:",
+      "A": "A. In both directions may pass.",
+      "B": "B. Next to the broken line may pass.",
+      "C": "C. Next to the solid line may pass."
+    }
+  ]
+}

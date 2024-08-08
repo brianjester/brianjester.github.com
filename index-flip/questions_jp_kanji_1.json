@@ -1,0 +1,646 @@
+{
+  "title": "🇯🇵 Kanji 1st Gr",
+  "ref": "https://en.wikipedia.org/wiki/Ky%C5%8Diku_kanji#First_grade_(80_kanji)",
+  "test": [
+    {
+      "id": "k1",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/一-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: one ~ On'yomi: ichi, itsu ~ Kun'yomi: hito-tsu"
+    },
+    {
+      "id": "k2",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/二-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: two ~ On'yomi: ni, ji ~ Kun'yomi: futa-tsu"
+    },
+    {
+      "id": "k3",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/三-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: three ~ On'yomi: san ~ Kun'yomi: mit-tsu"
+    },
+    {
+      "id": "k4",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/四-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: four ~ On'yomi: shi ~ Kun'yomi: yot-tsu, yon"
+    },
+    {
+      "id": "k5",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/五-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: five ~ On'yomi: go ~ Kun'yomi: itsu-tsu"
+    },
+    {
+      "id": "k6",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/六-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: six ~ On'yomi: roku ~ Kun'yomi: mut-tsu"
+    },
+    {
+      "id": "k7",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/七-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: seven ~ On'yomi: shichi ~ Kun'yomi: nana-tsu, nana"
+    },
+    {
+      "id": "k8",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/八-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: eight ~ On'yomi: hachi ~ Kun'yomi: yat-tsu"
+    },
+    {
+      "id": "k9",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/九-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: nine ~ On'yomi: ku, kyū ~ Kun'yomi: kokono-tsu"
+    },
+    {
+      "id": "k10",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/十-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: ten ~ On'yomi: jū ~ Kun'yomi: tō"
+    },
+    {
+      "id": "k11",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/百-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: hundred ~ On'yomi: hyaku ~ Kun'yomi: momo"
+    },
+    {
+      "id": "k12",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/千-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: thousand ~ On'yomi: sen ~ Kun'yomi: chi"
+    },
+    {
+      "id": "k13",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/上-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: top,above ~ On'yomi: jō ~ Kun'yomi: ue"
+    },
+    {
+      "id": "k14",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/下-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: bottom,below ~ On'yomi: ka, ge ~ Kun'yomi: shita, shimo, moto"
+    },
+    {
+      "id": "k15",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/左-bw.png",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: left ~ On'yomi: sa ~ Kun'yomi: hidari"
+    },
+    {
+      "id": "k16",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/右-jbw.png",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: right ~ On'yomi: u, yū ~ Kun'yomi: migi"
+    },
+    {
+      "id": "k17",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/中-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: inside, middle ~ On'yomi: chū, jū ~ Kun'yomi: naka"
+    },
+    {
+      "id": "k18",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/大-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: large ~ On'yomi: dai, tai ~ Kun'yomi: ō-kii, ō"
+    },
+    {
+      "id": "k19",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/小-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: small ~ On'yomi: shō ~ Kun'yomi: chii-sai, ko, o"
+    },
+    {
+      "id": "k20",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/月-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: month, moon ~ On'yomi: gatsu, getsu ~ Kun'yomi: tsuki"
+    },
+    {
+      "id": "k21",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/日-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: day, sun ~ On'yomi: nichi, jitsu ~ Kun'yomi: hi, ka"
+    },
+    {
+      "id": "k22",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/年-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: year ~ On'yomi: nen ~ Kun'yomi: toshi"
+    },
+    {
+      "id": "k23",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/早-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: early ~ On'yomi: sō, sa ~ Kun'yomi: haya-i"
+    },
+    {
+      "id": "k24",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/木-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: chi ~ On'yomi: moku, boku ~ Kun'yomi: ki"
+    },
+    {
+      "id": "k25",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/林-bw.png",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: woods ~ On'yomi: rin ~ Kun'yomi: hayashi"
+    },
+    {
+      "id": "k26",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/山-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: mountain ~ On'yomi: san ~ Kun'yomi: yama"
+    },
+    {
+      "id": "k27",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/川-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: river ~ On'yomi: sen ~ Kun'yomi: kawa"
+    },
+    {
+      "id": "k28",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/土-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: soil ~ On'yomi: to, do ~ Kun'yomi: tsuchi"
+    },
+    {
+      "id": "k29",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/空-bw.png",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: sky ~ On'yomi: kū ~ Kun'yomi: sora, a-ku, kara"
+    },
+    {
+      "id": "k30",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/田-jorder.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: rice field ~ On'yomi: den ~ Kun'yomi: da, ta"
+    },
+    {
+      "id": "k31",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/天-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: heaven, sky ~ On'yomi: ten ~ Kun'yomi: ame, ama"
+    },
+    {
+      "id": "k32",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/生-jorder.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: living, birth, raw ~ On'yomi: sei, shō ~ Kun'yomi: i-kiru, u-mu, nama"
+    },
+    {
+      "id": "k33",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/花-bw.png",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: flower ~ On'yomi: ka ~ Kun'yomi: hana"
+    },
+    {
+      "id": "k34",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/草-bw.png",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: grass ~ On'yomi: sō ~ Kun'yomi: kusa"
+    },
+    {
+      "id": "k35",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/虫-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: insect ~ On'yomi: chū ~ Kun'yomi: mushi"
+    },
+    {
+      "id": "k36",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/犬-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: dog ~ On'yomi: ken ~ Kun'yomi: inu"
+    },
+    {
+      "id": "k37",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/人-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: person ~ On'yomi: jin, nin ~ Kun'yomi: hito"
+    },
+    {
+      "id": "k38",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/名-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: name ~ On'yomi: mei, myō ~ Kun'yomi: na"
+    },
+    {
+      "id": "k39",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/女-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: female ~ On'yomi: jo, nyo  ~ Kun'yomi: on'na"
+    },
+    {
+      "id": "k40",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/男-jbw.png",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: male ~ On'yomi: dan, nan ~ Kun'yomi: otoko"
+    },
+    {
+      "id": "k41",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/子-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: child ~ On'yomi: shi, su ~ Kun'yomi: ko"
+    },
+    {
+      "id": "k42",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/目-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: eye ~ On'yomi: moku ~ Kun'yomi: me"
+    },
+    {
+      "id": "k43",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/耳-jorder.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: ear ~ On'yomi: ni, ji ~ Kun'yomi: mimi"
+    },
+    {
+      "id": "k44",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/口-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: mouth ~ On'yomi: kō ~ Kun'yomi: kuchi"
+    },
+    {
+      "id": "k45",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/手-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: hand ~ On'yomi: shu ~ Kun'yomi: te"
+    },
+    {
+      "id": "k46",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/足-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: foot, suffice ~ On'yomi: soku ~ Kun'yomi: ashi, ta-riru"
+    },
+    {
+      "id": "k47",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/見-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: see ~ On'yomi: ken, gen ~ Kun'yomi: miru"
+    },
+    {
+      "id": "k48",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/音-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: sound ~ On'yomi: on ~ Kun'yomi: ne, oto"
+    },
+    {
+      "id": "k49",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/力-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: power ~ On'yomi: riki, ryoku ~ Kun'yomi: chikara"
+    },
+    {
+      "id": "k50",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/気-jbw.png",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: spirit, air ~ On'yomi: ki, ke ~ Kun'yomi: iku"
+    },
+    {
+      "id": "k51",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/円-jbw.png",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: yen, circle ~ On'yomi: en ~ Kun'yomi: maru"
+    },
+    {
+      "id": "k52",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/入-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: enter ~ On'yomi: nyū ~ Kun'yomi: hai-ru, i-ru"
+    },
+    {
+      "id": "k53",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/出-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: exit ~ On'yomi: shutsu ~ Kun'yomi: de-ru"
+    },
+    {
+      "id": "k54",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/立-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: standup ~ On'yomi: ritsu ~ Kun'yomi: ta-tsu"
+    },
+    {
+      "id": "k55",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/休-bw.png",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: rest ~ On'yomi: kyū ~ Kun'yomi: yasu-mu"
+    },
+    {
+      "id": "k56",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/先-bw.png",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: previous ~ On'yomi: sen ~ Kun'yomi: saki"
+    },
+    {
+      "id": "k57",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/夕-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: evening ~ On'yomi: seki ~ Kun'yomi: yū"
+    },
+    {
+      "id": "k58",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/本-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: book ~ On'yomi: hon ~ Kun'yomi: moto"
+    },
+    {
+      "id": "k59",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/文-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: text ~ On'yomi: bun, mon ~ Kun'yomi: fumi"
+    },
+    {
+      "id": "k60",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/字-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: character ~ On'yomi: ji ~ Kun'yomi: aza"
+    },
+    {
+      "id": "k61",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/学-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: study ~ On'yomi: gaku ~ Kun'yomi: mana-bu"
+    },
+    {
+      "id": "k62",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/校-bw.png",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: school ~ On'yomi: kō ~ Kun'yomi: kase"
+    },
+    {
+      "id": "k63",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/村-bw.png",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: village ~ On'yomi: son ~ Kun'yomi: mura"
+    },
+    {
+      "id": "k64",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/町-jbw.png",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: town ~ On'yomi: chō ~ Kun'yomi: machi"
+    },
+    {
+      "id": "k65",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/森-bw.png",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: forrest ~ On'yomi: shin ~ Kun'yomi: mori"
+    },
+    {
+      "id": "k66",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/正-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: correct ~ On'yomi: sei, shō ~ Kun'yomi: tada-shii, masa"
+    },
+    {
+      "id": "k67",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/水-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: water ~ On'yomi: sui ~ Kun'yomi: mizu"
+    },
+    {
+      "id": "k68",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/火-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: fire ~ On'yomi: ka ~ Kun'yomi: hi"
+    },
+    {
+      "id": "k69",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/玉-jorder.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: jewel, beauty, emperor ~ On'yomi: goku, gyoku ~ Kun'yomi: tama"
+    },
+    {
+      "id": "k70",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/王-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: king ~ On'yomi: ō ~ Kun'yomi: kimi"
+    },
+    {
+      "id": "k71",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/石-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: stone ~ On'yomi: seki, koku ~ Kun'yomi: ishi"
+    },
+    {
+      "id": "k72",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/竹-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: bamboo ~ On'yomi: chiku ~ Kun'yomi: take"
+    },
+    {
+      "id": "k73",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/糸-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: thread ~ On'yomi: shi ~ Kun'yomi: ito"
+    },
+    {
+      "id": "k74",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/貝-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: shellfish ~ On'yomi: bai ~ Kun'yomi: kai"
+    },
+    {
+      "id": "k75",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/車-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: vehicle ~ On'yomi: sha ~ Kun'yomi: kuruma"
+    },
+    {
+      "id": "k76",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/金-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: gold, money ~ On'yomi: kin ~ Kun'yomi: kane, kana"
+    },
+    {
+      "id": "k77",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/雨-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: rain ~ On'yomi: u ~ Kun'yomi: ame, ama"
+    },
+    {
+      "id": "k78",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/赤-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: red ~ On'yomi: seki ~ Kun'yomi: aka"
+    },
+    {
+      "id": "k79",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/青-jbw.png",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: blue ~ On'yomi: sei, shō ~ Kun'yomi: ao"
+    },
+    {
+      "id": "k80",
+      "answer": "A",
+      "question": "",
+      "image": "kanji_1/白-order.gif",
+      "attribution": "By FanNihongo CC BY 3.0, https://commons.wikimedia.org",
+      "A": "Meaning: white ~ On'yomi: haku ~ Kun'yomi: shiro, shira"
+    }
+  ]
+}

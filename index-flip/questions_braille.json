@@ -1,0 +1,292 @@
+{
+  "title": "Braille (26 cards)",
+  "ref": "https://en.wikipedia.org/wiki/Braille",
+  "test": [
+    {
+      "id": "T1Q1",
+      "answer": "A",
+      "question": "What Braille letter or number is this?",
+      "image": "braille/a1.png", 
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
+      "A": "A/1",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    {
+      "id": "T1Q2",
+      "answer": "A",
+      "question": "What Braille letter or number is this?",
+      "image": "braille/b2.png", 
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
+      "A": "B/2",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    {
+      "id": "T1Q3",
+      "answer": "A",
+      "question": "What Braille letter or number is this?",
+      "image": "braille/c3.png", 
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
+      "A": "C/3",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    {
+      "id": "T1Q4",
+      "answer": "A",
+      "question": "What Braille letter or number is this?",
+      "image": "braille/d4.png", 
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
+      "A": "D/4",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    {
+      "id": "T1Q5",
+      "answer": "A",
+      "question": "What Braille letter or number is this?",
+      "image": "braille/e5.png", 
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
+      "A": "E/5",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    {
+      "id": "T1Q6",
+      "answer": "A",
+      "question": "What Braille letter or number is this?",
+      "image": "braille/f6.png", 
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
+      "A": "F/6",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    {
+      "id": "T1Q7",
+      "answer": "A",
+      "question": "What Braille letter or number is this?",
+      "image": "braille/g7.png", 
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
+      "A": "G/7",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    {
+      "id": "T1Q8",
+      "answer": "A",
+      "question": "What Braille letter or number is this?",
+      "image": "braille/h8.png", 
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
+      "A": "H/8",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    {
+      "id": "T1Q9",
+      "answer": "A",
+      "question": "What Braille letter or number is this?",
+      "image": "braille/i9.png", 
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
+      "A": "I/9",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    {
+      "id": "T1Q10",
+      "answer": "A",
+      "question": "What Braille letter or number is this?",
+      "image": "braille/j0.png", 
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
+      "A": "J/0",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    {
+      "id": "T1Q11",
+      "answer": "A",
+      "question": "What Braille letter or number is this?",
+      "image": "braille/k.png", 
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
+      "A": "K",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    {
+      "id": "T1Q12",
+      "answer": "A",
+      "question": "What Braille letter or number is this?",
+      "image": "braille/l.png", 
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
+      "A": "L",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    {
+      "id": "T1Q13",
+      "answer": "A",
+      "question": "What Braille letter or number is this?",
+      "image": "braille/m.png", 
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
+      "A": "M",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    {
+      "id": "T1Q14",
+      "answer": "A",
+      "question": "What Braille letter or number is this?",
+      "image": "braille/n.png", 
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
+      "A": "N",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    {
+      "id": "T1Q15",
+      "answer": "A",
+      "question": "What Braille letter or number is this?",
+      "image": "braille/o.png", 
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
+      "A": "O",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    {
+      "id": "T1Q16",
+      "answer": "A",
+      "question": "What Braille letter or number is this?",
+      "image": "braille/p.png", 
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
+      "A": "P",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    {
+      "id": "T1Q17",
+      "answer": "A",
+      "question": "What Braille letter or number is this?",
+      "image": "braille/q.png", 
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
+      "A": "Q",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    {
+      "id": "T1Q18",
+      "answer": "A",
+      "question": "What Braille letter or number is this?",
+      "image": "braille/r.png", 
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
+      "A": "R",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    {
+      "id": "T1Q19",
+      "answer": "A",
+      "question": "What Braille letter or number is this?",
+      "image": "braille/s.png", 
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
+      "A": "S",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    {
+      "id": "T1Q20",
+      "answer": "A",
+      "question": "What Braille letter or number is this?",
+      "image": "braille/t.png", 
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
+      "A": "T",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    {
+      "id": "T1Q21",
+      "answer": "A",
+      "question": "What Braille letter or number is this?",
+      "image": "braille/u.png", 
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
+      "A": "U",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    {
+      "id": "T1Q22",
+      "answer": "A",
+      "question": "What Braille letter or number is this?",
+      "image": "braille/v.png", 
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
+      "A": "V",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    {
+      "id": "T1Q23",
+      "answer": "A",
+      "question": "What Braille letter or number is this?",
+      "image": "braille/w.png", 
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
+      "A": "W",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    {
+      "id": "T1Q24",
+      "answer": "A",
+      "question": "What Braille letter or number is this?",
+      "image": "braille/x.png", 
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
+      "A": "X",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    {
+      "id": "T1Q25",
+      "answer": "A",
+      "question": "What Braille letter or number is this?",
+      "image": "braille/y.png", 
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
+      "A": "Y",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    {
+      "id": "T1Q26",
+      "answer": "A",
+      "question": "What Braille letter or number is this?",
+      "image": "braille/z.png", 
+      "attribution": "PD, created by: https://commons.wikimedia.org/wiki/User:Cfaerber",
+      "A": "Z",
+      "B": "",
+      "C": "",
+      "D": ""
+    }
+  ]
+}
