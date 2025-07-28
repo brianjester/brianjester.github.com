@@ -14,6 +14,7 @@ Brian Jester's Portfolio - IndexFlip, DMR QRZ, Cabrillo Log, SOTA logs, Castles 
 - [Unofficial Anytone Radio Site](https://brianjester.github.io/anytone) - Everything you'll need to setup your new DMR radio.
 - [Passive Income Projects](https://brianjester.github.io/passive-income) - Here's our chart of passive income from our side projects.
 - [Morse Code Key](https://brianjester.github.io/morse) - In-browser Morse code key, for use on PC with mouse.
+- [USGS Earthquake Map - Express + Mapbox](https://github.com/brianjester/myExpressApp) - Created with VS Code + Gemini Code Assist plugin
 
 ## Contributing
 
