@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Value Slope</title>
+    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: "Segoe UI", Arial, sans-serif;
+        color: #202124;
+        background: #f5f7fa;
+      }
+
+      body {
+        margin: 0;
+        padding: 2rem;
+      }
+
+      main {
+        max-width: 1440px;
+        margin: 0 auto;
+      }
+
+      h1 {
+        margin: 0 0 0.4rem;
+      }
+
+      .subtitle,
+      #status,
+      .updated {
+        color: #5f6368;
+      }
+
+      .summary {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin: 1.5rem 0;
+      }
+
+      .metric,
+      .panel {
+        background: white;
+        border: 1px solid #dfe3e8;
+        border-radius: 8px;
+        box-shadow: 0 1px 3px #0000000d;
+      }
+
+      .metric {
+        min-width: 190px;
+        padding: 1rem 1.25rem;
+      }
+
+      .metric-label {
+        display: block;
+        margin-bottom: 0.35rem;
+        color: #5f6368;
+        font-size: 0.9rem;
+      }
+
+      .metric-value {
+        font-size: 1.35rem;
+        font-weight: 600;
+      }
+
+      .content {
+        display: grid;
+        grid-template-columns: minmax(0, 3fr) minmax(280px, 1fr);
+        gap: 1rem;
+        align-items: start;
+      }
+
+      .panel {
+        padding: 1rem;
+      }
+
+      #chart {
+        min-height: 620px;
+      }
+
+      h2 {
+        margin: 0 0 0.75rem;
+        font-size: 1.2rem;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-variant-numeric: tabular-nums;
+      }
+
+      th,
+      td {
+        padding: 0.45rem 0.5rem;
+        border-bottom: 1px solid #e8eaed;
+        text-align: left;
+      }
+
+      th:last-child,
+      td:last-child {
+        text-align: right;
+      }
+
+      th {
+        color: #5f6368;
+        font-size: 0.85rem;
+      }
+
+      .updated {
+        margin-top: 1rem;
+        font-size: 0.85rem;
+      }
+
+      @media (max-width: 850px) {
+        body {
+          padding: 1rem;
+        }
+
+        .content {
+          grid-template-columns: 1fr;
+        }
+
+        #chart {
+          min-height: 480px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Value Slope</h1>
+        <p class="subtitle">
+          Annualized price change versus return smoothness. Hover over a point
+          for ticker, company, slope, smoothness, and P/E details.
+        </p>
+        <p id="status" role="status">Loading chart data…</p>
+      </header>
+
+      <section class="summary" aria-label="Average metrics">
+        <div class="metric">
+          <span class="metric-label">Average annual slope</span>
+          <span class="metric-value" id="average-slope">—</span>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Average smoothness</span>
+          <span class="metric-value" id="average-smoothness">—</span>
+        </div>
+      </section>
+
+      <section class="content">
+        <div class="panel">
+          <div id="chart" aria-label="Scatter plot of stock slope and smoothness"></div>
+        </div>
+        <aside class="panel">
+          <h2>Top 20 by slope</h2>
+          <table>
+            <thead>
+              <tr><th>Ticker</th><th>Slope (%/year)</th></tr>
+            </thead>
+            <tbody id="top-tickers"></tbody>
+          </table>
+        </aside>
+      </section>
+
+      <p class="updated" id="updated"></p>
+    </main>
+
+    <script>
+      const formatNumber = (value, digits) =>
+        Number(value).toLocaleString(undefined, {
+          minimumFractionDigits: digits,
+          maximumFractionDigits: digits,
+        });
+
+      const addTableRow = (tbody, ticker, slope) => {
+        const row = document.createElement("tr");
+        const tickerCell = document.createElement("td");
+        const slopeCell = document.createElement("td");
+        tickerCell.textContent = ticker;
+        slopeCell.textContent = `${formatNumber(slope, 0)}%`;
+        row.append(tickerCell, slopeCell);
+        tbody.append(row);
+      };
+
+      const renderChart = (data) => {
+        const stocks = data.stocks;
+        const plotStocks = stocks.filter(
+          (stock) =>
+            Number.isFinite(stock.meanSquaredReturnChange) &&
+            stock.meanSquaredReturnChange > 0 &&
+            Number.isFinite(stock.annualPercentageSlope) &&
+            stock.annualPercentageSlope > 0,
+        );
+        const withPe = plotStocks.filter(
+          (stock) => Number.isFinite(stock.peRatio) && stock.peRatio > 0,
+        );
+        const withoutPe = plotStocks.filter(
+          (stock) => !Number.isFinite(stock.peRatio) || stock.peRatio <= 0,
+        );
+        const peValues = withPe.map((stock) => stock.peRatio);
+        const minPe = Math.min(...peValues);
+        const maxPe = Math.max(...peValues);
+        const colorMax = maxPe === minPe ? minPe + 1 : maxPe;
+        const colorscale = [
+          [0, "#008000"],
+          [1 / 6, "#FFFF00"],
+          [2 / 6, "#FFA500"],
+          [3 / 6, "#FF0000"],
+          [4 / 6, "#800080"],
+          [5 / 6, "#00008B"],
+          [1, "#000000"],
+        ];
+        const toTrace = (rows, marker) => ({
+          type: "scatter",
+          mode: "markers+text",
+          x: rows.map((stock) => stock.meanSquaredReturnChange),
+          y: rows.map((stock) => stock.annualPercentageSlope),
+          text: rows.map((stock) => stock.ticker),
+          textposition: "top right",
+          textfont: { size: 10, color: "#202124" },
+          customdata: rows.map((stock) => [
+            stock.ticker,
+            stock.companyName || "Company name unavailable",
+            stock.annualPercentageSlope,
+            stock.meanSquaredReturnChange,
+            Number.isFinite(stock.peRatio) && stock.peRatio > 0
+              ? stock.peRatio.toFixed(2)
+              : "N/A",
+          ]),
+          hovertemplate:
+            "<b>%{customdata[0]} — %{customdata[1]}</b><br>" +
+            "Slope: %{customdata[2]:.0f}% per year<br>" +
+            "Smoothness: %{customdata[3]:.3f}<br>" +
+            "P/E ratio: %{customdata[4]}<extra></extra>",
+          marker,
+        });
+        const traces = [];
+
+        if (withPe.length) {
+          traces.push(
+            toTrace(withPe, {
+              color: withPe.map((stock) => stock.peRatio),
+              colorscale,
+              cmin: minPe,
+              cmax: colorMax,
+              showscale: true,
+              colorbar: {
+                title: { text: "P/E ratio" },
+                len: 0.82,
+              },
+              size: 9,
+              opacity: 0.8,
+            }),
+          );
+        }
+
+        if (withoutPe.length) {
+          traces.push(
+            toTrace(withoutPe, {
+              color: "#9e9e9e",
+              size: 9,
+              opacity: 0.8,
+            }),
+          );
+        }
+
+        document.getElementById("average-slope").textContent =
+          `${formatNumber(data.averages.annualPercentageSlope, 0)}% per year`;
+        document.getElementById("average-smoothness").textContent =
+          formatNumber(data.averages.meanSquaredReturnChange, 3);
+
+        const tbody = document.getElementById("top-tickers");
+        [...stocks]
+          .sort((a, b) => b.annualPercentageSlope - a.annualPercentageSlope)
+          .slice(0, 20)
+          .forEach((stock) =>
+            addTableRow(tbody, stock.ticker, stock.annualPercentageSlope),
+          );
+
+        const layout = {
+          title: `Top ${stocks.length} tickers: annual slope vs. smoothness`,
+          paper_bgcolor: "white",
+          plot_bgcolor: "white",
+          margin: { t: 60, r: 25, b: 80, l: 75 },
+          xaxis: {
+            title: "Smoothness: mean squared change in monthly log returns (lower is smoother)",
+            type: "log",
+            showgrid: true,
+            gridcolor: "#e5e7eb",
+          },
+          yaxis: {
+            title: "Average annual price change (% of starting price)",
+            type: "log",
+            showgrid: true,
+            gridcolor: "#e5e7eb",
+          },
+          showlegend: false,
+        };
+        Plotly.newPlot("chart", traces, layout, {
+          responsive: true,
+          displaylogo: false,
+        });
+
+        const generatedAt = new Date(data.generatedAt);
+        document.getElementById("updated").textContent =
+          `Data generated ${Number.isNaN(generatedAt.getTime()) ? data.generatedAt : generatedAt.toLocaleString()}.`;
+        document.getElementById("status").textContent =
+          plotStocks.length === stocks.length
+            ? `Loaded ${stocks.length} tickers.`
+            : `Loaded ${stocks.length} tickers; ${stocks.length - plotStocks.length} with nonpositive or invalid chart values are omitted from the log-scale plot.`;
+      };
+
+      fetch("./value-slope.json", { cache: "no-cache" })
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error(`Could not load value-slope.json (${response.status}).`);
+          }
+          return response.json();
+        })
+        .then(renderChart)
+        .catch((error) => {
+          console.error(error);
+          document.getElementById("status").textContent =
+            `${error.message} Upload index.html and value-slope.json to the same folder.`;
+        });
+    </script>
+  </body>
+</html>

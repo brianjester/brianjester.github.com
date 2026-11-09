@@ -1,0 +1,359 @@
+{
+  "generatedAt": "2026-11-08T22:38:23.884200+00:00",
+  "averages": {
+    "annualPercentageSlope": 167.9673529704796,
+    "meanSquaredReturnChange": 0.06322255229694926
+  },
+  "stocks": [
+    {
+      "ticker": "SNDK",
+      "companyName": "Sandisk Corporation Common Stock",
+      "annualPercentageSlope": 2410.5590226932,
+      "meanSquaredReturnChange": 0.3576886789,
+      "peRatio": null
+    },
+    {
+      "ticker": "FIX",
+      "companyName": "Comfort Systems USA Inc. Common Stock",
+      "annualPercentageSlope": 358.4757099692,
+      "meanSquaredReturnChange": 0.0305361938,
+      "peRatio": null
+    },
+    {
+      "ticker": "MU",
+      "companyName": "Micron Technology Inc. Common Stock",
+      "annualPercentageSlope": 252.3697366106,
+      "meanSquaredReturnChange": 0.0799052678,
+      "peRatio": 9.2829275
+    },
+    {
+      "ticker": "GEV",
+      "companyName": "GE Vernova Inc. Common Stock",
+      "annualPercentageSlope": 239.2910077883,
+      "meanSquaredReturnChange": 0.0680510919,
+      "peRatio": 20.323181
+    },
+    {
+      "ticker": "LITE",
+      "companyName": "Lumentum Holdings Inc. Common Stock",
+      "annualPercentageSlope": 232.3430620748,
+      "meanSquaredReturnChange": 0.0646193134,
+      "peRatio": null
+    },
+    {
+      "ticker": "BE",
+      "companyName": "Bloom Energy Corporation Class A Common Stock",
+      "annualPercentageSlope": 203.2976436441,
+      "meanSquaredReturnChange": 0.2256909602,
+      "peRatio": null
+    },
+    {
+      "ticker": "DELL",
+      "companyName": "Dell Technologies Inc. Class C Common Stock",
+      "annualPercentageSlope": 200.8269937566,
+      "meanSquaredReturnChange": 0.0819219168,
+      "peRatio": 19.10058
+    },
+    {
+      "ticker": "WDC",
+      "companyName": "Western Digital Corporation Common Stock",
+      "annualPercentageSlope": 199.7440493662,
+      "meanSquaredReturnChange": 0.0590360527,
+      "peRatio": 9.278227
+    },
+    {
+      "ticker": "STX",
+      "companyName": "Seagate Technology Holdings PLC Ordinary Shares (Ireland)",
+      "annualPercentageSlope": 196.4139500104,
+      "meanSquaredReturnChange": 0.0552160819,
+      "peRatio": 24.17357
+    },
+    {
+      "ticker": "VRT",
+      "companyName": "Vertiv Holdings LLC Class A Common Stock",
+      "annualPercentageSlope": 186.4264556389,
+      "meanSquaredReturnChange": 0.0764259038,
+      "peRatio": null
+    },
+    {
+      "ticker": "SMCI",
+      "companyName": "Super Micro Computer Inc. Common Stock",
+      "annualPercentageSlope": 183.7200315364,
+      "meanSquaredReturnChange": 0.1956611598,
+      "peRatio": 6.067511
+    },
+    {
+      "ticker": "PLTR",
+      "companyName": "Palantir Technologies Inc. Class A Common Stock",
+      "annualPercentageSlope": 182.1928061446,
+      "meanSquaredReturnChange": 0.1306002925,
+      "peRatio": 112.94367
+    },
+    {
+      "ticker": "FLEX",
+      "companyName": "Flex Ltd. Ordinary Shares",
+      "annualPercentageSlope": 165.1683388022,
+      "meanSquaredReturnChange": 0.0385773238,
+      "peRatio": null
+    },
+    {
+      "ticker": "HWM",
+      "companyName": "Howmet Aerospace Inc. Common Stock",
+      "annualPercentageSlope": 154.0875882433,
+      "meanSquaredReturnChange": 0.0162503053,
+      "peRatio": 40.3549
+    },
+    {
+      "ticker": "MPC",
+      "companyName": "Marathon Petroleum Corporation Common Stock",
+      "annualPercentageSlope": 137.4413639179,
+      "meanSquaredReturnChange": 0.0329737455,
+      "peRatio": 7.385377
+    },
+    {
+      "ticker": "VST",
+      "companyName": "Vistra Corp. Common Stock",
+      "annualPercentageSlope": 132.6255694901,
+      "meanSquaredReturnChange": 0.030182009,
+      "peRatio": 16.79677
+    },
+    {
+      "ticker": "NVDA",
+      "companyName": "NVIDIA Corporation Common Stock",
+      "annualPercentageSlope": 131.9066396893,
+      "meanSquaredReturnChange": 0.0629525312,
+      "peRatio": 23.59545
+    },
+    {
+      "ticker": "VLO",
+      "companyName": "Valero Energy Corporation Common Stock",
+      "annualPercentageSlope": 124.0347137898,
+      "meanSquaredReturnChange": 0.0377394898,
+      "peRatio": 7.8792357
+    },
+    {
+      "ticker": "AVGO",
+      "companyName": "Broadcom Inc. Common Stock",
+      "annualPercentageSlope": 119.3163861058,
+      "meanSquaredReturnChange": 0.0399866855,
+      "peRatio": 37.5083
+    },
+    {
+      "ticker": "ANET",
+      "companyName": "Arista Networks Inc. Common Stock",
+      "annualPercentageSlope": 118.7230714486,
+      "meanSquaredReturnChange": 0.0474469404,
+      "peRatio": 45.790886
+    },
+    {
+      "ticker": "EME",
+      "companyName": "EMCOR Group Inc. Common Stock",
+      "annualPercentageSlope": 114.4526876424,
+      "meanSquaredReturnChange": 0.0233577106,
+      "peRatio": null
+    },
+    {
+      "ticker": "CIEN",
+      "companyName": "Ciena Corporation Common Stock",
+      "annualPercentageSlope": 110.1136799196,
+      "meanSquaredReturnChange": 0.0450408148,
+      "peRatio": null
+    },
+    {
+      "ticker": "TRGP",
+      "companyName": "Targa Resources Inc. Common Stock",
+      "annualPercentageSlope": 105.3684630671,
+      "meanSquaredReturnChange": 0.0264080944,
+      "peRatio": 23.415043
+    },
+    {
+      "ticker": "PWR",
+      "companyName": "Quanta Services Inc. Common Stock",
+      "annualPercentageSlope": 104.3038468256,
+      "meanSquaredReturnChange": 0.0278592507,
+      "peRatio": 48.950226
+    },
+    {
+      "ticker": "CEG",
+      "companyName": "Constellation Energy Corporation Common Stock",
+      "annualPercentageSlope": 94.3557321141,
+      "meanSquaredReturnChange": 0.0435677177,
+      "peRatio": 24.43304
+    },
+    {
+      "ticker": "CAH",
+      "companyName": "Cardinal Health Inc. Common Stock",
+      "annualPercentageSlope": 94.2001447191,
+      "meanSquaredReturnChange": 0.0136358148,
+      "peRatio": 35.15136
+    },
+    {
+      "ticker": "GE",
+      "companyName": "GE Aerospace Common Stock",
+      "annualPercentageSlope": 93.4717927237,
+      "meanSquaredReturnChange": 0.0206322422,
+      "peRatio": 36.94171
+    },
+    {
+      "ticker": "RDDT",
+      "companyName": "Reddit Inc. Class A Common Stock",
+      "annualPercentageSlope": 90.1109374015,
+      "meanSquaredReturnChange": 0.1340279684,
+      "peRatio": null
+    },
+    {
+      "ticker": "CRWD",
+      "companyName": "CrowdStrike Holdings Inc. Class A Common Stock",
+      "annualPercentageSlope": 88.5969010372,
+      "meanSquaredReturnChange": 0.085874996,
+      "peRatio": 3615.0
+    },
+    {
+      "ticker": "COHR",
+      "companyName": "Coherent Corp. Common Stock",
+      "annualPercentageSlope": 88.3220794824,
+      "meanSquaredReturnChange": 0.0696067621,
+      "peRatio": null
+    },
+    {
+      "ticker": "JBL",
+      "companyName": "Jabil Inc. Common Stock",
+      "annualPercentageSlope": 87.2437469928,
+      "meanSquaredReturnChange": 0.0261435772,
+      "peRatio": 24.52205
+    },
+    {
+      "ticker": "HPE",
+      "companyName": "Hewlett Packard Enterprise Company Common Stock",
+      "annualPercentageSlope": 86.9958207002,
+      "meanSquaredReturnChange": 0.0503529901,
+      "peRatio": 23.077318
+    },
+    {
+      "ticker": "LRCX",
+      "companyName": "Lam Research Corporation Common Stock",
+      "annualPercentageSlope": 86.0426556565,
+      "meanSquaredReturnChange": 0.0597833864,
+      "peRatio": 29.871834
+    },
+    {
+      "ticker": "KLAC",
+      "companyName": "KLA Corporation Common Stock",
+      "annualPercentageSlope": 84.6089661767,
+      "meanSquaredReturnChange": 0.0631003147,
+      "peRatio": 34.709274
+    },
+    {
+      "ticker": "GLW",
+      "companyName": "Corning Incorporated Common Stock",
+      "annualPercentageSlope": 80.7417103004,
+      "meanSquaredReturnChange": 0.0468998968,
+      "peRatio": 42.96761
+    },
+    {
+      "ticker": "Q",
+      "companyName": null,
+      "annualPercentageSlope": 78.9939278766,
+      "meanSquaredReturnChange": 0.0623721675,
+      "peRatio": null
+    },
+    {
+      "ticker": "LLY",
+      "companyName": "Eli Lilly and Company Common Stock",
+      "annualPercentageSlope": 78.9133200283,
+      "meanSquaredReturnChange": 0.0195249858,
+      "peRatio": 43.94677
+    },
+    {
+      "ticker": "IBKR",
+      "companyName": "Interactive Brokers Group Inc. Class A Common Stock",
+      "annualPercentageSlope": 76.4058803983,
+      "meanSquaredReturnChange": 0.0171253897,
+      "peRatio": null
+    },
+    {
+      "ticker": "CAT",
+      "companyName": "Caterpillar Inc. Common Stock",
+      "annualPercentageSlope": 76.0876676109,
+      "meanSquaredReturnChange": 0.0372246519,
+      "peRatio": 21.924255
+    },
+    {
+      "ticker": "HOOD",
+      "companyName": "Robinhood Markets Inc. Class A Common Stock",
+      "annualPercentageSlope": 75.4095999323,
+      "meanSquaredReturnChange": 0.1137260097,
+      "peRatio": null
+    },
+    {
+      "ticker": "PSX",
+      "companyName": "Phillips 66 Common Stock",
+      "annualPercentageSlope": 73.6529905541,
+      "meanSquaredReturnChange": 0.0389399748,
+      "peRatio": 7.8806925
+    },
+    {
+      "ticker": "PANW",
+      "companyName": "Palo Alto Networks Inc. Common Stock",
+      "annualPercentageSlope": 72.4443501526,
+      "meanSquaredReturnChange": 0.033636214,
+      "peRatio": 784.6
+    },
+    {
+      "ticker": "APH",
+      "companyName": "Amphenol Corporation Common Stock",
+      "annualPercentageSlope": 72.0058293886,
+      "meanSquaredReturnChange": 0.0157147892,
+      "peRatio": 32.430435
+    },
+    {
+      "ticker": "P",
+      "companyName": null,
+      "annualPercentageSlope": 69.9111814366,
+      "meanSquaredReturnChange": 0.0843532966,
+      "peRatio": null
+    },
+    {
+      "ticker": "RCL",
+      "companyName": "Royal Caribbean Cruises Ltd. Common Stock",
+      "annualPercentageSlope": 69.2154836009,
+      "meanSquaredReturnChange": 0.0472144417,
+      "peRatio": 19.35858
+    },
+    {
+      "ticker": "MCK",
+      "companyName": "McKesson Corporation Common Stock",
+      "annualPercentageSlope": 67.707985655,
+      "meanSquaredReturnChange": 0.0122401468,
+      "peRatio": 27.362392
+    },
+    {
+      "ticker": "AMD",
+      "companyName": "Advanced Micro Devices Inc. Common Stock",
+      "annualPercentageSlope": 64.7455330985,
+      "meanSquaredReturnChange": 0.0871071025,
+      "peRatio": 95.94872
+    },
+    {
+      "ticker": "STLD",
+      "companyName": "Steel Dynamics Inc.",
+      "annualPercentageSlope": 64.5374699923,
+      "meanSquaredReturnChange": 0.0263432503,
+      "peRatio": 16.462334
+    },
+    {
+      "ticker": "TKO",
+      "companyName": "TKO Group Holdings Inc. Class A Common Stock",
+      "annualPercentageSlope": 61.5679742602,
+      "meanSquaredReturnChange": 0.0248579687,
+      "peRatio": null
+    },
+    {
+      "ticker": "MRVL",
+      "companyName": "Marvell Technology Inc. Common Stock",
+      "annualPercentageSlope": 58.875149059,
+      "meanSquaredReturnChange": 0.0729937451,
+      "peRatio": null
+    }
+  ]
+}
