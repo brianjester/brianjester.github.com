@@ -13,17 +13,17 @@ The canonical homepage is https://brianjester.github.io/. Project names and summ
 
 ## Featured projects
 
-- [ValueSlope](https://brianjester.github.io/value-slope/): Interactive comparison of annualized S&P 500 stock-price changes and return smoothness.
-- [Travel Guide: Castles of Okinawa](https://a.co/d/4BS9E7q): Travel guide to Okinawan castles, attractions, and food.
-- [Fun Filipino Words and Culture](https://a.co/d/4WbDkpE): Bilingual children's book in Tagalog and English.
-- [IndexFlip](http://indexflip.com): Flashcards and practice tests.
-- [DMR QRZ](http://dmrqrz.com): Digital Mobile Radio contact lookup.
-- [Cabrillo Log](https://github.com/brianjester/brianjester.github.com/tree/master/cabrillo-log): Amateur Radio contest log tool.
-- [SOTA Logs](https://github.com/brianjester/brianjester.github.com/tree/master/sota-log): Summits on the Air CSV logs.
-- [Passive Income](https://brianjester.github.io/passive-income/): Side-project passive income chart.
-- [Morse Code Key](https://brianjester.github.io/morse/): In-browser Morse code key.
-- [USGS Earthquake Map](https://github.com/brianjester/myExpressApp): Express and Mapbox earthquake map project.
-- [Castles of Okinawa Companion Site](https://brianjester.github.io/okinawa-castles/): Companion site for the travel guide.
+- [ValueSlope: Stock Returns & Smoothness](https://brianjester.github.io/value-slope/): Compare annualized price changes and return smoothness across S&P 500 stocks.
+- [Castles of Okinawa: Travel Guide](https://a.co/d/4BS9E7q): Explore 12 Okinawan castles, with nearby attractions and food recommendations.
+- [Fun Filipino Words and Culture: Tagalog-English Children's Book](https://a.co/d/4WbDkpE): Introduce children to Filipino words and culture with a bilingual Tagalog-English book.
+- [IndexFlip: Flashcards & Practice Tests](http://indexflip.com): Study with flashcards and practice tests for Japanese, amateur radio, driving, music, and real estate.
+- [DMR QRZ: Digital Radio Contact Lookup](http://dmrqrz.com): Find Digital Mobile Radio contacts by radio ID or call sign.
+- [Cabrillo Log: Amateur Radio Contest Logger](https://github.com/brianjester/brianjester.github.com/tree/master/cabrillo-log): Create logs for Amateur Radio contests in Cabrillo format.
+- [SOTA Logs: Summits on the Air CSV Logs](https://github.com/brianjester/brianjester.github.com/tree/master/sota-log): Create and manage CSV logs for Summits on the Air activations.
+- [Passive Income: Side-Project Income Chart](https://brianjester.github.io/passive-income/): View passive income earned from a collection of side projects.
+- [Morse Code Key: Browser-Based Morse Tool](https://brianjester.github.io/morse/): Send Morse code in your browser using your mouse.
+- [USGS Earthquake Map: Interactive Map Project](https://github.com/brianjester/myExpressApp): Explore USGS earthquake data in a map built with Express and Mapbox.
+- [Castles of Okinawa: Companion Website](https://brianjester.github.io/okinawa-castles/): Browse companion information for the travel guide to 12 Okinawan castles.
 
 ## Additional sites
 
