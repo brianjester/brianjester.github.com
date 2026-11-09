@@ -1,23 +1,37 @@
 # Brian Jester's Portfolio
 
-Brian Jester's Portfolio - IndexFlip, DMR QRZ, Cabrillo Log, SOTA logs, Castles of Okinawa, Fun Filipino Words and Culture, and more...
+Portfolio of projects by Brian Jester in software development, amateur radio, education, investing, and travel. The public homepage is [brianjester.github.io](https://brianjester.github.io/).
 
-## Projects
+## Featured projects
 
-- [IndexFlip](http://indexflip.com) - Flashcards for Music, Amateur Radio (US, CAN, JP), Japanese, DMV (US CA & NY), Real Estate.
-- [DMR QRZ](http://dmrqrz.com) - Lookup contacts in the DMR DB by ID or call sign
-- [Cabrillo Logs](https://github.com/brianjester/brianjester.github.com/tree/master/cabrillo-log) - Create your Amateur Radio contest log here.
-- [SOTA Log](https://github.com/brianjester/brianjester.github.com/tree/master/sota-log) - Easy CSV SOTA Logs
-- [Book: Travel Guide: Castles of Okinawa](https://a.co/d/4BS9E7q) - 12 Castles, plus nearby sights and food
-- [Castles of Okinawa - Companion Site](https://brianjester.github.io/okinawa-castles/index.html) - Live companion site for the book
-- [Book: Fun Filipino Words and Culture](https://a.co/d/4WbDkpE) - bilingual childrens book in Tagalog & English
-- [Unofficial Anytone Radio Site](https://brianjester.github.io/anytone) - Everything you'll need to setup your new DMR radio.
-- [Passive Income Projects](https://brianjester.github.io/passive-income) - Here's our chart of passive income from our side projects.
-- [Morse Code Key](https://brianjester.github.io/morse) - In-browser Morse code key, for use on PC with mouse.
-- [USGS Earthquake Map - Express + Mapbox](https://github.com/brianjester/myExpressApp) - Created with VS Code + Gemini Code Assist plugin
-- [Promethius Insights](https://github.com/brianjester-cognizant2/finops/) - Guiness World Record team entry for largest Gen AI Hackathon
+These projects are listed on the portfolio homepage:
+
+- [ValueSlope](https://brianjester.github.io/value-slope/) - Compare annualized S&P 500 stock-price changes with return smoothness.
+- [Travel Guide: Castles of Okinawa](https://a.co/d/4BS9E7q) - A travel guide to 12 castles, nearby attractions, and food.
+- [Fun Filipino Words and Culture](https://a.co/d/4WbDkpE) - A bilingual children's book in Tagalog and English.
+- [IndexFlip](http://indexflip.com) - Flashcards and practice tests for Japanese, amateur radio, driving, music, and real estate.
+- [DMR QRZ](http://dmrqrz.com) - Look up Digital Mobile Radio contacts by ID or call sign.
+- [Cabrillo Log](https://github.com/brianjester/brianjester.github.com/tree/master/cabrillo-log) - Create Amateur Radio contest logs in Cabrillo format.
+- [SOTA Logs](https://github.com/brianjester/brianjester.github.com/tree/master/sota-log) - Create CSV logs for Summits on the Air.
+- [Passive Income](https://brianjester.github.io/passive-income/) - A chart tracking passive income from side projects.
+- [Morse Code Key](https://brianjester.github.io/morse/) - An in-browser Morse code key for use with a mouse.
+- [USGS Earthquake Map](https://github.com/brianjester/myExpressApp) - An Express and Mapbox earthquake map project.
+- [Castles of Okinawa Companion Site](https://brianjester.github.io/okinawa-castles/) - A companion site for the Castles of Okinawa travel guide.
+
+## More projects and sites
+
+- [Unofficial Anytone Radio Site](https://brianjester.github.io/anytone/) - Information for setting up an Anytone DMR radio.
+- [APRS Sumo](https://brianjester.github.io/aprsumo/) - Amateur radio APRS project.
+- [Ham Radio License](https://brianjester.github.io/ham-radio-license/) - Amateur radio license study resources.
+- [Promethius Insights](https://github.com/brianjester-cognizant2/finops/) - A team entry for a generative AI hackathon.
+
+## Site discovery
+
+- [XML sitemap](https://brianjester.github.io/sitemap.xml)
+- [Experimental AI/LLM site guide](https://brianjester.github.io/llms.txt) - A concise directory for AI tools; it does not replace the site content or crawler rules.
+- [Crawler rules](https://brianjester.github.io/robots.txt)
 
 ## Contributing
 
-- [Want to submit a feature request, or file a bug report?](https://github.com/brianjester/brianjester.github.com/issues)
-- [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J7UOXY0)
+- [Submit a feature request or bug report](https://github.com/brianjester/brianjester.github.com/issues)
+- [Support on Ko-fi](https://ko-fi.com/J3J7UOXY0)

@@ -1,0 +1,33 @@
+# Brian Jester's Portfolio
+
+> Personal project portfolio covering software development, amateur radio, education, investing, and travel.
+
+The canonical homepage is https://brianjester.github.io/. Project names and summaries are listed on the homepage and in the repository README. Follow each linked project for its current features and details.
+
+## Portfolio
+
+- [Homepage](https://brianjester.github.io/): Project cards and portfolio overview.
+- [README project directory](https://github.com/brianjester/brianjester.github.com/blob/master/README.md): Curated project names, descriptions, and links.
+- [XML sitemap](https://brianjester.github.io/sitemap.xml): Public HTML pages on this site.
+- [Crawler rules](https://brianjester.github.io/robots.txt): Crawler access policy.
+
+## Featured projects
+
+- [ValueSlope](https://brianjester.github.io/value-slope/): Interactive comparison of annualized S&P 500 stock-price changes and return smoothness.
+- [Travel Guide: Castles of Okinawa](https://a.co/d/4BS9E7q): Travel guide to Okinawan castles, attractions, and food.
+- [Fun Filipino Words and Culture](https://a.co/d/4WbDkpE): Bilingual children's book in Tagalog and English.
+- [IndexFlip](http://indexflip.com): Flashcards and practice tests.
+- [DMR QRZ](http://dmrqrz.com): Digital Mobile Radio contact lookup.
+- [Cabrillo Log](https://github.com/brianjester/brianjester.github.com/tree/master/cabrillo-log): Amateur Radio contest log tool.
+- [SOTA Logs](https://github.com/brianjester/brianjester.github.com/tree/master/sota-log): Summits on the Air CSV logs.
+- [Passive Income](https://brianjester.github.io/passive-income/): Side-project passive income chart.
+- [Morse Code Key](https://brianjester.github.io/morse/): In-browser Morse code key.
+- [USGS Earthquake Map](https://github.com/brianjester/myExpressApp): Express and Mapbox earthquake map project.
+- [Castles of Okinawa Companion Site](https://brianjester.github.io/okinawa-castles/): Companion site for the travel guide.
+
+## Additional sites
+
+- [Unofficial Anytone Radio Site](https://brianjester.github.io/anytone/)
+- [APRS Sumo](https://brianjester.github.io/aprsumo/)
+- [Ham Radio License](https://brianjester.github.io/ham-radio-license/)
+- [Promethius Insights](https://github.com/brianjester-cognizant2/finops/)

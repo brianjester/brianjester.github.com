@@ -20,6 +20,61 @@
   text-decoration: none;
 }
 
+.site-header-inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.site-header-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-navigation {
+  display: none;
+  flex-direction: column;
+}
+
+.project-navigation.is-open {
+  display: flex;
+}
+
+.nav-toggle {
+  padding: .375rem .75rem;
+  color: #fff;
+  background: transparent;
+  border: 1px solid #999;
+  border-radius: .25rem;
+}
+
+.nav-toggle:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+.project-thumbnail {
+  width: 100%;
+  height: auto;
+  border-radius: 21px;
+}
+
+@media (min-width: 768px) {
+  .site-header-inner {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .project-navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0 1rem;
+  }
+}
+
 /*
  * Dummy devices (replace them with your own or something else entirely!)
  */
