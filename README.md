@@ -1,6 +1,6 @@
-# Brian Jester's Portfolio
+# Brian Jester
 
-The public homepage is [brianjester.github.io](https://brianjester.github.io/).
+Books, articles, and software projects. The public homepage is [brianjester.github.io](https://brianjester.github.io/).
 
 ## Published Books
 
