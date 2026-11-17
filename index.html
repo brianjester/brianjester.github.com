@@ -80,69 +80,55 @@
                 {
                   "@type": "ListItem",
                   "position": 2,
-                  "name": "Castles of Okinawa",
-                  "description": "Explore 12 Okinawan castles, with nearby attractions and food recommendations.",
-                  "url": "https://a.co/d/4BS9E7q"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 3,
-                  "name": "Fun Filipino Words and Culture",
-                  "description": "Introduce children to Filipino words and culture with a bilingual Tagalog-English book.",
-                  "url": "https://a.co/d/4WbDkpE"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 4,
                   "name": "IndexFlip",
                   "description": "Study with flashcards and practice tests for Japanese, amateur radio, driving, music, and real estate.",
                   "url": "http://indexflip.com"
                 },
                 {
                   "@type": "ListItem",
-                  "position": 5,
+                  "position": 3,
                   "name": "DMR QRZ",
                   "description": "Find Digital Mobile Radio contacts by radio ID or call sign.",
                   "url": "http://dmrqrz.com"
                 },
                 {
                   "@type": "ListItem",
-                  "position": 6,
+                  "position": 4,
                   "name": "Cabrillo Log",
                   "description": "Create logs for Amateur Radio contests in Cabrillo format.",
                   "url": "https://github.com/brianjester/brianjester.github.com/tree/master/cabrillo-log"
                 },
                 {
                   "@type": "ListItem",
-                  "position": 7,
+                  "position": 5,
                   "name": "SOTA Logs",
                   "description": "Create and manage CSV logs for Summits on the Air activations.",
                   "url": "https://github.com/brianjester/brianjester.github.com/tree/master/sota-log"
                 },
                 {
                   "@type": "ListItem",
-                  "position": 8,
+                  "position": 6,
                   "name": "Passive Income",
                   "description": "View passive income earned from a collection of side projects.",
                   "url": "https://brianjester.github.io/passive-income/"
                 },
                 {
                   "@type": "ListItem",
-                  "position": 9,
+                  "position": 7,
                   "name": "Morse Code Key",
                   "description": "Send Morse code in your browser using your mouse.",
                   "url": "https://brianjester.github.io/morse/"
                 },
                 {
                   "@type": "ListItem",
-                  "position": 10,
+                  "position": 8,
                   "name": "USGS Earthquake Map",
                   "description": "Explore USGS earthquake data in a map built with Express and Mapbox.",
                   "url": "https://github.com/brianjester/myExpressApp"
                 },
                 {
                   "@type": "ListItem",
-                  "position": 11,
+                  "position": 9,
                   "name": "Castles of Okinawa (Site)",
                   "description": "Browse companion information for the travel guide to 12 Okinawan castles.",
                   "url": "https://brianjester.github.io/okinawa-castles/"
@@ -220,6 +206,40 @@
   width: 100%;
   height: auto;
   border-radius: 21px;
+}
+
+.publication-grid {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.publication-category {
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 0.375rem;
+}
+
+.publication-category ul {
+  margin-bottom: 0;
+  padding-left: 1.25rem;
+}
+
+.publication-category li + li {
+  margin-top: 0.75rem;
+}
+
+.section-heading {
+  margin: 2rem 1.25rem 1rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .publication-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    padding: 1rem 1.25rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -328,8 +348,6 @@
           <a class="py-2" href="https://github.com/brianjester/brianjester.github.com/tree/master/cabrillo-log">Cabrillo Log</a>
           <a class="py-2" href="https://github.com/brianjester/brianjester.github.com/tree/master/sota-log">SOTA Logs</a>
           <a class="py-2" href="https://brianjester.github.io/okinawa-castles/index.html">Castles of Okinawa</a>
-          <a class="py-2" href="https://a.co/d/4WbDkpE">Fun Filipino Words</a>
-          <a class="py-2" href="https://a.co/d/4BS9E7q">Travel Guide</a>
         </div>
       </div>
     </nav>
@@ -338,11 +356,39 @@
     <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
       <div class="col-md-5 p-lg-5 mx-auto my-1" style="z-index: 9999;">
         <h1 class="display-4 fw-normal">Brian Jester</h1>
-        <p class="lead fw-normal">List of software projects</p>
+        <p class="lead fw-normal">Books, articles, and software projects</p>
       </div>
       <div class="product-device box-shadow d-none d-md-block"></div>
       <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
     </div>
+
+    <section aria-labelledby="publications-heading">
+      <h2 class="section-heading display-5" id="publications-heading">Publications</h2>
+      <div class="publication-grid">
+        <article class="publication-category">
+          <h3>Published Books</h3>
+          <ul>
+            <li>Jester, B., &amp; Villanueva, S. L. (2021). <em>Fun Filipino Words and Culture</em>. Amazon Kindle Direct Publishing. <a href="https://a.co/d/4WbDkpE">Amazon</a>.</li>
+            <li>Jester, B. (2025). <em>Travel Guide: Castles of Okinawa: 沖縄城 (グスク)</em> (2nd ed.). <a href="https://a.co/d/4BS9E7q">Amazon</a>.</li>
+          </ul>
+        </article>
+        <article class="publication-category">
+          <h3>Published Articles</h3>
+          <ul>
+            <li>Sajewski ET, Mackey C, Thomas S, et al. <a href="http://dx.doi.org/10.15585/mmwr.ss7505a1"><em>Active Surveillance for Invasive Mold Disease — Four Hospitals, Atlanta, Georgia, 2020–2024</em></a>. <em>MMWR Surveill Summ</em> 2026;75(No. SS-5):1–19.</li>
+          </ul>
+        </article>
+        <article class="publication-category">
+          <h3>Wikipedia Articles</h3>
+          <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Washi_egg">Washi egg - Wikipedia</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Pickled_beet_egg">Pickled beet egg - Wikipedia</a></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <h2 class="section-heading display-5">Software Projects</h2>
 
     <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
       <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
@@ -356,32 +402,6 @@
           <img src="value-slope/screenshot.png" class="img-thumbnail project-thumbnail" width="1918" height="1030" fetchpriority="high" loading="eager" alt="ValueSlope chart comparing annualized stock-price changes and return smoothness">
         </picture></a>
       </div>
-      <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-        <div class="my-3 py-3">
-          <h2 class="display-5">Castles of Okinawa</h2>
-          <p class="lead">Explore 12 Okinawan castles, with nearby attractions and food recommendations.</p>
-          <a class="btn btn-primary" href="https://a.co/d/4BS9E7q">🚀 Launch</a>
-        </div>
-          <a href="https://a.co/d/4BS9E7q"><picture>
-            <source type="image/webp" srcset="images/optimized/okinawa-cover-320.webp 320w, images/optimized/okinawa-cover-480.webp 480w, images/optimized/okinawa-cover-640.webp 640w, images/optimized/okinawa-cover-960.webp 960w" sizes="(min-width: 768px) 450px, calc(100vw - 3rem)">
-            <img src="okinawa-castles/paperback.png" class="img-thumbnail project-thumbnail" width="1080" height="1080" loading="lazy" decoding="async" alt="Travel Guide: Castles of Okinawa">
-          </picture></a>
-      </div>
-    </div>
-
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-      <div class="bg-primary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-        <div class="my-3 py-3">
-          <h2 class="display-5">Fun Filipino Words and Culture</h2>
-          <p class="lead">Introduce children to Filipino words and culture with a bilingual Tagalog-English book.</p>
-          <a class="btn btn-light" href="https://a.co/d/4WbDkpE">🚀 Launch</a>
-        </div>
-          <a href="https://a.co/d/4WbDkpE"><picture>
-            <source type="image/webp" srcset="images/optimized/fun-small-320.webp 320w, images/optimized/fun-small-480.webp 480w, images/optimized/fun-small-640.webp 640w, images/optimized/fun-small-960.webp 960w" sizes="(min-width: 768px) 450px, calc(100vw - 3rem)">
-            <img src="fun-small.png" class="img-thumbnail project-thumbnail" width="1496" height="1286" loading="lazy" decoding="async" alt="Fun Filipino Words and Culture Thumbnail">
-          </picture></a>
-      </div>
-
       <div class="bg-success me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
         <div class="my-3 p-3">
           <h2 class="display-5">IndexFlip</h2>

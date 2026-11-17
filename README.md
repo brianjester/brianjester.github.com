@@ -1,6 +1,6 @@
 # Brian Jester's Portfolio
 
-Portfolio of projects by Brian Jester in software development, amateur radio, education, investing, and travel. The public homepage is [brianjester.github.io](https://brianjester.github.io/).
+The public homepage is [brianjester.github.io](https://brianjester.github.io/).
 
 ## Published Books
 
@@ -13,9 +13,10 @@ Portfolio of projects by Brian Jester in software development, amateur radio, ed
 
 ## Wikipedia Articles
 
-No Wikipedia articles are currently listed.
+- [Washi egg - Wikipedia](https://en.wikipedia.org/wiki/Washi_egg)
+- [Pickled beet egg - Wikipedia](https://en.wikipedia.org/wiki/Pickled_beet_egg)
 
-## Personal Software Development
+## Software Projects
 
 - [APRSumo](https://brianjester.github.io/aprsumo/) - Amateur radio APRS project for generating packets and audio.
 - [Cabrillo Log](https://github.com/brianjester/brianjester.github.com/tree/master/cabrillo-log) - Create Amateur Radio contest logs in Cabrillo format.
@@ -30,7 +31,7 @@ No Wikipedia articles are currently listed.
 - [USGS Earthquake Map](https://github.com/brianjester/myExpressApp) - Explore USGS earthquake data in an Express and Mapbox map.
 - [ValueSlope](https://brianjester.github.io/value-slope/) - Compare annualized stock-price changes with return smoothness for S&P 500 stocks.
 
-## Team Software Development
+## Team Software Projects
 
 - [Prometheus Insights](https://github.com/brianjester-cognizant2/finops/) - A team entry for a generative AI hackathon.
 
