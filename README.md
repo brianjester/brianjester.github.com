@@ -21,7 +21,7 @@ Books, articles, and software projects. The public homepage is [brianjester.gith
 - [APRSumo](https://brianjester.github.io/aprsumo/) - Amateur radio APRS project for generating packets and audio.
 - [Cabrillo Log](https://github.com/brianjester/brianjester.github.com/tree/master/cabrillo-log) - Create Amateur Radio contest logs in Cabrillo format.
 - [Castles of Okinawa Companion Site](https://brianjester.github.io/okinawa-castles/) - Browse companion information for the travel guide to 12 Okinawan castles.
-- [DMR QRZ](http://dmrqrz.com) - Look up Digital Mobile Radio contacts by radio ID or call sign.
+- [DMR QRZ](https://github.com/brianjester/dmrqrz) - Look up Digital Mobile Radio contacts by radio ID or call sign.
 - [Ham Radio License](https://brianjester.github.io/ham-radio-license/) - Amateur radio license study resources.
 - [IndexFlip](http://indexflip.com) - Flashcards and practice tests for Japanese, amateur radio, driving, music, and real estate.
 - [Morse Code Key](https://brianjester.github.io/morse/) - Send Morse code in your browser using your mouse.
