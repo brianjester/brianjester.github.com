@@ -23,7 +23,7 @@ Books, articles, and software projects. The public homepage is [brianjester.gith
 - [Castles of Okinawa Companion Site](https://brianjester.github.io/okinawa-castles/) - Browse companion information for the travel guide to 12 Okinawan castles.
 - [DMR QRZ](https://github.com/brianjester/dmrqrz) - Look up Digital Mobile Radio contacts by radio ID or call sign.
 - [Ham Radio License](https://brianjester.github.io/ham-radio-license/) - Amateur radio license study resources.
-- [IndexFlip](http://indexflip.com) - Flashcards and practice tests for Japanese, amateur radio, driving, music, and real estate.
+- [IndexFlip](https://github.com/brianjester/index-flip) - Flashcards and practice tests for Japanese, amateur radio, driving, music, and real estate.
 - [Morse Code Key](https://brianjester.github.io/morse/) - Send Morse code in your browser using your mouse.
 - [Passive Income](https://brianjester.github.io/passive-income/) - Track passive income from a collection of side projects.
 - [SOTA Logs](https://github.com/brianjester/brianjester.github.com/tree/master/sota-log) - Create and manage CSV logs for Summits on the Air activations.
